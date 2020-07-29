@@ -74,7 +74,7 @@ function raw_instance_types() {
     aws ec2 describe-instance-type-offerings \
     --location-type availability-zone-id \
     --region "${region}" \
-    --filters Name=location,Values=${az_id} \
+    --filters Name=location,Values="${az_id}" \
     --query "InstanceTypeOfferings[] [InstanceType]" \
     --output text | sort -u > "${az_id}-raw.txt"
 
@@ -84,8 +84,8 @@ function raw_instance_types() {
 
 function instance_classes() {
   local az_id=$1
-  sed 's/^([a-z0-9]+)\..*$/\1/' "${az_id}-raw.txt" > "${az_id}-classes.txt"
-  cat "${az_id}-classes.txt" > sort -u > "${az_id}-classes.txt"
+  sed 's/^([a-z0-9]+)\..*$/\1/' "${az_id}-raw.txt" > "${az_id}-preclasses.txt"
+  cat "${az_id}-preclasses.txt" | sort -u > "${az_id}-classes.txt"
 
   echo "Instance classes:"
   cat "${az_id}-classes.txt"
@@ -96,26 +96,26 @@ function instance_types() {
 
   local output="${az_id}.md"
 
-  echo "# ${az_id} (${region})\n\n" > "${output}"
-  echo "| Instance Type | Yes/No |\n" >> "${output}"
-  echo "| ------------- | ------------- |\n" >> "${output}"
+  printf "# %s (%s)\n\n" "${az_id}" "${region}" > "${output}"
+  printf "| Instance Type | Yes/No |\n" >> "${output}"
+  printf "| ------------- | ------------- |\n" >> "${output}"
 
-  while read class; do
-    echo "| **${class}** |     |\n" >> "${output}"
-    for type in ${types[@]}; do
-      echo "| ${class}.${type} |" >> "${output}"
-      local yes_or_no=$(grep -o "${class}.${type}" "${az_id}-raw.txt" | wc -l)
-      if [ "${AWS_PROVIDER_PATH}" = "" ]; then
+  local yes_or_no=""
+  while read -r class; do
+    printf "| **%s** |     |\n" "${class}" >> "${output}"
+    for type in "${types[@]}"; do
+      printf "| %s.%s |" "${class}" "${type}" >> "${output}"
+      yes_or_no=$(grep -o "${class}.${type}" "${az_id}-raw.txt" | wc -l)
       if [ "${yes_or_no}" = "0" ]; then
-        echo " :x: " >> "${output}"
+        printf " :x: " >> "${output}"
       else
-        echo " :heavy_check_mark: " >> "${output}"
+        printf " :heavy_check_mark: " >> "${output}"
       fi
-      echo "|\n" >> "${output}"
+      printf "|\n" >> "${output}"
     done
   done <"${az_id}-classes.txt"
 
-  echo "\n\n\n" >> "${output}"
+  printf "\n\n\n" >> "${output}"
 
   echo "Instance types:"
   cat "${az_id}.md"
