@@ -93,6 +93,8 @@ function instance_classes() {
 
 function instance_types() {
   local az_id=$1
+  raw_instance_types "${az_id}"
+  instance_classes "${az_id}"
 
   local output="${az_id}.md"
 
