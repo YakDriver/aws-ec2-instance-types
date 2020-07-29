@@ -1,0 +1,17 @@
+language: python
+
+python:
+  - 3.8
+
+stage: test
+install:
+  - pip install awscli
+script:
+  - source get_instance_types.sh
+  - raw_instance_types usgw1-az2
+  - #git checkout main
+  - #git add ./results/*
+  - #git add README.md
+  - #git commit -m "Update EC2 instance types with build $TRAVIS_BUILD_NUMBER"
+  - #git remote add commit-origin https://${GH_TOKEN}@github.com/YakDriver/aws-ec2-instance-types.git > /dev/null 2>&1
+  - #git push --quiet --set-upstream commit-origin main 
