@@ -97,7 +97,7 @@ function instance_types() {
   raw_instance_types "${az_id}"
   instance_classes "${az_id}"
 
-  local output="${az_id}.md"
+  local output="./results/${az_id}.md"
 
   printf "# %s (%s)\n\n" "${az_id}" "${region}" > "${output}"
   printf "| Instance Type | Yes/No |\n" >> "${output}"
@@ -119,7 +119,4 @@ function instance_types() {
   done <"${az_id}-classes.txt"
 
   printf "\n\n\n" >> "${output}"
-
-  echo "Instance types:"
-  cat "${az_id}.md"
 }
