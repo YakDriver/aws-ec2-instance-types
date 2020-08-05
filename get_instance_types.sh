@@ -93,30 +93,41 @@ function instance_classes() {
 }
 
 function instance_types() {
-  local az_id=$1
-  raw_instance_types "${az_id}"
-  instance_classes "${az_id}"
-
-  local output="./results/${az_id}.md"
-
-  printf "# %s (%s)\n\n" "${az_id}" "${region}" > "${output}"
-  printf "| Instance Type | Yes/No |\n" >> "${output}"
-  printf "| ------------- | ------------- |\n" >> "${output}"
-
+  local region_id=$1
+  for i in {1..4}
+  do
+    # e.g., usgw1-az2
+    local az_id="${region_id}-az${i}"
+    raw_instance_types "${az_id}"
+    instance_classes "${az_id}"
+    cat "${az_id}-classes.txt" >> "${region_id}-all-classes.txt"
+  done
+  printf "%s\n" "t1" "t2" "t3" "m1" "m2" "m3" > "${region_id}-unique-classes.txt"
+  cat "${region_id}-all-classes.txt" | sort -u >> "${region_id}-unique-classes.txt"
+  
+  local output="./results/${region_id}.md"
+  printf "# %s\n\n" "${region}" > "${output}"
+  
   local yes_or_no=""
   while read -r class; do
-    printf "| **%s** |     |\n" "${class}" >> "${output}"
+    printf "## %s\n\n" "${class}" >> "${output}"
+    printf "| Instance Type | ${region}-az%d | ${region}-az%d | ${region}-az%d | ${region}-az%d |\n" {1..4} >> "${output}"
+    printf "| ------------- | ------------- | ------------- | ------------- | ------------- |\n" >> "${output}"
     for type in "${types[@]}"; do
       printf "| %s.%s |" "${class}" "${type}" >> "${output}"
-      yes_or_no=$(grep -o "${class}.${type}" "${az_id}-raw.txt" | wc -l)
-      if [ "${yes_or_no}" = "0" ]; then
-        printf " :x: " >> "${output}"
-      else
-        printf " :heavy_check_mark: " >> "${output}"
-      fi
-      printf "|\n" >> "${output}"
+      for i in {1..4}
+      do
+        local az_id="${region_id}-az${i}"
+        yes_or_no=$(grep -o "${class}.${type}" "${az_id}-raw.txt" | wc -l)
+        if [ "${yes_or_no}" = "0" ]; then
+          printf " No |" >> "${output}"
+        else
+          printf " Yes |" >> "${output}"
+        fi
+      done
+      printf "\n" >> "${output}"
     done
-  done <"${az_id}-classes.txt"
+  done <"${region_id}-unique-classes.txt"
 
   printf "\n\n\n" >> "${output}"
 }

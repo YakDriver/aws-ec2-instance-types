@@ -9,7 +9,7 @@ install:
   - mkdir -p results || true
 script:
   - source get_instance_types.sh
-  - instance_types usgw1-az2
+  - instance_types usgw1
   - git checkout main
   - git add ./results/*
   - git add README.md
