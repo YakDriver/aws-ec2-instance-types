@@ -1,11 +1,11 @@
-# us-gov-west-1 (usgw1)
+# us-east-2 (use2)
 
 ## t1
 
-| Instance Type | usgw1-az1 | usgw1-az2 | usgw1-az3 | usgw1-az4 |
+| Instance Type | use2-az1 | use2-az2 | use2-az3 | use2-az4 |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
 | t1.nano | No | No | No | No |
-| t1.micro | Yes | No | No | No |
+| t1.micro | No | No | No | No |
 | t1.small | No | No | No | No |
 | t1.medium | No | No | No | No |
 | t1.large | No | No | No | No |
@@ -31,7 +31,7 @@
 | t1.metal | No | No | No | No |
 ## t2
 
-| Instance Type | usgw1-az1 | usgw1-az2 | usgw1-az3 | usgw1-az4 |
+| Instance Type | use2-az1 | use2-az2 | use2-az3 | use2-az4 |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
 | t2.nano | Yes | Yes | Yes | No |
 | t2.micro | Yes | Yes | Yes | No |
@@ -60,7 +60,7 @@
 | t2.metal | No | No | No | No |
 ## t3
 
-| Instance Type | usgw1-az1 | usgw1-az2 | usgw1-az3 | usgw1-az4 |
+| Instance Type | use2-az1 | use2-az2 | use2-az3 | use2-az4 |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
 | t3.nano | Yes | Yes | Yes | No |
 | t3.micro | Yes | Yes | Yes | No |
@@ -89,14 +89,14 @@
 | t3.metal | No | No | No | No |
 ## m1
 
-| Instance Type | usgw1-az1 | usgw1-az2 | usgw1-az3 | usgw1-az4 |
+| Instance Type | use2-az1 | use2-az2 | use2-az3 | use2-az4 |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
 | m1.nano | No | No | No | No |
 | m1.micro | No | No | No | No |
-| m1.small | Yes | Yes | No | No |
-| m1.medium | Yes | Yes | No | No |
-| m1.large | Yes | Yes | No | No |
-| m1.xlarge | Yes | Yes | No | No |
+| m1.small | No | No | No | No |
+| m1.medium | No | No | No | No |
+| m1.large | No | No | No | No |
+| m1.xlarge | No | No | No | No |
 | m1.2xlarge | No | No | No | No |
 | m1.3xlarge | No | No | No | No |
 | m1.4xlarge | No | No | No | No |
@@ -118,17 +118,17 @@
 | m1.metal | No | No | No | No |
 ## m2
 
-| Instance Type | usgw1-az1 | usgw1-az2 | usgw1-az3 | usgw1-az4 |
+| Instance Type | use2-az1 | use2-az2 | use2-az3 | use2-az4 |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
 | m2.nano | No | No | No | No |
 | m2.micro | No | No | No | No |
 | m2.small | No | No | No | No |
 | m2.medium | No | No | No | No |
 | m2.large | No | No | No | No |
-| m2.xlarge | Yes | Yes | No | No |
-| m2.2xlarge | Yes | Yes | No | No |
+| m2.xlarge | No | No | No | No |
+| m2.2xlarge | No | No | No | No |
 | m2.3xlarge | No | No | No | No |
-| m2.4xlarge | Yes | Yes | No | No |
+| m2.4xlarge | No | No | No | No |
 | m2.5xlarge | No | No | No | No |
 | m2.6xlarge | No | No | No | No |
 | m2.7xlarge | No | No | No | No |
@@ -147,15 +147,15 @@
 | m2.metal | No | No | No | No |
 ## m3
 
-| Instance Type | usgw1-az1 | usgw1-az2 | usgw1-az3 | usgw1-az4 |
+| Instance Type | use2-az1 | use2-az2 | use2-az3 | use2-az4 |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
 | m3.nano | No | No | No | No |
 | m3.micro | No | No | No | No |
 | m3.small | No | No | No | No |
-| m3.medium | Yes | Yes | No | No |
-| m3.large | Yes | Yes | No | No |
-| m3.xlarge | Yes | Yes | No | No |
-| m3.2xlarge | Yes | Yes | No | No |
+| m3.medium | No | No | No | No |
+| m3.large | No | No | No | No |
+| m3.xlarge | No | No | No | No |
+| m3.2xlarge | No | No | No | No |
 | m3.3xlarge | No | No | No | No |
 | m3.4xlarge | No | No | No | No |
 | m3.5xlarge | No | No | No | No |
@@ -174,67 +174,38 @@
 | m3.128xlarge | No | No | No | No |
 | m3.256xlarge | No | No | No | No |
 | m3.metal | No | No | No | No |
-## c1
+## a1
 
-| Instance Type | usgw1-az1 | usgw1-az2 | usgw1-az3 | usgw1-az4 |
+| Instance Type | use2-az1 | use2-az2 | use2-az3 | use2-az4 |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| c1.nano | No | No | No | No |
-| c1.micro | No | No | No | No |
-| c1.small | No | No | No | No |
-| c1.medium | No | Yes | No | No |
-| c1.large | No | No | No | No |
-| c1.xlarge | No | Yes | No | No |
-| c1.2xlarge | No | No | No | No |
-| c1.3xlarge | No | No | No | No |
-| c1.4xlarge | No | No | No | No |
-| c1.5xlarge | No | No | No | No |
-| c1.6xlarge | No | No | No | No |
-| c1.7xlarge | No | No | No | No |
-| c1.8xlarge | No | No | No | No |
-| c1.9xlarge | No | No | No | No |
-| c1.10xlarge | No | No | No | No |
-| c1.11xlarge | No | No | No | No |
-| c1.12xlarge | No | No | No | No |
-| c1.16xlarge | No | No | No | No |
-| c1.18xlarge | No | No | No | No |
-| c1.24xlarge | No | No | No | No |
-| c1.32xlarge | No | No | No | No |
-| c1.64xlarge | No | No | No | No |
-| c1.128xlarge | No | No | No | No |
-| c1.256xlarge | No | No | No | No |
-| c1.metal | No | No | No | No |
-## c3
-
-| Instance Type | usgw1-az1 | usgw1-az2 | usgw1-az3 | usgw1-az4 |
-| ------------- | ------------- | ------------- | ------------- | ------------- |
-| c3.nano | No | No | No | No |
-| c3.micro | No | No | No | No |
-| c3.small | No | No | No | No |
-| c3.medium | No | No | No | No |
-| c3.large | Yes | Yes | No | No |
-| c3.xlarge | Yes | Yes | No | No |
-| c3.2xlarge | Yes | Yes | No | No |
-| c3.3xlarge | No | No | No | No |
-| c3.4xlarge | Yes | Yes | No | No |
-| c3.5xlarge | No | No | No | No |
-| c3.6xlarge | No | No | No | No |
-| c3.7xlarge | No | No | No | No |
-| c3.8xlarge | Yes | Yes | No | No |
-| c3.9xlarge | No | No | No | No |
-| c3.10xlarge | No | No | No | No |
-| c3.11xlarge | No | No | No | No |
-| c3.12xlarge | No | No | No | No |
-| c3.16xlarge | No | No | No | No |
-| c3.18xlarge | No | No | No | No |
-| c3.24xlarge | No | No | No | No |
-| c3.32xlarge | No | No | No | No |
-| c3.64xlarge | No | No | No | No |
-| c3.128xlarge | No | No | No | No |
-| c3.256xlarge | No | No | No | No |
-| c3.metal | No | No | No | No |
+| a1.nano | No | No | No | No |
+| a1.micro | No | No | No | No |
+| a1.small | No | No | No | No |
+| a1.medium | Yes | Yes | No | No |
+| a1.large | Yes | Yes | No | No |
+| a1.xlarge | Yes | Yes | No | No |
+| a1.2xlarge | Yes | Yes | No | No |
+| a1.3xlarge | No | No | No | No |
+| a1.4xlarge | Yes | Yes | No | No |
+| a1.5xlarge | No | No | No | No |
+| a1.6xlarge | No | No | No | No |
+| a1.7xlarge | No | No | No | No |
+| a1.8xlarge | No | No | No | No |
+| a1.9xlarge | No | No | No | No |
+| a1.10xlarge | No | No | No | No |
+| a1.11xlarge | No | No | No | No |
+| a1.12xlarge | No | No | No | No |
+| a1.16xlarge | No | No | No | No |
+| a1.18xlarge | No | No | No | No |
+| a1.24xlarge | No | No | No | No |
+| a1.32xlarge | No | No | No | No |
+| a1.64xlarge | No | No | No | No |
+| a1.128xlarge | No | No | No | No |
+| a1.256xlarge | No | No | No | No |
+| a1.metal | Yes | Yes | No | No |
 ## c4
 
-| Instance Type | usgw1-az1 | usgw1-az2 | usgw1-az3 | usgw1-az4 |
+| Instance Type | use2-az1 | use2-az2 | use2-az3 | use2-az4 |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
 | c4.nano | No | No | No | No |
 | c4.micro | No | No | No | No |
@@ -263,7 +234,7 @@
 | c4.metal | No | No | No | No |
 ## c5
 
-| Instance Type | usgw1-az1 | usgw1-az2 | usgw1-az3 | usgw1-az4 |
+| Instance Type | use2-az1 | use2-az2 | use2-az3 | use2-az4 |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
 | c5.nano | No | No | No | No |
 | c5.micro | No | No | No | No |
@@ -290,9 +261,38 @@
 | c5.128xlarge | No | No | No | No |
 | c5.256xlarge | No | No | No | No |
 | c5.metal | Yes | Yes | Yes | No |
+## c5a
+
+| Instance Type | use2-az1 | use2-az2 | use2-az3 | use2-az4 |
+| ------------- | ------------- | ------------- | ------------- | ------------- |
+| c5a.nano | No | No | No | No |
+| c5a.micro | No | No | No | No |
+| c5a.small | No | No | No | No |
+| c5a.medium | No | No | No | No |
+| c5a.large | No | Yes | Yes | No |
+| c5a.xlarge | No | Yes | Yes | No |
+| c5a.2xlarge | No | Yes | Yes | No |
+| c5a.3xlarge | No | No | No | No |
+| c5a.4xlarge | No | Yes | Yes | No |
+| c5a.5xlarge | No | No | No | No |
+| c5a.6xlarge | No | No | No | No |
+| c5a.7xlarge | No | No | No | No |
+| c5a.8xlarge | No | Yes | Yes | No |
+| c5a.9xlarge | No | No | No | No |
+| c5a.10xlarge | No | No | No | No |
+| c5a.11xlarge | No | No | No | No |
+| c5a.12xlarge | No | Yes | Yes | No |
+| c5a.16xlarge | No | Yes | Yes | No |
+| c5a.18xlarge | No | No | No | No |
+| c5a.24xlarge | No | Yes | Yes | No |
+| c5a.32xlarge | No | No | No | No |
+| c5a.64xlarge | No | No | No | No |
+| c5a.128xlarge | No | No | No | No |
+| c5a.256xlarge | No | No | No | No |
+| c5a.metal | No | No | No | No |
 ## c5d
 
-| Instance Type | usgw1-az1 | usgw1-az2 | usgw1-az3 | usgw1-az4 |
+| Instance Type | use2-az1 | use2-az2 | use2-az3 | use2-az4 |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
 | c5d.nano | No | No | No | No |
 | c5d.micro | No | No | No | No |
@@ -321,7 +321,7 @@
 | c5d.metal | Yes | Yes | Yes | No |
 ## c5n
 
-| Instance Type | usgw1-az1 | usgw1-az2 | usgw1-az3 | usgw1-az4 |
+| Instance Type | use2-az1 | use2-az2 | use2-az3 | use2-az4 |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
 | c5n.nano | No | No | No | No |
 | c5n.micro | No | No | No | No |
@@ -348,9 +348,67 @@
 | c5n.128xlarge | No | No | No | No |
 | c5n.256xlarge | No | No | No | No |
 | c5n.metal | Yes | Yes | Yes | No |
+## c6g
+
+| Instance Type | use2-az1 | use2-az2 | use2-az3 | use2-az4 |
+| ------------- | ------------- | ------------- | ------------- | ------------- |
+| c6g.nano | No | No | No | No |
+| c6g.micro | No | No | No | No |
+| c6g.small | No | No | No | No |
+| c6g.medium | No | Yes | Yes | No |
+| c6g.large | No | Yes | Yes | No |
+| c6g.xlarge | No | Yes | Yes | No |
+| c6g.2xlarge | No | Yes | Yes | No |
+| c6g.3xlarge | No | No | No | No |
+| c6g.4xlarge | No | Yes | Yes | No |
+| c6g.5xlarge | No | No | No | No |
+| c6g.6xlarge | No | No | No | No |
+| c6g.7xlarge | No | No | No | No |
+| c6g.8xlarge | No | Yes | Yes | No |
+| c6g.9xlarge | No | No | No | No |
+| c6g.10xlarge | No | No | No | No |
+| c6g.11xlarge | No | No | No | No |
+| c6g.12xlarge | No | Yes | Yes | No |
+| c6g.16xlarge | No | Yes | Yes | No |
+| c6g.18xlarge | No | No | No | No |
+| c6g.24xlarge | No | No | No | No |
+| c6g.32xlarge | No | No | No | No |
+| c6g.64xlarge | No | No | No | No |
+| c6g.128xlarge | No | No | No | No |
+| c6g.256xlarge | No | No | No | No |
+| c6g.metal | No | Yes | Yes | No |
+## c6gd
+
+| Instance Type | use2-az1 | use2-az2 | use2-az3 | use2-az4 |
+| ------------- | ------------- | ------------- | ------------- | ------------- |
+| c6gd.nano | No | No | No | No |
+| c6gd.micro | No | No | No | No |
+| c6gd.small | No | No | No | No |
+| c6gd.medium | No | Yes | Yes | No |
+| c6gd.large | No | Yes | Yes | No |
+| c6gd.xlarge | No | Yes | Yes | No |
+| c6gd.2xlarge | No | Yes | Yes | No |
+| c6gd.3xlarge | No | No | No | No |
+| c6gd.4xlarge | No | Yes | Yes | No |
+| c6gd.5xlarge | No | No | No | No |
+| c6gd.6xlarge | No | No | No | No |
+| c6gd.7xlarge | No | No | No | No |
+| c6gd.8xlarge | No | Yes | Yes | No |
+| c6gd.9xlarge | No | No | No | No |
+| c6gd.10xlarge | No | No | No | No |
+| c6gd.11xlarge | No | No | No | No |
+| c6gd.12xlarge | No | Yes | Yes | No |
+| c6gd.16xlarge | No | Yes | Yes | No |
+| c6gd.18xlarge | No | No | No | No |
+| c6gd.24xlarge | No | No | No | No |
+| c6gd.32xlarge | No | No | No | No |
+| c6gd.64xlarge | No | No | No | No |
+| c6gd.128xlarge | No | No | No | No |
+| c6gd.256xlarge | No | No | No | No |
+| c6gd.metal | No | Yes | Yes | No |
 ## d2
 
-| Instance Type | usgw1-az1 | usgw1-az2 | usgw1-az3 | usgw1-az4 |
+| Instance Type | use2-az1 | use2-az2 | use2-az3 | use2-az4 |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
 | d2.nano | No | No | No | No |
 | d2.micro | No | No | No | No |
@@ -377,38 +435,9 @@
 | d2.128xlarge | No | No | No | No |
 | d2.256xlarge | No | No | No | No |
 | d2.metal | No | No | No | No |
-## f1
-
-| Instance Type | usgw1-az1 | usgw1-az2 | usgw1-az3 | usgw1-az4 |
-| ------------- | ------------- | ------------- | ------------- | ------------- |
-| f1.nano | No | No | No | No |
-| f1.micro | No | No | No | No |
-| f1.small | No | No | No | No |
-| f1.medium | No | No | No | No |
-| f1.large | No | No | No | No |
-| f1.xlarge | No | No | No | No |
-| f1.2xlarge | Yes | Yes | No | No |
-| f1.3xlarge | No | No | No | No |
-| f1.4xlarge | Yes | Yes | No | No |
-| f1.5xlarge | No | No | No | No |
-| f1.6xlarge | No | No | No | No |
-| f1.7xlarge | No | No | No | No |
-| f1.8xlarge | No | No | No | No |
-| f1.9xlarge | No | No | No | No |
-| f1.10xlarge | No | No | No | No |
-| f1.11xlarge | No | No | No | No |
-| f1.12xlarge | No | No | No | No |
-| f1.16xlarge | Yes | Yes | No | No |
-| f1.18xlarge | No | No | No | No |
-| f1.24xlarge | No | No | No | No |
-| f1.32xlarge | No | No | No | No |
-| f1.64xlarge | No | No | No | No |
-| f1.128xlarge | No | No | No | No |
-| f1.256xlarge | No | No | No | No |
-| f1.metal | No | No | No | No |
 ## g3
 
-| Instance Type | usgw1-az1 | usgw1-az2 | usgw1-az3 | usgw1-az4 |
+| Instance Type | use2-az1 | use2-az2 | use2-az3 | use2-az4 |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
 | g3.nano | No | No | No | No |
 | g3.micro | No | No | No | No |
@@ -427,7 +456,7 @@
 | g3.10xlarge | No | No | No | No |
 | g3.11xlarge | No | No | No | No |
 | g3.12xlarge | No | No | No | No |
-| g3.16xlarge | Yes | Yes | No | No |
+| g3.16xlarge | Yes | Yes | Yes | No |
 | g3.18xlarge | No | No | No | No |
 | g3.24xlarge | No | No | No | No |
 | g3.32xlarge | No | No | No | No |
@@ -435,9 +464,38 @@
 | g3.128xlarge | No | No | No | No |
 | g3.256xlarge | No | No | No | No |
 | g3.metal | No | No | No | No |
+## g3s
+
+| Instance Type | use2-az1 | use2-az2 | use2-az3 | use2-az4 |
+| ------------- | ------------- | ------------- | ------------- | ------------- |
+| g3s.nano | No | No | No | No |
+| g3s.micro | No | No | No | No |
+| g3s.small | No | No | No | No |
+| g3s.medium | No | No | No | No |
+| g3s.large | No | No | No | No |
+| g3s.xlarge | Yes | Yes | Yes | No |
+| g3s.2xlarge | No | No | No | No |
+| g3s.3xlarge | No | No | No | No |
+| g3s.4xlarge | No | No | No | No |
+| g3s.5xlarge | No | No | No | No |
+| g3s.6xlarge | No | No | No | No |
+| g3s.7xlarge | No | No | No | No |
+| g3s.8xlarge | No | No | No | No |
+| g3s.9xlarge | No | No | No | No |
+| g3s.10xlarge | No | No | No | No |
+| g3s.11xlarge | No | No | No | No |
+| g3s.12xlarge | No | No | No | No |
+| g3s.16xlarge | No | No | No | No |
+| g3s.18xlarge | No | No | No | No |
+| g3s.24xlarge | No | No | No | No |
+| g3s.32xlarge | No | No | No | No |
+| g3s.64xlarge | No | No | No | No |
+| g3s.128xlarge | No | No | No | No |
+| g3s.256xlarge | No | No | No | No |
+| g3s.metal | No | No | No | No |
 ## g4dn
 
-| Instance Type | usgw1-az1 | usgw1-az2 | usgw1-az3 | usgw1-az4 |
+| Instance Type | use2-az1 | use2-az2 | use2-az3 | use2-az4 |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
 | g4dn.nano | No | No | No | No |
 | g4dn.micro | No | No | No | No |
@@ -463,24 +521,53 @@
 | g4dn.64xlarge | No | No | No | No |
 | g4dn.128xlarge | No | No | No | No |
 | g4dn.256xlarge | No | No | No | No |
-| g4dn.metal | Yes | Yes | Yes | No |
+| g4dn.metal | No | No | No | No |
+## h1
+
+| Instance Type | use2-az1 | use2-az2 | use2-az3 | use2-az4 |
+| ------------- | ------------- | ------------- | ------------- | ------------- |
+| h1.nano | No | No | No | No |
+| h1.micro | No | No | No | No |
+| h1.small | No | No | No | No |
+| h1.medium | No | No | No | No |
+| h1.large | No | No | No | No |
+| h1.xlarge | No | No | No | No |
+| h1.2xlarge | Yes | Yes | Yes | No |
+| h1.3xlarge | No | No | No | No |
+| h1.4xlarge | Yes | Yes | Yes | No |
+| h1.5xlarge | No | No | No | No |
+| h1.6xlarge | No | No | No | No |
+| h1.7xlarge | No | No | No | No |
+| h1.8xlarge | Yes | Yes | Yes | No |
+| h1.9xlarge | No | No | No | No |
+| h1.10xlarge | No | No | No | No |
+| h1.11xlarge | No | No | No | No |
+| h1.12xlarge | No | No | No | No |
+| h1.16xlarge | Yes | Yes | Yes | No |
+| h1.18xlarge | No | No | No | No |
+| h1.24xlarge | No | No | No | No |
+| h1.32xlarge | No | No | No | No |
+| h1.64xlarge | No | No | No | No |
+| h1.128xlarge | No | No | No | No |
+| h1.256xlarge | No | No | No | No |
+| h1.metal | No | No | No | No |
 ## i2
 
-| Instance Type | usgw1-az1 | usgw1-az2 | usgw1-az3 | usgw1-az4 |
+| Instance Type | use2-az1 | use2-az2 | use2-az3 | use2-az4 |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
 | i2.nano | No | No | No | No |
 | i2.micro | No | No | No | No |
 | i2.small | No | No | No | No |
 | i2.medium | No | No | No | No |
 | i2.large | No | No | No | No |
-| i2.xlarge | Yes | Yes | No | No |
-| i2.2xlarge | Yes | Yes | No | No |
+| i2.xlarge | Yes | Yes | Yes | No |
+| i2.2xlarge | Yes | Yes | Yes | No |
 | i2.3xlarge | No | No | No | No |
-| i2.4xlarge | Yes | Yes | No | No |
+| i2.4xlarge | Yes | Yes | Yes | No |
 | i2.5xlarge | No | No | No | No |
 | i2.6xlarge | No | No | No | No |
 | i2.7xlarge | No | No | No | No |
-| i2.8xlarge | Yes | Yes | No | No |
+| i2.8xlarge | Yes | Yes | Yes | No |
 | i2.9xlarge | No | No | No | No |
 | i2.10xlarge | No | No | No | No |
 | i2.11xlarge | No | No | No | No |
@@ -495,7 +582,7 @@
 | i2.metal | No | No | No | No |
 ## i3
 
-| Instance Type | usgw1-az1 | usgw1-az2 | usgw1-az3 | usgw1-az4 |
+| Instance Type | use2-az1 | use2-az2 | use2-az3 | use2-az4 |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
 | i3.nano | No | No | No | No |
 | i3.micro | No | No | No | No |
@@ -524,7 +611,7 @@
 | i3.metal | Yes | Yes | Yes | No |
 ## i3en
 
-| Instance Type | usgw1-az1 | usgw1-az2 | usgw1-az3 | usgw1-az4 |
+| Instance Type | use2-az1 | use2-az2 | use2-az3 | use2-az4 |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
 | i3en.nano | No | No | No | No |
 | i3en.micro | No | No | No | No |
@@ -551,96 +638,9 @@
 | i3en.128xlarge | No | No | No | No |
 | i3en.256xlarge | No | No | No | No |
 | i3en.metal | Yes | Yes | Yes | No |
-## m1
-
-| Instance Type | usgw1-az1 | usgw1-az2 | usgw1-az3 | usgw1-az4 |
-| ------------- | ------------- | ------------- | ------------- | ------------- |
-| m1.nano | No | No | No | No |
-| m1.micro | No | No | No | No |
-| m1.small | Yes | Yes | No | No |
-| m1.medium | Yes | Yes | No | No |
-| m1.large | Yes | Yes | No | No |
-| m1.xlarge | Yes | Yes | No | No |
-| m1.2xlarge | No | No | No | No |
-| m1.3xlarge | No | No | No | No |
-| m1.4xlarge | No | No | No | No |
-| m1.5xlarge | No | No | No | No |
-| m1.6xlarge | No | No | No | No |
-| m1.7xlarge | No | No | No | No |
-| m1.8xlarge | No | No | No | No |
-| m1.9xlarge | No | No | No | No |
-| m1.10xlarge | No | No | No | No |
-| m1.11xlarge | No | No | No | No |
-| m1.12xlarge | No | No | No | No |
-| m1.16xlarge | No | No | No | No |
-| m1.18xlarge | No | No | No | No |
-| m1.24xlarge | No | No | No | No |
-| m1.32xlarge | No | No | No | No |
-| m1.64xlarge | No | No | No | No |
-| m1.128xlarge | No | No | No | No |
-| m1.256xlarge | No | No | No | No |
-| m1.metal | No | No | No | No |
-## m2
-
-| Instance Type | usgw1-az1 | usgw1-az2 | usgw1-az3 | usgw1-az4 |
-| ------------- | ------------- | ------------- | ------------- | ------------- |
-| m2.nano | No | No | No | No |
-| m2.micro | No | No | No | No |
-| m2.small | No | No | No | No |
-| m2.medium | No | No | No | No |
-| m2.large | No | No | No | No |
-| m2.xlarge | Yes | Yes | No | No |
-| m2.2xlarge | Yes | Yes | No | No |
-| m2.3xlarge | No | No | No | No |
-| m2.4xlarge | Yes | Yes | No | No |
-| m2.5xlarge | No | No | No | No |
-| m2.6xlarge | No | No | No | No |
-| m2.7xlarge | No | No | No | No |
-| m2.8xlarge | No | No | No | No |
-| m2.9xlarge | No | No | No | No |
-| m2.10xlarge | No | No | No | No |
-| m2.11xlarge | No | No | No | No |
-| m2.12xlarge | No | No | No | No |
-| m2.16xlarge | No | No | No | No |
-| m2.18xlarge | No | No | No | No |
-| m2.24xlarge | No | No | No | No |
-| m2.32xlarge | No | No | No | No |
-| m2.64xlarge | No | No | No | No |
-| m2.128xlarge | No | No | No | No |
-| m2.256xlarge | No | No | No | No |
-| m2.metal | No | No | No | No |
-## m3
-
-| Instance Type | usgw1-az1 | usgw1-az2 | usgw1-az3 | usgw1-az4 |
-| ------------- | ------------- | ------------- | ------------- | ------------- |
-| m3.nano | No | No | No | No |
-| m3.micro | No | No | No | No |
-| m3.small | No | No | No | No |
-| m3.medium | Yes | Yes | No | No |
-| m3.large | Yes | Yes | No | No |
-| m3.xlarge | Yes | Yes | No | No |
-| m3.2xlarge | Yes | Yes | No | No |
-| m3.3xlarge | No | No | No | No |
-| m3.4xlarge | No | No | No | No |
-| m3.5xlarge | No | No | No | No |
-| m3.6xlarge | No | No | No | No |
-| m3.7xlarge | No | No | No | No |
-| m3.8xlarge | No | No | No | No |
-| m3.9xlarge | No | No | No | No |
-| m3.10xlarge | No | No | No | No |
-| m3.11xlarge | No | No | No | No |
-| m3.12xlarge | No | No | No | No |
-| m3.16xlarge | No | No | No | No |
-| m3.18xlarge | No | No | No | No |
-| m3.24xlarge | No | No | No | No |
-| m3.32xlarge | No | No | No | No |
-| m3.64xlarge | No | No | No | No |
-| m3.128xlarge | No | No | No | No |
-| m3.256xlarge | No | No | No | No |
-| m3.metal | No | No | No | No |
 ## m4
 
-| Instance Type | usgw1-az1 | usgw1-az2 | usgw1-az3 | usgw1-az4 |
+| Instance Type | use2-az1 | use2-az2 | use2-az3 | use2-az4 |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
 | m4.nano | No | No | No | No |
 | m4.micro | No | No | No | No |
@@ -669,7 +669,7 @@
 | m4.metal | No | No | No | No |
 ## m5
 
-| Instance Type | usgw1-az1 | usgw1-az2 | usgw1-az3 | usgw1-az4 |
+| Instance Type | use2-az1 | use2-az2 | use2-az3 | use2-az4 |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
 | m5.nano | No | No | No | No |
 | m5.micro | No | No | No | No |
@@ -698,7 +698,7 @@
 | m5.metal | Yes | Yes | Yes | No |
 ## m5a
 
-| Instance Type | usgw1-az1 | usgw1-az2 | usgw1-az3 | usgw1-az4 |
+| Instance Type | use2-az1 | use2-az2 | use2-az3 | use2-az4 |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
 | m5a.nano | No | No | No | No |
 | m5a.micro | No | No | No | No |
@@ -727,26 +727,26 @@
 | m5a.metal | No | No | No | No |
 ## m5ad
 
-| Instance Type | usgw1-az1 | usgw1-az2 | usgw1-az3 | usgw1-az4 |
+| Instance Type | use2-az1 | use2-az2 | use2-az3 | use2-az4 |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
 | m5ad.nano | No | No | No | No |
 | m5ad.micro | No | No | No | No |
 | m5ad.small | No | No | No | No |
 | m5ad.medium | No | No | No | No |
-| m5ad.large | Yes | Yes | No | No |
-| m5ad.xlarge | Yes | Yes | No | No |
-| m5ad.2xlarge | Yes | Yes | No | No |
+| m5ad.large | Yes | Yes | Yes | No |
+| m5ad.xlarge | Yes | Yes | Yes | No |
+| m5ad.2xlarge | Yes | Yes | Yes | No |
 | m5ad.3xlarge | No | No | No | No |
-| m5ad.4xlarge | Yes | Yes | No | No |
+| m5ad.4xlarge | Yes | Yes | Yes | No |
 | m5ad.5xlarge | No | No | No | No |
 | m5ad.6xlarge | No | No | No | No |
 | m5ad.7xlarge | No | No | No | No |
-| m5ad.8xlarge | Yes | Yes | No | No |
+| m5ad.8xlarge | No | No | No | No |
 | m5ad.9xlarge | No | No | No | No |
 | m5ad.10xlarge | No | No | No | No |
 | m5ad.11xlarge | No | No | No | No |
 | m5ad.12xlarge | Yes | Yes | Yes | No |
-| m5ad.16xlarge | Yes | Yes | Yes | No |
+| m5ad.16xlarge | No | No | No | No |
 | m5ad.18xlarge | No | No | No | No |
 | m5ad.24xlarge | Yes | Yes | Yes | No |
 | m5ad.32xlarge | No | No | No | No |
@@ -756,7 +756,7 @@
 | m5ad.metal | No | No | No | No |
 ## m5d
 
-| Instance Type | usgw1-az1 | usgw1-az2 | usgw1-az3 | usgw1-az4 |
+| Instance Type | use2-az1 | use2-az2 | use2-az3 | use2-az4 |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
 | m5d.nano | No | No | No | No |
 | m5d.micro | No | No | No | No |
@@ -785,7 +785,7 @@
 | m5d.metal | Yes | Yes | Yes | No |
 ## m5dn
 
-| Instance Type | usgw1-az1 | usgw1-az2 | usgw1-az3 | usgw1-az4 |
+| Instance Type | use2-az1 | use2-az2 | use2-az3 | use2-az4 |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
 | m5dn.nano | No | No | No | No |
 | m5dn.micro | No | No | No | No |
@@ -811,10 +811,10 @@
 | m5dn.64xlarge | No | No | No | No |
 | m5dn.128xlarge | No | No | No | No |
 | m5dn.256xlarge | No | No | No | No |
-| m5dn.metal | Yes | Yes | Yes | No |
+| m5dn.metal | No | No | No | No |
 ## m5n
 
-| Instance Type | usgw1-az1 | usgw1-az2 | usgw1-az3 | usgw1-az4 |
+| Instance Type | use2-az1 | use2-az2 | use2-az3 | use2-az4 |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
 | m5n.nano | No | No | No | No |
 | m5n.micro | No | No | No | No |
@@ -840,29 +840,87 @@
 | m5n.64xlarge | No | No | No | No |
 | m5n.128xlarge | No | No | No | No |
 | m5n.256xlarge | No | No | No | No |
-| m5n.metal | Yes | Yes | Yes | No |
+| m5n.metal | No | No | No | No |
+## m6g
+
+| Instance Type | use2-az1 | use2-az2 | use2-az3 | use2-az4 |
+| ------------- | ------------- | ------------- | ------------- | ------------- |
+| m6g.nano | No | No | No | No |
+| m6g.micro | No | No | No | No |
+| m6g.small | No | No | No | No |
+| m6g.medium | No | Yes | Yes | No |
+| m6g.large | No | Yes | Yes | No |
+| m6g.xlarge | No | Yes | Yes | No |
+| m6g.2xlarge | No | Yes | Yes | No |
+| m6g.3xlarge | No | No | No | No |
+| m6g.4xlarge | No | Yes | Yes | No |
+| m6g.5xlarge | No | No | No | No |
+| m6g.6xlarge | No | No | No | No |
+| m6g.7xlarge | No | No | No | No |
+| m6g.8xlarge | No | Yes | Yes | No |
+| m6g.9xlarge | No | No | No | No |
+| m6g.10xlarge | No | No | No | No |
+| m6g.11xlarge | No | No | No | No |
+| m6g.12xlarge | No | Yes | Yes | No |
+| m6g.16xlarge | No | Yes | Yes | No |
+| m6g.18xlarge | No | No | No | No |
+| m6g.24xlarge | No | No | No | No |
+| m6g.32xlarge | No | No | No | No |
+| m6g.64xlarge | No | No | No | No |
+| m6g.128xlarge | No | No | No | No |
+| m6g.256xlarge | No | No | No | No |
+| m6g.metal | No | Yes | Yes | No |
+## m6gd
+
+| Instance Type | use2-az1 | use2-az2 | use2-az3 | use2-az4 |
+| ------------- | ------------- | ------------- | ------------- | ------------- |
+| m6gd.nano | No | No | No | No |
+| m6gd.micro | No | No | No | No |
+| m6gd.small | No | No | No | No |
+| m6gd.medium | No | Yes | Yes | No |
+| m6gd.large | No | Yes | Yes | No |
+| m6gd.xlarge | No | Yes | Yes | No |
+| m6gd.2xlarge | No | Yes | Yes | No |
+| m6gd.3xlarge | No | No | No | No |
+| m6gd.4xlarge | No | Yes | Yes | No |
+| m6gd.5xlarge | No | No | No | No |
+| m6gd.6xlarge | No | No | No | No |
+| m6gd.7xlarge | No | No | No | No |
+| m6gd.8xlarge | No | Yes | Yes | No |
+| m6gd.9xlarge | No | No | No | No |
+| m6gd.10xlarge | No | No | No | No |
+| m6gd.11xlarge | No | No | No | No |
+| m6gd.12xlarge | No | Yes | Yes | No |
+| m6gd.16xlarge | No | Yes | Yes | No |
+| m6gd.18xlarge | No | No | No | No |
+| m6gd.24xlarge | No | No | No | No |
+| m6gd.32xlarge | No | No | No | No |
+| m6gd.64xlarge | No | No | No | No |
+| m6gd.128xlarge | No | No | No | No |
+| m6gd.256xlarge | No | No | No | No |
+| m6gd.metal | No | Yes | Yes | No |
 ## p2
 
-| Instance Type | usgw1-az1 | usgw1-az2 | usgw1-az3 | usgw1-az4 |
+| Instance Type | use2-az1 | use2-az2 | use2-az3 | use2-az4 |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
 | p2.nano | No | No | No | No |
 | p2.micro | No | No | No | No |
 | p2.small | No | No | No | No |
 | p2.medium | No | No | No | No |
 | p2.large | No | No | No | No |
-| p2.xlarge | Yes | Yes | No | No |
+| p2.xlarge | Yes | Yes | Yes | No |
 | p2.2xlarge | No | No | No | No |
 | p2.3xlarge | No | No | No | No |
 | p2.4xlarge | No | No | No | No |
 | p2.5xlarge | No | No | No | No |
 | p2.6xlarge | No | No | No | No |
 | p2.7xlarge | No | No | No | No |
-| p2.8xlarge | Yes | Yes | No | No |
+| p2.8xlarge | Yes | Yes | Yes | No |
 | p2.9xlarge | No | No | No | No |
 | p2.10xlarge | No | No | No | No |
 | p2.11xlarge | No | No | No | No |
 | p2.12xlarge | No | No | No | No |
-| p2.16xlarge | Yes | Yes | No | No |
+| p2.16xlarge | Yes | Yes | Yes | No |
 | p2.18xlarge | No | No | No | No |
 | p2.24xlarge | No | No | No | No |
 | p2.32xlarge | No | No | No | No |
@@ -872,7 +930,7 @@
 | p2.metal | No | No | No | No |
 ## p3
 
-| Instance Type | usgw1-az1 | usgw1-az2 | usgw1-az3 | usgw1-az4 |
+| Instance Type | use2-az1 | use2-az2 | use2-az3 | use2-az4 |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
 | p3.nano | No | No | No | No |
 | p3.micro | No | No | No | No |
@@ -880,18 +938,18 @@
 | p3.medium | No | No | No | No |
 | p3.large | No | No | No | No |
 | p3.xlarge | No | No | No | No |
-| p3.2xlarge | Yes | Yes | Yes | No |
+| p3.2xlarge | Yes | Yes | No | No |
 | p3.3xlarge | No | No | No | No |
 | p3.4xlarge | No | No | No | No |
 | p3.5xlarge | No | No | No | No |
 | p3.6xlarge | No | No | No | No |
 | p3.7xlarge | No | No | No | No |
-| p3.8xlarge | Yes | Yes | Yes | No |
+| p3.8xlarge | Yes | Yes | No | No |
 | p3.9xlarge | No | No | No | No |
 | p3.10xlarge | No | No | No | No |
 | p3.11xlarge | No | No | No | No |
 | p3.12xlarge | No | No | No | No |
-| p3.16xlarge | Yes | Yes | Yes | No |
+| p3.16xlarge | Yes | Yes | No | No |
 | p3.18xlarge | No | No | No | No |
 | p3.24xlarge | No | No | No | No |
 | p3.32xlarge | No | No | No | No |
@@ -899,52 +957,23 @@
 | p3.128xlarge | No | No | No | No |
 | p3.256xlarge | No | No | No | No |
 | p3.metal | No | No | No | No |
-## p3dn
-
-| Instance Type | usgw1-az1 | usgw1-az2 | usgw1-az3 | usgw1-az4 |
-| ------------- | ------------- | ------------- | ------------- | ------------- |
-| p3dn.nano | No | No | No | No |
-| p3dn.micro | No | No | No | No |
-| p3dn.small | No | No | No | No |
-| p3dn.medium | No | No | No | No |
-| p3dn.large | No | No | No | No |
-| p3dn.xlarge | No | No | No | No |
-| p3dn.2xlarge | No | No | No | No |
-| p3dn.3xlarge | No | No | No | No |
-| p3dn.4xlarge | No | No | No | No |
-| p3dn.5xlarge | No | No | No | No |
-| p3dn.6xlarge | No | No | No | No |
-| p3dn.7xlarge | No | No | No | No |
-| p3dn.8xlarge | No | No | No | No |
-| p3dn.9xlarge | No | No | No | No |
-| p3dn.10xlarge | No | No | No | No |
-| p3dn.11xlarge | No | No | No | No |
-| p3dn.12xlarge | No | No | No | No |
-| p3dn.16xlarge | No | No | No | No |
-| p3dn.18xlarge | No | No | No | No |
-| p3dn.24xlarge | Yes | No | No | No |
-| p3dn.32xlarge | No | No | No | No |
-| p3dn.64xlarge | No | No | No | No |
-| p3dn.128xlarge | No | No | No | No |
-| p3dn.256xlarge | No | No | No | No |
-| p3dn.metal | No | No | No | No |
 ## r3
 
-| Instance Type | usgw1-az1 | usgw1-az2 | usgw1-az3 | usgw1-az4 |
+| Instance Type | use2-az1 | use2-az2 | use2-az3 | use2-az4 |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
 | r3.nano | No | No | No | No |
 | r3.micro | No | No | No | No |
 | r3.small | No | No | No | No |
 | r3.medium | No | No | No | No |
-| r3.large | Yes | Yes | No | No |
-| r3.xlarge | Yes | Yes | No | No |
-| r3.2xlarge | Yes | Yes | No | No |
+| r3.large | Yes | Yes | Yes | No |
+| r3.xlarge | Yes | Yes | Yes | No |
+| r3.2xlarge | Yes | Yes | Yes | No |
 | r3.3xlarge | No | No | No | No |
-| r3.4xlarge | Yes | Yes | No | No |
+| r3.4xlarge | Yes | Yes | Yes | No |
 | r3.5xlarge | No | No | No | No |
 | r3.6xlarge | No | No | No | No |
 | r3.7xlarge | No | No | No | No |
-| r3.8xlarge | Yes | Yes | No | No |
+| r3.8xlarge | Yes | Yes | Yes | No |
 | r3.9xlarge | No | No | No | No |
 | r3.10xlarge | No | No | No | No |
 | r3.11xlarge | No | No | No | No |
@@ -959,7 +988,7 @@
 | r3.metal | No | No | No | No |
 ## r4
 
-| Instance Type | usgw1-az1 | usgw1-az2 | usgw1-az3 | usgw1-az4 |
+| Instance Type | use2-az1 | use2-az2 | use2-az3 | use2-az4 |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
 | r4.nano | No | No | No | No |
 | r4.micro | No | No | No | No |
@@ -988,7 +1017,7 @@
 | r4.metal | No | No | No | No |
 ## r5
 
-| Instance Type | usgw1-az1 | usgw1-az2 | usgw1-az3 | usgw1-az4 |
+| Instance Type | use2-az1 | use2-az2 | use2-az3 | use2-az4 |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
 | r5.nano | No | No | No | No |
 | r5.micro | No | No | No | No |
@@ -1017,7 +1046,7 @@
 | r5.metal | Yes | Yes | Yes | No |
 ## r5a
 
-| Instance Type | usgw1-az1 | usgw1-az2 | usgw1-az3 | usgw1-az4 |
+| Instance Type | use2-az1 | use2-az2 | use2-az3 | use2-az4 |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
 | r5a.nano | No | No | No | No |
 | r5a.micro | No | No | No | No |
@@ -1046,7 +1075,7 @@
 | r5a.metal | No | No | No | No |
 ## r5ad
 
-| Instance Type | usgw1-az1 | usgw1-az2 | usgw1-az3 | usgw1-az4 |
+| Instance Type | use2-az1 | use2-az2 | use2-az3 | use2-az4 |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
 | r5ad.nano | No | No | No | No |
 | r5ad.micro | No | No | No | No |
@@ -1060,12 +1089,12 @@
 | r5ad.5xlarge | No | No | No | No |
 | r5ad.6xlarge | No | No | No | No |
 | r5ad.7xlarge | No | No | No | No |
-| r5ad.8xlarge | Yes | Yes | Yes | No |
+| r5ad.8xlarge | No | No | No | No |
 | r5ad.9xlarge | No | No | No | No |
 | r5ad.10xlarge | No | No | No | No |
 | r5ad.11xlarge | No | No | No | No |
 | r5ad.12xlarge | Yes | Yes | Yes | No |
-| r5ad.16xlarge | Yes | Yes | Yes | No |
+| r5ad.16xlarge | No | No | No | No |
 | r5ad.18xlarge | No | No | No | No |
 | r5ad.24xlarge | Yes | Yes | Yes | No |
 | r5ad.32xlarge | No | No | No | No |
@@ -1075,7 +1104,7 @@
 | r5ad.metal | No | No | No | No |
 ## r5d
 
-| Instance Type | usgw1-az1 | usgw1-az2 | usgw1-az3 | usgw1-az4 |
+| Instance Type | use2-az1 | use2-az2 | use2-az3 | use2-az4 |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
 | r5d.nano | No | No | No | No |
 | r5d.micro | No | No | No | No |
@@ -1104,7 +1133,7 @@
 | r5d.metal | Yes | Yes | Yes | No |
 ## r5dn
 
-| Instance Type | usgw1-az1 | usgw1-az2 | usgw1-az3 | usgw1-az4 |
+| Instance Type | use2-az1 | use2-az2 | use2-az3 | use2-az4 |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
 | r5dn.nano | No | No | No | No |
 | r5dn.micro | No | No | No | No |
@@ -1130,10 +1159,10 @@
 | r5dn.64xlarge | No | No | No | No |
 | r5dn.128xlarge | No | No | No | No |
 | r5dn.256xlarge | No | No | No | No |
-| r5dn.metal | Yes | Yes | Yes | No |
+| r5dn.metal | No | No | No | No |
 ## r5n
 
-| Instance Type | usgw1-az1 | usgw1-az2 | usgw1-az3 | usgw1-az4 |
+| Instance Type | use2-az1 | use2-az2 | use2-az3 | use2-az4 |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
 | r5n.nano | No | No | No | No |
 | r5n.micro | No | No | No | No |
@@ -1159,39 +1188,68 @@
 | r5n.64xlarge | No | No | No | No |
 | r5n.128xlarge | No | No | No | No |
 | r5n.256xlarge | No | No | No | No |
-| r5n.metal | Yes | Yes | Yes | No |
-## t1
+| r5n.metal | No | No | No | No |
+## r6g
 
-| Instance Type | usgw1-az1 | usgw1-az2 | usgw1-az3 | usgw1-az4 |
+| Instance Type | use2-az1 | use2-az2 | use2-az3 | use2-az4 |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| t1.nano | No | No | No | No |
-| t1.micro | Yes | No | No | No |
-| t1.small | No | No | No | No |
-| t1.medium | No | No | No | No |
-| t1.large | No | No | No | No |
-| t1.xlarge | No | No | No | No |
-| t1.2xlarge | No | No | No | No |
-| t1.3xlarge | No | No | No | No |
-| t1.4xlarge | No | No | No | No |
-| t1.5xlarge | No | No | No | No |
-| t1.6xlarge | No | No | No | No |
-| t1.7xlarge | No | No | No | No |
-| t1.8xlarge | No | No | No | No |
-| t1.9xlarge | No | No | No | No |
-| t1.10xlarge | No | No | No | No |
-| t1.11xlarge | No | No | No | No |
-| t1.12xlarge | No | No | No | No |
-| t1.16xlarge | No | No | No | No |
-| t1.18xlarge | No | No | No | No |
-| t1.24xlarge | No | No | No | No |
-| t1.32xlarge | No | No | No | No |
-| t1.64xlarge | No | No | No | No |
-| t1.128xlarge | No | No | No | No |
-| t1.256xlarge | No | No | No | No |
-| t1.metal | No | No | No | No |
+| r6g.nano | No | No | No | No |
+| r6g.micro | No | No | No | No |
+| r6g.small | No | No | No | No |
+| r6g.medium | No | Yes | Yes | No |
+| r6g.large | No | Yes | Yes | No |
+| r6g.xlarge | No | Yes | Yes | No |
+| r6g.2xlarge | No | Yes | Yes | No |
+| r6g.3xlarge | No | No | No | No |
+| r6g.4xlarge | No | Yes | Yes | No |
+| r6g.5xlarge | No | No | No | No |
+| r6g.6xlarge | No | No | No | No |
+| r6g.7xlarge | No | No | No | No |
+| r6g.8xlarge | No | Yes | Yes | No |
+| r6g.9xlarge | No | No | No | No |
+| r6g.10xlarge | No | No | No | No |
+| r6g.11xlarge | No | No | No | No |
+| r6g.12xlarge | No | Yes | Yes | No |
+| r6g.16xlarge | No | Yes | Yes | No |
+| r6g.18xlarge | No | No | No | No |
+| r6g.24xlarge | No | No | No | No |
+| r6g.32xlarge | No | No | No | No |
+| r6g.64xlarge | No | No | No | No |
+| r6g.128xlarge | No | No | No | No |
+| r6g.256xlarge | No | No | No | No |
+| r6g.metal | No | Yes | Yes | No |
+## r6gd
+
+| Instance Type | use2-az1 | use2-az2 | use2-az3 | use2-az4 |
+| ------------- | ------------- | ------------- | ------------- | ------------- |
+| r6gd.nano | No | No | No | No |
+| r6gd.micro | No | No | No | No |
+| r6gd.small | No | No | No | No |
+| r6gd.medium | No | Yes | Yes | No |
+| r6gd.large | No | Yes | Yes | No |
+| r6gd.xlarge | No | Yes | Yes | No |
+| r6gd.2xlarge | No | Yes | Yes | No |
+| r6gd.3xlarge | No | No | No | No |
+| r6gd.4xlarge | No | Yes | Yes | No |
+| r6gd.5xlarge | No | No | No | No |
+| r6gd.6xlarge | No | No | No | No |
+| r6gd.7xlarge | No | No | No | No |
+| r6gd.8xlarge | No | Yes | Yes | No |
+| r6gd.9xlarge | No | No | No | No |
+| r6gd.10xlarge | No | No | No | No |
+| r6gd.11xlarge | No | No | No | No |
+| r6gd.12xlarge | No | Yes | Yes | No |
+| r6gd.16xlarge | No | Yes | Yes | No |
+| r6gd.18xlarge | No | No | No | No |
+| r6gd.24xlarge | No | No | No | No |
+| r6gd.32xlarge | No | No | No | No |
+| r6gd.64xlarge | No | No | No | No |
+| r6gd.128xlarge | No | No | No | No |
+| r6gd.256xlarge | No | No | No | No |
+| r6gd.metal | No | Yes | Yes | No |
 ## t2
 
-| Instance Type | usgw1-az1 | usgw1-az2 | usgw1-az3 | usgw1-az4 |
+| Instance Type | use2-az1 | use2-az2 | use2-az3 | use2-az4 |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
 | t2.nano | Yes | Yes | Yes | No |
 | t2.micro | Yes | Yes | Yes | No |
@@ -1220,7 +1278,7 @@
 | t2.metal | No | No | No | No |
 ## t3
 
-| Instance Type | usgw1-az1 | usgw1-az2 | usgw1-az3 | usgw1-az4 |
+| Instance Type | use2-az1 | use2-az2 | use2-az3 | use2-az4 |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
 | t3.nano | Yes | Yes | Yes | No |
 | t3.micro | Yes | Yes | Yes | No |
@@ -1249,7 +1307,7 @@
 | t3.metal | No | No | No | No |
 ## t3a
 
-| Instance Type | usgw1-az1 | usgw1-az2 | usgw1-az3 | usgw1-az4 |
+| Instance Type | use2-az1 | use2-az2 | use2-az3 | use2-az4 |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
 | t3a.nano | Yes | Yes | Yes | No |
 | t3a.micro | Yes | Yes | Yes | No |
@@ -1278,7 +1336,7 @@
 | t3a.metal | No | No | No | No |
 ## x1
 
-| Instance Type | usgw1-az1 | usgw1-az2 | usgw1-az3 | usgw1-az4 |
+| Instance Type | use2-az1 | use2-az2 | use2-az3 | use2-az4 |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
 | x1.nano | No | No | No | No |
 | x1.micro | No | No | No | No |
@@ -1307,33 +1365,62 @@
 | x1.metal | No | No | No | No |
 ## x1e
 
-| Instance Type | usgw1-az1 | usgw1-az2 | usgw1-az3 | usgw1-az4 |
+| Instance Type | use2-az1 | use2-az2 | use2-az3 | use2-az4 |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
 | x1e.nano | No | No | No | No |
 | x1e.micro | No | No | No | No |
 | x1e.small | No | No | No | No |
 | x1e.medium | No | No | No | No |
 | x1e.large | No | No | No | No |
-| x1e.xlarge | Yes | Yes | Yes | No |
-| x1e.2xlarge | Yes | Yes | Yes | No |
+| x1e.xlarge | Yes | Yes | No | No |
+| x1e.2xlarge | Yes | Yes | No | No |
 | x1e.3xlarge | No | No | No | No |
-| x1e.4xlarge | Yes | Yes | Yes | No |
+| x1e.4xlarge | Yes | Yes | No | No |
 | x1e.5xlarge | No | No | No | No |
 | x1e.6xlarge | No | No | No | No |
 | x1e.7xlarge | No | No | No | No |
-| x1e.8xlarge | Yes | Yes | Yes | No |
+| x1e.8xlarge | Yes | Yes | No | No |
 | x1e.9xlarge | No | No | No | No |
 | x1e.10xlarge | No | No | No | No |
 | x1e.11xlarge | No | No | No | No |
 | x1e.12xlarge | No | No | No | No |
-| x1e.16xlarge | Yes | Yes | Yes | No |
+| x1e.16xlarge | Yes | Yes | No | No |
 | x1e.18xlarge | No | No | No | No |
 | x1e.24xlarge | No | No | No | No |
-| x1e.32xlarge | Yes | Yes | Yes | No |
+| x1e.32xlarge | Yes | Yes | No | No |
 | x1e.64xlarge | No | No | No | No |
 | x1e.128xlarge | No | No | No | No |
 | x1e.256xlarge | No | No | No | No |
 | x1e.metal | No | No | No | No |
+## z1d
+
+| Instance Type | use2-az1 | use2-az2 | use2-az3 | use2-az4 |
+| ------------- | ------------- | ------------- | ------------- | ------------- |
+| z1d.nano | No | No | No | No |
+| z1d.micro | No | No | No | No |
+| z1d.small | No | No | No | No |
+| z1d.medium | No | No | No | No |
+| z1d.large | Yes | Yes | No | No |
+| z1d.xlarge | Yes | Yes | No | No |
+| z1d.2xlarge | Yes | Yes | No | No |
+| z1d.3xlarge | Yes | Yes | No | No |
+| z1d.4xlarge | No | No | No | No |
+| z1d.5xlarge | No | No | No | No |
+| z1d.6xlarge | Yes | Yes | No | No |
+| z1d.7xlarge | No | No | No | No |
+| z1d.8xlarge | No | No | No | No |
+| z1d.9xlarge | No | No | No | No |
+| z1d.10xlarge | No | No | No | No |
+| z1d.11xlarge | No | No | No | No |
+| z1d.12xlarge | Yes | Yes | No | No |
+| z1d.16xlarge | No | No | No | No |
+| z1d.18xlarge | No | No | No | No |
+| z1d.24xlarge | No | No | No | No |
+| z1d.32xlarge | No | No | No | No |
+| z1d.64xlarge | No | No | No | No |
+| z1d.128xlarge | No | No | No | No |
+| z1d.256xlarge | No | No | No | No |
+| z1d.metal | Yes | Yes | No | No |
 
 
 
