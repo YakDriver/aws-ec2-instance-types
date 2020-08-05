@@ -5,7 +5,7 @@
 | Instance Type | usw1-az1 | usw1-az2 | usw1-az3 | usw1-az4 |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
 | t1.nano | No | No | No | No |
-| t1.micro | Yes | No | Yes | No |
+| t1.micro | Yes | No | Yes :green_circle: | No |
 | t1.small | No | No | No | No |
 | t1.medium | No | No | No | No |
 | t1.large | No | No | No | No |
