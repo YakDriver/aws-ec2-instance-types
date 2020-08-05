@@ -84,7 +84,8 @@ function raw_instance_types() {
 
 function instance_classes() {
   local az_id=$1
-  sed -E -n 's/^([a-z0-9]+)\..*$/\1/' "${az_id}-raw.txt" > "${az_id}-preclasses.txt"
+  cp "${az_id}-raw.txt" "${az_id}-preclasses.txt"
+  perl -p -i -e 's/^([a-z0-9]+)\..*$/$1/g' "${az_id}-preclasses.txt"
   cat "${az_id}-preclasses.txt" | sort -u > "${az_id}-classes.txt"
 
   echo "Instance classes:"
