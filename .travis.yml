@@ -10,6 +10,11 @@ install:
 script:
   - source get_instance_types.sh
   - instance_types usgw1
+  - instance_types usge1
+  - instance_types usw1
+  - instance_types usw2
+  - instance_types use1
+  - instance_types use2
   - git checkout main
   - git add ./results/*
   - git add README.md

@@ -106,12 +106,12 @@ function instance_types() {
   cat "${region_id}-all-classes.txt" | sort -u >> "${region_id}-unique-classes.txt"
   
   local output="./results/${region_id}.md"
-  printf "# %s\n\n" "${region}" > "${output}"
+  printf "# %s (%s)\n\n" "${region}" "${region_id}" > "${output}"
   
   local yes_or_no=""
   while read -r class; do
     printf "## %s\n\n" "${class}" >> "${output}"
-    printf "| Instance Type | ${region}-az%d | ${region}-az%d | ${region}-az%d | ${region}-az%d |\n" {1..4} >> "${output}"
+    printf "| Instance Type | ${region_id}-az%d | ${region_id}-az%d | ${region_id}-az%d | ${region_id}-az%d |\n" {1..4} >> "${output}"
     printf "| ------------- | ------------- | ------------- | ------------- | ------------- |\n" >> "${output}"
     for type in "${types[@]}"; do
       printf "| %s.%s |" "${class}" "${type}" >> "${output}"
