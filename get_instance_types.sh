@@ -122,10 +122,10 @@ function instance_types() {
         local az_id="${region_id}-az${i}"
         yes_or_no=$(grep -o "${class}.${type}" "${az_id}-raw.txt" | wc -l)
         if [ "${yes_or_no}" = "0" ]; then
-          row="${row} :red_circle: (No) |"
+          row="${row} :red_circle: |"
         else
           include_row=1
-          row="${row} :green_circle: (Yes) |"
+          row="${row} :green_circle: |"
         fi
       done
       if [ "${include_row}" = "1" ]; then
