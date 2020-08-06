@@ -2,40 +2,10 @@
 
 ## AWS EC2 Instance Type Availability
 AWS EC2 instance types (e.g., `t2.micro`, `m2.small`) by region and availability zone:
-[:large_orange_diamond: us-gov-west-1](us-gov-west-1.md) [:large_orange_diamond: us-gov-east-1](us-gov-east-1.md) [:large_orange_diamond: us-west-2](us-west-2.md) [:large_orange_diamond: us-west-1](us-west-1.md) [:large_orange_diamond: us-east-2](us-east-2.md) [:large_orange_diamond: us-east-1](us-east-1.md) [:large_orange_diamond: sa-east-1](sa-east-1.md) [:large_orange_diamond: me-south-1](me-south-1.md) [:large_orange_diamond: eu-west-3](eu-west-3.md) [:large_orange_diamond: eu-west-2](eu-west-2.md) [:large_orange_diamond: eu-west-1](eu-west-1.md) [:large_orange_diamond: eu-south-1](eu-south-1.md) [:large_orange_diamond: eu-north-1](eu-north-1.md) [:large_orange_diamond: eu-central-1](eu-central-1.md) [:large_orange_diamond: ca-central-1](ca-central-1.md) [:large_orange_diamond: ap-southeast-2](ap-southeast-2.md) [:large_orange_diamond: ap-southeast-1](ap-southeast-1.md) [:large_orange_diamond: ap-south-1](ap-south-1.md) [:large_orange_diamond: ap-northeast-2](ap-northeast-2.md) [:large_orange_diamond: ap-northeast-1](ap-northeast-1.md) [:large_orange_diamond: ap-east-1](ap-east-1.md) [:large_orange_diamond: af-south-1](af-south-1.md) 
 
-## t1
+:us: [us-gov-west-1](us-gov-west-1.md) :us: [us-gov-east-1](us-gov-east-1.md) :us: [us-west-2](us-west-2.md) :us: [us-west-1](us-west-1.md) :us: [us-east-2](us-east-2.md) :us: [us-east-1](us-east-1.md) :brazil: [sa-east-1](sa-east-1.md) :bahrain: [me-south-1](me-south-1.md) :france: [eu-west-3](eu-west-3.md) :uk: [eu-west-2](eu-west-2.md) :ireland: [eu-west-1](eu-west-1.md) :italy: [eu-south-1](eu-south-1.md) :sweden: [eu-north-1](eu-north-1.md) :germany: [eu-central-1](eu-central-1.md) :canada: [ca-central-1](ca-central-1.md) :australia: [ap-southeast-2](ap-southeast-2.md) :singapore: [ap-southeast-1](ap-southeast-1.md) :india: [ap-south-1](ap-south-1.md) :korea: [ap-northeast-2](ap-northeast-2.md) :japan: [ap-northeast-1](ap-northeast-1.md) :hong_kong: [ap-east-1](ap-east-1.md) :south_africa: [af-south-1](af-south-1.md) 
 
-| Instance Type | afs1-az1 | afs1-az2 | afs1-az3 |
-| ------------- | :-------------: | :-------------: | :-------------: |
-## t2
-
-| Instance Type | afs1-az1 | afs1-az2 | afs1-az3 |
-| ------------- | :-------------: | :-------------: | :-------------: |
-## t3
-
-| Instance Type | afs1-az1 | afs1-az2 | afs1-az3 |
-| ------------- | :-------------: | :-------------: | :-------------: |
-| t3.nano | :green_circle: | :green_circle: | :green_circle: |
-| t3.micro | :green_circle: | :green_circle: | :green_circle: |
-| t3.small | :green_circle: | :green_circle: | :green_circle: |
-| t3.medium | :green_circle: | :green_circle: | :green_circle: |
-| t3.large | :green_circle: | :green_circle: | :green_circle: |
-| t3.xlarge | :green_circle: | :green_circle: | :green_circle: |
-| t3.2xlarge | :green_circle: | :green_circle: | :green_circle: |
-## m1
-
-| Instance Type | afs1-az1 | afs1-az2 | afs1-az3 |
-| ------------- | :-------------: | :-------------: | :-------------: |
-## m2
-
-| Instance Type | afs1-az1 | afs1-az2 | afs1-az3 |
-| ------------- | :-------------: | :-------------: | :-------------: |
-## m3
-
-| Instance Type | afs1-az1 | afs1-az2 | afs1-az3 |
-| ------------- | :-------------: | :-------------: | :-------------: |
-## c5
+[c5](#c5) [c5d](#c5d) [d2](#d2) [i3](#i3) [m5](#m5) [m5d](#m5d) [r5](#r5) [r5d](#r5d) [t3](#t3) ## c5
 
 | Instance Type | afs1-az1 | afs1-az2 | afs1-az3 |
 | ------------- | :-------------: | :-------------: | :-------------: |
