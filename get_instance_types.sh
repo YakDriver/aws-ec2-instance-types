@@ -27,6 +27,48 @@ types+=( "128xlarge" )
 types+=( "256xlarge" )
 types+=( "metal" )
 
+local results_path="./results"
+local regions_file="${results_path}/regions.txt"
+
+function regions() {
+  local aki="${USGAKI}"
+  local sak="${USGSAK}"
+
+  AWS_ACCESS_KEY_ID="${aki}" AWS_SECRET_ACCESS_KEY="${sak}" \
+  aws ec2 describe-regions \
+  --query "Regions[] [RegionName]" \
+  --output text | sort -ur > "${regions_file}"
+
+  aki="${STAAKI}"
+  sak="${STASAK}"
+
+  AWS_ACCESS_KEY_ID="${aki}" AWS_SECRET_ACCESS_KEY="${sak}" \
+  aws ec2 describe-regions \
+  --query "Regions[] [RegionName]" \
+  --output text | sort -ur >> "${regions_file}"
+}
+
+function azs() {
+  local aki="NONE"
+  local sak="NONE"
+  while read -r region; do
+    if [[ "${region}" == *"gov"* ]]; then
+      aki="${USGAKI}"
+      sak="${USGSAK}"
+    else
+      aki="${STAAKI}"
+      sak="${STASAK}"
+    fi
+
+    AWS_ACCESS_KEY_ID="${aki}" AWS_SECRET_ACCESS_KEY="${sak}" AWS_DEFAULT_REGION="${region}" \
+    aws ec2 describe-availability-zones \
+    --filters Name=state,Values="available" \
+    --filters Name=opt-in-status,Values="opt-in-not-required" \
+    --query "AvailabilityZones[] [ZoneId]" \
+    --output text | sort -u > "${results_path}/${region}.txt"
+  done <"${regions_file}"
+}
+
 # create <az_id>.txt
 function raw_instance_types() {
   local az_id=$1
@@ -104,11 +146,11 @@ function instance_types() {
   done
   printf "%s\n" "t1" "t2" "t3" "m1" "m2" "m3" > "${region_id}-unique-classes.txt"
   cat "${region_id}-all-classes.txt" | sort -u >> "${region_id}-unique-classes.txt"
-  
+
   local output="./results/${region_id}.md"
   cat "offering_header.md" > "${output}"
   printf "# %s (%s) AWS EC2 Instance Types\n\n" "${region}" "${region_id}" >> "${output}"
-  
+
   local yes_or_no=""
   while read -r class; do
     printf "## %s\n\n" "${class}" >> "${output}"
