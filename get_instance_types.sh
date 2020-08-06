@@ -225,7 +225,7 @@ function instance_types() {
 
     printf "Jump to class: " >> "${output}"
     while read -r class; do
-      printf "[➡%s](#%s)&nbsp; " "${class}" "${class}" >> "${output}"
+      printf "[:black_small_square:%s](#%s)&nbsp; " "${class}" "${class}" >> "${output}"
     done <"${region}-unique-classes.txt"    
     printf "\n\n" >> "${output}"
 
