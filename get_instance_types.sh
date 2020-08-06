@@ -112,20 +112,25 @@ function instance_types() {
   while read -r class; do
     printf "## %s\n\n" "${class}" >> "${output}"
     printf "| Instance Type | ${region_id}-az%d | ${region_id}-az%d | ${region_id}-az%d | ${region_id}-az%d |\n" {1..4} >> "${output}"
-    printf "| ------------- | ------------- | ------------- | ------------- | ------------- |\n" >> "${output}"
+    printf "| ------------- | :-----------: | :-----------: | :-----------: | :-----------: |\n" >> "${output}"
     for type in "${types[@]}"; do
-      printf "| %s.%s |" "${class}" "${type}" >> "${output}"
+      row="| ${class}.${type} |" >> "${output}"
+      local include_row=0
+      local row=""
       for i in {1..4}
       do
         local az_id="${region_id}-az${i}"
         yes_or_no=$(grep -o "${class}.${type}" "${az_id}-raw.txt" | wc -l)
         if [ "${yes_or_no}" = "0" ]; then
-          printf " :red_circle: (No) |" >> "${output}"
+          row="${row} :red_circle: (No) |"
         else
-          printf " :green_circle: (Yes) |" >> "${output}"
+          include_row=1
+          row="${row} :green_circle: (Yes) |"
         fi
       done
-      printf "\n" >> "${output}"
+      if [ "${include_row}" = "1" ]; then
+        printf "%s\n" "${row}" >> "${output}"
+      fi
     done
   done <"${region_id}-unique-classes.txt"
 
