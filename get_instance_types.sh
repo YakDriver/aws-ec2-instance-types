@@ -114,6 +114,9 @@ function update_links() {
   cat "README_header.md" > "${readme_file}"
   cat "offering_header_header.md" > "${offering_header}"
   
+  printf "\nRegions: " >> "${offering_header}"
+  printf "\nRegions: " >> "${readme_file}"
+ 
   while read -r region; do
     # * [us-gov-west-1](./results/usgw1.md)
     local flag=us
@@ -187,7 +190,7 @@ function update_links() {
         ;;
       esac
     printf ":${flag}: [%s](%s.md)&nbsp;  " "${region}" "${region}" >> "${offering_header}"
-    printf ":${flag}: [%s](%s/%s.md)\n" "${region}" "${results_path}" "${region}" >> "${readme_file}"
+    printf ":${flag}: [%s](%s/%s.md)&nbsp;  " "${region}" "${results_path}" "${region}" >> "${readme_file}"
   done <"${regions_file}"
 
   printf "\n" >> "${readme_file}"
@@ -217,7 +220,7 @@ function instance_types() {
 
     printf "Jump to class: " >> "${output}"
     while read -r class; do
-      printf ":radio_button:[%s](#%s)  " "${class}" "${class}" >> "${output}"
+      printf "[➡%s](#%s)  " "${class}" "${class}" >> "${output}"
     done <"${region}-unique-classes.txt"    
     printf "\n\n" >> "${output}"
 
