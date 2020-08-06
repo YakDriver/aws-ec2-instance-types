@@ -105,6 +105,81 @@ function instance_classes() {
   # cat "${az_id}-classes.txt"
 }
 
+function region_flag() {
+  local region=$1
+  local flag=us
+  case "${region}" in
+    sa-east-1)
+      flag=brazil
+      ;;
+
+    me-south-1)
+      flag=bahrain
+      ;;
+
+    eu-west-3)
+      flag=fr
+      ;;
+
+    eu-west-2)
+      flag=uk
+      ;;
+
+    eu-west-1)
+      flag=ireland
+      ;;
+
+    eu-south-1)
+      flag=it
+      ;;
+
+    eu-north-1)
+      flag=sweden
+      ;;
+
+    eu-central-1)
+      flag=de
+      ;;
+
+    ca-central-1)
+      flag=canada
+      ;;
+
+    ap-southeast-2)
+      flag=australia
+      ;;
+
+    ap-southeast-1)
+      flag=singapore
+      ;;
+
+    ap-south-1)
+      flag=india
+      ;;
+
+    ap-northeast-2)
+      flag=kr
+      ;;
+
+    ap-northeast-1)
+      flag=jp
+      ;;
+
+    ap-east-1)
+      flag=hong_kong
+      ;;
+
+    af-south-1)
+      flag=south_africa
+      ;;
+
+    *)
+      flag=us
+      ;;
+  esac
+  echo ":${flag}:"
+}
+
 function update_links() {
   local readme_file="README.md"
   local offering_header="offering_header.md"
@@ -118,82 +193,12 @@ function update_links() {
   printf "\nRegions: " >> "${readme_file}"
  
   while read -r region; do
-    # * [us-gov-west-1](./results/usgw1.md)
-    local flag=us
-    case "${region}" in
-      sa-east-1)
-        flag=brazil
-        ;;
-
-      me-south-1)
-        flag=bahrain
-        ;;
-
-      eu-west-3)
-        flag=fr
-        ;;
-
-      eu-west-2)
-        flag=uk
-        ;;
-
-      eu-west-1)
-        flag=ireland
-        ;;
-
-      eu-south-1)
-        flag=it
-        ;;
-
-      eu-north-1)
-        flag=sweden
-        ;;
-
-      eu-central-1)
-        flag=de
-        ;;
-
-      ca-central-1)
-        flag=canada
-        ;;
-
-      ap-southeast-2)
-        flag=australia
-        ;;
-
-      ap-southeast-1)
-        flag=singapore
-        ;;
-
-      ap-south-1)
-        flag=india
-        ;;
-
-      ap-northeast-2)
-        flag=kr
-        ;;
-
-      ap-northeast-1)
-        flag=jp
-        ;;
-
-      ap-east-1)
-        flag=hong_kong
-        ;;
-
-      af-south-1)
-        flag=south_africa
-        ;;
-
-      *)
-        flag=us
-        ;;
-      esac
-    printf ":${flag}: [%s](%s.md)&nbsp;  " "${region}" "${region}" >> "${offering_header}"
-    printf ":${flag}: [%s](%s/%s.md)&nbsp;  " "${region}" "${results_path}" "${region}" >> "${readme_file}"
+    local flag=$(region_flag "${region}")
+    printf "%s [%s](%s.md)&nbsp;  " "${flag}" "${region}" "${region}" >> "${offering_header}"
+    printf "%s [%s](%s/%s.md)&nbsp;  " "${flag}" "${region}" "${results_path}" "${region}" >> "${readme_file}"
   done <"${regions_file}"
 
-  printf "\n" >> "${readme_file}"
+  printf "\n\n" >> "${readme_file}"
   printf "\n\n" >> "${offering_header}"
 }
 
@@ -215,12 +220,12 @@ function instance_types() {
     cat "${region}-all-classes.txt" | sort -u >> "${region}-unique-classes.txt"
 
     local output="${results_path}/${region}.md"
-    printf "# %s AWS EC2 Instance Types\n\n" "${region}" > "${output}"
+    printf "# %s %s AWS EC2 Instance Types\n\n" "$(region_flag ${region})" "${region}" > "${output}"
     cat "offering_header.md" >> "${output}"
 
     printf "Jump to class: " >> "${output}"
     while read -r class; do
-      printf "[➡%s](#%s)  " "${class}" "${class}" >> "${output}"
+      printf "[➡%s](#%s)&nbsp; " "${class}" "${class}" >> "${output}"
     done <"${region}-unique-classes.txt"    
     printf "\n\n" >> "${output}"
 
