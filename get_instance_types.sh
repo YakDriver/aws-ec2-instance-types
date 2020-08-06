@@ -27,14 +27,14 @@ types+=( "128xlarge" )
 types+=( "256xlarge" )
 types+=( "metal" )
 
-local results_path="./results"
-local regions_file="${results_path}/regions.txt"
+results_path="./results"
+regions_file="${results_path}/regions.txt"
 
 function regions() {
   local aki="${USGAKI}"
   local sak="${USGSAK}"
 
-  AWS_ACCESS_KEY_ID="${aki}" AWS_SECRET_ACCESS_KEY="${sak}" \
+  AWS_ACCESS_KEY_ID="${aki}" AWS_SECRET_ACCESS_KEY="${sak}" AWS_DEFAULT_REGION="us-gov-west-1" \
   aws ec2 describe-regions \
   --query "Regions[] [RegionName]" \
   --output text | sort -ur > "${regions_file}"
@@ -42,7 +42,7 @@ function regions() {
   aki="${STAAKI}"
   sak="${STASAK}"
 
-  AWS_ACCESS_KEY_ID="${aki}" AWS_SECRET_ACCESS_KEY="${sak}" \
+  AWS_ACCESS_KEY_ID="${aki}" AWS_SECRET_ACCESS_KEY="${sak}" AWS_DEFAULT_REGION="us-west-2" \
   aws ec2 describe-regions \
   --query "Regions[] [RegionName]" \
   --output text | sort -ur >> "${regions_file}"

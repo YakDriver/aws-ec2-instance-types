@@ -11,6 +11,8 @@ install:
   - git config --global user.name "YakDriver"
 script:
   - source get_instance_types.sh
+  - regions
+  - azs
   - instance_types usgw1
   - instance_types usge1
   - instance_types usw1
