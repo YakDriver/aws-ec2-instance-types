@@ -114,7 +114,7 @@ function instance_types() {
     printf "| Instance Type | ${region_id}-az%d | ${region_id}-az%d | ${region_id}-az%d | ${region_id}-az%d |\n" {1..4} >> "${output}"
     printf "| ------------- | :-----------: | :-----------: | :-----------: | :-----------: |\n" >> "${output}"
     for type in "${types[@]}"; do
-      row="| ${class}.${type} |" >> "${output}"
+      row="| ${class}.${type} |"
       local include_row=0
       local row=""
       for i in {1..4}
