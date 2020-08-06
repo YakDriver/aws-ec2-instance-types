@@ -1,11 +1,12 @@
-# eu-west-3 AWS EC2 Instance Types
+# :fr: eu-west-3 AWS EC2 Instance Types
 
 ## AWS EC2 Instance Type Availability
 AWS EC2 instance types (e.g., `t2.micro`, `m2.small`) by region and availability zone:
 
-:us: [us-gov-west-1](us-gov-west-1.md)&nbsp;  :us: [us-gov-east-1](us-gov-east-1.md)&nbsp;  :us: [us-west-2](us-west-2.md)&nbsp;  :us: [us-west-1](us-west-1.md)&nbsp;  :us: [us-east-2](us-east-2.md)&nbsp;  :us: [us-east-1](us-east-1.md)&nbsp;  :brazil: [sa-east-1](sa-east-1.md)&nbsp;  :bahrain: [me-south-1](me-south-1.md)&nbsp;  :fr: [eu-west-3](eu-west-3.md)&nbsp;  :uk: [eu-west-2](eu-west-2.md)&nbsp;  :ireland: [eu-west-1](eu-west-1.md)&nbsp;  :it: [eu-south-1](eu-south-1.md)&nbsp;  :sweden: [eu-north-1](eu-north-1.md)&nbsp;  :de: [eu-central-1](eu-central-1.md)&nbsp;  :canada: [ca-central-1](ca-central-1.md)&nbsp;  :australia: [ap-southeast-2](ap-southeast-2.md)&nbsp;  :singapore: [ap-southeast-1](ap-southeast-1.md)&nbsp;  :india: [ap-south-1](ap-south-1.md)&nbsp;  :kr: [ap-northeast-2](ap-northeast-2.md)&nbsp;  :jp: [ap-northeast-1](ap-northeast-1.md)&nbsp;  :hong_kong: [ap-east-1](ap-east-1.md)&nbsp;  :south_africa: [af-south-1](af-south-1.md)&nbsp;  
 
-Jump to class: :radio_button:[c5](#c5)  :radio_button:[c5d](#c5d)  :radio_button:[d2](#d2)  :radio_button:[g4dn](#g4dn)  :radio_button:[i3](#i3)  :radio_button:[i3en](#i3en)  :radio_button:[m5](#m5)  :radio_button:[m5a](#m5a)  :radio_button:[m5ad](#m5ad)  :radio_button:[m5d](#m5d)  :radio_button:[r4](#r4)  :radio_button:[r5](#r5)  :radio_button:[r5a](#r5a)  :radio_button:[r5ad](#r5ad)  :radio_button:[r5d](#r5d)  :radio_button:[t2](#t2)  :radio_button:[t3](#t3)  :radio_button:[t3a](#t3a)  :radio_button:[x1](#x1)  
+Regions: :us: [us-gov-west-1](us-gov-west-1.md)&nbsp;  :us: [us-gov-east-1](us-gov-east-1.md)&nbsp;  :us: [us-west-2](us-west-2.md)&nbsp;  :us: [us-west-1](us-west-1.md)&nbsp;  :us: [us-east-2](us-east-2.md)&nbsp;  :us: [us-east-1](us-east-1.md)&nbsp;  :brazil: [sa-east-1](sa-east-1.md)&nbsp;  :bahrain: [me-south-1](me-south-1.md)&nbsp;  :fr: [eu-west-3](eu-west-3.md)&nbsp;  :uk: [eu-west-2](eu-west-2.md)&nbsp;  :ireland: [eu-west-1](eu-west-1.md)&nbsp;  :it: [eu-south-1](eu-south-1.md)&nbsp;  :sweden: [eu-north-1](eu-north-1.md)&nbsp;  :de: [eu-central-1](eu-central-1.md)&nbsp;  :canada: [ca-central-1](ca-central-1.md)&nbsp;  :australia: [ap-southeast-2](ap-southeast-2.md)&nbsp;  :singapore: [ap-southeast-1](ap-southeast-1.md)&nbsp;  :india: [ap-south-1](ap-south-1.md)&nbsp;  :kr: [ap-northeast-2](ap-northeast-2.md)&nbsp;  :jp: [ap-northeast-1](ap-northeast-1.md)&nbsp;  :hong_kong: [ap-east-1](ap-east-1.md)&nbsp;  :south_africa: [af-south-1](af-south-1.md)&nbsp;  
+
+Jump to class: [➡c5](#c5)&nbsp; [➡c5d](#c5d)&nbsp; [➡d2](#d2)&nbsp; [➡g4dn](#g4dn)&nbsp; [➡i3](#i3)&nbsp; [➡i3en](#i3en)&nbsp; [➡m5](#m5)&nbsp; [➡m5a](#m5a)&nbsp; [➡m5ad](#m5ad)&nbsp; [➡m5d](#m5d)&nbsp; [➡r4](#r4)&nbsp; [➡r5](#r5)&nbsp; [➡r5a](#r5a)&nbsp; [➡r5ad](#r5ad)&nbsp; [➡r5d](#r5d)&nbsp; [➡t2](#t2)&nbsp; [➡t3](#t3)&nbsp; [➡t3a](#t3a)&nbsp; [➡x1](#x1)&nbsp; 
 
 ## c5
 
