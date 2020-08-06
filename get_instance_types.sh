@@ -116,7 +116,6 @@ function update_links() {
   
   while read -r region; do
     # * [us-gov-west-1](./results/usgw1.md)
-    printf "* [%s](%s/%s.md)\n" "${region}" "${results_path}" "${region}" >> "${readme_file}"
     local flag=us
     case "${region}" in
       sa-east-1)
@@ -128,7 +127,7 @@ function update_links() {
         ;;
 
       eu-west-3)
-        flag=france
+        flag=fr
         ;;
 
       eu-west-2)
@@ -140,7 +139,7 @@ function update_links() {
         ;;
 
       eu-south-1)
-        flag=italy
+        flag=it
         ;;
 
       eu-north-1)
@@ -148,7 +147,7 @@ function update_links() {
         ;;
 
       eu-central-1)
-        flag=germany
+        flag=de
         ;;
 
       ca-central-1)
@@ -168,11 +167,11 @@ function update_links() {
         ;;
 
       ap-northeast-2)
-        flag=korea
+        flag=kr
         ;;
 
       ap-northeast-1)
-        flag=japan
+        flag=jp
         ;;
 
       ap-east-1)
@@ -187,7 +186,8 @@ function update_links() {
         flag=us
         ;;
       esac
-    printf ":${flag}: [%s](%s.md) " "${region}" "${region}" >> "${offering_header}"
+    printf ":${flag}: [%s](%s.md)&nbsp;  " "${region}" "${region}" >> "${offering_header}"
+    printf ":${flag}: [%s](%s/%s.md)\n" "${region}" "${results_path}" "${region}" >> "${readme_file}"
   done <"${regions_file}"
 
   printf "\n" >> "${readme_file}"
@@ -215,9 +215,11 @@ function instance_types() {
     printf "# %s AWS EC2 Instance Types\n\n" "${region}" > "${output}"
     cat "offering_header.md" >> "${output}"
 
+    printf "Jump to class: " >> "${output}"
     while read -r class; do
-      printf "[%s](#%s) " "${class}" "${class}" >> "${output}"
+      printf ":radio_button:[%s](#%s)  " "${class}" "${class}" >> "${output}"
     done <"${region}-unique-classes.txt"    
+    printf "\n\n" >> "${output}"
 
     local yes_or_no=""
     while read -r class; do
