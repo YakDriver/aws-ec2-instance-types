@@ -1,0 +1,3 @@
+afs1-az1
+afs1-az2
+afs1-az3

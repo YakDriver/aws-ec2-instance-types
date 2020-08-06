@@ -1,0 +1,3 @@
+euc1-az1
+euc1-az2
+euc1-az3
