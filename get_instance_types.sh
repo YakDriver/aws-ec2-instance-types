@@ -78,8 +78,8 @@ function raw_instance_types() {
     --query "InstanceTypeOfferings[] [InstanceType]" \
     --output text | sort -u > "${az_id}-raw.txt"
 
-  echo "Raw instance types:"
-  cat "${az_id}-raw.txt"
+  # echo "Raw instance types:"
+  # cat "${az_id}-raw.txt"
 }
 
 function instance_classes() {
@@ -88,8 +88,8 @@ function instance_classes() {
   perl -p -i -e 's/^([a-z0-9]+)\..*$/$1/g' "${az_id}-preclasses.txt"
   cat "${az_id}-preclasses.txt" | sort -u > "${az_id}-classes.txt"
 
-  echo "Instance classes:"
-  cat "${az_id}-classes.txt"
+  # echo "Instance classes:"
+  # cat "${az_id}-classes.txt"
 }
 
 function instance_types() {
@@ -120,9 +120,9 @@ function instance_types() {
         local az_id="${region_id}-az${i}"
         yes_or_no=$(grep -o "${class}.${type}" "${az_id}-raw.txt" | wc -l)
         if [ "${yes_or_no}" = "0" ]; then
-          printf " No |" >> "${output}"
+          printf " :red_circle: (No) |" >> "${output}"
         else
-          printf " Yes |" >> "${output}"
+          printf " :green_circle: (Yes) |" >> "${output}"
         fi
       done
       printf "\n" >> "${output}"
