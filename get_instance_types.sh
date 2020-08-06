@@ -107,7 +107,7 @@ function instance_types() {
   
   local output="./results/${region_id}.md"
   cat "offering_header.md" > "${output}"
-  printf "# %s (%s)\n\n" "${region}" "${region_id}" >> "${output}"
+  printf "# %s (%s) AWS EC2 Instance Types\n\n" "${region}" "${region_id}" >> "${output}"
   
   local yes_or_no=""
   while read -r class; do
