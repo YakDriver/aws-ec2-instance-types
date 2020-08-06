@@ -3,9 +3,11 @@
 ## AWS EC2 Instance Type Availability
 AWS EC2 instance types (e.g., `t2.micro`, `m2.small`) by region and availability zone:
 
-:us: [us-gov-west-1](us-gov-west-1.md) :us: [us-gov-east-1](us-gov-east-1.md) :us: [us-west-2](us-west-2.md) :us: [us-west-1](us-west-1.md) :us: [us-east-2](us-east-2.md) :us: [us-east-1](us-east-1.md) :brazil: [sa-east-1](sa-east-1.md) :bahrain: [me-south-1](me-south-1.md) :france: [eu-west-3](eu-west-3.md) :uk: [eu-west-2](eu-west-2.md) :ireland: [eu-west-1](eu-west-1.md) :italy: [eu-south-1](eu-south-1.md) :sweden: [eu-north-1](eu-north-1.md) :germany: [eu-central-1](eu-central-1.md) :canada: [ca-central-1](ca-central-1.md) :australia: [ap-southeast-2](ap-southeast-2.md) :singapore: [ap-southeast-1](ap-southeast-1.md) :india: [ap-south-1](ap-south-1.md) :korea: [ap-northeast-2](ap-northeast-2.md) :japan: [ap-northeast-1](ap-northeast-1.md) :hong_kong: [ap-east-1](ap-east-1.md) :south_africa: [af-south-1](af-south-1.md) 
+:us: [us-gov-west-1](us-gov-west-1.md)&nbsp;  :us: [us-gov-east-1](us-gov-east-1.md)&nbsp;  :us: [us-west-2](us-west-2.md)&nbsp;  :us: [us-west-1](us-west-1.md)&nbsp;  :us: [us-east-2](us-east-2.md)&nbsp;  :us: [us-east-1](us-east-1.md)&nbsp;  :brazil: [sa-east-1](sa-east-1.md)&nbsp;  :bahrain: [me-south-1](me-south-1.md)&nbsp;  :fr: [eu-west-3](eu-west-3.md)&nbsp;  :uk: [eu-west-2](eu-west-2.md)&nbsp;  :ireland: [eu-west-1](eu-west-1.md)&nbsp;  :it: [eu-south-1](eu-south-1.md)&nbsp;  :sweden: [eu-north-1](eu-north-1.md)&nbsp;  :de: [eu-central-1](eu-central-1.md)&nbsp;  :canada: [ca-central-1](ca-central-1.md)&nbsp;  :australia: [ap-southeast-2](ap-southeast-2.md)&nbsp;  :singapore: [ap-southeast-1](ap-southeast-1.md)&nbsp;  :india: [ap-south-1](ap-south-1.md)&nbsp;  :kr: [ap-northeast-2](ap-northeast-2.md)&nbsp;  :jp: [ap-northeast-1](ap-northeast-1.md)&nbsp;  :hong_kong: [ap-east-1](ap-east-1.md)&nbsp;  :south_africa: [af-south-1](af-south-1.md)&nbsp;  
 
-[c5](#c5) [c5d](#c5d) [d2](#d2) [i3](#i3) [m5](#m5) [m5d](#m5d) [r5](#r5) [r5d](#r5d) [t3](#t3) ## c5
+Jump to class: :radio_button:[c5](#c5)  :radio_button:[c5d](#c5d)  :radio_button:[d2](#d2)  :radio_button:[i3](#i3)  :radio_button:[m5](#m5)  :radio_button:[m5d](#m5d)  :radio_button:[r5](#r5)  :radio_button:[r5d](#r5d)  :radio_button:[t3](#t3)  
+
+## c5
 
 | Instance Type | afs1-az1 | afs1-az2 | afs1-az3 |
 | ------------- | :-------------: | :-------------: | :-------------: |
