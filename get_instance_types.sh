@@ -115,9 +115,79 @@ function update_links() {
   cat "offering_header_header.md" > "${offering_header}"
   
   while read -r region; do
-    # * [us-gov-west-1](./results/usgw1.md) 
+    # * [us-gov-west-1](./results/usgw1.md)
     printf "* [%s](%s/%s.md)\n" "${region}" "${results_path}" "${region}" >> "${readme_file}"
-    printf "[:large_orange_diamond: %s](%s.md) " "${region}" "${region}" >> "${offering_header}"
+    local flag=us
+    case "${region}" in
+      sa-east-1)
+        flag=brazil
+        ;;
+
+      me-south-1)
+        flag=bahrain
+        ;;
+
+      eu-west-3)
+        flag=france
+        ;;
+
+      eu-west-2)
+        flag=uk
+        ;;
+
+      eu-west-1)
+        flag=ireland
+        ;;
+
+      eu-south-1)
+        flag=italy
+        ;;
+
+      eu-north-1)
+        flag=sweden
+        ;;
+
+      eu-central-1)
+        flag=germany
+        ;;
+
+      ca-central-1)
+        flag=canada
+        ;;
+
+      ap-southeast-2)
+        flag=australia
+        ;;
+
+      ap-southeast-1)
+        flag=singapore
+        ;;
+
+      ap-south-1)
+        flag=india
+        ;;
+
+      ap-northeast-2)
+        flag=korea
+        ;;
+
+      ap-northeast-1)
+        flag=japan
+        ;;
+
+      ap-east-1)
+        flag=hong_kong
+        ;;
+
+      af-south-1)
+        flag=south_africa
+        ;;
+
+      *)
+        flag=us
+        ;;
+      esac
+    printf ":${flag}: [%s](%s.md) " "${region}" "${region}" >> "${offering_header}"
   done <"${regions_file}"
 
   printf "\n" >> "${readme_file}"
@@ -139,12 +209,15 @@ function instance_types() {
     done <"${results_path}/${region}.txt"
 
     # add common up top
-    printf "%s\n" "t1" "t2" "t3" "m1" "m2" "m3" > "${region}-unique-classes.txt"
     cat "${region}-all-classes.txt" | sort -u >> "${region}-unique-classes.txt"
 
     local output="${results_path}/${region}.md"
     printf "# %s AWS EC2 Instance Types\n\n" "${region}" > "${output}"
     cat "offering_header.md" >> "${output}"
+
+    while read -r class; do
+      printf "[%s](#%s) " "${class}" "${class}" >> "${output}"
+    done <"${region}-unique-classes.txt"    
 
     local yes_or_no=""
     while read -r class; do
