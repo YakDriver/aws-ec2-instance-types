@@ -106,7 +106,8 @@ function instance_types() {
   cat "${region_id}-all-classes.txt" | sort -u >> "${region_id}-unique-classes.txt"
   
   local output="./results/${region_id}.md"
-  printf "# %s (%s)\n\n" "${region}" "${region_id}" > "${output}"
+  cat "offering_header.md" > "${output}"
+  printf "# %s (%s)\n\n" "${region}" "${region_id}" >> "${output}"
   
   local yes_or_no=""
   while read -r class; do
