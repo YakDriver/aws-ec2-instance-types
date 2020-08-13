@@ -151,14 +151,14 @@ Jump to class: [:black_small_square:c1](#c1)&nbsp; [:black_small_square:c3](#c3)
 
 | Instance Type | sae1-az1 | sae1-az2 | sae1-az3 |
 | ------------- | :-------------: | :-------------: | :-------------: |
-| m5a.large | :green_circle: | :red_circle: | :green_circle: |
-| m5a.xlarge | :green_circle: | :red_circle: | :green_circle: |
-| m5a.2xlarge | :green_circle: | :red_circle: | :green_circle: |
-| m5a.4xlarge | :green_circle: | :red_circle: | :green_circle: |
-| m5a.8xlarge | :green_circle: | :red_circle: | :green_circle: |
-| m5a.12xlarge | :green_circle: | :red_circle: | :green_circle: |
-| m5a.16xlarge | :green_circle: | :red_circle: | :green_circle: |
-| m5a.24xlarge | :green_circle: | :red_circle: | :green_circle: |
+| m5a.large | :green_circle: | :green_circle: | :green_circle: |
+| m5a.xlarge | :green_circle: | :green_circle: | :green_circle: |
+| m5a.2xlarge | :green_circle: | :green_circle: | :green_circle: |
+| m5a.4xlarge | :green_circle: | :green_circle: | :green_circle: |
+| m5a.8xlarge | :green_circle: | :green_circle: | :green_circle: |
+| m5a.12xlarge | :green_circle: | :green_circle: | :green_circle: |
+| m5a.16xlarge | :green_circle: | :green_circle: | :green_circle: |
+| m5a.24xlarge | :green_circle: | :green_circle: | :green_circle: |
 ## m5ad
 
 | Instance Type | sae1-az1 | sae1-az2 | sae1-az3 |
@@ -284,13 +284,13 @@ Jump to class: [:black_small_square:c1](#c1)&nbsp; [:black_small_square:c3](#c3)
 
 | Instance Type | sae1-az1 | sae1-az2 | sae1-az3 |
 | ------------- | :-------------: | :-------------: | :-------------: |
-| t3a.nano | :green_circle: | :red_circle: | :green_circle: |
-| t3a.micro | :green_circle: | :red_circle: | :green_circle: |
-| t3a.small | :green_circle: | :red_circle: | :green_circle: |
-| t3a.medium | :green_circle: | :red_circle: | :green_circle: |
-| t3a.large | :green_circle: | :red_circle: | :green_circle: |
-| t3a.xlarge | :green_circle: | :red_circle: | :green_circle: |
-| t3a.2xlarge | :green_circle: | :red_circle: | :green_circle: |
+| t3a.nano | :green_circle: | :green_circle: | :green_circle: |
+| t3a.micro | :green_circle: | :green_circle: | :green_circle: |
+| t3a.small | :green_circle: | :green_circle: | :green_circle: |
+| t3a.medium | :green_circle: | :green_circle: | :green_circle: |
+| t3a.large | :green_circle: | :green_circle: | :green_circle: |
+| t3a.xlarge | :green_circle: | :green_circle: | :green_circle: |
+| t3a.2xlarge | :green_circle: | :green_circle: | :green_circle: |
 ## x1
 
 | Instance Type | sae1-az1 | sae1-az2 | sae1-az3 |
