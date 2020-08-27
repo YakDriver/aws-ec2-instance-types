@@ -206,7 +206,15 @@ function spot_price() {
   local region=$1
   local instance_type=$2
 
-  price=$(AWS_DEFAULT_REGION="${region}" \
+  if [[ "${region}" == *"gov"* ]]; then
+    aki="${USGAKI}"
+    sak="${USGSAK}"
+  else
+    aki="${STAAKI}"
+    sak="${STASAK}"
+  fi
+
+  price=$(AWS_ACCESS_KEY_ID="${aki}" AWS_SECRET_ACCESS_KEY="${sak}" AWS_DEFAULT_REGION="${region}" \
   aws ec2 describe-spot-price-history \
   --instance-types "${instance_type}" \
   --product-description "Linux/UNIX (Amazon VPC)" \
