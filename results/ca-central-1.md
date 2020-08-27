@@ -61,13 +61,13 @@ Jump to class: [:black_small_square:c4](#c4)&nbsp; [:black_small_square:c5](#c5)
 
 | Instance Type | cac1-az1 | cac1-az2 | cac1-az4 |
 | ------------- | :-------------: | :-------------: | :-------------: |
-| c5n.large | :green_circle: | :green_circle: | :red_circle: |
-| c5n.xlarge | :green_circle: | :green_circle: | :red_circle: |
-| c5n.2xlarge | :green_circle: | :green_circle: | :red_circle: |
-| c5n.4xlarge | :green_circle: | :green_circle: | :red_circle: |
-| c5n.9xlarge | :green_circle: | :green_circle: | :red_circle: |
-| c5n.18xlarge | :green_circle: | :green_circle: | :red_circle: |
-| c5n.metal | :green_circle: | :green_circle: | :red_circle: |
+| c5n.large | :green_circle: | :green_circle: | :green_circle: |
+| c5n.xlarge | :green_circle: | :green_circle: | :green_circle: |
+| c5n.2xlarge | :green_circle: | :green_circle: | :green_circle: |
+| c5n.4xlarge | :green_circle: | :green_circle: | :green_circle: |
+| c5n.9xlarge | :green_circle: | :green_circle: | :green_circle: |
+| c5n.18xlarge | :green_circle: | :green_circle: | :green_circle: |
+| c5n.metal | :green_circle: | :green_circle: | :green_circle: |
 ## d2
 
 | Instance Type | cac1-az1 | cac1-az2 | cac1-az4 |

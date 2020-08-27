@@ -90,13 +90,13 @@ Jump to class: [:black_small_square:a1](#a1)&nbsp; [:black_small_square:c3](#c3)
 
 | Instance Type | euc1-az1 | euc1-az2 | euc1-az3 |
 | ------------- | :-------------: | :-------------: | :-------------: |
-| c5n.large | :red_circle: | :green_circle: | :green_circle: |
-| c5n.xlarge | :red_circle: | :green_circle: | :green_circle: |
-| c5n.2xlarge | :red_circle: | :green_circle: | :green_circle: |
-| c5n.4xlarge | :red_circle: | :green_circle: | :green_circle: |
-| c5n.9xlarge | :red_circle: | :green_circle: | :green_circle: |
-| c5n.18xlarge | :red_circle: | :green_circle: | :green_circle: |
-| c5n.metal | :red_circle: | :green_circle: | :green_circle: |
+| c5n.large | :green_circle: | :green_circle: | :green_circle: |
+| c5n.xlarge | :green_circle: | :green_circle: | :green_circle: |
+| c5n.2xlarge | :green_circle: | :green_circle: | :green_circle: |
+| c5n.4xlarge | :green_circle: | :green_circle: | :green_circle: |
+| c5n.9xlarge | :green_circle: | :green_circle: | :green_circle: |
+| c5n.18xlarge | :green_circle: | :green_circle: | :green_circle: |
+| c5n.metal | :green_circle: | :green_circle: | :green_circle: |
 ## c6g
 
 | Instance Type | euc1-az1 | euc1-az2 | euc1-az3 |

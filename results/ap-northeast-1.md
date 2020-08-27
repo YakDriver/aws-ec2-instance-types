@@ -272,26 +272,28 @@ Jump to class: [:black_small_square:a1](#a1)&nbsp; [:black_small_square:c1](#c1)
 
 | Instance Type | apne1-az1 | apne1-az2 | apne1-az4 |
 | ------------- | :-------------: | :-------------: | :-------------: |
-| m5dn.large | :green_circle: | :green_circle: | :red_circle: |
-| m5dn.xlarge | :green_circle: | :green_circle: | :red_circle: |
-| m5dn.2xlarge | :green_circle: | :green_circle: | :red_circle: |
-| m5dn.4xlarge | :green_circle: | :green_circle: | :red_circle: |
-| m5dn.8xlarge | :green_circle: | :green_circle: | :red_circle: |
-| m5dn.12xlarge | :green_circle: | :green_circle: | :red_circle: |
-| m5dn.16xlarge | :green_circle: | :green_circle: | :red_circle: |
-| m5dn.24xlarge | :green_circle: | :green_circle: | :red_circle: |
+| m5dn.large | :green_circle: | :green_circle: | :green_circle: |
+| m5dn.xlarge | :green_circle: | :green_circle: | :green_circle: |
+| m5dn.2xlarge | :green_circle: | :green_circle: | :green_circle: |
+| m5dn.4xlarge | :green_circle: | :green_circle: | :green_circle: |
+| m5dn.8xlarge | :green_circle: | :green_circle: | :green_circle: |
+| m5dn.12xlarge | :green_circle: | :green_circle: | :green_circle: |
+| m5dn.16xlarge | :green_circle: | :green_circle: | :green_circle: |
+| m5dn.24xlarge | :green_circle: | :green_circle: | :green_circle: |
+| m5dn.metal | :red_circle: | :red_circle: | :green_circle: |
 ## m5n
 
 | Instance Type | apne1-az1 | apne1-az2 | apne1-az4 |
 | ------------- | :-------------: | :-------------: | :-------------: |
-| m5n.large | :green_circle: | :green_circle: | :red_circle: |
-| m5n.xlarge | :green_circle: | :green_circle: | :red_circle: |
-| m5n.2xlarge | :green_circle: | :green_circle: | :red_circle: |
-| m5n.4xlarge | :green_circle: | :green_circle: | :red_circle: |
-| m5n.8xlarge | :green_circle: | :green_circle: | :red_circle: |
-| m5n.12xlarge | :green_circle: | :green_circle: | :red_circle: |
-| m5n.16xlarge | :green_circle: | :green_circle: | :red_circle: |
-| m5n.24xlarge | :green_circle: | :green_circle: | :red_circle: |
+| m5n.large | :green_circle: | :green_circle: | :green_circle: |
+| m5n.xlarge | :green_circle: | :green_circle: | :green_circle: |
+| m5n.2xlarge | :green_circle: | :green_circle: | :green_circle: |
+| m5n.4xlarge | :green_circle: | :green_circle: | :green_circle: |
+| m5n.8xlarge | :green_circle: | :green_circle: | :green_circle: |
+| m5n.12xlarge | :green_circle: | :green_circle: | :green_circle: |
+| m5n.16xlarge | :green_circle: | :green_circle: | :green_circle: |
+| m5n.24xlarge | :green_circle: | :green_circle: | :green_circle: |
+| m5n.metal | :red_circle: | :red_circle: | :green_circle: |
 ## m6g
 
 | Instance Type | apne1-az1 | apne1-az2 | apne1-az4 |
@@ -397,26 +399,28 @@ Jump to class: [:black_small_square:a1](#a1)&nbsp; [:black_small_square:c1](#c1)
 
 | Instance Type | apne1-az1 | apne1-az2 | apne1-az4 |
 | ------------- | :-------------: | :-------------: | :-------------: |
-| r5dn.large | :green_circle: | :green_circle: | :red_circle: |
-| r5dn.xlarge | :green_circle: | :green_circle: | :red_circle: |
-| r5dn.2xlarge | :green_circle: | :green_circle: | :red_circle: |
-| r5dn.4xlarge | :green_circle: | :green_circle: | :red_circle: |
-| r5dn.8xlarge | :green_circle: | :green_circle: | :red_circle: |
-| r5dn.12xlarge | :green_circle: | :green_circle: | :red_circle: |
-| r5dn.16xlarge | :green_circle: | :green_circle: | :red_circle: |
-| r5dn.24xlarge | :green_circle: | :green_circle: | :red_circle: |
+| r5dn.large | :green_circle: | :green_circle: | :green_circle: |
+| r5dn.xlarge | :green_circle: | :green_circle: | :green_circle: |
+| r5dn.2xlarge | :green_circle: | :green_circle: | :green_circle: |
+| r5dn.4xlarge | :green_circle: | :green_circle: | :green_circle: |
+| r5dn.8xlarge | :green_circle: | :green_circle: | :green_circle: |
+| r5dn.12xlarge | :green_circle: | :green_circle: | :green_circle: |
+| r5dn.16xlarge | :green_circle: | :green_circle: | :green_circle: |
+| r5dn.24xlarge | :green_circle: | :green_circle: | :green_circle: |
+| r5dn.metal | :red_circle: | :red_circle: | :green_circle: |
 ## r5n
 
 | Instance Type | apne1-az1 | apne1-az2 | apne1-az4 |
 | ------------- | :-------------: | :-------------: | :-------------: |
-| r5n.large | :green_circle: | :green_circle: | :red_circle: |
-| r5n.xlarge | :green_circle: | :green_circle: | :red_circle: |
-| r5n.2xlarge | :green_circle: | :green_circle: | :red_circle: |
-| r5n.4xlarge | :green_circle: | :green_circle: | :red_circle: |
-| r5n.8xlarge | :green_circle: | :green_circle: | :red_circle: |
-| r5n.12xlarge | :green_circle: | :green_circle: | :red_circle: |
-| r5n.16xlarge | :green_circle: | :green_circle: | :red_circle: |
-| r5n.24xlarge | :green_circle: | :green_circle: | :red_circle: |
+| r5n.large | :green_circle: | :green_circle: | :green_circle: |
+| r5n.xlarge | :green_circle: | :green_circle: | :green_circle: |
+| r5n.2xlarge | :green_circle: | :green_circle: | :green_circle: |
+| r5n.4xlarge | :green_circle: | :green_circle: | :green_circle: |
+| r5n.8xlarge | :green_circle: | :green_circle: | :green_circle: |
+| r5n.12xlarge | :green_circle: | :green_circle: | :green_circle: |
+| r5n.16xlarge | :green_circle: | :green_circle: | :green_circle: |
+| r5n.24xlarge | :green_circle: | :green_circle: | :green_circle: |
+| r5n.metal | :red_circle: | :red_circle: | :green_circle: |
 ## r6g
 
 | Instance Type | apne1-az1 | apne1-az2 | apne1-az4 |
