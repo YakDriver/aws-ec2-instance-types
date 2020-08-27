@@ -202,6 +202,20 @@ function update_links() {
   printf "\n\n" >> "${offering_header}"
 }
 
+function spot_price() {
+  local region=$1
+  local instance_type=$2
+
+  price=$(AWS_DEFAULT_REGION="${region}" \
+  aws ec2 describe-spot-price-history \
+  --instance-types "${instance_type}" \
+  --product-description "Linux/UNIX (Amazon VPC)" \
+  --query "SpotPriceHistory[] [SpotPrice]" \
+  --start-time 2020-08-27 \
+  --end-time 2020-08-27 \
+  --output text | sort -ur | head -n 1)
+}
+
 function instance_types() {
   regions
   azs
@@ -241,6 +255,9 @@ function instance_types() {
         table_header_bar="${table_header_bar} :-------------: |"
       done <"${results_path}/${region}.txt"
 
+      # for spot
+      table_header_bar="${table_header_bar} -------------: |"
+
       printf "\n%s\n" "${table_header_bar}" >> "${output}"
 
       for type in "${types[@]}"; do
@@ -256,6 +273,9 @@ function instance_types() {
           fi
         done <"${results_path}/${region}.txt"
         if [ "${include_row}" = "1" ]; then
+          price="none"
+          spot_price "${region}" "${class}.${type}" 
+          row="${row} ${price} |"
           printf "%s\n" "${row}" >> "${output}"
         fi
       done
