@@ -221,7 +221,7 @@ function spot_prices() {
     aws ec2 describe-spot-price-history \
     --product-description "Linux/UNIX (Amazon VPC)" \
     --query "SpotPriceHistory[*].{type:InstanceType,price:SpotPrice}" \
-    --start-time ${today} \
+    --start-time ${yesterday} \
     --end-time ${today} \
     --output json > "${prices_file}"
 }
