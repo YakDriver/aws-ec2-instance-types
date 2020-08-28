@@ -285,8 +285,8 @@ function instance_types() {
         done <"${results_path}/${region}.txt"
         if [ "${include_row}" = "1" ]; then
           price=$(jq '[ .[] | select(.type == "'"${class}.${type}"'").price ] | max' "${results_path}/spot-prices-${region}.json")
-          row="${row} ${price} |"
-          printf "%s\n" "${row}" >> "${output}"
+          price=$(sed -e 's/^"//' -e 's/"$//' <<<"${price}")
+          printf "%s %.3f |\n" "${row}" "${price}" >> "${output}"
         fi
       done
     done <"${region}-unique-classes.txt"
