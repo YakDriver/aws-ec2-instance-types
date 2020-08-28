@@ -10,4 +10,8 @@ aws ec2 describe-spot-price-history \
 --end-time ${today} \
 --output json > spot-prices-us-west-2.json
 
-jq '[ .[] | select(.type == "m5a.large").price ] | max' spot-prices-us-west-2.json
+class="m5a"
+type="large"
+results_path="./results"
+region="us-east-1"
+jq '[ .[] | select(.type == "'"${class}.${type}"'").price ] | max' "${results_path}/spot-prices-${region}.json"

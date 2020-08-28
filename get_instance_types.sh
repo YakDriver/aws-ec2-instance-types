@@ -266,6 +266,7 @@ function instance_types() {
       done <"${results_path}/${region}.txt"
 
       # for spot
+      printf " %s |" "Spot price" >> "${output}"
       table_header_bar="${table_header_bar} -------------: |"
 
       printf "\n%s\n" "${table_header_bar}" >> "${output}"
@@ -283,7 +284,7 @@ function instance_types() {
           fi
         done <"${results_path}/${region}.txt"
         if [ "${include_row}" = "1" ]; then
-          price=$(jq '[ .[] | select(.type == "${class}.${type}").price ] | max' ${results_path}/spot-prices-${region}.json)
+          price=$(jq '[ .[] | select(.type == "'"${class}.${type}"'").price ] | max' "${results_path}/spot-prices-${region}.json")
           row="${row} ${price} |"
           printf "%s\n" "${row}" >> "${output}"
         fi
