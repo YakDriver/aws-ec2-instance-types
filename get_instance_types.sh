@@ -256,7 +256,7 @@ function instance_types() {
 
     local yes_or_no=""
     while read -r class; do
-      printf "## %s\n\n" "${class}" >> "${output}"
+      printf "\n\n## %s\n\n" "${class}" >> "${output}"
 
       local table_header_bar="| ------------- |"
       printf "| Instance Type |" >> "${output}"
