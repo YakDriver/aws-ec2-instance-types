@@ -10,325 +10,325 @@ Jump to class: [:black_small_square:c4](#c4)&nbsp; [:black_small_square:c5](#c5)
 
 ## c4
 
-| Instance Type | apne2-az1 | apne2-az2 | apne2-az3 | apne2-az4 |
+| Instance Type | apne2-az1 | apne2-az2 | apne2-az3 | apne2-az4 | Spot price |
 | ------------- | :-------------: | :-------------: | :-------------: | :-------------: | -------------: |
-| c4.large | :green_circle: | :red_circle: | :green_circle: | :red_circle: | null |
-| c4.xlarge | :green_circle: | :red_circle: | :green_circle: | :red_circle: | null |
-| c4.2xlarge | :green_circle: | :red_circle: | :green_circle: | :red_circle: | null |
-| c4.4xlarge | :green_circle: | :red_circle: | :green_circle: | :red_circle: | null |
-| c4.8xlarge | :green_circle: | :red_circle: | :green_circle: | :red_circle: | null |
+| c4.large | :green_circle: | :red_circle: | :green_circle: | :red_circle: | "0.028500" |
+| c4.xlarge | :green_circle: | :red_circle: | :green_circle: | :red_circle: | "0.057100" |
+| c4.2xlarge | :green_circle: | :red_circle: | :green_circle: | :red_circle: | "0.114200" |
+| c4.4xlarge | :green_circle: | :red_circle: | :green_circle: | :red_circle: | "0.230700" |
+| c4.8xlarge | :green_circle: | :red_circle: | :green_circle: | :red_circle: | "0.456600" |
 ## c5
 
-| Instance Type | apne2-az1 | apne2-az2 | apne2-az3 | apne2-az4 |
+| Instance Type | apne2-az1 | apne2-az2 | apne2-az3 | apne2-az4 | Spot price |
 | ------------- | :-------------: | :-------------: | :-------------: | :-------------: | -------------: |
-| c5.large | :green_circle: | :green_circle: | :green_circle: | :green_circle: | null |
-| c5.xlarge | :green_circle: | :green_circle: | :green_circle: | :green_circle: | null |
-| c5.2xlarge | :green_circle: | :green_circle: | :green_circle: | :green_circle: | null |
-| c5.4xlarge | :green_circle: | :green_circle: | :green_circle: | :green_circle: | null |
-| c5.9xlarge | :green_circle: | :green_circle: | :green_circle: | :green_circle: | null |
-| c5.12xlarge | :green_circle: | :green_circle: | :green_circle: | :green_circle: | null |
-| c5.18xlarge | :green_circle: | :green_circle: | :green_circle: | :green_circle: | null |
-| c5.24xlarge | :green_circle: | :green_circle: | :green_circle: | :green_circle: | null |
-| c5.metal | :green_circle: | :green_circle: | :green_circle: | :green_circle: | null |
+| c5.large | :green_circle: | :green_circle: | :green_circle: | :green_circle: | "0.030700" |
+| c5.xlarge | :green_circle: | :green_circle: | :green_circle: | :green_circle: | "0.061400" |
+| c5.2xlarge | :green_circle: | :green_circle: | :green_circle: | :green_circle: | "0.254700" |
+| c5.4xlarge | :green_circle: | :green_circle: | :green_circle: | :green_circle: | "0.239700" |
+| c5.9xlarge | :green_circle: | :green_circle: | :green_circle: | :green_circle: | "0.539400" |
+| c5.12xlarge | :green_circle: | :green_circle: | :green_circle: | :green_circle: | "0.719200" |
+| c5.18xlarge | :green_circle: | :green_circle: | :green_circle: | :green_circle: | "1.078800" |
+| c5.24xlarge | :green_circle: | :green_circle: | :green_circle: | :green_circle: | "1.438400" |
+| c5.metal | :green_circle: | :green_circle: | :green_circle: | :green_circle: | "1.438400" |
 ## c5a
 
-| Instance Type | apne2-az1 | apne2-az2 | apne2-az3 | apne2-az4 |
+| Instance Type | apne2-az1 | apne2-az2 | apne2-az3 | apne2-az4 | Spot price |
 | ------------- | :-------------: | :-------------: | :-------------: | :-------------: | -------------: |
-| c5a.large | :green_circle: | :green_circle: | :red_circle: | :red_circle: | null |
-| c5a.xlarge | :green_circle: | :green_circle: | :red_circle: | :red_circle: | null |
-| c5a.2xlarge | :green_circle: | :green_circle: | :red_circle: | :red_circle: | null |
-| c5a.4xlarge | :green_circle: | :green_circle: | :red_circle: | :red_circle: | null |
-| c5a.8xlarge | :green_circle: | :green_circle: | :red_circle: | :red_circle: | null |
-| c5a.12xlarge | :green_circle: | :green_circle: | :red_circle: | :red_circle: | null |
-| c5a.16xlarge | :green_circle: | :green_circle: | :red_circle: | :red_circle: | null |
-| c5a.24xlarge | :green_circle: | :green_circle: | :red_circle: | :red_circle: | null |
+| c5a.large | :green_circle: | :green_circle: | :red_circle: | :red_circle: | "0.086000" |
+| c5a.xlarge | :green_circle: | :green_circle: | :red_circle: | :red_circle: | "0.172000" |
+| c5a.2xlarge | :green_circle: | :green_circle: | :red_circle: | :red_circle: | "0.119900" |
+| c5a.4xlarge | :green_circle: | :green_circle: | :red_circle: | :red_circle: | "0.239700" |
+| c5a.8xlarge | :green_circle: | :green_circle: | :red_circle: | :red_circle: | "0.479500" |
+| c5a.12xlarge | :green_circle: | :green_circle: | :red_circle: | :red_circle: | "0.719200" |
+| c5a.16xlarge | :green_circle: | :green_circle: | :red_circle: | :red_circle: | "0.958900" |
+| c5a.24xlarge | :green_circle: | :green_circle: | :red_circle: | :red_circle: | "1.438400" |
 ## c5d
 
-| Instance Type | apne2-az1 | apne2-az2 | apne2-az3 | apne2-az4 |
+| Instance Type | apne2-az1 | apne2-az2 | apne2-az3 | apne2-az4 | Spot price |
 | ------------- | :-------------: | :-------------: | :-------------: | :-------------: | -------------: |
-| c5d.large | :green_circle: | :green_circle: | :green_circle: | :green_circle: | null |
-| c5d.xlarge | :green_circle: | :green_circle: | :green_circle: | :green_circle: | null |
-| c5d.2xlarge | :green_circle: | :green_circle: | :green_circle: | :green_circle: | null |
-| c5d.4xlarge | :green_circle: | :green_circle: | :green_circle: | :green_circle: | null |
-| c5d.9xlarge | :green_circle: | :green_circle: | :green_circle: | :green_circle: | null |
-| c5d.12xlarge | :green_circle: | :green_circle: | :green_circle: | :green_circle: | null |
-| c5d.18xlarge | :green_circle: | :green_circle: | :green_circle: | :green_circle: | null |
-| c5d.24xlarge | :green_circle: | :green_circle: | :green_circle: | :green_circle: | null |
-| c5d.metal | :green_circle: | :green_circle: | :green_circle: | :green_circle: | null |
+| c5d.large | :green_circle: | :green_circle: | :green_circle: | :green_circle: | "0.030000" |
+| c5d.xlarge | :green_circle: | :green_circle: | :green_circle: | :green_circle: | "0.060300" |
+| c5d.2xlarge | :green_circle: | :green_circle: | :green_circle: | :green_circle: | "0.119900" |
+| c5d.4xlarge | :green_circle: | :green_circle: | :green_circle: | :green_circle: | "0.240300" |
+| c5d.9xlarge | :green_circle: | :green_circle: | :green_circle: | :green_circle: | "0.539400" |
+| c5d.12xlarge | :green_circle: | :green_circle: | :green_circle: | :green_circle: | "0.719200" |
+| c5d.18xlarge | :green_circle: | :green_circle: | :green_circle: | :green_circle: | "1.078800" |
+| c5d.24xlarge | :green_circle: | :green_circle: | :green_circle: | :green_circle: | "1.438400" |
+| c5d.metal | :green_circle: | :green_circle: | :green_circle: | :green_circle: | "5.280000" |
 ## c5n
 
-| Instance Type | apne2-az1 | apne2-az2 | apne2-az3 | apne2-az4 |
+| Instance Type | apne2-az1 | apne2-az2 | apne2-az3 | apne2-az4 | Spot price |
 | ------------- | :-------------: | :-------------: | :-------------: | :-------------: | -------------: |
-| c5n.large | :green_circle: | :green_circle: | :green_circle: | :red_circle: | null |
-| c5n.xlarge | :green_circle: | :green_circle: | :green_circle: | :red_circle: | null |
-| c5n.2xlarge | :green_circle: | :green_circle: | :green_circle: | :red_circle: | null |
-| c5n.4xlarge | :green_circle: | :green_circle: | :green_circle: | :red_circle: | null |
-| c5n.9xlarge | :green_circle: | :green_circle: | :green_circle: | :red_circle: | null |
-| c5n.18xlarge | :green_circle: | :green_circle: | :green_circle: | :red_circle: | null |
-| c5n.metal | :green_circle: | :green_circle: | :green_circle: | :red_circle: | null |
+| c5n.large | :green_circle: | :green_circle: | :green_circle: | :red_circle: | "0.030000" |
+| c5n.xlarge | :green_circle: | :green_circle: | :green_circle: | :red_circle: | "0.061300" |
+| c5n.2xlarge | :green_circle: | :green_circle: | :green_circle: | :red_circle: | "0.119900" |
+| c5n.4xlarge | :green_circle: | :green_circle: | :green_circle: | :red_circle: | "0.241700" |
+| c5n.9xlarge | :green_circle: | :green_circle: | :green_circle: | :red_circle: | "0.539400" |
+| c5n.18xlarge | :green_circle: | :green_circle: | :green_circle: | :red_circle: | "1.078800" |
+| c5n.metal | :green_circle: | :green_circle: | :green_circle: | :red_circle: | "4.392000" |
 ## d2
 
-| Instance Type | apne2-az1 | apne2-az2 | apne2-az3 | apne2-az4 |
+| Instance Type | apne2-az1 | apne2-az2 | apne2-az3 | apne2-az4 | Spot price |
 | ------------- | :-------------: | :-------------: | :-------------: | :-------------: | -------------: |
-| d2.xlarge | :green_circle: | :green_circle: | :green_circle: | :red_circle: | null |
-| d2.2xlarge | :green_circle: | :green_circle: | :green_circle: | :red_circle: | null |
-| d2.4xlarge | :green_circle: | :green_circle: | :green_circle: | :red_circle: | null |
-| d2.8xlarge | :green_circle: | :green_circle: | :green_circle: | :red_circle: | null |
+| d2.xlarge | :green_circle: | :green_circle: | :green_circle: | :red_circle: | "0.253200" |
+| d2.2xlarge | :green_circle: | :green_circle: | :green_circle: | :red_circle: | "1.688000" |
+| d2.4xlarge | :green_circle: | :green_circle: | :green_circle: | :red_circle: | "1.012800" |
+| d2.8xlarge | :green_circle: | :green_circle: | :green_circle: | :red_circle: | "6.752000" |
 ## g3
 
-| Instance Type | apne2-az1 | apne2-az2 | apne2-az3 | apne2-az4 |
+| Instance Type | apne2-az1 | apne2-az2 | apne2-az3 | apne2-az4 | Spot price |
 | ------------- | :-------------: | :-------------: | :-------------: | :-------------: | -------------: |
-| g3.4xlarge | :green_circle: | :red_circle: | :green_circle: | :red_circle: | null |
-| g3.8xlarge | :green_circle: | :red_circle: | :green_circle: | :red_circle: | null |
-| g3.16xlarge | :green_circle: | :red_circle: | :green_circle: | :red_circle: | null |
+| g3.4xlarge | :green_circle: | :red_circle: | :green_circle: | :red_circle: | "0.426000" |
+| g3.8xlarge | :green_circle: | :red_circle: | :green_circle: | :red_circle: | "0.852000" |
+| g3.16xlarge | :green_circle: | :red_circle: | :green_circle: | :red_circle: | "5.680000" |
 ## g3s
 
-| Instance Type | apne2-az1 | apne2-az2 | apne2-az3 | apne2-az4 |
+| Instance Type | apne2-az1 | apne2-az2 | apne2-az3 | apne2-az4 | Spot price |
 | ------------- | :-------------: | :-------------: | :-------------: | :-------------: | -------------: |
-| g3s.xlarge | :green_circle: | :red_circle: | :green_circle: | :red_circle: | null |
+| g3s.xlarge | :green_circle: | :red_circle: | :green_circle: | :red_circle: | "0.280200" |
 ## g4dn
 
-| Instance Type | apne2-az1 | apne2-az2 | apne2-az3 | apne2-az4 |
+| Instance Type | apne2-az1 | apne2-az2 | apne2-az3 | apne2-az4 | Spot price |
 | ------------- | :-------------: | :-------------: | :-------------: | :-------------: | -------------: |
-| g4dn.xlarge | :green_circle: | :red_circle: | :green_circle: | :red_circle: | null |
-| g4dn.2xlarge | :green_circle: | :red_circle: | :green_circle: | :red_circle: | null |
-| g4dn.4xlarge | :green_circle: | :red_circle: | :green_circle: | :red_circle: | null |
-| g4dn.8xlarge | :green_circle: | :red_circle: | :green_circle: | :red_circle: | null |
-| g4dn.12xlarge | :green_circle: | :red_circle: | :green_circle: | :red_circle: | null |
-| g4dn.16xlarge | :green_circle: | :red_circle: | :green_circle: | :red_circle: | null |
+| g4dn.xlarge | :green_circle: | :red_circle: | :green_circle: | :red_circle: | "0.194100" |
+| g4dn.2xlarge | :green_circle: | :red_circle: | :green_circle: | :red_circle: | "0.277500" |
+| g4dn.4xlarge | :green_circle: | :red_circle: | :green_circle: | :red_circle: | "0.444300" |
+| g4dn.8xlarge | :green_circle: | :red_circle: | :green_circle: | :red_circle: | "0.803100" |
+| g4dn.12xlarge | :green_circle: | :red_circle: | :green_circle: | :red_circle: | "1.443600" |
+| g4dn.16xlarge | :green_circle: | :red_circle: | :green_circle: | :red_circle: | "1.605900" |
 ## i2
 
-| Instance Type | apne2-az1 | apne2-az2 | apne2-az3 | apne2-az4 |
+| Instance Type | apne2-az1 | apne2-az2 | apne2-az3 | apne2-az4 | Spot price |
 | ------------- | :-------------: | :-------------: | :-------------: | :-------------: | -------------: |
-| i2.xlarge | :green_circle: | :red_circle: | :green_circle: | :red_circle: | null |
-| i2.2xlarge | :green_circle: | :red_circle: | :green_circle: | :red_circle: | null |
-| i2.4xlarge | :green_circle: | :red_circle: | :green_circle: | :red_circle: | null |
-| i2.8xlarge | :green_circle: | :red_circle: | :green_circle: | :red_circle: | null |
+| i2.xlarge | :green_circle: | :red_circle: | :green_circle: | :red_circle: | "0.300300" |
+| i2.2xlarge | :green_circle: | :red_circle: | :green_circle: | :red_circle: | "0.600300" |
+| i2.4xlarge | :green_circle: | :red_circle: | :green_circle: | :red_circle: | "1.200600" |
+| i2.8xlarge | :green_circle: | :red_circle: | :green_circle: | :red_circle: | "2.401200" |
 ## i3
 
-| Instance Type | apne2-az1 | apne2-az2 | apne2-az3 | apne2-az4 |
+| Instance Type | apne2-az1 | apne2-az2 | apne2-az3 | apne2-az4 | Spot price |
 | ------------- | :-------------: | :-------------: | :-------------: | :-------------: | -------------: |
-| i3.large | :green_circle: | :green_circle: | :green_circle: | :green_circle: | null |
-| i3.xlarge | :green_circle: | :green_circle: | :green_circle: | :green_circle: | null |
-| i3.2xlarge | :green_circle: | :green_circle: | :green_circle: | :green_circle: | null |
-| i3.4xlarge | :green_circle: | :green_circle: | :green_circle: | :green_circle: | null |
-| i3.8xlarge | :green_circle: | :green_circle: | :green_circle: | :green_circle: | null |
-| i3.16xlarge | :green_circle: | :green_circle: | :green_circle: | :green_circle: | null |
+| i3.large | :green_circle: | :green_circle: | :green_circle: | :green_circle: | "0.054900" |
+| i3.xlarge | :green_circle: | :green_circle: | :green_circle: | :green_circle: | "0.109800" |
+| i3.2xlarge | :green_circle: | :green_circle: | :green_circle: | :green_circle: | "0.219600" |
+| i3.4xlarge | :green_circle: | :green_circle: | :green_circle: | :green_circle: | "0.439200" |
+| i3.8xlarge | :green_circle: | :green_circle: | :green_circle: | :green_circle: | "0.878400" |
+| i3.16xlarge | :green_circle: | :green_circle: | :green_circle: | :green_circle: | "1.756800" |
 ## i3en
 
-| Instance Type | apne2-az1 | apne2-az2 | apne2-az3 | apne2-az4 |
+| Instance Type | apne2-az1 | apne2-az2 | apne2-az3 | apne2-az4 | Spot price |
 | ------------- | :-------------: | :-------------: | :-------------: | :-------------: | -------------: |
-| i3en.large | :green_circle: | :green_circle: | :green_circle: | :green_circle: | null |
-| i3en.xlarge | :green_circle: | :green_circle: | :green_circle: | :green_circle: | null |
-| i3en.2xlarge | :green_circle: | :green_circle: | :green_circle: | :green_circle: | null |
-| i3en.3xlarge | :green_circle: | :green_circle: | :green_circle: | :green_circle: | null |
-| i3en.6xlarge | :green_circle: | :green_circle: | :green_circle: | :green_circle: | null |
-| i3en.12xlarge | :green_circle: | :green_circle: | :green_circle: | :green_circle: | null |
-| i3en.24xlarge | :green_circle: | :green_circle: | :green_circle: | :green_circle: | null |
-| i3en.metal | :green_circle: | :green_circle: | :green_circle: | :green_circle: | null |
+| i3en.large | :green_circle: | :green_circle: | :green_circle: | :green_circle: | "0.266000" |
+| i3en.xlarge | :green_circle: | :green_circle: | :green_circle: | :green_circle: | "0.532000" |
+| i3en.2xlarge | :green_circle: | :green_circle: | :green_circle: | :green_circle: | "1.064000" |
+| i3en.3xlarge | :green_circle: | :green_circle: | :green_circle: | :green_circle: | "0.478800" |
+| i3en.6xlarge | :green_circle: | :green_circle: | :green_circle: | :green_circle: | "3.192000" |
+| i3en.12xlarge | :green_circle: | :green_circle: | :green_circle: | :green_circle: | "1.915200" |
+| i3en.24xlarge | :green_circle: | :green_circle: | :green_circle: | :green_circle: | "3.830400" |
+| i3en.metal | :green_circle: | :green_circle: | :green_circle: | :green_circle: | "3.830400" |
 ## m4
 
-| Instance Type | apne2-az1 | apne2-az2 | apne2-az3 | apne2-az4 |
+| Instance Type | apne2-az1 | apne2-az2 | apne2-az3 | apne2-az4 | Spot price |
 | ------------- | :-------------: | :-------------: | :-------------: | :-------------: | -------------: |
-| m4.large | :green_circle: | :red_circle: | :green_circle: | :red_circle: | null |
-| m4.xlarge | :green_circle: | :red_circle: | :green_circle: | :red_circle: | null |
-| m4.2xlarge | :green_circle: | :red_circle: | :green_circle: | :red_circle: | null |
-| m4.4xlarge | :green_circle: | :red_circle: | :green_circle: | :red_circle: | null |
-| m4.10xlarge | :green_circle: | :red_circle: | :green_circle: | :red_circle: | null |
-| m4.16xlarge | :green_circle: | :red_circle: | :green_circle: | :red_circle: | null |
+| m4.large | :green_circle: | :red_circle: | :green_circle: | :red_circle: | "0.030000" |
+| m4.xlarge | :green_circle: | :red_circle: | :green_circle: | :red_circle: | "0.059900" |
+| m4.2xlarge | :green_circle: | :red_circle: | :green_circle: | :red_circle: | "0.119900" |
+| m4.4xlarge | :green_circle: | :red_circle: | :green_circle: | :red_circle: | "0.239700" |
+| m4.10xlarge | :green_circle: | :red_circle: | :green_circle: | :red_circle: | "0.599300" |
+| m4.16xlarge | :green_circle: | :red_circle: | :green_circle: | :red_circle: | "0.958900" |
 ## m5
 
-| Instance Type | apne2-az1 | apne2-az2 | apne2-az3 | apne2-az4 |
+| Instance Type | apne2-az1 | apne2-az2 | apne2-az3 | apne2-az4 | Spot price |
 | ------------- | :-------------: | :-------------: | :-------------: | :-------------: | -------------: |
-| m5.large | :green_circle: | :green_circle: | :green_circle: | :green_circle: | null |
-| m5.xlarge | :green_circle: | :green_circle: | :green_circle: | :green_circle: | null |
-| m5.2xlarge | :green_circle: | :green_circle: | :green_circle: | :green_circle: | null |
-| m5.4xlarge | :green_circle: | :green_circle: | :green_circle: | :green_circle: | null |
-| m5.8xlarge | :green_circle: | :green_circle: | :green_circle: | :green_circle: | null |
-| m5.12xlarge | :green_circle: | :green_circle: | :green_circle: | :green_circle: | null |
-| m5.16xlarge | :green_circle: | :green_circle: | :green_circle: | :green_circle: | null |
-| m5.24xlarge | :green_circle: | :green_circle: | :green_circle: | :green_circle: | null |
-| m5.metal | :green_circle: | :green_circle: | :green_circle: | :green_circle: | null |
+| m5.large | :green_circle: | :green_circle: | :green_circle: | :green_circle: | "0.037200" |
+| m5.xlarge | :green_circle: | :green_circle: | :green_circle: | :green_circle: | "0.065300" |
+| m5.2xlarge | :green_circle: | :green_circle: | :green_circle: | :green_circle: | "0.158000" |
+| m5.4xlarge | :green_circle: | :green_circle: | :green_circle: | :green_circle: | "0.259600" |
+| m5.8xlarge | :green_circle: | :green_circle: | :green_circle: | :green_circle: | "0.503400" |
+| m5.12xlarge | :green_circle: | :green_circle: | :green_circle: | :green_circle: | "0.755200" |
+| m5.16xlarge | :green_circle: | :green_circle: | :green_circle: | :green_circle: | "1.006900" |
+| m5.24xlarge | :green_circle: | :green_circle: | :green_circle: | :green_circle: | "1.510300" |
+| m5.metal | :green_circle: | :green_circle: | :green_circle: | :green_circle: | "1.510300" |
 ## m5a
 
-| Instance Type | apne2-az1 | apne2-az2 | apne2-az3 | apne2-az4 |
+| Instance Type | apne2-az1 | apne2-az2 | apne2-az3 | apne2-az4 | Spot price |
 | ------------- | :-------------: | :-------------: | :-------------: | :-------------: | -------------: |
-| m5a.large | :green_circle: | :red_circle: | :green_circle: | :red_circle: | null |
-| m5a.xlarge | :green_circle: | :red_circle: | :green_circle: | :red_circle: | null |
-| m5a.2xlarge | :green_circle: | :red_circle: | :green_circle: | :red_circle: | null |
-| m5a.4xlarge | :green_circle: | :red_circle: | :green_circle: | :red_circle: | null |
-| m5a.8xlarge | :green_circle: | :red_circle: | :green_circle: | :red_circle: | null |
-| m5a.12xlarge | :green_circle: | :red_circle: | :green_circle: | :red_circle: | null |
-| m5a.16xlarge | :green_circle: | :red_circle: | :green_circle: | :red_circle: | null |
-| m5a.24xlarge | :green_circle: | :red_circle: | :green_circle: | :red_circle: | null |
+| m5a.large | :green_circle: | :red_circle: | :green_circle: | :red_circle: | "0.031500" |
+| m5a.xlarge | :green_circle: | :red_circle: | :green_circle: | :red_circle: | "0.085000" |
+| m5a.2xlarge | :green_circle: | :red_circle: | :green_circle: | :red_circle: | "0.125900" |
+| m5a.4xlarge | :green_circle: | :red_circle: | :green_circle: | :red_circle: | "0.252800" |
+| m5a.8xlarge | :green_circle: | :red_circle: | :green_circle: | :red_circle: | "0.503400" |
+| m5a.12xlarge | :green_circle: | :red_circle: | :green_circle: | :red_circle: | "0.755200" |
+| m5a.16xlarge | :green_circle: | :red_circle: | :green_circle: | :red_circle: | "1.006900" |
+| m5a.24xlarge | :green_circle: | :red_circle: | :green_circle: | :red_circle: | "1.510300" |
 ## m5ad
 
-| Instance Type | apne2-az1 | apne2-az2 | apne2-az3 | apne2-az4 |
+| Instance Type | apne2-az1 | apne2-az2 | apne2-az3 | apne2-az4 | Spot price |
 | ------------- | :-------------: | :-------------: | :-------------: | :-------------: | -------------: |
-| m5ad.large | :green_circle: | :red_circle: | :green_circle: | :red_circle: | null |
-| m5ad.xlarge | :green_circle: | :red_circle: | :green_circle: | :red_circle: | null |
-| m5ad.2xlarge | :green_circle: | :red_circle: | :green_circle: | :red_circle: | null |
-| m5ad.4xlarge | :green_circle: | :red_circle: | :green_circle: | :red_circle: | null |
-| m5ad.8xlarge | :green_circle: | :red_circle: | :green_circle: | :red_circle: | null |
-| m5ad.12xlarge | :green_circle: | :red_circle: | :green_circle: | :red_circle: | null |
-| m5ad.16xlarge | :green_circle: | :red_circle: | :green_circle: | :red_circle: | null |
-| m5ad.24xlarge | :green_circle: | :red_circle: | :green_circle: | :red_circle: | null |
+| m5ad.large | :green_circle: | :red_circle: | :green_circle: | :red_circle: | "0.031500" |
+| m5ad.xlarge | :green_circle: | :red_circle: | :green_circle: | :red_circle: | "0.062900" |
+| m5ad.2xlarge | :green_circle: | :red_circle: | :green_circle: | :red_circle: | "0.125900" |
+| m5ad.4xlarge | :green_circle: | :red_circle: | :green_circle: | :red_circle: | "0.251700" |
+| m5ad.8xlarge | :green_circle: | :red_circle: | :green_circle: | :red_circle: | "0.503400" |
+| m5ad.12xlarge | :green_circle: | :red_circle: | :green_circle: | :red_circle: | "0.755200" |
+| m5ad.16xlarge | :green_circle: | :red_circle: | :green_circle: | :red_circle: | "1.006900" |
+| m5ad.24xlarge | :green_circle: | :red_circle: | :green_circle: | :red_circle: | "1.510300" |
 ## m5d
 
-| Instance Type | apne2-az1 | apne2-az2 | apne2-az3 | apne2-az4 |
+| Instance Type | apne2-az1 | apne2-az2 | apne2-az3 | apne2-az4 | Spot price |
 | ------------- | :-------------: | :-------------: | :-------------: | :-------------: | -------------: |
-| m5d.large | :green_circle: | :green_circle: | :green_circle: | :green_circle: | null |
-| m5d.xlarge | :green_circle: | :green_circle: | :green_circle: | :green_circle: | null |
-| m5d.2xlarge | :green_circle: | :green_circle: | :green_circle: | :green_circle: | null |
-| m5d.4xlarge | :green_circle: | :green_circle: | :green_circle: | :green_circle: | null |
-| m5d.8xlarge | :green_circle: | :green_circle: | :green_circle: | :green_circle: | null |
-| m5d.12xlarge | :green_circle: | :green_circle: | :green_circle: | :green_circle: | null |
-| m5d.16xlarge | :green_circle: | :green_circle: | :green_circle: | :green_circle: | null |
-| m5d.24xlarge | :green_circle: | :green_circle: | :green_circle: | :green_circle: | null |
-| m5d.metal | :green_circle: | :red_circle: | :green_circle: | :green_circle: | null |
+| m5d.large | :green_circle: | :green_circle: | :green_circle: | :green_circle: | "0.139000" |
+| m5d.xlarge | :green_circle: | :green_circle: | :green_circle: | :green_circle: | "0.278000" |
+| m5d.2xlarge | :green_circle: | :green_circle: | :green_circle: | :green_circle: | "0.125900" |
+| m5d.4xlarge | :green_circle: | :green_circle: | :green_circle: | :green_circle: | "0.251700" |
+| m5d.8xlarge | :green_circle: | :green_circle: | :green_circle: | :green_circle: | "0.503400" |
+| m5d.12xlarge | :green_circle: | :green_circle: | :green_circle: | :green_circle: | "0.755200" |
+| m5d.16xlarge | :green_circle: | :green_circle: | :green_circle: | :green_circle: | "4.448000" |
+| m5d.24xlarge | :green_circle: | :green_circle: | :green_circle: | :green_circle: | "1.510300" |
+| m5d.metal | :green_circle: | :red_circle: | :green_circle: | :green_circle: | "1.510300" |
 ## p2
 
-| Instance Type | apne2-az1 | apne2-az2 | apne2-az3 | apne2-az4 |
+| Instance Type | apne2-az1 | apne2-az2 | apne2-az3 | apne2-az4 | Spot price |
 | ------------- | :-------------: | :-------------: | :-------------: | :-------------: | -------------: |
-| p2.xlarge | :green_circle: | :red_circle: | :green_circle: | :red_circle: | null |
-| p2.8xlarge | :green_circle: | :red_circle: | :green_circle: | :red_circle: | null |
-| p2.16xlarge | :green_circle: | :red_circle: | :green_circle: | :red_circle: | null |
+| p2.xlarge | :green_circle: | :red_circle: | :green_circle: | :red_circle: | "0.439500" |
+| p2.8xlarge | :green_circle: | :red_circle: | :green_circle: | :red_circle: | "3.516000" |
+| p2.16xlarge | :green_circle: | :red_circle: | :green_circle: | :red_circle: | "7.032000" |
 ## p3
 
-| Instance Type | apne2-az1 | apne2-az2 | apne2-az3 | apne2-az4 |
+| Instance Type | apne2-az1 | apne2-az2 | apne2-az3 | apne2-az4 | Spot price |
 | ------------- | :-------------: | :-------------: | :-------------: | :-------------: | -------------: |
-| p3.2xlarge | :green_circle: | :red_circle: | :green_circle: | :red_circle: | null |
-| p3.8xlarge | :green_circle: | :red_circle: | :green_circle: | :red_circle: | null |
-| p3.16xlarge | :green_circle: | :red_circle: | :green_circle: | :red_circle: | null |
+| p3.2xlarge | :green_circle: | :red_circle: | :green_circle: | :red_circle: | "1.270200" |
+| p3.8xlarge | :green_circle: | :red_circle: | :green_circle: | :red_circle: | "5.080800" |
+| p3.16xlarge | :green_circle: | :red_circle: | :green_circle: | :red_circle: | "10.161600" |
 ## r3
 
-| Instance Type | apne2-az1 | apne2-az2 | apne2-az3 | apne2-az4 |
+| Instance Type | apne2-az1 | apne2-az2 | apne2-az3 | apne2-az4 | Spot price |
 | ------------- | :-------------: | :-------------: | :-------------: | :-------------: | -------------: |
-| r3.large | :green_circle: | :red_circle: | :green_circle: | :red_circle: | null |
-| r3.xlarge | :green_circle: | :red_circle: | :green_circle: | :red_circle: | null |
-| r3.2xlarge | :green_circle: | :red_circle: | :green_circle: | :red_circle: | null |
-| r3.4xlarge | :green_circle: | :red_circle: | :green_circle: | :red_circle: | null |
-| r3.8xlarge | :green_circle: | :red_circle: | :green_circle: | :red_circle: | null |
+| r3.large | :green_circle: | :red_circle: | :green_circle: | :red_circle: | "0.029900" |
+| r3.xlarge | :green_circle: | :red_circle: | :green_circle: | :red_circle: | "0.061300" |
+| r3.2xlarge | :green_circle: | :red_circle: | :green_circle: | :red_circle: | "0.119600" |
+| r3.4xlarge | :green_circle: | :red_circle: | :green_circle: | :red_circle: | "0.239200" |
+| r3.8xlarge | :green_circle: | :red_circle: | :green_circle: | :red_circle: | "0.478400" |
 ## r4
 
-| Instance Type | apne2-az1 | apne2-az2 | apne2-az3 | apne2-az4 |
+| Instance Type | apne2-az1 | apne2-az2 | apne2-az3 | apne2-az4 | Spot price |
 | ------------- | :-------------: | :-------------: | :-------------: | :-------------: | -------------: |
-| r4.large | :green_circle: | :red_circle: | :green_circle: | :red_circle: | null |
-| r4.xlarge | :green_circle: | :red_circle: | :green_circle: | :red_circle: | null |
-| r4.2xlarge | :green_circle: | :red_circle: | :green_circle: | :red_circle: | null |
-| r4.4xlarge | :green_circle: | :red_circle: | :green_circle: | :red_circle: | null |
-| r4.8xlarge | :green_circle: | :red_circle: | :green_circle: | :red_circle: | null |
-| r4.16xlarge | :green_circle: | :red_circle: | :green_circle: | :red_circle: | null |
+| r4.large | :green_circle: | :red_circle: | :green_circle: | :red_circle: | "0.031400" |
+| r4.xlarge | :green_circle: | :red_circle: | :green_circle: | :red_circle: | "0.062800" |
+| r4.2xlarge | :green_circle: | :red_circle: | :green_circle: | :red_circle: | "0.125600" |
+| r4.4xlarge | :green_circle: | :red_circle: | :green_circle: | :red_circle: | "0.255100" |
+| r4.8xlarge | :green_circle: | :red_circle: | :green_circle: | :red_circle: | "0.630600" |
+| r4.16xlarge | :green_circle: | :red_circle: | :green_circle: | :red_circle: | "1.032100" |
 ## r5
 
-| Instance Type | apne2-az1 | apne2-az2 | apne2-az3 | apne2-az4 |
+| Instance Type | apne2-az1 | apne2-az2 | apne2-az3 | apne2-az4 | Spot price |
 | ------------- | :-------------: | :-------------: | :-------------: | :-------------: | -------------: |
-| r5.large | :green_circle: | :green_circle: | :green_circle: | :green_circle: | null |
-| r5.xlarge | :green_circle: | :green_circle: | :green_circle: | :green_circle: | null |
-| r5.2xlarge | :green_circle: | :green_circle: | :green_circle: | :green_circle: | null |
-| r5.4xlarge | :green_circle: | :green_circle: | :green_circle: | :green_circle: | null |
-| r5.8xlarge | :green_circle: | :green_circle: | :green_circle: | :green_circle: | null |
-| r5.12xlarge | :green_circle: | :green_circle: | :green_circle: | :green_circle: | null |
-| r5.16xlarge | :green_circle: | :green_circle: | :green_circle: | :green_circle: | null |
-| r5.24xlarge | :green_circle: | :green_circle: | :green_circle: | :green_circle: | null |
-| r5.metal | :green_circle: | :green_circle: | :green_circle: | :green_circle: | null |
+| r5.large | :green_circle: | :green_circle: | :green_circle: | :green_circle: | "0.036600" |
+| r5.xlarge | :green_circle: | :green_circle: | :green_circle: | :green_circle: | "0.087200" |
+| r5.2xlarge | :green_circle: | :green_circle: | :green_circle: | :green_circle: | "0.147000" |
+| r5.4xlarge | :green_circle: | :green_circle: | :green_circle: | :green_circle: | "0.294800" |
+| r5.8xlarge | :green_circle: | :green_circle: | :green_circle: | :green_circle: | "0.532100" |
+| r5.12xlarge | :green_circle: | :green_circle: | :green_circle: | :green_circle: | "0.791100" |
+| r5.16xlarge | :green_circle: | :green_circle: | :green_circle: | :green_circle: | "2.118300" |
+| r5.24xlarge | :green_circle: | :green_circle: | :green_circle: | :green_circle: | "1.582200" |
+| r5.metal | :green_circle: | :green_circle: | :green_circle: | :green_circle: | "7.296000" |
 ## r5a
 
-| Instance Type | apne2-az1 | apne2-az2 | apne2-az3 | apne2-az4 |
+| Instance Type | apne2-az1 | apne2-az2 | apne2-az3 | apne2-az4 | Spot price |
 | ------------- | :-------------: | :-------------: | :-------------: | :-------------: | -------------: |
-| r5a.large | :green_circle: | :red_circle: | :green_circle: | :red_circle: | null |
-| r5a.xlarge | :green_circle: | :red_circle: | :green_circle: | :red_circle: | null |
-| r5a.2xlarge | :green_circle: | :red_circle: | :green_circle: | :red_circle: | null |
-| r5a.4xlarge | :green_circle: | :red_circle: | :green_circle: | :red_circle: | null |
-| r5a.8xlarge | :green_circle: | :red_circle: | :green_circle: | :red_circle: | null |
-| r5a.12xlarge | :green_circle: | :red_circle: | :green_circle: | :red_circle: | null |
-| r5a.16xlarge | :green_circle: | :red_circle: | :green_circle: | :red_circle: | null |
-| r5a.24xlarge | :green_circle: | :red_circle: | :green_circle: | :red_circle: | null |
+| r5a.large | :green_circle: | :red_circle: | :green_circle: | :red_circle: | "0.033000" |
+| r5a.xlarge | :green_circle: | :red_circle: | :green_circle: | :red_circle: | "0.076200" |
+| r5a.2xlarge | :green_circle: | :red_circle: | :green_circle: | :red_circle: | "0.131900" |
+| r5a.4xlarge | :green_circle: | :red_circle: | :green_circle: | :red_circle: | "0.307000" |
+| r5a.8xlarge | :green_circle: | :red_circle: | :green_circle: | :red_circle: | "0.527400" |
+| r5a.12xlarge | :green_circle: | :red_circle: | :green_circle: | :red_circle: | "0.791100" |
+| r5a.16xlarge | :green_circle: | :red_circle: | :green_circle: | :red_circle: | "1.054800" |
+| r5a.24xlarge | :green_circle: | :red_circle: | :green_circle: | :red_circle: | "1.582200" |
 ## r5ad
 
-| Instance Type | apne2-az1 | apne2-az2 | apne2-az3 | apne2-az4 |
+| Instance Type | apne2-az1 | apne2-az2 | apne2-az3 | apne2-az4 | Spot price |
 | ------------- | :-------------: | :-------------: | :-------------: | :-------------: | -------------: |
-| r5ad.large | :green_circle: | :red_circle: | :green_circle: | :red_circle: | null |
-| r5ad.xlarge | :green_circle: | :red_circle: | :green_circle: | :red_circle: | null |
-| r5ad.2xlarge | :green_circle: | :red_circle: | :green_circle: | :red_circle: | null |
-| r5ad.4xlarge | :green_circle: | :red_circle: | :green_circle: | :red_circle: | null |
-| r5ad.8xlarge | :green_circle: | :red_circle: | :green_circle: | :red_circle: | null |
-| r5ad.12xlarge | :green_circle: | :red_circle: | :green_circle: | :red_circle: | null |
-| r5ad.16xlarge | :green_circle: | :red_circle: | :green_circle: | :red_circle: | null |
-| r5ad.24xlarge | :green_circle: | :red_circle: | :green_circle: | :red_circle: | null |
+| r5ad.large | :green_circle: | :red_circle: | :green_circle: | :red_circle: | "0.033000" |
+| r5ad.xlarge | :green_circle: | :red_circle: | :green_circle: | :red_circle: | "0.065900" |
+| r5ad.2xlarge | :green_circle: | :red_circle: | :green_circle: | :red_circle: | "0.131900" |
+| r5ad.4xlarge | :green_circle: | :red_circle: | :green_circle: | :red_circle: | "0.268200" |
+| r5ad.8xlarge | :green_circle: | :red_circle: | :green_circle: | :red_circle: | "0.527400" |
+| r5ad.12xlarge | :green_circle: | :red_circle: | :green_circle: | :red_circle: | "0.791100" |
+| r5ad.16xlarge | :green_circle: | :red_circle: | :green_circle: | :red_circle: | "1.054800" |
+| r5ad.24xlarge | :green_circle: | :red_circle: | :green_circle: | :red_circle: | "1.582200" |
 ## r5d
 
-| Instance Type | apne2-az1 | apne2-az2 | apne2-az3 | apne2-az4 |
+| Instance Type | apne2-az1 | apne2-az2 | apne2-az3 | apne2-az4 | Spot price |
 | ------------- | :-------------: | :-------------: | :-------------: | :-------------: | -------------: |
-| r5d.large | :green_circle: | :green_circle: | :green_circle: | :green_circle: | null |
-| r5d.xlarge | :green_circle: | :green_circle: | :green_circle: | :green_circle: | null |
-| r5d.2xlarge | :green_circle: | :green_circle: | :green_circle: | :green_circle: | null |
-| r5d.4xlarge | :green_circle: | :green_circle: | :green_circle: | :green_circle: | null |
-| r5d.8xlarge | :green_circle: | :green_circle: | :green_circle: | :green_circle: | null |
-| r5d.12xlarge | :green_circle: | :green_circle: | :green_circle: | :green_circle: | null |
-| r5d.16xlarge | :green_circle: | :green_circle: | :green_circle: | :green_circle: | null |
-| r5d.24xlarge | :green_circle: | :green_circle: | :green_circle: | :green_circle: | null |
-| r5d.metal | :green_circle: | :green_circle: | :green_circle: | :green_circle: | null |
+| r5d.large | :green_circle: | :green_circle: | :green_circle: | :green_circle: | "0.173000" |
+| r5d.xlarge | :green_circle: | :green_circle: | :green_circle: | :green_circle: | "0.065900" |
+| r5d.2xlarge | :green_circle: | :green_circle: | :green_circle: | :green_circle: | "0.692000" |
+| r5d.4xlarge | :green_circle: | :green_circle: | :green_circle: | :green_circle: | "0.276300" |
+| r5d.8xlarge | :green_circle: | :green_circle: | :green_circle: | :green_circle: | "1.225300" |
+| r5d.12xlarge | :green_circle: | :green_circle: | :green_circle: | :green_circle: | "4.152000" |
+| r5d.16xlarge | :green_circle: | :green_circle: | :green_circle: | :green_circle: | "5.536000" |
+| r5d.24xlarge | :green_circle: | :green_circle: | :green_circle: | :green_circle: | "8.304000" |
+| r5d.metal | :green_circle: | :green_circle: | :green_circle: | :green_circle: | "8.304000" |
 ## t2
 
-| Instance Type | apne2-az1 | apne2-az2 | apne2-az3 | apne2-az4 |
+| Instance Type | apne2-az1 | apne2-az2 | apne2-az3 | apne2-az4 | Spot price |
 | ------------- | :-------------: | :-------------: | :-------------: | :-------------: | -------------: |
 | t2.nano | :green_circle: | :red_circle: | :green_circle: | :red_circle: | null |
-| t2.micro | :green_circle: | :red_circle: | :green_circle: | :red_circle: | null |
-| t2.small | :green_circle: | :red_circle: | :green_circle: | :red_circle: | null |
-| t2.medium | :green_circle: | :red_circle: | :green_circle: | :red_circle: | null |
-| t2.large | :green_circle: | :red_circle: | :green_circle: | :red_circle: | null |
-| t2.xlarge | :green_circle: | :red_circle: | :green_circle: | :red_circle: | null |
-| t2.2xlarge | :green_circle: | :red_circle: | :green_circle: | :red_circle: | null |
+| t2.micro | :green_circle: | :red_circle: | :green_circle: | :red_circle: | "0.004300" |
+| t2.small | :green_circle: | :red_circle: | :green_circle: | :red_circle: | "0.008600" |
+| t2.medium | :green_circle: | :red_circle: | :green_circle: | :red_circle: | "0.017300" |
+| t2.large | :green_circle: | :red_circle: | :green_circle: | :red_circle: | "0.034600" |
+| t2.xlarge | :green_circle: | :red_circle: | :green_circle: | :red_circle: | "0.069100" |
+| t2.2xlarge | :green_circle: | :red_circle: | :green_circle: | :red_circle: | "0.138200" |
 ## t3
 
-| Instance Type | apne2-az1 | apne2-az2 | apne2-az3 | apne2-az4 |
+| Instance Type | apne2-az1 | apne2-az2 | apne2-az3 | apne2-az4 | Spot price |
 | ------------- | :-------------: | :-------------: | :-------------: | :-------------: | -------------: |
-| t3.nano | :green_circle: | :green_circle: | :green_circle: | :green_circle: | null |
-| t3.micro | :green_circle: | :green_circle: | :green_circle: | :green_circle: | null |
-| t3.small | :green_circle: | :green_circle: | :green_circle: | :green_circle: | null |
-| t3.medium | :green_circle: | :green_circle: | :green_circle: | :green_circle: | null |
-| t3.large | :green_circle: | :green_circle: | :green_circle: | :green_circle: | null |
-| t3.xlarge | :green_circle: | :green_circle: | :green_circle: | :green_circle: | null |
-| t3.2xlarge | :green_circle: | :green_circle: | :green_circle: | :green_circle: | null |
+| t3.nano | :green_circle: | :green_circle: | :green_circle: | :green_circle: | "0.002000" |
+| t3.micro | :green_circle: | :green_circle: | :green_circle: | :green_circle: | "0.003900" |
+| t3.small | :green_circle: | :green_circle: | :green_circle: | :green_circle: | "0.007800" |
+| t3.medium | :green_circle: | :green_circle: | :green_circle: | :green_circle: | "0.015600" |
+| t3.large | :green_circle: | :green_circle: | :green_circle: | :green_circle: | "0.040000" |
+| t3.xlarge | :green_circle: | :green_circle: | :green_circle: | :green_circle: | "0.062400" |
+| t3.2xlarge | :green_circle: | :green_circle: | :green_circle: | :green_circle: | "0.124800" |
 ## t3a
 
-| Instance Type | apne2-az1 | apne2-az2 | apne2-az3 | apne2-az4 |
+| Instance Type | apne2-az1 | apne2-az2 | apne2-az3 | apne2-az4 | Spot price |
 | ------------- | :-------------: | :-------------: | :-------------: | :-------------: | -------------: |
-| t3a.nano | :green_circle: | :red_circle: | :green_circle: | :red_circle: | null |
-| t3a.micro | :green_circle: | :red_circle: | :green_circle: | :red_circle: | null |
-| t3a.small | :green_circle: | :red_circle: | :green_circle: | :red_circle: | null |
-| t3a.medium | :green_circle: | :red_circle: | :green_circle: | :red_circle: | null |
-| t3a.large | :green_circle: | :red_circle: | :green_circle: | :red_circle: | null |
-| t3a.xlarge | :green_circle: | :red_circle: | :green_circle: | :red_circle: | null |
-| t3a.2xlarge | :green_circle: | :red_circle: | :green_circle: | :red_circle: | null |
+| t3a.nano | :green_circle: | :red_circle: | :green_circle: | :red_circle: | "0.001800" |
+| t3a.micro | :green_circle: | :red_circle: | :green_circle: | :red_circle: | "0.003500" |
+| t3a.small | :green_circle: | :red_circle: | :green_circle: | :red_circle: | "0.007000" |
+| t3a.medium | :green_circle: | :red_circle: | :green_circle: | :red_circle: | "0.014000" |
+| t3a.large | :green_circle: | :red_circle: | :green_circle: | :red_circle: | "0.028100" |
+| t3a.xlarge | :green_circle: | :red_circle: | :green_circle: | :red_circle: | "0.056200" |
+| t3a.2xlarge | :green_circle: | :red_circle: | :green_circle: | :red_circle: | "0.112300" |
 ## x1
 
-| Instance Type | apne2-az1 | apne2-az2 | apne2-az3 | apne2-az4 |
+| Instance Type | apne2-az1 | apne2-az2 | apne2-az3 | apne2-az4 | Spot price |
 | ------------- | :-------------: | :-------------: | :-------------: | :-------------: | -------------: |
-| x1.16xlarge | :green_circle: | :red_circle: | :green_circle: | :red_circle: | null |
-| x1.32xlarge | :green_circle: | :red_circle: | :green_circle: | :red_circle: | null |
+| x1.16xlarge | :green_circle: | :red_circle: | :green_circle: | :red_circle: | "2.901300" |
+| x1.32xlarge | :green_circle: | :red_circle: | :green_circle: | :red_circle: | "5.802300" |
 ## x1e
 
-| Instance Type | apne2-az1 | apne2-az2 | apne2-az3 | apne2-az4 |
+| Instance Type | apne2-az1 | apne2-az2 | apne2-az3 | apne2-az4 | Spot price |
 | ------------- | :-------------: | :-------------: | :-------------: | :-------------: | -------------: |
-| x1e.xlarge | :green_circle: | :red_circle: | :green_circle: | :red_circle: | null |
-| x1e.2xlarge | :green_circle: | :red_circle: | :green_circle: | :red_circle: | null |
-| x1e.4xlarge | :green_circle: | :red_circle: | :green_circle: | :red_circle: | null |
-| x1e.8xlarge | :green_circle: | :red_circle: | :green_circle: | :red_circle: | null |
-| x1e.16xlarge | :green_circle: | :red_circle: | :green_circle: | :red_circle: | null |
-| x1e.32xlarge | :green_circle: | :red_circle: | :green_circle: | :red_circle: | null |
+| x1e.xlarge | :green_circle: | :red_circle: | :green_circle: | :red_circle: | "1.209000" |
+| x1e.2xlarge | :green_circle: | :red_circle: | :green_circle: | :red_circle: | "2.418000" |
+| x1e.4xlarge | :green_circle: | :red_circle: | :green_circle: | :red_circle: | "4.836000" |
+| x1e.8xlarge | :green_circle: | :red_circle: | :green_circle: | :red_circle: | "9.672000" |
+| x1e.16xlarge | :green_circle: | :red_circle: | :green_circle: | :red_circle: | "5.803200" |
+| x1e.32xlarge | :green_circle: | :red_circle: | :green_circle: | :red_circle: | "38.688000" |
 ## z1d
 
-| Instance Type | apne2-az1 | apne2-az2 | apne2-az3 | apne2-az4 |
+| Instance Type | apne2-az1 | apne2-az2 | apne2-az3 | apne2-az4 | Spot price |
 | ------------- | :-------------: | :-------------: | :-------------: | :-------------: | -------------: |
-| z1d.large | :green_circle: | :red_circle: | :green_circle: | :red_circle: | null |
-| z1d.xlarge | :green_circle: | :red_circle: | :green_circle: | :red_circle: | null |
-| z1d.2xlarge | :green_circle: | :red_circle: | :green_circle: | :red_circle: | null |
-| z1d.3xlarge | :green_circle: | :red_circle: | :green_circle: | :red_circle: | null |
-| z1d.6xlarge | :green_circle: | :red_circle: | :green_circle: | :red_circle: | null |
-| z1d.12xlarge | :green_circle: | :red_circle: | :green_circle: | :red_circle: | null |
-| z1d.metal | :green_circle: | :red_circle: | :green_circle: | :red_circle: | null |
+| z1d.large | :green_circle: | :red_circle: | :green_circle: | :red_circle: | "0.225000" |
+| z1d.xlarge | :green_circle: | :red_circle: | :green_circle: | :red_circle: | "0.450000" |
+| z1d.2xlarge | :green_circle: | :red_circle: | :green_circle: | :red_circle: | "0.270000" |
+| z1d.3xlarge | :green_circle: | :red_circle: | :green_circle: | :red_circle: | "0.405000" |
+| z1d.6xlarge | :green_circle: | :red_circle: | :green_circle: | :red_circle: | "0.810000" |
+| z1d.12xlarge | :green_circle: | :red_circle: | :green_circle: | :red_circle: | "1.620000" |
+| z1d.metal | :green_circle: | :red_circle: | :green_circle: | :red_circle: | "5.400000" |
 
 
 

@@ -10,121 +10,121 @@ Jump to class: [:black_small_square:c5](#c5)&nbsp; [:black_small_square:c5d](#c5
 
 ## c5
 
-| Instance Type | eus1-az1 | eus1-az2 | eus1-az3 |
+| Instance Type | eus1-az1 | eus1-az2 | eus1-az3 | Spot price |
 | ------------- | :-------------: | :-------------: | :-------------: | -------------: |
-| c5.large | :green_circle: | :green_circle: | :green_circle: | null |
-| c5.xlarge | :green_circle: | :green_circle: | :green_circle: | null |
-| c5.2xlarge | :green_circle: | :green_circle: | :green_circle: | null |
-| c5.4xlarge | :green_circle: | :green_circle: | :green_circle: | null |
-| c5.9xlarge | :green_circle: | :green_circle: | :green_circle: | null |
-| c5.12xlarge | :green_circle: | :green_circle: | :green_circle: | null |
-| c5.18xlarge | :green_circle: | :green_circle: | :green_circle: | null |
-| c5.24xlarge | :green_circle: | :green_circle: | :green_circle: | null |
-| c5.metal | :green_circle: | :green_circle: | :green_circle: | null |
+| c5.large | :green_circle: | :green_circle: | :green_circle: | "0.030400" |
+| c5.xlarge | :green_circle: | :green_circle: | :green_circle: | "0.060600" |
+| c5.2xlarge | :green_circle: | :green_circle: | :green_circle: | "0.141900" |
+| c5.4xlarge | :green_circle: | :green_circle: | :green_circle: | "0.242400" |
+| c5.9xlarge | :green_circle: | :green_circle: | :green_circle: | "0.545400" |
+| c5.12xlarge | :green_circle: | :green_circle: | :green_circle: | "0.727200" |
+| c5.18xlarge | :green_circle: | :green_circle: | :green_circle: | "1.090800" |
+| c5.24xlarge | :green_circle: | :green_circle: | :green_circle: | "1.454400" |
+| c5.metal | :green_circle: | :green_circle: | :green_circle: | "1.454400" |
 ## c5d
 
-| Instance Type | eus1-az1 | eus1-az2 | eus1-az3 |
+| Instance Type | eus1-az1 | eus1-az2 | eus1-az3 | Spot price |
 | ------------- | :-------------: | :-------------: | :-------------: | -------------: |
-| c5d.large | :green_circle: | :green_circle: | :green_circle: | null |
-| c5d.xlarge | :green_circle: | :green_circle: | :green_circle: | null |
-| c5d.2xlarge | :green_circle: | :green_circle: | :green_circle: | null |
-| c5d.4xlarge | :green_circle: | :green_circle: | :green_circle: | null |
-| c5d.9xlarge | :green_circle: | :green_circle: | :green_circle: | null |
-| c5d.12xlarge | :green_circle: | :green_circle: | :green_circle: | null |
-| c5d.18xlarge | :green_circle: | :green_circle: | :green_circle: | null |
-| c5d.24xlarge | :green_circle: | :green_circle: | :green_circle: | null |
-| c5d.metal | :green_circle: | :green_circle: | :green_circle: | null |
+| c5d.large | :green_circle: | :green_circle: | :green_circle: | "0.030300" |
+| c5d.xlarge | :green_circle: | :green_circle: | :green_circle: | "0.060600" |
+| c5d.2xlarge | :green_circle: | :green_circle: | :green_circle: | "0.121200" |
+| c5d.4xlarge | :green_circle: | :green_circle: | :green_circle: | "0.242400" |
+| c5d.9xlarge | :green_circle: | :green_circle: | :green_circle: | "0.545400" |
+| c5d.12xlarge | :green_circle: | :green_circle: | :green_circle: | "0.727200" |
+| c5d.18xlarge | :green_circle: | :green_circle: | :green_circle: | "1.090800" |
+| c5d.24xlarge | :green_circle: | :green_circle: | :green_circle: | "1.454400" |
+| c5d.metal | :green_circle: | :green_circle: | :green_circle: | "5.472000" |
 ## d2
 
-| Instance Type | eus1-az1 | eus1-az2 | eus1-az3 |
+| Instance Type | eus1-az1 | eus1-az2 | eus1-az3 | Spot price |
 | ------------- | :-------------: | :-------------: | :-------------: | -------------: |
-| d2.xlarge | :green_circle: | :green_circle: | :green_circle: | null |
-| d2.2xlarge | :green_circle: | :green_circle: | :green_circle: | null |
-| d2.4xlarge | :green_circle: | :green_circle: | :green_circle: | null |
-| d2.8xlarge | :green_circle: | :green_circle: | :green_circle: | null |
+| d2.xlarge | :green_circle: | :green_circle: | :green_circle: | "0.231600" |
+| d2.2xlarge | :green_circle: | :green_circle: | :green_circle: | "0.463200" |
+| d2.4xlarge | :green_circle: | :green_circle: | :green_circle: | "0.926400" |
+| d2.8xlarge | :green_circle: | :green_circle: | :green_circle: | "1.852800" |
 ## g4dn
 
-| Instance Type | eus1-az1 | eus1-az2 | eus1-az3 |
+| Instance Type | eus1-az1 | eus1-az2 | eus1-az3 | Spot price |
 | ------------- | :-------------: | :-------------: | :-------------: | -------------: |
-| g4dn.xlarge | :red_circle: | :green_circle: | :green_circle: | null |
-| g4dn.2xlarge | :red_circle: | :green_circle: | :green_circle: | null |
-| g4dn.4xlarge | :red_circle: | :green_circle: | :green_circle: | null |
-| g4dn.8xlarge | :red_circle: | :green_circle: | :green_circle: | null |
-| g4dn.12xlarge | :red_circle: | :green_circle: | :green_circle: | null |
-| g4dn.16xlarge | :red_circle: | :green_circle: | :green_circle: | null |
+| g4dn.xlarge | :red_circle: | :green_circle: | :green_circle: | "0.616000" |
+| g4dn.2xlarge | :red_circle: | :green_circle: | :green_circle: | "0.319200" |
+| g4dn.4xlarge | :red_circle: | :green_circle: | :green_circle: | "0.423000" |
+| g4dn.8xlarge | :red_circle: | :green_circle: | :green_circle: | "2.547000" |
+| g4dn.12xlarge | :red_circle: | :green_circle: | :green_circle: | "4.580000" |
+| g4dn.16xlarge | :red_circle: | :green_circle: | :green_circle: | "5.095000" |
 ## i3
 
-| Instance Type | eus1-az1 | eus1-az2 | eus1-az3 |
+| Instance Type | eus1-az1 | eus1-az2 | eus1-az3 | Spot price |
 | ------------- | :-------------: | :-------------: | :-------------: | -------------: |
-| i3.large | :green_circle: | :green_circle: | :green_circle: | null |
-| i3.xlarge | :green_circle: | :green_circle: | :green_circle: | null |
-| i3.2xlarge | :green_circle: | :green_circle: | :green_circle: | null |
-| i3.4xlarge | :green_circle: | :green_circle: | :green_circle: | null |
-| i3.8xlarge | :green_circle: | :green_circle: | :green_circle: | null |
-| i3.16xlarge | :green_circle: | :green_circle: | :green_circle: | null |
+| i3.large | :green_circle: | :green_circle: | :green_circle: | "0.054300" |
+| i3.xlarge | :green_circle: | :green_circle: | :green_circle: | "0.108600" |
+| i3.2xlarge | :green_circle: | :green_circle: | :green_circle: | "0.217200" |
+| i3.4xlarge | :green_circle: | :green_circle: | :green_circle: | "0.434400" |
+| i3.8xlarge | :green_circle: | :green_circle: | :green_circle: | "0.868800" |
+| i3.16xlarge | :green_circle: | :green_circle: | :green_circle: | "1.737600" |
 ## m5
 
-| Instance Type | eus1-az1 | eus1-az2 | eus1-az3 |
+| Instance Type | eus1-az1 | eus1-az2 | eus1-az3 | Spot price |
 | ------------- | :-------------: | :-------------: | :-------------: | -------------: |
-| m5.large | :green_circle: | :green_circle: | :green_circle: | null |
-| m5.xlarge | :green_circle: | :green_circle: | :green_circle: | null |
-| m5.2xlarge | :green_circle: | :green_circle: | :green_circle: | null |
-| m5.4xlarge | :green_circle: | :green_circle: | :green_circle: | null |
-| m5.8xlarge | :green_circle: | :green_circle: | :green_circle: | null |
-| m5.12xlarge | :green_circle: | :green_circle: | :green_circle: | null |
-| m5.16xlarge | :green_circle: | :green_circle: | :green_circle: | null |
-| m5.24xlarge | :green_circle: | :green_circle: | :green_circle: | null |
-| m5.metal | :green_circle: | :green_circle: | :green_circle: | null |
+| m5.large | :green_circle: | :green_circle: | :green_circle: | "0.035500" |
+| m5.xlarge | :green_circle: | :green_circle: | :green_circle: | "0.063600" |
+| m5.2xlarge | :green_circle: | :green_circle: | :green_circle: | "0.212700" |
+| m5.4xlarge | :green_circle: | :green_circle: | :green_circle: | "0.254500" |
+| m5.8xlarge | :green_circle: | :green_circle: | :green_circle: | "0.509000" |
+| m5.12xlarge | :green_circle: | :green_circle: | :green_circle: | "0.763600" |
+| m5.16xlarge | :green_circle: | :green_circle: | :green_circle: | "1.018100" |
+| m5.24xlarge | :green_circle: | :green_circle: | :green_circle: | "1.527100" |
+| m5.metal | :green_circle: | :green_circle: | :green_circle: | "1.527100" |
 ## m5d
 
-| Instance Type | eus1-az1 | eus1-az2 | eus1-az3 |
+| Instance Type | eus1-az1 | eus1-az2 | eus1-az3 | Spot price |
 | ------------- | :-------------: | :-------------: | :-------------: | -------------: |
-| m5d.large | :green_circle: | :green_circle: | :green_circle: | null |
-| m5d.xlarge | :green_circle: | :green_circle: | :green_circle: | null |
-| m5d.2xlarge | :green_circle: | :green_circle: | :green_circle: | null |
-| m5d.4xlarge | :green_circle: | :green_circle: | :green_circle: | null |
-| m5d.8xlarge | :green_circle: | :green_circle: | :green_circle: | null |
-| m5d.12xlarge | :green_circle: | :green_circle: | :green_circle: | null |
-| m5d.16xlarge | :green_circle: | :green_circle: | :green_circle: | null |
-| m5d.24xlarge | :green_circle: | :green_circle: | :green_circle: | null |
-| m5d.metal | :green_circle: | :green_circle: | :green_circle: | null |
+| m5d.large | :green_circle: | :green_circle: | :green_circle: | "0.031800" |
+| m5d.xlarge | :green_circle: | :green_circle: | :green_circle: | "0.063600" |
+| m5d.2xlarge | :green_circle: | :green_circle: | :green_circle: | "0.127300" |
+| m5d.4xlarge | :green_circle: | :green_circle: | :green_circle: | "0.254500" |
+| m5d.8xlarge | :green_circle: | :green_circle: | :green_circle: | "2.112000" |
+| m5d.12xlarge | :green_circle: | :green_circle: | :green_circle: | "0.763600" |
+| m5d.16xlarge | :green_circle: | :green_circle: | :green_circle: | "2.274300" |
+| m5d.24xlarge | :green_circle: | :green_circle: | :green_circle: | "1.527100" |
+| m5d.metal | :green_circle: | :green_circle: | :green_circle: | "1.527100" |
 ## r5
 
-| Instance Type | eus1-az1 | eus1-az2 | eus1-az3 |
+| Instance Type | eus1-az1 | eus1-az2 | eus1-az3 | Spot price |
 | ------------- | :-------------: | :-------------: | :-------------: | -------------: |
-| r5.large | :green_circle: | :green_circle: | :green_circle: | null |
-| r5.xlarge | :green_circle: | :green_circle: | :green_circle: | null |
-| r5.2xlarge | :green_circle: | :green_circle: | :green_circle: | null |
-| r5.4xlarge | :green_circle: | :green_circle: | :green_circle: | null |
-| r5.8xlarge | :green_circle: | :green_circle: | :green_circle: | null |
-| r5.12xlarge | :green_circle: | :green_circle: | :green_circle: | null |
-| r5.16xlarge | :green_circle: | :green_circle: | :green_circle: | null |
-| r5.24xlarge | :green_circle: | :green_circle: | :green_circle: | null |
-| r5.metal | :green_circle: | :green_circle: | :green_circle: | null |
+| r5.large | :green_circle: | :green_circle: | :green_circle: | "0.033700" |
+| r5.xlarge | :green_circle: | :green_circle: | :green_circle: | "0.187200" |
+| r5.2xlarge | :green_circle: | :green_circle: | :green_circle: | "0.133300" |
+| r5.4xlarge | :green_circle: | :green_circle: | :green_circle: | "0.266600" |
+| r5.8xlarge | :green_circle: | :green_circle: | :green_circle: | "0.953500" |
+| r5.12xlarge | :green_circle: | :green_circle: | :green_circle: | "0.799900" |
+| r5.16xlarge | :green_circle: | :green_circle: | :green_circle: | "4.736000" |
+| r5.24xlarge | :green_circle: | :green_circle: | :green_circle: | "1.599800" |
+| r5.metal | :green_circle: | :green_circle: | :green_circle: | "7.104000" |
 ## r5d
 
-| Instance Type | eus1-az1 | eus1-az2 | eus1-az3 |
+| Instance Type | eus1-az1 | eus1-az2 | eus1-az3 | Spot price |
 | ------------- | :-------------: | :-------------: | :-------------: | -------------: |
-| r5d.large | :green_circle: | :green_circle: | :green_circle: | null |
-| r5d.xlarge | :green_circle: | :green_circle: | :green_circle: | null |
-| r5d.2xlarge | :green_circle: | :green_circle: | :green_circle: | null |
-| r5d.4xlarge | :green_circle: | :green_circle: | :green_circle: | null |
-| r5d.8xlarge | :green_circle: | :green_circle: | :green_circle: | null |
-| r5d.12xlarge | :green_circle: | :green_circle: | :green_circle: | null |
-| r5d.16xlarge | :green_circle: | :green_circle: | :green_circle: | null |
-| r5d.24xlarge | :green_circle: | :green_circle: | :green_circle: | null |
-| r5d.metal | :green_circle: | :green_circle: | :green_circle: | null |
+| r5d.large | :green_circle: | :green_circle: | :green_circle: | "0.033300" |
+| r5d.xlarge | :green_circle: | :green_circle: | :green_circle: | "0.066700" |
+| r5d.2xlarge | :green_circle: | :green_circle: | :green_circle: | "0.133300" |
+| r5d.4xlarge | :green_circle: | :green_circle: | :green_circle: | "0.266600" |
+| r5d.8xlarge | :green_circle: | :green_circle: | :green_circle: | "0.533300" |
+| r5d.12xlarge | :green_circle: | :green_circle: | :green_circle: | "0.799900" |
+| r5d.16xlarge | :green_circle: | :green_circle: | :green_circle: | "1.066600" |
+| r5d.24xlarge | :green_circle: | :green_circle: | :green_circle: | "1.599800" |
+| r5d.metal | :green_circle: | :green_circle: | :green_circle: | "1.599800" |
 ## t3
 
-| Instance Type | eus1-az1 | eus1-az2 | eus1-az3 |
+| Instance Type | eus1-az1 | eus1-az2 | eus1-az3 | Spot price |
 | ------------- | :-------------: | :-------------: | :-------------: | -------------: |
-| t3.nano | :green_circle: | :green_circle: | :green_circle: | null |
-| t3.micro | :green_circle: | :green_circle: | :green_circle: | null |
-| t3.small | :green_circle: | :green_circle: | :green_circle: | null |
-| t3.medium | :green_circle: | :green_circle: | :green_circle: | null |
-| t3.large | :green_circle: | :green_circle: | :green_circle: | null |
-| t3.xlarge | :green_circle: | :green_circle: | :green_circle: | null |
-| t3.2xlarge | :green_circle: | :green_circle: | :green_circle: | null |
+| t3.nano | :green_circle: | :green_circle: | :green_circle: | "0.001800" |
+| t3.micro | :green_circle: | :green_circle: | :green_circle: | "0.003600" |
+| t3.small | :green_circle: | :green_circle: | :green_circle: | "0.007200" |
+| t3.medium | :green_circle: | :green_circle: | :green_circle: | "0.014400" |
+| t3.large | :green_circle: | :green_circle: | :green_circle: | "0.047900" |
+| t3.xlarge | :green_circle: | :green_circle: | :green_circle: | "0.099400" |
+| t3.2xlarge | :green_circle: | :green_circle: | :green_circle: | "0.195100" |
 
 
 
