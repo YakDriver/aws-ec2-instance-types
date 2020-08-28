@@ -202,9 +202,8 @@ function update_links() {
   printf "\n\n" >> "${offering_header}"
 }
 
-function spot_price() {
+function spot_prices() {
   local region=$1
-  local instance_type=$2
 
   if [[ "${region}" == *"gov"* ]]; then
     aki="${USGAKI}"
@@ -214,14 +213,29 @@ function spot_price() {
     sak="${STASAK}"
   fi
 
-  price=$(AWS_ACCESS_KEY_ID="${aki}" AWS_SECRET_ACCESS_KEY="${sak}" AWS_DEFAULT_REGION="${region}" \
+  local today=$(date +%F)
+
+  prices=$(AWS_ACCESS_KEY_ID="${aki}" AWS_SECRET_ACCESS_KEY="${sak}" AWS_DEFAULT_REGION="${region}" \
   aws ec2 describe-spot-price-history \
-  --instance-types "${instance_type}" \
   --product-description "Linux/UNIX (Amazon VPC)" \
-  --query "SpotPriceHistory[] [SpotPrice]" \
-  --start-time 2020-08-27 \
-  --end-time 2020-08-27 \
-  --output text | sort -ur | head -n 1)
+  --query "SpotPriceHistory[] [InstanceType, SpotPrice]" \
+  --start-time ${today} \
+  --end-time ${today} \
+  --output text)
+
+  declare -A priceArr
+
+  while read -r line; do
+    type=$(echo "${line}" | cut -f1)
+    price=$(echo "${line}" | cut -f2)
+    if [ $priceArr[$type] = "" ]; then
+      priceArr[$type]=$price
+    elif [[ $priceArr[$type] < $price ]]; then
+      priceArr[$type]=$price
+      printf "replacing %f with %f\n" $priceArr[$type] $price
+    fi
+    #printf "type ${type} price ${price}\n"
+  done <<< "${prices}"  
 }
 
 function instance_types() {
@@ -238,7 +252,8 @@ function instance_types() {
       cat "${az_id}-classes.txt" >> "${region}-all-classes.txt"
     done <"${results_path}/${region}.txt"
 
-    # add common up top
+    spot_prices "${region}"
+
     cat "${region}-all-classes.txt" | sort -u >> "${region}-unique-classes.txt"
 
     local output="${results_path}/${region}.md"
@@ -281,8 +296,7 @@ function instance_types() {
           fi
         done <"${results_path}/${region}.txt"
         if [ "${include_row}" = "1" ]; then
-          price="none"
-          spot_price "${region}" "${class}.${type}" 
+          price=priceArr["${class}.${type}"]
           row="${row} ${price} |"
           printf "%s\n" "${row}" >> "${output}"
         fi
