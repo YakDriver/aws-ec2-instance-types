@@ -215,6 +215,7 @@ function spot_prices() {
   fi
 
   local today=$(date +%F)
+  local yesterday=$(date -d "yesterday" +%F)
 
   AWS_ACCESS_KEY_ID="${aki}" AWS_SECRET_ACCESS_KEY="${sak}" AWS_DEFAULT_REGION="${region}" \
     aws ec2 describe-spot-price-history \
@@ -286,6 +287,7 @@ function instance_types() {
         if [ "${include_row}" = "1" ]; then
           price=$(jq '[ .[] | select(.type == "'"${class}.${type}"'").price ] | max' "${results_path}/spot-prices-${region}.json")
           price=$(sed -e 's/^"//' -e 's/"$//' <<<"${price}")
+
           printf "%s %.4f |\n" "${row}" "${price}" >> "${output}"
         fi
       done
