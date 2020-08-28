@@ -309,9 +309,10 @@ function write_instance_info() {
     printf "\n\n" >> "${output}"
 
     printf "Jump to type: " >> "${output}"
-    while read -r type; do
+    while read -r enc_type; do
+      local type=$(decode_type "${enc_type}")
       printf "[:small_blue_diamond:%s](#%s)&nbsp; " "${type}" "${type}" >> "${output}"
-    done <"${region}-unique-types.txt"
+    done <"${region}-unique-enc-types.txt"
     printf "\n\n" >> "${output}"
 
     local yes_or_no=""
@@ -343,7 +344,7 @@ function write_instance_info() {
             include_row=1
             row="${row} :green_circle: |"
           fi
-        done <"${results_path}/${region}.txt"        
+        done <"${results_path}/${region}.txt"
         if [ "${include_row}" = "1" ]; then
           price=$(jq '[ .[] | select(.type == "'"${class}.${type}"'").price ] | max' "${results_path}/spot-prices-${region}.json")
           price=$(sed -e 's/^"//' -e 's/"$//' <<<"${price}")
@@ -358,7 +359,7 @@ function write_instance_info() {
 
     local yes_or_no=""
     while read -r enc_type; do
-      type=$(decode_type "${enc_type}")
+      local type=$(decode_type "${enc_type}")
       printf "\n\n## %s\n\n" "${type}" >> "${output}"
 
       local table_header_bar="| ------------- |"
@@ -386,9 +387,9 @@ function write_instance_info() {
             include_row=1
             row="${row} :green_circle: |"
           fi
-        done <"${results_path}/${region}.txt"        
+        done <"${results_path}/${region}.txt"
         if [ "${include_row}" = "1" ]; then
-          price=$(jq '[ .[] | select(.class == "'"${class}.${type}"'").price ] | max' "${results_path}/spot-prices-${region}.json")
+          price=$(jq '[ .[] | select(.type == "'"${class}.${type}"'").price ] | max' "${results_path}/spot-prices-${region}.json")
           price=$(sed -e 's/^"//' -e 's/"$//' <<<"${price}")
           if [ "${price}" = "null" ]; then
             printf "%s %s |\n" "${row}" "None found" >> "${output}"
