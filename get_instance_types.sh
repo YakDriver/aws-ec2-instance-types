@@ -204,6 +204,7 @@ function update_links() {
 
 function spot_prices() {
   local region=$1
+  local prices_file="${results_path}/spot-prices-${region}.json"
 
   if [[ "${region}" == *"gov"* ]]; then
     aki="${USGAKI}"
@@ -215,27 +216,13 @@ function spot_prices() {
 
   local today=$(date +%F)
 
-  prices=$(AWS_ACCESS_KEY_ID="${aki}" AWS_SECRET_ACCESS_KEY="${sak}" AWS_DEFAULT_REGION="${region}" \
-  aws ec2 describe-spot-price-history \
-  --product-description "Linux/UNIX (Amazon VPC)" \
-  --query "SpotPriceHistory[] [InstanceType, SpotPrice]" \
-  --start-time ${today} \
-  --end-time ${today} \
-  --output text)
-
-  declare -A priceArr
-
-  while read -r line; do
-    type=$(echo "${line}" | cut -f1)
-    price=$(echo "${line}" | cut -f2)
-    if [ $priceArr[$type] = "" ]; then
-      priceArr[$type]=$price
-    elif [[ $priceArr[$type] < $price ]]; then
-      priceArr[$type]=$price
-      printf "replacing %f with %f\n" $priceArr[$type] $price
-    fi
-    #printf "type ${type} price ${price}\n"
-  done <<< "${prices}"  
+  AWS_ACCESS_KEY_ID="${aki}" AWS_SECRET_ACCESS_KEY="${sak}" AWS_DEFAULT_REGION="${region}" \
+    aws ec2 describe-spot-price-history \
+    --product-description "Linux/UNIX (Amazon VPC)" \
+    --query "SpotPriceHistory[*].{type:InstanceType,price:SpotPrice}" \
+    --start-time ${today} \
+    --end-time ${today} \
+    --output json > "${prices_file}"
 }
 
 function instance_types() {
@@ -296,7 +283,7 @@ function instance_types() {
           fi
         done <"${results_path}/${region}.txt"
         if [ "${include_row}" = "1" ]; then
-          price=$priceArr["${class}.${type}"]
+          price=$(jq '[ .[] | select(.type == "${class}.${type}").price ] | max' ${results_path}/spot-prices-${region}.json)
           row="${row} ${price} |"
           printf "%s\n" "${row}" >> "${output}"
         fi
