@@ -296,7 +296,7 @@ function instance_types() {
           fi
         done <"${results_path}/${region}.txt"
         if [ "${include_row}" = "1" ]; then
-          price=priceArr["${class}.${type}"]
+          price=$priceArr["${class}.${type}"]
           row="${row} ${price} |"
           printf "%s\n" "${row}" >> "${output}"
         fi
