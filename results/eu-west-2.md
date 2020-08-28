@@ -8,21 +8,25 @@ Regions: :us: [us-gov-west-1](us-gov-west-1.md)&nbsp;  :us: [us-gov-east-1](us-g
 
 Jump to class: [:black_small_square:c4](#c4)&nbsp; [:black_small_square:c5](#c5)&nbsp; [:black_small_square:c5a](#c5a)&nbsp; [:black_small_square:c5d](#c5d)&nbsp; [:black_small_square:c5n](#c5n)&nbsp; [:black_small_square:d2](#d2)&nbsp; [:black_small_square:g3](#g3)&nbsp; [:black_small_square:g3s](#g3s)&nbsp; [:black_small_square:g4dn](#g4dn)&nbsp; [:black_small_square:i3](#i3)&nbsp; [:black_small_square:i3en](#i3en)&nbsp; [:black_small_square:m4](#m4)&nbsp; [:black_small_square:m5](#m5)&nbsp; [:black_small_square:m5a](#m5a)&nbsp; [:black_small_square:m5ad](#m5ad)&nbsp; [:black_small_square:m5d](#m5d)&nbsp; [:black_small_square:p3](#p3)&nbsp; [:black_small_square:r4](#r4)&nbsp; [:black_small_square:r5](#r5)&nbsp; [:black_small_square:r5a](#r5a)&nbsp; [:black_small_square:r5ad](#r5ad)&nbsp; [:black_small_square:r5d](#r5d)&nbsp; [:black_small_square:t2](#t2)&nbsp; [:black_small_square:t3](#t3)&nbsp; [:black_small_square:t3a](#t3a)&nbsp; [:black_small_square:x1](#x1)&nbsp; [:black_small_square:z1d](#z1d)&nbsp; 
 
+
+
 ## c4
 
 | Instance Type | euw2-az1 | euw2-az2 | euw2-az3 | Spot price |
 | ------------- | :-------------: | :-------------: | :-------------: | -------------: |
-| c4.large | :green_circle: | :green_circle: | :green_circle: | 0.0648 |
+| c4.large | :green_circle: | :green_circle: | :green_circle: | 0.0676 |
 | c4.xlarge | :green_circle: | :green_circle: | :green_circle: | 0.0598 |
 | c4.2xlarge | :green_circle: | :green_circle: | :green_circle: | 0.1260 |
 | c4.4xlarge | :green_circle: | :green_circle: | :green_circle: | 0.2394 |
 | c4.8xlarge | :green_circle: | :green_circle: | :green_circle: | 1.9020 |
+
+
 ## c5
 
 | Instance Type | euw2-az1 | euw2-az2 | euw2-az3 | Spot price |
 | ------------- | :-------------: | :-------------: | :-------------: | -------------: |
 | c5.large | :green_circle: | :green_circle: | :green_circle: | 0.0316 |
-| c5.xlarge | :green_circle: | :green_circle: | :green_circle: | 0.0641 |
+| c5.xlarge | :green_circle: | :green_circle: | :green_circle: | 0.0642 |
 | c5.2xlarge | :green_circle: | :green_circle: | :green_circle: | 0.1513 |
 | c5.4xlarge | :green_circle: | :green_circle: | :green_circle: | 0.2578 |
 | c5.9xlarge | :green_circle: | :green_circle: | :green_circle: | 0.5655 |
@@ -30,6 +34,8 @@ Jump to class: [:black_small_square:c4](#c4)&nbsp; [:black_small_square:c5](#c5)
 | c5.18xlarge | :green_circle: | :green_circle: | :green_circle: | 1.1374 |
 | c5.24xlarge | :green_circle: | :green_circle: | :green_circle: | 1.5081 |
 | c5.metal | :green_circle: | :green_circle: | :green_circle: | 1.5081 |
+
+
 ## c5a
 
 | Instance Type | euw2-az1 | euw2-az2 | euw2-az3 | Spot price |
@@ -42,6 +48,8 @@ Jump to class: [:black_small_square:c4](#c4)&nbsp; [:black_small_square:c5](#c5)
 | c5a.12xlarge | :green_circle: | :green_circle: | :green_circle: | 0.7540 |
 | c5a.16xlarge | :green_circle: | :green_circle: | :green_circle: | 1.0054 |
 | c5a.24xlarge | :green_circle: | :green_circle: | :green_circle: | 1.5081 |
+
+
 ## c5d
 
 | Instance Type | euw2-az1 | euw2-az2 | euw2-az3 | Spot price |
@@ -50,22 +58,26 @@ Jump to class: [:black_small_square:c4](#c4)&nbsp; [:black_small_square:c5](#c5)
 | c5d.xlarge | :green_circle: | :green_circle: | :green_circle: | 0.0628 |
 | c5d.2xlarge | :green_circle: | :green_circle: | :green_circle: | 0.1368 |
 | c5d.4xlarge | :green_circle: | :green_circle: | :green_circle: | 0.2550 |
-| c5d.9xlarge | :green_circle: | :green_circle: | :green_circle: | 0.5945 |
+| c5d.9xlarge | :green_circle: | :green_circle: | :green_circle: | 0.5997 |
 | c5d.12xlarge | :green_circle: | :green_circle: | :green_circle: | 0.7540 |
 | c5d.18xlarge | :green_circle: | :green_circle: | :green_circle: | 1.1422 |
 | c5d.24xlarge | :green_circle: | :green_circle: | :green_circle: | 1.5081 |
 | c5d.metal | :green_circle: | :green_circle: | :green_circle: | 5.5200 |
+
+
 ## c5n
 
 | Instance Type | euw2-az1 | euw2-az2 | euw2-az3 | Spot price |
 | ------------- | :-------------: | :-------------: | :-------------: | -------------: |
 | c5n.large | :red_circle: | :green_circle: | :green_circle: | 0.0314 |
-| c5n.xlarge | :red_circle: | :green_circle: | :green_circle: | 0.0639 |
+| c5n.xlarge | :red_circle: | :green_circle: | :green_circle: | 0.0641 |
 | c5n.2xlarge | :red_circle: | :green_circle: | :green_circle: | 0.1366 |
 | c5n.4xlarge | :red_circle: | :green_circle: | :green_circle: | 0.2513 |
 | c5n.9xlarge | :red_circle: | :green_circle: | :green_circle: | 0.5655 |
 | c5n.18xlarge | :red_circle: | :green_circle: | :green_circle: | 1.1311 |
 | c5n.metal | :red_circle: | :green_circle: | :green_circle: | 1.1311 |
+
+
 ## d2
 
 | Instance Type | euw2-az1 | euw2-az2 | euw2-az3 | Spot price |
@@ -74,6 +86,8 @@ Jump to class: [:black_small_square:c4](#c4)&nbsp; [:black_small_square:c5](#c5)
 | d2.2xlarge | :green_circle: | :green_circle: | :green_circle: | 1.5440 |
 | d2.4xlarge | :green_circle: | :green_circle: | :green_circle: | 3.0870 |
 | d2.8xlarge | :green_circle: | :green_circle: | :green_circle: | 6.1740 |
+
+
 ## g3
 
 | Instance Type | euw2-az1 | euw2-az2 | euw2-az3 | Spot price |
@@ -81,11 +95,15 @@ Jump to class: [:black_small_square:c4](#c4)&nbsp; [:black_small_square:c5](#c5)
 | g3.4xlarge | :red_circle: | :green_circle: | :green_circle: | 0.4307 |
 | g3.8xlarge | :red_circle: | :green_circle: | :green_circle: | 0.8574 |
 | g3.16xlarge | :red_circle: | :green_circle: | :green_circle: | 1.7148 |
+
+
 ## g3s
 
 | Instance Type | euw2-az1 | euw2-az2 | euw2-az3 | Spot price |
 | ------------- | :-------------: | :-------------: | :-------------: | -------------: |
 | g3s.xlarge | :red_circle: | :green_circle: | :green_circle: | 0.2820 |
+
+
 ## g4dn
 
 | Instance Type | euw2-az1 | euw2-az2 | euw2-az3 | Spot price |
@@ -96,6 +114,8 @@ Jump to class: [:black_small_square:c4](#c4)&nbsp; [:black_small_square:c5](#c5)
 | g4dn.8xlarge | :green_circle: | :green_circle: | :green_circle: | 0.7638 |
 | g4dn.12xlarge | :green_circle: | :green_circle: | :green_circle: | 2.1015 |
 | g4dn.16xlarge | :green_circle: | :green_circle: | :green_circle: | 4.0695 |
+
+
 ## i3
 
 | Instance Type | euw2-az1 | euw2-az2 | euw2-az3 | Spot price |
@@ -106,6 +126,8 @@ Jump to class: [:black_small_square:c4](#c4)&nbsp; [:black_small_square:c5](#c5)
 | i3.4xlarge | :green_circle: | :green_circle: | :green_circle: | 1.4480 |
 | i3.8xlarge | :green_circle: | :green_circle: | :green_circle: | 2.8960 |
 | i3.16xlarge | :green_circle: | :green_circle: | :green_circle: | 5.7920 |
+
+
 ## i3en
 
 | Instance Type | euw2-az1 | euw2-az2 | euw2-az3 | Spot price |
@@ -118,16 +140,20 @@ Jump to class: [:black_small_square:c4](#c4)&nbsp; [:black_small_square:c5](#c5)
 | i3en.12xlarge | :green_circle: | :green_circle: | :green_circle: | 1.9598 |
 | i3en.24xlarge | :green_circle: | :green_circle: | :green_circle: | 3.7872 |
 | i3en.metal | :green_circle: | :green_circle: | :green_circle: | 3.7872 |
+
+
 ## m4
 
 | Instance Type | euw2-az1 | euw2-az2 | euw2-az3 | Spot price |
 | ------------- | :-------------: | :-------------: | :-------------: | -------------: |
 | m4.large | :green_circle: | :green_circle: | :green_circle: | 0.0323 |
-| m4.xlarge | :green_circle: | :green_circle: | :green_circle: | 0.0689 |
+| m4.xlarge | :green_circle: | :green_circle: | :green_circle: | 0.0701 |
 | m4.2xlarge | :green_circle: | :green_circle: | :green_circle: | 0.1471 |
-| m4.4xlarge | :green_circle: | :green_circle: | :green_circle: | 0.3062 |
-| m4.10xlarge | :green_circle: | :green_circle: | :green_circle: | 0.7852 |
-| m4.16xlarge | :green_circle: | :green_circle: | :green_circle: | 1.2441 |
+| m4.4xlarge | :green_circle: | :green_circle: | :green_circle: | 0.3097 |
+| m4.10xlarge | :green_circle: | :green_circle: | :green_circle: | 0.7890 |
+| m4.16xlarge | :green_circle: | :green_circle: | :green_circle: | 1.2468 |
+
+
 ## m5
 
 | Instance Type | euw2-az1 | euw2-az2 | euw2-az3 | Spot price |
@@ -135,24 +161,28 @@ Jump to class: [:black_small_square:c4](#c4)&nbsp; [:black_small_square:c5](#c5)
 | m5.large | :green_circle: | :green_circle: | :green_circle: | 0.0360 |
 | m5.xlarge | :green_circle: | :green_circle: | :green_circle: | 0.0667 |
 | m5.2xlarge | :green_circle: | :green_circle: | :green_circle: | 0.1509 |
-| m5.4xlarge | :green_circle: | :green_circle: | :green_circle: | 0.2674 |
+| m5.4xlarge | :green_circle: | :green_circle: | :green_circle: | 0.2678 |
 | m5.8xlarge | :green_circle: | :green_circle: | :green_circle: | 1.0946 |
-| m5.12xlarge | :green_circle: | :green_circle: | :green_circle: | 0.7929 |
-| m5.16xlarge | :green_circle: | :green_circle: | :green_circle: | 1.3483 |
-| m5.24xlarge | :green_circle: | :green_circle: | :green_circle: | 1.6016 |
+| m5.12xlarge | :green_circle: | :green_circle: | :green_circle: | 0.7931 |
+| m5.16xlarge | :green_circle: | :green_circle: | :green_circle: | 1.3518 |
+| m5.24xlarge | :green_circle: | :green_circle: | :green_circle: | 1.6044 |
 | m5.metal | :green_circle: | :green_circle: | :green_circle: | 1.5835 |
+
+
 ## m5a
 
 | Instance Type | euw2-az1 | euw2-az2 | euw2-az3 | Spot price |
 | ------------- | :-------------: | :-------------: | :-------------: | -------------: |
 | m5a.large | :green_circle: | :green_circle: | :green_circle: | 0.0330 |
 | m5a.xlarge | :green_circle: | :green_circle: | :green_circle: | 0.0667 |
-| m5a.2xlarge | :green_circle: | :green_circle: | :green_circle: | 0.1558 |
+| m5a.2xlarge | :green_circle: | :green_circle: | :green_circle: | 0.1594 |
 | m5a.4xlarge | :green_circle: | :green_circle: | :green_circle: | 0.2646 |
 | m5a.8xlarge | :green_circle: | :green_circle: | :green_circle: | 0.5651 |
 | m5a.12xlarge | :green_circle: | :green_circle: | :green_circle: | 0.7918 |
-| m5a.16xlarge | :green_circle: | :green_circle: | :green_circle: | 1.0578 |
+| m5a.16xlarge | :green_circle: | :green_circle: | :green_circle: | 1.0673 |
 | m5a.24xlarge | :green_circle: | :green_circle: | :green_circle: | 1.5835 |
+
+
 ## m5ad
 
 | Instance Type | euw2-az1 | euw2-az2 | euw2-az3 | Spot price |
@@ -163,8 +193,10 @@ Jump to class: [:black_small_square:c4](#c4)&nbsp; [:black_small_square:c5](#c5)
 | m5ad.4xlarge | :green_circle: | :green_circle: | :green_circle: | 0.2639 |
 | m5ad.8xlarge | :green_circle: | :green_circle: | :green_circle: | 0.5278 |
 | m5ad.12xlarge | :green_circle: | :green_circle: | :green_circle: | 0.7918 |
-| m5ad.16xlarge | :green_circle: | :green_circle: | :green_circle: | 1.0688 |
+| m5ad.16xlarge | :green_circle: | :green_circle: | :green_circle: | 1.0781 |
 | m5ad.24xlarge | :green_circle: | :green_circle: | :green_circle: | 1.5835 |
+
+
 ## m5d
 
 | Instance Type | euw2-az1 | euw2-az2 | euw2-az3 | Spot price |
@@ -178,6 +210,8 @@ Jump to class: [:black_small_square:c4](#c4)&nbsp; [:black_small_square:c5](#c5)
 | m5d.16xlarge | :green_circle: | :green_circle: | :green_circle: | 1.0669 |
 | m5d.24xlarge | :green_circle: | :green_circle: | :green_circle: | 1.5835 |
 | m5d.metal | :green_circle: | :green_circle: | :green_circle: | 1.5835 |
+
+
 ## p3
 
 | Instance Type | euw2-az1 | euw2-az2 | euw2-az3 | Spot price |
@@ -185,16 +219,20 @@ Jump to class: [:black_small_square:c4](#c4)&nbsp; [:black_small_square:c5](#c5)
 | p3.2xlarge | :red_circle: | :green_circle: | :green_circle: | 1.3115 |
 | p3.8xlarge | :red_circle: | :green_circle: | :green_circle: | 4.3068 |
 | p3.16xlarge | :red_circle: | :green_circle: | :green_circle: | 8.6136 |
+
+
 ## r4
 
 | Instance Type | euw2-az1 | euw2-az2 | euw2-az3 | Spot price |
 | ------------- | :-------------: | :-------------: | :-------------: | -------------: |
 | r4.large | :green_circle: | :green_circle: | :green_circle: | 0.0331 |
 | r4.xlarge | :green_circle: | :green_circle: | :green_circle: | 0.0664 |
-| r4.2xlarge | :green_circle: | :green_circle: | :green_circle: | 0.1320 |
+| r4.2xlarge | :green_circle: | :green_circle: | :green_circle: | 0.1323 |
 | r4.4xlarge | :green_circle: | :green_circle: | :green_circle: | 0.2702 |
-| r4.8xlarge | :green_circle: | :green_circle: | :green_circle: | 0.6761 |
-| r4.16xlarge | :green_circle: | :green_circle: | :green_circle: | 1.0590 |
+| r4.8xlarge | :green_circle: | :green_circle: | :green_circle: | 0.6832 |
+| r4.16xlarge | :green_circle: | :green_circle: | :green_circle: | 1.0622 |
+
+
 ## r5
 
 | Instance Type | euw2-az1 | euw2-az2 | euw2-az3 | Spot price |
@@ -202,12 +240,14 @@ Jump to class: [:black_small_square:c4](#c4)&nbsp; [:black_small_square:c5](#c5)
 | r5.large | :green_circle: | :green_circle: | :green_circle: | 0.0353 |
 | r5.xlarge | :green_circle: | :green_circle: | :green_circle: | 0.0891 |
 | r5.2xlarge | :green_circle: | :green_circle: | :green_circle: | 0.1412 |
-| r5.4xlarge | :green_circle: | :green_circle: | :green_circle: | 0.7572 |
+| r5.4xlarge | :green_circle: | :green_circle: | :green_circle: | 0.7587 |
 | r5.8xlarge | :green_circle: | :green_circle: | :green_circle: | 2.3680 |
-| r5.12xlarge | :green_circle: | :green_circle: | :green_circle: | 1.1359 |
+| r5.12xlarge | :green_circle: | :green_circle: | :green_circle: | 1.1370 |
 | r5.16xlarge | :green_circle: | :green_circle: | :green_circle: | 1.5405 |
 | r5.24xlarge | :green_circle: | :green_circle: | :green_circle: | 1.9814 |
 | r5.metal | :green_circle: | :green_circle: | :green_circle: | 1.6589 |
+
+
 ## r5a
 
 | Instance Type | euw2-az1 | euw2-az2 | euw2-az3 | Spot price |
@@ -220,6 +260,8 @@ Jump to class: [:black_small_square:c4](#c4)&nbsp; [:black_small_square:c5](#c5)
 | r5a.12xlarge | :green_circle: | :green_circle: | :green_circle: | 3.1920 |
 | r5a.16xlarge | :green_circle: | :green_circle: | :green_circle: | 1.1059 |
 | r5a.24xlarge | :green_circle: | :green_circle: | :green_circle: | 6.3840 |
+
+
 ## r5ad
 
 | Instance Type | euw2-az1 | euw2-az2 | euw2-az3 | Spot price |
@@ -232,6 +274,8 @@ Jump to class: [:black_small_square:c4](#c4)&nbsp; [:black_small_square:c5](#c5)
 | r5ad.12xlarge | :green_circle: | :green_circle: | :green_circle: | 0.8295 |
 | r5ad.16xlarge | :green_circle: | :green_circle: | :green_circle: | 1.1059 |
 | r5ad.24xlarge | :green_circle: | :green_circle: | :green_circle: | 1.6589 |
+
+
 ## r5d
 
 | Instance Type | euw2-az1 | euw2-az2 | euw2-az3 | Spot price |
@@ -245,17 +289,21 @@ Jump to class: [:black_small_square:c4](#c4)&nbsp; [:black_small_square:c5](#c5)
 | r5d.16xlarge | :green_circle: | :green_circle: | :green_circle: | 1.1059 |
 | r5d.24xlarge | :green_circle: | :green_circle: | :green_circle: | 1.6589 |
 | r5d.metal | :green_circle: | :green_circle: | :green_circle: | 8.1120 |
+
+
 ## t2
 
 | Instance Type | euw2-az1 | euw2-az2 | euw2-az3 | Spot price |
 | ------------- | :-------------: | :-------------: | :-------------: | -------------: |
-| t2.nano | :green_circle: | :green_circle: | :green_circle: | 0.0000 |
+| t2.nano | :green_circle: | :green_circle: | :green_circle: | None found |
 | t2.micro | :green_circle: | :green_circle: | :green_circle: | 0.0071 |
 | t2.small | :green_circle: | :green_circle: | :green_circle: | 0.0078 |
 | t2.medium | :green_circle: | :green_circle: | :green_circle: | 0.0156 |
 | t2.large | :green_circle: | :green_circle: | :green_circle: | 0.0317 |
 | t2.xlarge | :green_circle: | :green_circle: | :green_circle: | 0.0634 |
 | t2.2xlarge | :green_circle: | :green_circle: | :green_circle: | 0.1267 |
+
+
 ## t3
 
 | Instance Type | euw2-az1 | euw2-az2 | euw2-az3 | Spot price |
@@ -267,6 +315,8 @@ Jump to class: [:black_small_square:c4](#c4)&nbsp; [:black_small_square:c5](#c5)
 | t3.large | :green_circle: | :green_circle: | :green_circle: | 0.0285 |
 | t3.xlarge | :green_circle: | :green_circle: | :green_circle: | 0.0631 |
 | t3.2xlarge | :green_circle: | :green_circle: | :green_circle: | 0.1157 |
+
+
 ## t3a
 
 | Instance Type | euw2-az1 | euw2-az2 | euw2-az3 | Spot price |
@@ -278,12 +328,16 @@ Jump to class: [:black_small_square:c4](#c4)&nbsp; [:black_small_square:c5](#c5)
 | t3a.large | :green_circle: | :green_circle: | :green_circle: | 0.0255 |
 | t3a.xlarge | :green_circle: | :green_circle: | :green_circle: | 0.0510 |
 | t3a.2xlarge | :green_circle: | :green_circle: | :green_circle: | 0.1019 |
+
+
 ## x1
 
 | Instance Type | euw2-az1 | euw2-az2 | euw2-az3 | Spot price |
 | ------------- | :-------------: | :-------------: | :-------------: | -------------: |
 | x1.16xlarge | :green_circle: | :green_circle: | :green_circle: | 2.5209 |
 | x1.32xlarge | :green_circle: | :green_circle: | :green_circle: | 5.0418 |
+
+
 ## z1d
 
 | Instance Type | euw2-az1 | euw2-az2 | euw2-az3 | Spot price |
