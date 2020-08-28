@@ -102,11 +102,58 @@ function list_classes() {
   cat "${az_id}-preclasses.txt" | sort -u > "${az_id}-classes.txt"
 }
 
+typ_enc1=()
+typ_enc1+=( "nano" )
+typ_enc1+=( "micro" )
+typ_enc1+=( "small" )
+typ_enc1+=( "medium" )
+typ_enc1+=( "xlarge" )
+typ_enc1+=( "large" )
+typ_enc1+=( "metal" )
+
+typ_enc2=()
+typ_enc2+=( 1 )
+typ_enc2+=( 2 )
+typ_enc2+=( 3 )
+typ_enc2+=( 4 )
+typ_enc2+=( 1000 )
+typ_enc2+=( 5 )
+typ_enc2+=( 2000 )
+
 function list_types() {
   local az_id=$1
   cp "${az_id}-raw.txt" "${az_id}-pretypes.txt"
   perl -p -i -e 's/^[a-z0-9]+\.(.*)$/$1/g' "${az_id}-pretypes.txt"
   cat "${az_id}-pretypes.txt" | sort -u > "${az_id}-types.txt"
+
+  for i in "${!typ_enc1[@]}"; do
+    perl -p -i -e 's/(\d+)?'"${typ_enc1[$i]}"'/sprintf("%04d", '"${typ_enc2[$i]}"'+$1)/ge' "${az_id}-types.txt"
+  done
+
+  cat "${az_id}-types.txt" | sort -u > "${az_id}-enc-types.txt"
+}
+
+function decode_type() {
+  local enc_type=$1
+  local typ_int=$(sed -e 's/^000//' <<<"${enc_type}")
+
+  local dec_type="Decode failed"
+  for i in "${!typ_enc2[@]}"; do
+    if [[ ${typ_int} -eq ${typ_enc2[$i]} ]]; then
+      echo "${typ_enc1[$i]}"
+      return
+    fi
+  done
+
+  for i in "${!typ_enc2[@]}"; do
+    local remain="$((${typ_int} - ${typ_enc2[$i]}))"
+    if [ ${remain} -lt 300 ]; then
+      echo "${remain}${typ_enc1[$i]}"
+      return
+    fi
+  done
+
+  echo "${dec_type}"
 }
 
 function region_flag() {
@@ -243,13 +290,13 @@ function write_instance_info() {
       list_classes "${az_id}"
       list_types "${az_id}"
       cat "${az_id}-classes.txt" >> "${region}-all-classes.txt"
-      cat "${az_id}-types.txt" >> "${region}-all-types.txt"
+      cat "${az_id}-types.txt" >> "${region}-all-enc-types.txt"
     done <"${results_path}/${region}.txt"
 
     spot_prices "${region}"
 
     cat "${region}-all-classes.txt" | sort -u >> "${region}-unique-classes.txt"
-    cat "${region}-all-types.txt" | sort -u >> "${region}-unique-types.txt"
+    cat "${region}-all-enc-types.txt" | sort -u >> "${region}-unique-enc-types.txt"
 
     local output="${results_path}/${region}.md"
     printf "# %s %s AWS EC2 Instance Types\n\n" "$(region_flag ${region})" "${region}" > "${output}"
@@ -310,7 +357,8 @@ function write_instance_info() {
     done <"${region}-unique-classes.txt"
 
     local yes_or_no=""
-    while read -r type; do
+    while read -r enc_type; do
+      type=$(decode_type "${enc_type}")
       printf "\n\n## %s\n\n" "${type}" >> "${output}"
 
       local table_header_bar="| ------------- |"
@@ -349,7 +397,7 @@ function write_instance_info() {
           fi
         fi
       done <"${region}-unique-classes.txt"
-    done <"${region}-unique-types.txt"
+    done <"${region}-unique-enc-types.txt"
 
     printf "\n\n\n" >> "${output}"
   done <"${regions_file}"
