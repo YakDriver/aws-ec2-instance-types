@@ -12,154 +12,154 @@ Jump to class: [:black_small_square:c5](#c5)&nbsp; [:black_small_square:c5a](#c5
 
 | Instance Type | eun1-az1 | eun1-az2 | eun1-az3 |
 | ------------- | :-------------: | :-------------: | :-------------: | -------------: |
-| c5.large | :green_circle: | :green_circle: | :green_circle: | priceArr[c5.large] |
-| c5.xlarge | :green_circle: | :green_circle: | :green_circle: | priceArr[c5.xlarge] |
-| c5.2xlarge | :green_circle: | :green_circle: | :green_circle: | priceArr[c5.2xlarge] |
-| c5.4xlarge | :green_circle: | :green_circle: | :green_circle: | priceArr[c5.4xlarge] |
-| c5.9xlarge | :green_circle: | :green_circle: | :green_circle: | priceArr[c5.9xlarge] |
-| c5.12xlarge | :green_circle: | :green_circle: | :green_circle: | priceArr[c5.12xlarge] |
-| c5.18xlarge | :green_circle: | :green_circle: | :green_circle: | priceArr[c5.18xlarge] |
-| c5.24xlarge | :green_circle: | :green_circle: | :green_circle: | priceArr[c5.24xlarge] |
-| c5.metal | :green_circle: | :green_circle: | :green_circle: | priceArr[c5.metal] |
+| c5.large | :green_circle: | :green_circle: | :green_circle: | [c5.large] |
+| c5.xlarge | :green_circle: | :green_circle: | :green_circle: | [c5.xlarge] |
+| c5.2xlarge | :green_circle: | :green_circle: | :green_circle: | [c5.2xlarge] |
+| c5.4xlarge | :green_circle: | :green_circle: | :green_circle: | [c5.4xlarge] |
+| c5.9xlarge | :green_circle: | :green_circle: | :green_circle: | [c5.9xlarge] |
+| c5.12xlarge | :green_circle: | :green_circle: | :green_circle: | [c5.12xlarge] |
+| c5.18xlarge | :green_circle: | :green_circle: | :green_circle: | [c5.18xlarge] |
+| c5.24xlarge | :green_circle: | :green_circle: | :green_circle: | [c5.24xlarge] |
+| c5.metal | :green_circle: | :green_circle: | :green_circle: | [c5.metal] |
 ## c5a
 
 | Instance Type | eun1-az1 | eun1-az2 | eun1-az3 |
 | ------------- | :-------------: | :-------------: | :-------------: | -------------: |
-| c5a.large | :green_circle: | :green_circle: | :green_circle: | priceArr[c5a.large] |
-| c5a.xlarge | :green_circle: | :green_circle: | :green_circle: | priceArr[c5a.xlarge] |
-| c5a.2xlarge | :green_circle: | :green_circle: | :green_circle: | priceArr[c5a.2xlarge] |
-| c5a.4xlarge | :green_circle: | :green_circle: | :green_circle: | priceArr[c5a.4xlarge] |
-| c5a.8xlarge | :green_circle: | :green_circle: | :green_circle: | priceArr[c5a.8xlarge] |
-| c5a.12xlarge | :green_circle: | :green_circle: | :green_circle: | priceArr[c5a.12xlarge] |
-| c5a.16xlarge | :green_circle: | :green_circle: | :green_circle: | priceArr[c5a.16xlarge] |
-| c5a.24xlarge | :green_circle: | :green_circle: | :green_circle: | priceArr[c5a.24xlarge] |
+| c5a.large | :green_circle: | :green_circle: | :green_circle: | [c5a.large] |
+| c5a.xlarge | :green_circle: | :green_circle: | :green_circle: | [c5a.xlarge] |
+| c5a.2xlarge | :green_circle: | :green_circle: | :green_circle: | [c5a.2xlarge] |
+| c5a.4xlarge | :green_circle: | :green_circle: | :green_circle: | [c5a.4xlarge] |
+| c5a.8xlarge | :green_circle: | :green_circle: | :green_circle: | [c5a.8xlarge] |
+| c5a.12xlarge | :green_circle: | :green_circle: | :green_circle: | [c5a.12xlarge] |
+| c5a.16xlarge | :green_circle: | :green_circle: | :green_circle: | [c5a.16xlarge] |
+| c5a.24xlarge | :green_circle: | :green_circle: | :green_circle: | [c5a.24xlarge] |
 ## c5d
 
 | Instance Type | eun1-az1 | eun1-az2 | eun1-az3 |
 | ------------- | :-------------: | :-------------: | :-------------: | -------------: |
-| c5d.large | :green_circle: | :green_circle: | :green_circle: | priceArr[c5d.large] |
-| c5d.xlarge | :green_circle: | :green_circle: | :green_circle: | priceArr[c5d.xlarge] |
-| c5d.2xlarge | :green_circle: | :green_circle: | :green_circle: | priceArr[c5d.2xlarge] |
-| c5d.4xlarge | :green_circle: | :green_circle: | :green_circle: | priceArr[c5d.4xlarge] |
-| c5d.9xlarge | :green_circle: | :green_circle: | :green_circle: | priceArr[c5d.9xlarge] |
-| c5d.12xlarge | :green_circle: | :green_circle: | :green_circle: | priceArr[c5d.12xlarge] |
-| c5d.18xlarge | :green_circle: | :green_circle: | :green_circle: | priceArr[c5d.18xlarge] |
-| c5d.24xlarge | :green_circle: | :green_circle: | :green_circle: | priceArr[c5d.24xlarge] |
-| c5d.metal | :green_circle: | :green_circle: | :green_circle: | priceArr[c5d.metal] |
+| c5d.large | :green_circle: | :green_circle: | :green_circle: | [c5d.large] |
+| c5d.xlarge | :green_circle: | :green_circle: | :green_circle: | [c5d.xlarge] |
+| c5d.2xlarge | :green_circle: | :green_circle: | :green_circle: | [c5d.2xlarge] |
+| c5d.4xlarge | :green_circle: | :green_circle: | :green_circle: | [c5d.4xlarge] |
+| c5d.9xlarge | :green_circle: | :green_circle: | :green_circle: | [c5d.9xlarge] |
+| c5d.12xlarge | :green_circle: | :green_circle: | :green_circle: | [c5d.12xlarge] |
+| c5d.18xlarge | :green_circle: | :green_circle: | :green_circle: | [c5d.18xlarge] |
+| c5d.24xlarge | :green_circle: | :green_circle: | :green_circle: | [c5d.24xlarge] |
+| c5d.metal | :green_circle: | :green_circle: | :green_circle: | [c5d.metal] |
 ## c5n
 
 | Instance Type | eun1-az1 | eun1-az2 | eun1-az3 |
 | ------------- | :-------------: | :-------------: | :-------------: | -------------: |
-| c5n.large | :green_circle: | :green_circle: | :green_circle: | priceArr[c5n.large] |
-| c5n.xlarge | :green_circle: | :green_circle: | :green_circle: | priceArr[c5n.xlarge] |
-| c5n.2xlarge | :green_circle: | :green_circle: | :green_circle: | priceArr[c5n.2xlarge] |
-| c5n.4xlarge | :green_circle: | :green_circle: | :green_circle: | priceArr[c5n.4xlarge] |
-| c5n.9xlarge | :green_circle: | :green_circle: | :green_circle: | priceArr[c5n.9xlarge] |
-| c5n.18xlarge | :green_circle: | :green_circle: | :green_circle: | priceArr[c5n.18xlarge] |
-| c5n.metal | :green_circle: | :green_circle: | :green_circle: | priceArr[c5n.metal] |
+| c5n.large | :green_circle: | :green_circle: | :green_circle: | [c5n.large] |
+| c5n.xlarge | :green_circle: | :green_circle: | :green_circle: | [c5n.xlarge] |
+| c5n.2xlarge | :green_circle: | :green_circle: | :green_circle: | [c5n.2xlarge] |
+| c5n.4xlarge | :green_circle: | :green_circle: | :green_circle: | [c5n.4xlarge] |
+| c5n.9xlarge | :green_circle: | :green_circle: | :green_circle: | [c5n.9xlarge] |
+| c5n.18xlarge | :green_circle: | :green_circle: | :green_circle: | [c5n.18xlarge] |
+| c5n.metal | :green_circle: | :green_circle: | :green_circle: | [c5n.metal] |
 ## d2
 
 | Instance Type | eun1-az1 | eun1-az2 | eun1-az3 |
 | ------------- | :-------------: | :-------------: | :-------------: | -------------: |
-| d2.xlarge | :green_circle: | :green_circle: | :green_circle: | priceArr[d2.xlarge] |
-| d2.2xlarge | :green_circle: | :green_circle: | :green_circle: | priceArr[d2.2xlarge] |
-| d2.4xlarge | :green_circle: | :green_circle: | :green_circle: | priceArr[d2.4xlarge] |
-| d2.8xlarge | :green_circle: | :green_circle: | :green_circle: | priceArr[d2.8xlarge] |
+| d2.xlarge | :green_circle: | :green_circle: | :green_circle: | [d2.xlarge] |
+| d2.2xlarge | :green_circle: | :green_circle: | :green_circle: | [d2.2xlarge] |
+| d2.4xlarge | :green_circle: | :green_circle: | :green_circle: | [d2.4xlarge] |
+| d2.8xlarge | :green_circle: | :green_circle: | :green_circle: | [d2.8xlarge] |
 ## g4dn
 
 | Instance Type | eun1-az1 | eun1-az2 | eun1-az3 |
 | ------------- | :-------------: | :-------------: | :-------------: | -------------: |
-| g4dn.xlarge | :green_circle: | :green_circle: | :green_circle: | priceArr[g4dn.xlarge] |
-| g4dn.2xlarge | :green_circle: | :green_circle: | :green_circle: | priceArr[g4dn.2xlarge] |
-| g4dn.4xlarge | :green_circle: | :green_circle: | :green_circle: | priceArr[g4dn.4xlarge] |
-| g4dn.8xlarge | :green_circle: | :green_circle: | :green_circle: | priceArr[g4dn.8xlarge] |
-| g4dn.12xlarge | :green_circle: | :green_circle: | :green_circle: | priceArr[g4dn.12xlarge] |
-| g4dn.16xlarge | :green_circle: | :green_circle: | :green_circle: | priceArr[g4dn.16xlarge] |
+| g4dn.xlarge | :green_circle: | :green_circle: | :green_circle: | [g4dn.xlarge] |
+| g4dn.2xlarge | :green_circle: | :green_circle: | :green_circle: | [g4dn.2xlarge] |
+| g4dn.4xlarge | :green_circle: | :green_circle: | :green_circle: | [g4dn.4xlarge] |
+| g4dn.8xlarge | :green_circle: | :green_circle: | :green_circle: | [g4dn.8xlarge] |
+| g4dn.12xlarge | :green_circle: | :green_circle: | :green_circle: | [g4dn.12xlarge] |
+| g4dn.16xlarge | :green_circle: | :green_circle: | :green_circle: | [g4dn.16xlarge] |
 ## i3
 
 | Instance Type | eun1-az1 | eun1-az2 | eun1-az3 |
 | ------------- | :-------------: | :-------------: | :-------------: | -------------: |
-| i3.large | :green_circle: | :green_circle: | :green_circle: | priceArr[i3.large] |
-| i3.xlarge | :green_circle: | :green_circle: | :green_circle: | priceArr[i3.xlarge] |
-| i3.2xlarge | :green_circle: | :green_circle: | :green_circle: | priceArr[i3.2xlarge] |
-| i3.4xlarge | :green_circle: | :green_circle: | :green_circle: | priceArr[i3.4xlarge] |
-| i3.8xlarge | :green_circle: | :green_circle: | :green_circle: | priceArr[i3.8xlarge] |
-| i3.16xlarge | :green_circle: | :green_circle: | :green_circle: | priceArr[i3.16xlarge] |
+| i3.large | :green_circle: | :green_circle: | :green_circle: | [i3.large] |
+| i3.xlarge | :green_circle: | :green_circle: | :green_circle: | [i3.xlarge] |
+| i3.2xlarge | :green_circle: | :green_circle: | :green_circle: | [i3.2xlarge] |
+| i3.4xlarge | :green_circle: | :green_circle: | :green_circle: | [i3.4xlarge] |
+| i3.8xlarge | :green_circle: | :green_circle: | :green_circle: | [i3.8xlarge] |
+| i3.16xlarge | :green_circle: | :green_circle: | :green_circle: | [i3.16xlarge] |
 ## i3en
 
 | Instance Type | eun1-az1 | eun1-az2 | eun1-az3 |
 | ------------- | :-------------: | :-------------: | :-------------: | -------------: |
-| i3en.large | :green_circle: | :green_circle: | :green_circle: | priceArr[i3en.large] |
-| i3en.xlarge | :green_circle: | :green_circle: | :green_circle: | priceArr[i3en.xlarge] |
-| i3en.2xlarge | :green_circle: | :green_circle: | :green_circle: | priceArr[i3en.2xlarge] |
-| i3en.3xlarge | :green_circle: | :green_circle: | :green_circle: | priceArr[i3en.3xlarge] |
-| i3en.6xlarge | :green_circle: | :green_circle: | :green_circle: | priceArr[i3en.6xlarge] |
-| i3en.12xlarge | :green_circle: | :green_circle: | :green_circle: | priceArr[i3en.12xlarge] |
-| i3en.24xlarge | :green_circle: | :green_circle: | :green_circle: | priceArr[i3en.24xlarge] |
-| i3en.metal | :green_circle: | :green_circle: | :green_circle: | priceArr[i3en.metal] |
+| i3en.large | :green_circle: | :green_circle: | :green_circle: | [i3en.large] |
+| i3en.xlarge | :green_circle: | :green_circle: | :green_circle: | [i3en.xlarge] |
+| i3en.2xlarge | :green_circle: | :green_circle: | :green_circle: | [i3en.2xlarge] |
+| i3en.3xlarge | :green_circle: | :green_circle: | :green_circle: | [i3en.3xlarge] |
+| i3en.6xlarge | :green_circle: | :green_circle: | :green_circle: | [i3en.6xlarge] |
+| i3en.12xlarge | :green_circle: | :green_circle: | :green_circle: | [i3en.12xlarge] |
+| i3en.24xlarge | :green_circle: | :green_circle: | :green_circle: | [i3en.24xlarge] |
+| i3en.metal | :green_circle: | :green_circle: | :green_circle: | [i3en.metal] |
 ## m5
 
 | Instance Type | eun1-az1 | eun1-az2 | eun1-az3 |
 | ------------- | :-------------: | :-------------: | :-------------: | -------------: |
-| m5.large | :green_circle: | :green_circle: | :green_circle: | priceArr[m5.large] |
-| m5.xlarge | :green_circle: | :green_circle: | :green_circle: | priceArr[m5.xlarge] |
-| m5.2xlarge | :green_circle: | :green_circle: | :green_circle: | priceArr[m5.2xlarge] |
-| m5.4xlarge | :green_circle: | :green_circle: | :green_circle: | priceArr[m5.4xlarge] |
-| m5.8xlarge | :green_circle: | :green_circle: | :green_circle: | priceArr[m5.8xlarge] |
-| m5.12xlarge | :green_circle: | :green_circle: | :green_circle: | priceArr[m5.12xlarge] |
-| m5.16xlarge | :green_circle: | :green_circle: | :green_circle: | priceArr[m5.16xlarge] |
-| m5.24xlarge | :green_circle: | :green_circle: | :green_circle: | priceArr[m5.24xlarge] |
-| m5.metal | :green_circle: | :green_circle: | :green_circle: | priceArr[m5.metal] |
+| m5.large | :green_circle: | :green_circle: | :green_circle: | [m5.large] |
+| m5.xlarge | :green_circle: | :green_circle: | :green_circle: | [m5.xlarge] |
+| m5.2xlarge | :green_circle: | :green_circle: | :green_circle: | [m5.2xlarge] |
+| m5.4xlarge | :green_circle: | :green_circle: | :green_circle: | [m5.4xlarge] |
+| m5.8xlarge | :green_circle: | :green_circle: | :green_circle: | [m5.8xlarge] |
+| m5.12xlarge | :green_circle: | :green_circle: | :green_circle: | [m5.12xlarge] |
+| m5.16xlarge | :green_circle: | :green_circle: | :green_circle: | [m5.16xlarge] |
+| m5.24xlarge | :green_circle: | :green_circle: | :green_circle: | [m5.24xlarge] |
+| m5.metal | :green_circle: | :green_circle: | :green_circle: | [m5.metal] |
 ## m5d
 
 | Instance Type | eun1-az1 | eun1-az2 | eun1-az3 |
 | ------------- | :-------------: | :-------------: | :-------------: | -------------: |
-| m5d.large | :green_circle: | :green_circle: | :green_circle: | priceArr[m5d.large] |
-| m5d.xlarge | :green_circle: | :green_circle: | :green_circle: | priceArr[m5d.xlarge] |
-| m5d.2xlarge | :green_circle: | :green_circle: | :green_circle: | priceArr[m5d.2xlarge] |
-| m5d.4xlarge | :green_circle: | :green_circle: | :green_circle: | priceArr[m5d.4xlarge] |
-| m5d.8xlarge | :green_circle: | :green_circle: | :green_circle: | priceArr[m5d.8xlarge] |
-| m5d.12xlarge | :green_circle: | :green_circle: | :green_circle: | priceArr[m5d.12xlarge] |
-| m5d.16xlarge | :green_circle: | :green_circle: | :green_circle: | priceArr[m5d.16xlarge] |
-| m5d.24xlarge | :green_circle: | :green_circle: | :green_circle: | priceArr[m5d.24xlarge] |
-| m5d.metal | :green_circle: | :green_circle: | :green_circle: | priceArr[m5d.metal] |
+| m5d.large | :green_circle: | :green_circle: | :green_circle: | [m5d.large] |
+| m5d.xlarge | :green_circle: | :green_circle: | :green_circle: | [m5d.xlarge] |
+| m5d.2xlarge | :green_circle: | :green_circle: | :green_circle: | [m5d.2xlarge] |
+| m5d.4xlarge | :green_circle: | :green_circle: | :green_circle: | [m5d.4xlarge] |
+| m5d.8xlarge | :green_circle: | :green_circle: | :green_circle: | [m5d.8xlarge] |
+| m5d.12xlarge | :green_circle: | :green_circle: | :green_circle: | [m5d.12xlarge] |
+| m5d.16xlarge | :green_circle: | :green_circle: | :green_circle: | [m5d.16xlarge] |
+| m5d.24xlarge | :green_circle: | :green_circle: | :green_circle: | [m5d.24xlarge] |
+| m5d.metal | :green_circle: | :green_circle: | :green_circle: | [m5d.metal] |
 ## r5
 
 | Instance Type | eun1-az1 | eun1-az2 | eun1-az3 |
 | ------------- | :-------------: | :-------------: | :-------------: | -------------: |
-| r5.large | :green_circle: | :green_circle: | :green_circle: | priceArr[r5.large] |
-| r5.xlarge | :green_circle: | :green_circle: | :green_circle: | priceArr[r5.xlarge] |
-| r5.2xlarge | :green_circle: | :green_circle: | :green_circle: | priceArr[r5.2xlarge] |
-| r5.4xlarge | :green_circle: | :green_circle: | :green_circle: | priceArr[r5.4xlarge] |
-| r5.8xlarge | :green_circle: | :green_circle: | :green_circle: | priceArr[r5.8xlarge] |
-| r5.12xlarge | :green_circle: | :green_circle: | :green_circle: | priceArr[r5.12xlarge] |
-| r5.16xlarge | :green_circle: | :green_circle: | :green_circle: | priceArr[r5.16xlarge] |
-| r5.24xlarge | :green_circle: | :green_circle: | :green_circle: | priceArr[r5.24xlarge] |
-| r5.metal | :green_circle: | :green_circle: | :green_circle: | priceArr[r5.metal] |
+| r5.large | :green_circle: | :green_circle: | :green_circle: | [r5.large] |
+| r5.xlarge | :green_circle: | :green_circle: | :green_circle: | [r5.xlarge] |
+| r5.2xlarge | :green_circle: | :green_circle: | :green_circle: | [r5.2xlarge] |
+| r5.4xlarge | :green_circle: | :green_circle: | :green_circle: | [r5.4xlarge] |
+| r5.8xlarge | :green_circle: | :green_circle: | :green_circle: | [r5.8xlarge] |
+| r5.12xlarge | :green_circle: | :green_circle: | :green_circle: | [r5.12xlarge] |
+| r5.16xlarge | :green_circle: | :green_circle: | :green_circle: | [r5.16xlarge] |
+| r5.24xlarge | :green_circle: | :green_circle: | :green_circle: | [r5.24xlarge] |
+| r5.metal | :green_circle: | :green_circle: | :green_circle: | [r5.metal] |
 ## r5d
 
 | Instance Type | eun1-az1 | eun1-az2 | eun1-az3 |
 | ------------- | :-------------: | :-------------: | :-------------: | -------------: |
-| r5d.large | :green_circle: | :green_circle: | :green_circle: | priceArr[r5d.large] |
-| r5d.xlarge | :green_circle: | :green_circle: | :green_circle: | priceArr[r5d.xlarge] |
-| r5d.2xlarge | :green_circle: | :green_circle: | :green_circle: | priceArr[r5d.2xlarge] |
-| r5d.4xlarge | :green_circle: | :green_circle: | :green_circle: | priceArr[r5d.4xlarge] |
-| r5d.8xlarge | :green_circle: | :green_circle: | :green_circle: | priceArr[r5d.8xlarge] |
-| r5d.12xlarge | :green_circle: | :green_circle: | :green_circle: | priceArr[r5d.12xlarge] |
-| r5d.16xlarge | :green_circle: | :green_circle: | :green_circle: | priceArr[r5d.16xlarge] |
-| r5d.24xlarge | :green_circle: | :green_circle: | :green_circle: | priceArr[r5d.24xlarge] |
-| r5d.metal | :green_circle: | :green_circle: | :green_circle: | priceArr[r5d.metal] |
+| r5d.large | :green_circle: | :green_circle: | :green_circle: | [r5d.large] |
+| r5d.xlarge | :green_circle: | :green_circle: | :green_circle: | [r5d.xlarge] |
+| r5d.2xlarge | :green_circle: | :green_circle: | :green_circle: | [r5d.2xlarge] |
+| r5d.4xlarge | :green_circle: | :green_circle: | :green_circle: | [r5d.4xlarge] |
+| r5d.8xlarge | :green_circle: | :green_circle: | :green_circle: | [r5d.8xlarge] |
+| r5d.12xlarge | :green_circle: | :green_circle: | :green_circle: | [r5d.12xlarge] |
+| r5d.16xlarge | :green_circle: | :green_circle: | :green_circle: | [r5d.16xlarge] |
+| r5d.24xlarge | :green_circle: | :green_circle: | :green_circle: | [r5d.24xlarge] |
+| r5d.metal | :green_circle: | :green_circle: | :green_circle: | [r5d.metal] |
 ## t3
 
 | Instance Type | eun1-az1 | eun1-az2 | eun1-az3 |
 | ------------- | :-------------: | :-------------: | :-------------: | -------------: |
-| t3.nano | :green_circle: | :green_circle: | :green_circle: | priceArr[t3.nano] |
-| t3.micro | :green_circle: | :green_circle: | :green_circle: | priceArr[t3.micro] |
-| t3.small | :green_circle: | :green_circle: | :green_circle: | priceArr[t3.small] |
-| t3.medium | :green_circle: | :green_circle: | :green_circle: | priceArr[t3.medium] |
-| t3.large | :green_circle: | :green_circle: | :green_circle: | priceArr[t3.large] |
-| t3.xlarge | :green_circle: | :green_circle: | :green_circle: | priceArr[t3.xlarge] |
-| t3.2xlarge | :green_circle: | :green_circle: | :green_circle: | priceArr[t3.2xlarge] |
+| t3.nano | :green_circle: | :green_circle: | :green_circle: | [t3.nano] |
+| t3.micro | :green_circle: | :green_circle: | :green_circle: | [t3.micro] |
+| t3.small | :green_circle: | :green_circle: | :green_circle: | [t3.small] |
+| t3.medium | :green_circle: | :green_circle: | :green_circle: | [t3.medium] |
+| t3.large | :green_circle: | :green_circle: | :green_circle: | [t3.large] |
+| t3.xlarge | :green_circle: | :green_circle: | :green_circle: | [t3.xlarge] |
+| t3.2xlarge | :green_circle: | :green_circle: | :green_circle: | [t3.2xlarge] |
 
 
 
