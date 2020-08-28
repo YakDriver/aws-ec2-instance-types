@@ -70,7 +70,7 @@ function azs() {
 }
 
 # create <az_id>.txt
-function raw_instance_types() {
+function raw_types() {
   local az_id=$1
   local region=$2
 
@@ -80,7 +80,7 @@ function raw_instance_types() {
     aki="${USGAKI}"
     sak="${USGSAK}"
   fi
-  
+
   echo "Region: $region"
   echo "AZ ID: $az_id"
   AWS_ACCESS_KEY_ID="${aki}" AWS_SECRET_ACCESS_KEY="${sak}" AWS_DEFAULT_REGION="${region}" \
@@ -95,14 +95,18 @@ function raw_instance_types() {
   # cat "${az_id}-raw.txt"
 }
 
-function instance_classes() {
+function list_classes() {
   local az_id=$1
   cp "${az_id}-raw.txt" "${az_id}-preclasses.txt"
   perl -p -i -e 's/^([a-z0-9]+)\..*$/$1/g' "${az_id}-preclasses.txt"
   cat "${az_id}-preclasses.txt" | sort -u > "${az_id}-classes.txt"
+}
 
-  # echo "Instance classes:"
-  # cat "${az_id}-classes.txt"
+function list_types() {
+  local az_id=$1
+  cp "${az_id}-raw.txt" "${az_id}-pretypes.txt"
+  perl -p -i -e 's/^[a-z0-9]+\.(.*)$/$1/g' "${az_id}-pretypes.txt"
+  cat "${az_id}-pretypes.txt" | sort -u > "${az_id}-types.txt"
 }
 
 function region_flag() {
@@ -188,10 +192,10 @@ function update_links() {
 
   cat "README_header.md" > "${readme_file}"
   cat "offering_header_header.md" > "${offering_header}"
-  
+
   printf "\nRegions: " >> "${offering_header}"
   printf "\nRegions: " >> "${readme_file}"
- 
+
   while read -r region; do
     local flag=$(region_flag "${region}")
     printf "%s [%s](%s.md)&nbsp;  " "${flag}" "${region}" "${region}" >> "${offering_header}"
@@ -226,7 +230,7 @@ function spot_prices() {
     --output json > "${prices_file}"
 }
 
-function instance_types() {
+function write_instance_info() {
   regions
   azs
   update_links
@@ -235,14 +239,17 @@ function instance_types() {
   local sak="NONE"
   while read -r region; do
     while read -r az_id; do
-      raw_instance_types "${az_id}" "${region}"
-      instance_classes "${az_id}"
+      raw_types "${az_id}" "${region}"
+      list_classes "${az_id}"
+      list_types "${az_id}"
       cat "${az_id}-classes.txt" >> "${region}-all-classes.txt"
+      cat "${az_id}-types.txt" >> "${region}-all-types.txt"
     done <"${results_path}/${region}.txt"
 
     spot_prices "${region}"
 
     cat "${region}-all-classes.txt" | sort -u >> "${region}-unique-classes.txt"
+    cat "${region}-all-types.txt" | sort -u >> "${region}-unique-types.txt"
 
     local output="${results_path}/${region}.md"
     printf "# %s %s AWS EC2 Instance Types\n\n" "$(region_flag ${region})" "${region}" > "${output}"
@@ -251,7 +258,13 @@ function instance_types() {
     printf "Jump to class: " >> "${output}"
     while read -r class; do
       printf "[:black_small_square:%s](#%s)&nbsp; " "${class}" "${class}" >> "${output}"
-    done <"${region}-unique-classes.txt"    
+    done <"${region}-unique-classes.txt"
+    printf "\n\n" >> "${output}"
+
+    printf "Jump to type: " >> "${output}"
+    while read -r type; do
+      printf "[:small_blue_diamond:%s](#%s)&nbsp; " "${type}" "${type}" >> "${output}"
+    done <"${region}-unique-types.txt"
     printf "\n\n" >> "${output}"
 
     local yes_or_no=""
@@ -283,7 +296,7 @@ function instance_types() {
             include_row=1
             row="${row} :green_circle: |"
           fi
-        done <"${results_path}/${region}.txt"
+        done <"${results_path}/${region}.txt"        
         if [ "${include_row}" = "1" ]; then
           price=$(jq '[ .[] | select(.type == "'"${class}.${type}"'").price ] | max' "${results_path}/spot-prices-${region}.json")
           price=$(sed -e 's/^"//' -e 's/"$//' <<<"${price}")
@@ -291,10 +304,52 @@ function instance_types() {
             printf "%s %s |\n" "${row}" "None found" >> "${output}"
           else
             printf "%s %.4f |\n" "${row}" "${price}" >> "${output}"
-          fi      
+          fi
         fi
       done
     done <"${region}-unique-classes.txt"
+
+    local yes_or_no=""
+    while read -r type; do
+      printf "\n\n## %s\n\n" "${type}" >> "${output}"
+
+      local table_header_bar="| ------------- |"
+      printf "| Instance Class |" >> "${output}"
+
+      while read -r az_id; do
+        printf " %s |" "${az_id}" >> "${output}"
+        table_header_bar="${table_header_bar} :-------------: |"
+      done <"${results_path}/${region}.txt"
+
+      # for spot
+      printf " %s |" "Spot price" >> "${output}"
+      table_header_bar="${table_header_bar} -------------: |"
+
+      printf "\n%s\n" "${table_header_bar}" >> "${output}"
+
+      while read -r class; do
+        local row="| ${class}.${type} |"
+        local include_row=0
+        while read -r az_id; do
+          yes_or_no=$(grep -o "${class}.${type}" "${az_id}-raw.txt" | wc -l)
+          if [ "${yes_or_no}" = "0" ]; then
+            row="${row} :red_circle: |"
+          else
+            include_row=1
+            row="${row} :green_circle: |"
+          fi
+        done <"${results_path}/${region}.txt"        
+        if [ "${include_row}" = "1" ]; then
+          price=$(jq '[ .[] | select(.class == "'"${class}.${type}"'").price ] | max' "${results_path}/spot-prices-${region}.json")
+          price=$(sed -e 's/^"//' -e 's/"$//' <<<"${price}")
+          if [ "${price}" = "null" ]; then
+            printf "%s %s |\n" "${row}" "None found" >> "${output}"
+          else
+            printf "%s %.4f |\n" "${row}" "${price}" >> "${output}"
+          fi
+        fi
+      done <"${region}-unique-classes.txt"
+    done <"${region}-unique-types.txt"
 
     printf "\n\n\n" >> "${output}"
   done <"${regions_file}"
