@@ -1,75 +1,719 @@
 [
     {
-        "type": "i3en.6xlarge",
-        "price": "2.236900"
-    },
-    {
-        "type": "c5d.2xlarge",
-        "price": "0.109200"
-    },
-    {
-        "type": "c5d.2xlarge",
-        "price": "0.109200"
-    },
-    {
-        "type": "c5d.2xlarge",
-        "price": "0.109200"
-    },
-    {
-        "type": "g4dn.4xlarge",
-        "price": "0.383100"
-    },
-    {
-        "type": "g4dn.4xlarge",
-        "price": "1.277000"
-    },
-    {
-        "type": "g4dn.4xlarge",
-        "price": "0.383100"
-    },
-    {
-        "type": "i3.16xlarge",
-        "price": "1.564800"
-    },
-    {
-        "type": "i3.16xlarge",
-        "price": "1.564800"
-    },
-    {
-        "type": "i3.16xlarge",
-        "price": "1.564800"
-    },
-    {
-        "type": "c5.12xlarge",
-        "price": "0.655200"
-    },
-    {
-        "type": "c5.12xlarge",
-        "price": "0.655200"
-    },
-    {
-        "type": "c5.12xlarge",
-        "price": "0.655200"
-    },
-    {
-        "type": "c5.xlarge",
-        "price": "0.054600"
-    },
-    {
-        "type": "c5.xlarge",
-        "price": "0.056900"
-    },
-    {
-        "type": "c5.xlarge",
-        "price": "0.056100"
-    },
-    {
         "type": "r5.xlarge",
-        "price": "0.080300"
+        "price": "0.075700"
+    },
+    {
+        "type": "r5d.metal",
+        "price": "3.171500"
+    },
+    {
+        "type": "t3.large",
+        "price": "0.025900"
+    },
+    {
+        "type": "t3.large",
+        "price": "0.025900"
+    },
+    {
+        "type": "t3.large",
+        "price": "0.025900"
+    },
+    {
+        "type": "c5d.metal",
+        "price": "1.310400"
+    },
+    {
+        "type": "c5d.metal",
+        "price": "1.310400"
+    },
+    {
+        "type": "c5d.metal",
+        "price": "1.310400"
+    },
+    {
+        "type": "c5a.16xlarge",
+        "price": "0.873600"
+    },
+    {
+        "type": "c5a.16xlarge",
+        "price": "0.873600"
+    },
+    {
+        "type": "c5a.16xlarge",
+        "price": "0.873600"
+    },
+    {
+        "type": "d2.4xlarge",
+        "price": "1.674300"
+    },
+    {
+        "type": "m5.16xlarge",
+        "price": "2.561600"
     },
     {
         "type": "m5d.2xlarge",
-        "price": "0.146300"
+        "price": "0.143100"
+    },
+    {
+        "type": "r5.12xlarge",
+        "price": "0.731600"
+    },
+    {
+        "type": "r5.xlarge",
+        "price": "0.075100"
+    },
+    {
+        "type": "m5.2xlarge",
+        "price": "0.157400"
+    },
+    {
+        "type": "c5n.9xlarge",
+        "price": "0.491400"
+    },
+    {
+        "type": "c5a.large",
+        "price": "0.027300"
+    },
+    {
+        "type": "c5a.large",
+        "price": "0.027300"
+    },
+    {
+        "type": "c5a.large",
+        "price": "0.027300"
+    },
+    {
+        "type": "r5d.large",
+        "price": "0.030000"
+    },
+    {
+        "type": "r5d.large",
+        "price": "0.030000"
+    },
+    {
+        "type": "r5d.large",
+        "price": "0.030000"
+    },
+    {
+        "type": "r5.24xlarge",
+        "price": "1.441400"
+    },
+    {
+        "type": "r5.24xlarge",
+        "price": "1.441400"
+    },
+    {
+        "type": "r5.24xlarge",
+        "price": "1.441400"
+    },
+    {
+        "type": "m5.24xlarge",
+        "price": "1.375900"
+    },
+    {
+        "type": "m5.24xlarge",
+        "price": "1.375900"
+    },
+    {
+        "type": "m5.24xlarge",
+        "price": "1.375900"
+    },
+    {
+        "type": "t3.micro",
+        "price": "0.003200"
+    },
+    {
+        "type": "t3.micro",
+        "price": "0.003300"
+    },
+    {
+        "type": "m5.2xlarge",
+        "price": "0.126200"
+    },
+    {
+        "type": "r5.12xlarge",
+        "price": "0.725300"
+    },
+    {
+        "type": "i3en.xlarge",
+        "price": "0.161900"
+    },
+    {
+        "type": "r5d.large",
+        "price": "0.030000"
+    },
+    {
+        "type": "r5d.large",
+        "price": "0.030000"
+    },
+    {
+        "type": "r5d.large",
+        "price": "0.030000"
+    },
+    {
+        "type": "c5a.16xlarge",
+        "price": "0.873600"
+    },
+    {
+        "type": "c5a.16xlarge",
+        "price": "0.873600"
+    },
+    {
+        "type": "c5a.16xlarge",
+        "price": "0.873600"
+    },
+    {
+        "type": "r5.8xlarge",
+        "price": "0.480500"
+    },
+    {
+        "type": "r5.8xlarge",
+        "price": "0.480500"
+    },
+    {
+        "type": "r5.8xlarge",
+        "price": "0.480500"
+    },
+    {
+        "type": "g4dn.2xlarge",
+        "price": "0.239400"
+    },
+    {
+        "type": "g4dn.2xlarge",
+        "price": "0.798000"
+    },
+    {
+        "type": "g4dn.2xlarge",
+        "price": "0.239400"
+    },
+    {
+        "type": "c5.18xlarge",
+        "price": "0.982800"
+    },
+    {
+        "type": "c5.18xlarge",
+        "price": "0.983300"
+    },
+    {
+        "type": "c5.18xlarge",
+        "price": "0.982800"
+    },
+    {
+        "type": "r5d.4xlarge",
+        "price": "0.240200"
+    },
+    {
+        "type": "r5d.4xlarge",
+        "price": "0.240200"
+    },
+    {
+        "type": "r5d.4xlarge",
+        "price": "0.240200"
+    },
+    {
+        "type": "g4dn.8xlarge",
+        "price": "0.692400"
+    },
+    {
+        "type": "g4dn.8xlarge",
+        "price": "2.308000"
+    },
+    {
+        "type": "g4dn.8xlarge",
+        "price": "2.308000"
+    },
+    {
+        "type": "m5d.2xlarge",
+        "price": "0.143000"
+    },
+    {
+        "type": "i3en.2xlarge",
+        "price": "0.388400"
+    },
+    {
+        "type": "c5n.9xlarge",
+        "price": "1.178200"
+    },
+    {
+        "type": "i3.xlarge",
+        "price": "0.097800"
+    },
+    {
+        "type": "i3.xlarge",
+        "price": "0.097800"
+    },
+    {
+        "type": "i3.xlarge",
+        "price": "0.097800"
+    },
+    {
+        "type": "c5n.2xlarge",
+        "price": "0.109200"
+    },
+    {
+        "type": "c5n.2xlarge",
+        "price": "0.109200"
+    },
+    {
+        "type": "c5n.2xlarge",
+        "price": "0.109200"
+    },
+    {
+        "type": "m5d.4xlarge",
+        "price": "0.229300"
+    },
+    {
+        "type": "m5d.4xlarge",
+        "price": "0.650800"
+    },
+    {
+        "type": "m5d.4xlarge",
+        "price": "0.229300"
+    },
+    {
+        "type": "c5d.24xlarge",
+        "price": "1.310400"
+    },
+    {
+        "type": "c5d.24xlarge",
+        "price": "1.310400"
+    },
+    {
+        "type": "c5d.24xlarge",
+        "price": "1.310400"
+    },
+    {
+        "type": "c5.18xlarge",
+        "price": "0.982800"
+    },
+    {
+        "type": "c5.18xlarge",
+        "price": "0.982800"
+    },
+    {
+        "type": "m5d.2xlarge",
+        "price": "0.144300"
+    },
+    {
+        "type": "c5n.9xlarge",
+        "price": "1.004400"
+    },
+    {
+        "type": "i3.2xlarge",
+        "price": "0.195600"
+    },
+    {
+        "type": "i3.2xlarge",
+        "price": "0.195600"
+    },
+    {
+        "type": "i3.2xlarge",
+        "price": "0.195600"
+    },
+    {
+        "type": "c5d.24xlarge",
+        "price": "1.310400"
+    },
+    {
+        "type": "c5d.24xlarge",
+        "price": "1.310400"
+    },
+    {
+        "type": "c5d.24xlarge",
+        "price": "1.310400"
+    },
+    {
+        "type": "c5.24xlarge",
+        "price": "1.310400"
+    },
+    {
+        "type": "c5.24xlarge",
+        "price": "1.310400"
+    },
+    {
+        "type": "c5.24xlarge",
+        "price": "1.310400"
+    },
+    {
+        "type": "c5d.large",
+        "price": "0.027300"
+    },
+    {
+        "type": "c5d.large",
+        "price": "0.027300"
+    },
+    {
+        "type": "c5d.large",
+        "price": "0.027300"
+    },
+    {
+        "type": "c5n.large",
+        "price": "0.027300"
+    },
+    {
+        "type": "c5n.large",
+        "price": "0.027300"
+    },
+    {
+        "type": "c5n.large",
+        "price": "0.027300"
+    },
+    {
+        "type": "c5d.18xlarge",
+        "price": "0.982800"
+    },
+    {
+        "type": "c5d.18xlarge",
+        "price": "0.982800"
+    },
+    {
+        "type": "c5d.18xlarge",
+        "price": "0.982800"
+    },
+    {
+        "type": "i3en.12xlarge",
+        "price": "5.369900"
+    },
+    {
+        "type": "m5.large",
+        "price": "0.028700"
+    },
+    {
+        "type": "r5.xlarge",
+        "price": "0.073100"
+    },
+    {
+        "type": "c5.2xlarge",
+        "price": "0.127600"
+    },
+    {
+        "type": "c5.2xlarge",
+        "price": "0.110000"
+    },
+    {
+        "type": "c5.18xlarge",
+        "price": "0.983300"
+    },
+    {
+        "type": "r5.xlarge",
+        "price": "0.075800"
+    },
+    {
+        "type": "d2.4xlarge",
+        "price": "1.727500"
+    },
+    {
+        "type": "d2.2xlarge",
+        "price": "0.418800"
+    },
+    {
+        "type": "d2.2xlarge",
+        "price": "0.418800"
+    },
+    {
+        "type": "d2.2xlarge",
+        "price": "0.418800"
+    },
+    {
+        "type": "r5d.8xlarge",
+        "price": "0.480500"
+    },
+    {
+        "type": "r5d.8xlarge",
+        "price": "0.480500"
+    },
+    {
+        "type": "r5d.8xlarge",
+        "price": "0.480500"
+    },
+    {
+        "type": "r5.2xlarge",
+        "price": "0.120100"
+    },
+    {
+        "type": "r5.2xlarge",
+        "price": "0.120100"
+    },
+    {
+        "type": "r5.2xlarge",
+        "price": "0.120100"
+    },
+    {
+        "type": "c5d.18xlarge",
+        "price": "0.982800"
+    },
+    {
+        "type": "c5d.18xlarge",
+        "price": "0.982800"
+    },
+    {
+        "type": "c5d.18xlarge",
+        "price": "0.982800"
+    },
+    {
+        "type": "c5a.xlarge",
+        "price": "0.054600"
+    },
+    {
+        "type": "c5a.xlarge",
+        "price": "0.054600"
+    },
+    {
+        "type": "c5a.xlarge",
+        "price": "0.164000"
+    },
+    {
+        "type": "r5.large",
+        "price": "0.032800"
+    },
+    {
+        "type": "i3en.6xlarge",
+        "price": "0.938500"
+    },
+    {
+        "type": "m5.2xlarge",
+        "price": "0.157000"
+    },
+    {
+        "type": "m5.16xlarge",
+        "price": "2.643800"
+    },
+    {
+        "type": "c5a.4xlarge",
+        "price": "0.218500"
+    },
+    {
+        "type": "m5.metal",
+        "price": "1.375900"
+    },
+    {
+        "type": "m5.metal",
+        "price": "1.375900"
+    },
+    {
+        "type": "m5.metal",
+        "price": "1.375900"
+    },
+    {
+        "type": "i3en.large",
+        "price": "0.071100"
+    },
+    {
+        "type": "i3en.large",
+        "price": "0.237000"
+    },
+    {
+        "type": "i3en.large",
+        "price": "0.237000"
+    },
+    {
+        "type": "r5.metal",
+        "price": "1.441400"
+    },
+    {
+        "type": "r5.metal",
+        "price": "1.441400"
+    },
+    {
+        "type": "r5.metal",
+        "price": "1.441400"
+    },
+    {
+        "type": "r5.16xlarge",
+        "price": "4.288000"
+    },
+    {
+        "type": "r5.16xlarge",
+        "price": "0.961000"
+    },
+    {
+        "type": "r5.16xlarge",
+        "price": "0.961000"
+    },
+    {
+        "type": "m5d.large",
+        "price": "0.028700"
+    },
+    {
+        "type": "m5d.large",
+        "price": "0.028700"
+    },
+    {
+        "type": "m5d.large",
+        "price": "0.028700"
+    },
+    {
+        "type": "c5.2xlarge",
+        "price": "0.109200"
+    },
+    {
+        "type": "r5d.xlarge",
+        "price": "0.060100"
+    },
+    {
+        "type": "r5d.xlarge",
+        "price": "0.060100"
+    },
+    {
+        "type": "r5d.xlarge",
+        "price": "0.060100"
+    },
+    {
+        "type": "c5a.xlarge",
+        "price": "0.054600"
+    },
+    {
+        "type": "c5a.xlarge",
+        "price": "0.054600"
+    },
+    {
+        "type": "c5a.xlarge",
+        "price": "0.164000"
+    },
+    {
+        "type": "r5d.metal",
+        "price": "3.079000"
+    },
+    {
+        "type": "m5d.2xlarge",
+        "price": "0.142700"
+    },
+    {
+        "type": "r5.xlarge",
+        "price": "0.075500"
+    },
+    {
+        "type": "m5d.4xlarge",
+        "price": "0.650800"
+    },
+    {
+        "type": "r5.16xlarge",
+        "price": "4.288000"
+    },
+    {
+        "type": "r5.16xlarge",
+        "price": "0.961000"
+    },
+    {
+        "type": "r5.16xlarge",
+        "price": "0.961000"
+    },
+    {
+        "type": "r5.12xlarge",
+        "price": "0.732100"
+    },
+    {
+        "type": "m5d.4xlarge",
+        "price": "0.229300"
+    },
+    {
+        "type": "m5d.4xlarge",
+        "price": "0.229300"
+    },
+    {
+        "type": "t3.2xlarge",
+        "price": "0.103700"
+    },
+    {
+        "type": "t3.2xlarge",
+        "price": "0.103700"
+    },
+    {
+        "type": "t3.2xlarge",
+        "price": "0.103700"
+    },
+    {
+        "type": "m5.12xlarge",
+        "price": "0.688000"
+    },
+    {
+        "type": "m5.12xlarge",
+        "price": "0.688000"
+    },
+    {
+        "type": "m5.12xlarge",
+        "price": "0.688000"
+    },
+    {
+        "type": "t3.medium",
+        "price": "0.013000"
+    },
+    {
+        "type": "t3.medium",
+        "price": "0.013000"
+    },
+    {
+        "type": "t3.medium",
+        "price": "0.013000"
+    },
+    {
+        "type": "m5.12xlarge",
+        "price": "0.688000"
+    },
+    {
+        "type": "m5.12xlarge",
+        "price": "0.688000"
+    },
+    {
+        "type": "m5.12xlarge",
+        "price": "0.688000"
+    },
+    {
+        "type": "i3.4xlarge",
+        "price": "0.391200"
+    },
+    {
+        "type": "i3.4xlarge",
+        "price": "0.391200"
+    },
+    {
+        "type": "i3.4xlarge",
+        "price": "0.391200"
+    },
+    {
+        "type": "m5.2xlarge",
+        "price": "0.125900"
+    },
+    {
+        "type": "c5n.9xlarge",
+        "price": "1.170900"
+    },
+    {
+        "type": "g4dn.metal",
+        "price": "8.300000"
+    },
+    {
+        "type": "g4dn.metal",
+        "price": "8.300000"
+    },
+    {
+        "type": "g4dn.metal",
+        "price": "8.300000"
+    },
+    {
+        "type": "i3en.metal",
+        "price": "11.376000"
+    },
+    {
+        "type": "i3en.metal",
+        "price": "11.376000"
+    },
+    {
+        "type": "i3en.metal",
+        "price": "3.412800"
+    },
+    {
+        "type": "r5d.xlarge",
+        "price": "0.060100"
+    },
+    {
+        "type": "r5d.xlarge",
+        "price": "0.060100"
+    },
+    {
+        "type": "r5d.xlarge",
+        "price": "0.060100"
     },
     {
         "type": "i3en.xlarge",
@@ -80,1900 +724,144 @@
         "price": "0.142200"
     },
     {
-        "type": "i3en.xlarge",
-        "price": "0.142200"
+        "type": "m5.2xlarge",
+        "price": "0.156600"
     },
     {
-        "type": "m5d.24xlarge",
-        "price": "1.375900"
+        "type": "m5.2xlarge",
+        "price": "0.125700"
     },
     {
-        "type": "m5d.24xlarge",
-        "price": "1.375900"
+        "type": "m5.2xlarge",
+        "price": "0.114700"
     },
     {
-        "type": "m5d.24xlarge",
-        "price": "1.375900"
+        "type": "r5.xlarge",
+        "price": "0.075700"
     },
     {
-        "type": "c5a.12xlarge",
-        "price": "0.655200"
+        "type": "r5.xlarge",
+        "price": "0.075900"
     },
     {
-        "type": "c5a.12xlarge",
-        "price": "0.655200"
+        "type": "r5.xlarge",
+        "price": "0.073000"
     },
     {
-        "type": "c5a.12xlarge",
-        "price": "0.655200"
+        "type": "c5n.large",
+        "price": "0.027300"
     },
     {
-        "type": "c5d.xlarge",
-        "price": "0.054600"
+        "type": "c5n.large",
+        "price": "0.027300"
     },
     {
-        "type": "c5d.xlarge",
-        "price": "0.054600"
-    },
-    {
-        "type": "c5d.xlarge",
-        "price": "0.054600"
-    },
-    {
-        "type": "i3.8xlarge",
-        "price": "0.782400"
-    },
-    {
-        "type": "i3.8xlarge",
-        "price": "0.782400"
-    },
-    {
-        "type": "i3.8xlarge",
-        "price": "0.782400"
-    },
-    {
-        "type": "i3en.24xlarge",
-        "price": "3.412800"
-    },
-    {
-        "type": "i3en.24xlarge",
-        "price": "3.412800"
-    },
-    {
-        "type": "i3en.24xlarge",
-        "price": "3.412800"
-    },
-    {
-        "type": "i3en.3xlarge",
-        "price": "0.426600"
-    },
-    {
-        "type": "i3en.3xlarge",
-        "price": "1.422000"
-    },
-    {
-        "type": "i3en.3xlarge",
-        "price": "0.426600"
-    },
-    {
-        "type": "m5d.xlarge",
-        "price": "0.229400"
-    },
-    {
-        "type": "m5d.xlarge",
-        "price": "0.057300"
-    },
-    {
-        "type": "m5d.xlarge",
-        "price": "0.057300"
-    },
-    {
-        "type": "m5d.16xlarge",
-        "price": "0.917300"
-    },
-    {
-        "type": "m5d.16xlarge",
-        "price": "0.917300"
-    },
-    {
-        "type": "m5d.16xlarge",
-        "price": "0.917300"
-    },
-    {
-        "type": "m5.large",
-        "price": "0.028700"
-    },
-    {
-        "type": "m5.large",
-        "price": "0.028700"
-    },
-    {
-        "type": "m5.large",
-        "price": "0.028700"
-    },
-    {
-        "type": "i3en.3xlarge",
-        "price": "0.426600"
-    },
-    {
-        "type": "i3en.3xlarge",
-        "price": "1.422000"
-    },
-    {
-        "type": "i3en.3xlarge",
-        "price": "0.426600"
-    },
-    {
-        "type": "m5d.xlarge",
-        "price": "0.229400"
+        "type": "c5n.large",
+        "price": "0.027300"
     },
     {
         "type": "r5.12xlarge",
-        "price": "0.729300"
+        "price": "0.724200"
     },
     {
-        "type": "r5d.2xlarge",
-        "price": "0.140800"
+        "type": "c5.xlarge",
+        "price": "0.054900"
     },
     {
-        "type": "c5a.4xlarge",
-        "price": "0.220200"
+        "type": "i3.4xlarge",
+        "price": "0.391200"
     },
     {
-        "type": "m5d.2xlarge",
-        "price": "0.136500"
+        "type": "i3.4xlarge",
+        "price": "0.391200"
     },
     {
-        "type": "c5n.18xlarge",
-        "price": "0.982800"
+        "type": "i3.4xlarge",
+        "price": "0.391200"
     },
     {
-        "type": "c5n.18xlarge",
-        "price": "0.982800"
+        "type": "r5.12xlarge",
+        "price": "0.723000"
     },
     {
-        "type": "c5n.18xlarge",
-        "price": "0.982800"
+        "type": "r5.12xlarge",
+        "price": "0.720700"
     },
     {
-        "type": "d2.xlarge",
-        "price": "0.209400"
+        "type": "r5.12xlarge",
+        "price": "0.732500"
     },
     {
-        "type": "d2.xlarge",
-        "price": "0.209400"
+        "type": "t3.2xlarge",
+        "price": "0.103700"
     },
     {
-        "type": "d2.xlarge",
-        "price": "0.209400"
+        "type": "t3.2xlarge",
+        "price": "0.103700"
     },
     {
-        "type": "c5d.9xlarge",
-        "price": "0.491400"
+        "type": "t3.2xlarge",
+        "price": "0.103700"
     },
     {
-        "type": "c5d.9xlarge",
-        "price": "0.491400"
+        "type": "r5d.metal",
+        "price": "1.441400"
     },
     {
-        "type": "c5d.9xlarge",
-        "price": "0.491400"
+        "type": "r5d.metal",
+        "price": "2.971800"
     },
     {
-        "type": "g4dn.12xlarge",
-        "price": "1.245000"
-    },
-    {
-        "type": "g4dn.12xlarge",
-        "price": "4.150000"
-    },
-    {
-        "type": "g4dn.12xlarge",
-        "price": "1.245000"
-    },
-    {
-        "type": "d2.8xlarge",
-        "price": "1.675200"
-    },
-    {
-        "type": "d2.8xlarge",
-        "price": "1.675200"
-    },
-    {
-        "type": "d2.8xlarge",
-        "price": "1.675200"
-    },
-    {
-        "type": "g4dn.12xlarge",
-        "price": "1.245000"
-    },
-    {
-        "type": "g4dn.12xlarge",
-        "price": "4.150000"
-    },
-    {
-        "type": "g4dn.12xlarge",
-        "price": "1.245000"
-    },
-    {
-        "type": "c5.2xlarge",
-        "price": "0.109800"
+        "type": "r5d.metal",
+        "price": "1.441400"
     },
     {
         "type": "m5d.2xlarge",
-        "price": "0.137700"
+        "price": "0.142000"
     },
     {
-        "type": "c5.2xlarge",
-        "price": "0.132200"
+        "type": "i3.large",
+        "price": "0.048900"
     },
     {
-        "type": "c5d.9xlarge",
-        "price": "0.491400"
+        "type": "i3.large",
+        "price": "0.048900"
     },
     {
-        "type": "c5d.9xlarge",
-        "price": "0.491400"
+        "type": "i3.large",
+        "price": "0.048900"
     },
     {
-        "type": "c5d.9xlarge",
-        "price": "0.491400"
+        "type": "g4dn.metal",
+        "price": "8.300000"
     },
     {
-        "type": "m5d.xlarge",
-        "price": "0.057300"
+        "type": "g4dn.metal",
+        "price": "8.300000"
     },
     {
-        "type": "m5d.xlarge",
-        "price": "0.057300"
-    },
-    {
-        "type": "g4dn.16xlarge",
-        "price": "4.617000"
-    },
-    {
-        "type": "g4dn.16xlarge",
-        "price": "4.617000"
-    },
-    {
-        "type": "g4dn.16xlarge",
-        "price": "4.617000"
-    },
-    {
-        "type": "t3.nano",
-        "price": "0.001600"
-    },
-    {
-        "type": "t3.nano",
-        "price": "0.002100"
-    },
-    {
-        "type": "t3.nano",
-        "price": "0.001900"
-    },
-    {
-        "type": "r5d.16xlarge",
-        "price": "0.961000"
-    },
-    {
-        "type": "r5d.16xlarge",
-        "price": "0.961000"
-    },
-    {
-        "type": "r5d.16xlarge",
-        "price": "0.961000"
-    },
-    {
-        "type": "d2.8xlarge",
-        "price": "1.675200"
-    },
-    {
-        "type": "d2.8xlarge",
-        "price": "1.675200"
-    },
-    {
-        "type": "d2.8xlarge",
-        "price": "1.675200"
-    },
-    {
-        "type": "c5n.9xlarge",
-        "price": "0.558900"
-    },
-    {
-        "type": "i3en.12xlarge",
-        "price": "1.706400"
-    },
-    {
-        "type": "i3en.12xlarge",
-        "price": "2.498300"
-    },
-    {
-        "type": "i3en.12xlarge",
-        "price": "1.706400"
-    },
-    {
-        "type": "m5d.2xlarge",
-        "price": "0.137600"
-    },
-    {
-        "type": "m5d.2xlarge",
-        "price": "0.146500"
-    },
-    {
-        "type": "m5d.2xlarge",
-        "price": "0.136400"
-    },
-    {
-        "type": "g4dn.4xlarge",
-        "price": "0.383100"
-    },
-    {
-        "type": "g4dn.4xlarge",
-        "price": "1.277000"
-    },
-    {
-        "type": "g4dn.4xlarge",
-        "price": "0.383100"
+        "type": "g4dn.metal",
+        "price": "8.300000"
     },
     {
         "type": "t3.small",
         "price": "0.007100"
     },
     {
-        "type": "r5.xlarge",
-        "price": "0.083100"
-    },
-    {
-        "type": "m5d.4xlarge",
-        "price": "0.489800"
-    },
-    {
-        "type": "c5.xlarge",
-        "price": "0.056900"
-    },
-    {
-        "type": "i3en.2xlarge",
-        "price": "0.508700"
-    },
-    {
-        "type": "c5n.large",
-        "price": "0.027300"
-    },
-    {
-        "type": "m5.16xlarge",
-        "price": "3.264000"
-    },
-    {
-        "type": "m5.16xlarge",
-        "price": "0.917300"
-    },
-    {
-        "type": "m5.16xlarge",
-        "price": "0.917300"
-    },
-    {
-        "type": "i3en.12xlarge",
-        "price": "1.706400"
-    },
-    {
-        "type": "i3en.12xlarge",
-        "price": "1.706400"
-    },
-    {
-        "type": "r5d.16xlarge",
-        "price": "0.961000"
-    },
-    {
-        "type": "r5d.16xlarge",
-        "price": "0.961000"
-    },
-    {
-        "type": "r5d.16xlarge",
-        "price": "0.961000"
-    },
-    {
-        "type": "c5.xlarge",
-        "price": "0.054600"
-    },
-    {
-        "type": "c5d.12xlarge",
-        "price": "0.655200"
-    },
-    {
-        "type": "c5d.12xlarge",
-        "price": "0.655200"
-    },
-    {
-        "type": "c5d.12xlarge",
-        "price": "0.655200"
-    },
-    {
-        "type": "c5n.4xlarge",
-        "price": "0.218400"
-    },
-    {
-        "type": "c5n.4xlarge",
-        "price": "0.218400"
-    },
-    {
-        "type": "c5n.4xlarge",
-        "price": "0.218400"
-    },
-    {
-        "type": "m5.2xlarge",
-        "price": "0.159900"
-    },
-    {
-        "type": "r5.large",
-        "price": "0.033500"
-    },
-    {
-        "type": "m5.8xlarge",
-        "price": "0.956900"
-    },
-    {
-        "type": "t3.small",
-        "price": "0.006500"
-    },
-    {
-        "type": "t3.small",
-        "price": "0.007300"
-    },
-    {
-        "type": "g4dn.16xlarge",
-        "price": "4.617000"
-    },
-    {
-        "type": "g4dn.16xlarge",
-        "price": "4.617000"
-    },
-    {
-        "type": "g4dn.16xlarge",
-        "price": "4.617000"
-    },
-    {
-        "type": "t3.large",
-        "price": "0.025900"
-    },
-    {
-        "type": "t3.large",
-        "price": "0.025900"
-    },
-    {
-        "type": "t3.large",
-        "price": "0.025900"
-    },
-    {
-        "type": "i3.2xlarge",
-        "price": "0.195600"
-    },
-    {
-        "type": "i3.2xlarge",
-        "price": "0.195600"
-    },
-    {
-        "type": "i3.2xlarge",
-        "price": "0.195600"
-    },
-    {
-        "type": "c5a.8xlarge",
-        "price": "0.436800"
-    },
-    {
-        "type": "c5a.8xlarge",
-        "price": "0.436800"
-    },
-    {
-        "type": "c5a.8xlarge",
-        "price": "0.436800"
-    },
-    {
         "type": "m5.xlarge",
-        "price": "0.057600"
-    },
-    {
-        "type": "m5.xlarge",
-        "price": "0.057300"
-    },
-    {
-        "type": "m5.xlarge",
-        "price": "0.057300"
+        "price": "0.058000"
     },
     {
         "type": "r5.xlarge",
-        "price": "0.081300"
+        "price": "0.075900"
     },
     {
         "type": "r5.xlarge",
-        "price": "0.074000"
-    },
-    {
-        "type": "m5d.xlarge",
-        "price": "0.223600"
-    },
-    {
-        "type": "i3en.12xlarge",
-        "price": "2.498300"
-    },
-    {
-        "type": "m5.xlarge",
-        "price": "0.057300"
-    },
-    {
-        "type": "m5.xlarge",
-        "price": "0.057300"
-    },
-    {
-        "type": "r5d.large",
-        "price": "0.030000"
-    },
-    {
-        "type": "r5d.large",
-        "price": "0.030000"
-    },
-    {
-        "type": "r5d.large",
-        "price": "0.030000"
-    },
-    {
-        "type": "g4dn.8xlarge",
-        "price": "0.692400"
-    },
-    {
-        "type": "g4dn.8xlarge",
-        "price": "2.308000"
-    },
-    {
-        "type": "g4dn.8xlarge",
-        "price": "2.308000"
-    },
-    {
-        "type": "i3en.6xlarge",
-        "price": "2.148800"
-    },
-    {
-        "type": "t3.large",
-        "price": "0.025900"
-    },
-    {
-        "type": "t3.large",
-        "price": "0.025900"
-    },
-    {
-        "type": "t3.large",
-        "price": "0.025900"
-    },
-    {
-        "type": "m5d.2xlarge",
-        "price": "0.136400"
-    },
-    {
-        "type": "r5d.2xlarge",
-        "price": "0.146700"
-    },
-    {
-        "type": "r5.12xlarge",
-        "price": "0.730100"
-    },
-    {
-        "type": "m5d.2xlarge",
-        "price": "0.146500"
-    },
-    {
-        "type": "c5a.24xlarge",
-        "price": "1.310400"
-    },
-    {
-        "type": "c5a.24xlarge",
-        "price": "1.310400"
-    },
-    {
-        "type": "c5a.24xlarge",
-        "price": "1.310400"
-    },
-    {
-        "type": "c5n.metal",
-        "price": "4.176000"
-    },
-    {
-        "type": "c5n.metal",
-        "price": "4.176000"
-    },
-    {
-        "type": "c5n.metal",
-        "price": "4.176000"
-    },
-    {
-        "type": "c5a.8xlarge",
-        "price": "0.436800"
-    },
-    {
-        "type": "c5a.8xlarge",
-        "price": "0.436800"
-    },
-    {
-        "type": "c5a.8xlarge",
-        "price": "0.436800"
-    },
-    {
-        "type": "i3en.6xlarge",
-        "price": "0.853200"
-    },
-    {
-        "type": "i3en.6xlarge",
-        "price": "2.092200"
-    },
-    {
-        "type": "i3en.6xlarge",
-        "price": "0.853200"
-    },
-    {
-        "type": "r5d.large",
-        "price": "0.030000"
-    },
-    {
-        "type": "r5d.large",
-        "price": "0.030000"
-    },
-    {
-        "type": "r5d.large",
-        "price": "0.030000"
-    },
-    {
-        "type": "c5d.4xlarge",
-        "price": "0.218400"
-    },
-    {
-        "type": "c5d.4xlarge",
-        "price": "0.218400"
-    },
-    {
-        "type": "c5d.4xlarge",
-        "price": "0.218400"
-    },
-    {
-        "type": "c5a.large",
-        "price": "0.027300"
-    },
-    {
-        "type": "c5a.large",
-        "price": "0.027300"
-    },
-    {
-        "type": "c5a.large",
-        "price": "0.027300"
-    },
-    {
-        "type": "c5a.4xlarge",
-        "price": "0.219100"
-    },
-    {
-        "type": "m5d.2xlarge",
-        "price": "0.137600"
-    },
-    {
-        "type": "c5a.4xlarge",
-        "price": "0.218400"
-    },
-    {
-        "type": "c5a.4xlarge",
-        "price": "0.218400"
-    },
-    {
-        "type": "c5a.4xlarge",
-        "price": "0.218400"
-    },
-    {
-        "type": "r5d.12xlarge",
-        "price": "0.720700"
-    },
-    {
-        "type": "r5d.12xlarge",
-        "price": "0.720700"
-    },
-    {
-        "type": "r5d.12xlarge",
-        "price": "0.720700"
-    },
-    {
-        "type": "t3.micro",
-        "price": "0.003200"
-    },
-    {
-        "type": "t3.micro",
-        "price": "0.003300"
-    },
-    {
-        "type": "t3.micro",
-        "price": "0.003300"
-    },
-    {
-        "type": "c5.24xlarge",
-        "price": "1.310400"
-    },
-    {
-        "type": "c5.24xlarge",
-        "price": "1.310400"
-    },
-    {
-        "type": "c5.24xlarge",
-        "price": "1.310400"
-    },
-    {
-        "type": "c5.9xlarge",
-        "price": "0.491400"
-    },
-    {
-        "type": "c5.9xlarge",
-        "price": "0.491400"
-    },
-    {
-        "type": "c5.9xlarge",
-        "price": "0.491400"
-    },
-    {
-        "type": "c5n.9xlarge",
-        "price": "0.540500"
-    },
-    {
-        "type": "i3en.metal",
-        "price": "4.357700"
-    },
-    {
-        "type": "m5d.4xlarge",
-        "price": "0.476400"
-    },
-    {
-        "type": "m5.24xlarge",
-        "price": "1.375900"
-    },
-    {
-        "type": "m5.24xlarge",
-        "price": "1.375900"
-    },
-    {
-        "type": "m5.24xlarge",
-        "price": "1.375900"
-    },
-    {
-        "type": "c5a.large",
-        "price": "0.027300"
-    },
-    {
-        "type": "c5a.large",
-        "price": "0.027300"
-    },
-    {
-        "type": "c5a.large",
-        "price": "0.027300"
-    },
-    {
-        "type": "c5n.9xlarge",
-        "price": "0.491400"
-    },
-    {
-        "type": "c5n.9xlarge",
-        "price": "0.491400"
-    },
-    {
-        "type": "r5d.4xlarge",
-        "price": "0.240200"
-    },
-    {
-        "type": "r5d.4xlarge",
-        "price": "0.240200"
-    },
-    {
-        "type": "r5d.4xlarge",
-        "price": "0.240200"
-    },
-    {
-        "type": "r5d.4xlarge",
-        "price": "0.240200"
-    },
-    {
-        "type": "r5d.4xlarge",
-        "price": "0.240200"
-    },
-    {
-        "type": "r5d.4xlarge",
-        "price": "0.240200"
-    },
-    {
-        "type": "r5.8xlarge",
-        "price": "0.480500"
-    },
-    {
-        "type": "r5.8xlarge",
-        "price": "0.480500"
-    },
-    {
-        "type": "r5.8xlarge",
-        "price": "0.480500"
-    },
-    {
-        "type": "c5.2xlarge",
-        "price": "0.132800"
-    },
-    {
-        "type": "i3en.2xlarge",
-        "price": "0.528600"
-    },
-    {
-        "type": "c5a.16xlarge",
-        "price": "0.873600"
-    },
-    {
-        "type": "c5a.16xlarge",
-        "price": "0.873600"
-    },
-    {
-        "type": "c5a.16xlarge",
-        "price": "0.873600"
-    },
-    {
-        "type": "g4dn.2xlarge",
-        "price": "0.239400"
-    },
-    {
-        "type": "g4dn.2xlarge",
-        "price": "0.798000"
-    },
-    {
-        "type": "g4dn.2xlarge",
-        "price": "0.239400"
-    },
-    {
-        "type": "c5n.2xlarge",
-        "price": "0.109200"
-    },
-    {
-        "type": "c5n.2xlarge",
-        "price": "0.109200"
-    },
-    {
-        "type": "c5n.2xlarge",
-        "price": "0.109200"
-    },
-    {
-        "type": "i3en.large",
-        "price": "0.071100"
-    },
-    {
-        "type": "i3en.large",
-        "price": "0.237000"
-    },
-    {
-        "type": "i3en.large",
-        "price": "0.237000"
-    },
-    {
-        "type": "i3.xlarge",
-        "price": "0.097800"
-    },
-    {
-        "type": "i3.xlarge",
-        "price": "0.097800"
-    },
-    {
-        "type": "i3.xlarge",
-        "price": "0.097800"
-    },
-    {
-        "type": "r5.xlarge",
-        "price": "0.074100"
-    },
-    {
-        "type": "c5n.large",
-        "price": "0.028300"
-    },
-    {
-        "type": "r5.xlarge",
-        "price": "0.084000"
-    },
-    {
-        "type": "r5.4xlarge",
-        "price": "0.240200"
-    },
-    {
-        "type": "r5.4xlarge",
-        "price": "0.240200"
-    },
-    {
-        "type": "r5.4xlarge",
-        "price": "0.240200"
-    },
-    {
-        "type": "g4dn.8xlarge",
-        "price": "0.692400"
-    },
-    {
-        "type": "g4dn.8xlarge",
-        "price": "2.308000"
-    },
-    {
-        "type": "g4dn.8xlarge",
-        "price": "2.308000"
-    },
-    {
-        "type": "r5.8xlarge",
-        "price": "0.480500"
-    },
-    {
-        "type": "r5.8xlarge",
-        "price": "0.480500"
-    },
-    {
-        "type": "r5.8xlarge",
-        "price": "0.480500"
-    },
-    {
-        "type": "i3.xlarge",
-        "price": "0.097800"
-    },
-    {
-        "type": "i3.xlarge",
-        "price": "0.097800"
-    },
-    {
-        "type": "i3.xlarge",
-        "price": "0.097800"
-    },
-    {
-        "type": "r5.24xlarge",
-        "price": "1.441400"
-    },
-    {
-        "type": "r5.24xlarge",
-        "price": "1.441400"
-    },
-    {
-        "type": "r5.24xlarge",
-        "price": "1.441400"
-    },
-    {
-        "type": "c5d.18xlarge",
-        "price": "0.982800"
-    },
-    {
-        "type": "c5d.18xlarge",
-        "price": "0.982800"
-    },
-    {
-        "type": "c5d.18xlarge",
-        "price": "0.982800"
-    },
-    {
-        "type": "r5.xlarge",
-        "price": "0.082100"
-    },
-    {
-        "type": "m5.8xlarge",
-        "price": "0.929400"
-    },
-    {
-        "type": "m5d.2xlarge",
-        "price": "0.136700"
-    },
-    {
-        "type": "m5.2xlarge",
-        "price": "0.160200"
-    },
-    {
-        "type": "i3en.large",
-        "price": "0.071100"
-    },
-    {
-        "type": "i3en.large",
-        "price": "0.237000"
-    },
-    {
-        "type": "i3en.large",
-        "price": "0.237000"
-    },
-    {
-        "type": "d2.2xlarge",
-        "price": "0.418800"
-    },
-    {
-        "type": "d2.2xlarge",
-        "price": "0.418800"
-    },
-    {
-        "type": "d2.2xlarge",
-        "price": "0.418800"
-    },
-    {
-        "type": "c5d.large",
-        "price": "0.027300"
-    },
-    {
-        "type": "c5d.large",
-        "price": "0.027300"
-    },
-    {
-        "type": "c5d.large",
-        "price": "0.027300"
-    },
-    {
-        "type": "i3en.6xlarge",
-        "price": "2.092200"
-    },
-    {
-        "type": "c5a.xlarge",
-        "price": "0.054600"
-    },
-    {
-        "type": "c5a.xlarge",
-        "price": "0.054600"
-    },
-    {
-        "type": "c5a.xlarge",
-        "price": "0.164000"
-    },
-    {
-        "type": "i3en.metal",
-        "price": "11.376000"
-    },
-    {
-        "type": "i3en.metal",
-        "price": "11.376000"
-    },
-    {
-        "type": "i3en.metal",
-        "price": "4.552500"
-    },
-    {
-        "type": "c5.2xlarge",
-        "price": "0.133500"
-    },
-    {
-        "type": "c5.2xlarge",
-        "price": "0.109200"
-    },
-    {
-        "type": "c5.2xlarge",
-        "price": "0.109900"
-    },
-    {
-        "type": "g4dn.2xlarge",
-        "price": "0.239400"
-    },
-    {
-        "type": "g4dn.2xlarge",
-        "price": "0.798000"
-    },
-    {
-        "type": "g4dn.2xlarge",
-        "price": "0.239400"
-    },
-    {
-        "type": "i3.4xlarge",
-        "price": "0.391200"
-    },
-    {
-        "type": "i3.4xlarge",
-        "price": "0.391200"
-    },
-    {
-        "type": "i3.4xlarge",
-        "price": "0.391200"
-    },
-    {
-        "type": "r5d.2xlarge",
-        "price": "0.149700"
-    },
-    {
-        "type": "m5d.2xlarge",
-        "price": "0.137500"
-    },
-    {
-        "type": "i3en.12xlarge",
-        "price": "2.442400"
-    },
-    {
-        "type": "m5.metal",
-        "price": "1.375900"
-    },
-    {
-        "type": "m5.metal",
-        "price": "1.375900"
-    },
-    {
-        "type": "m5.metal",
-        "price": "1.375900"
-    },
-    {
-        "type": "c5n.large",
-        "price": "0.027300"
-    },
-    {
-        "type": "c5n.large",
-        "price": "0.027300"
-    },
-    {
-        "type": "c5n.large",
-        "price": "0.029100"
-    },
-    {
-        "type": "r5.2xlarge",
-        "price": "0.120100"
-    },
-    {
-        "type": "r5.2xlarge",
-        "price": "0.120100"
-    },
-    {
-        "type": "r5.2xlarge",
-        "price": "0.120100"
-    },
-    {
-        "type": "c5d.18xlarge",
-        "price": "0.982800"
-    },
-    {
-        "type": "c5d.18xlarge",
-        "price": "0.982800"
-    },
-    {
-        "type": "c5d.18xlarge",
-        "price": "0.982800"
-    },
-    {
-        "type": "i3en.metal",
-        "price": "11.376000"
-    },
-    {
-        "type": "i3en.metal",
-        "price": "11.376000"
-    },
-    {
-        "type": "m5.2xlarge",
-        "price": "0.160300"
-    },
-    {
-        "type": "m5.2xlarge",
-        "price": "0.114700"
-    },
-    {
-        "type": "m5.2xlarge",
-        "price": "0.114700"
-    },
-    {
-        "type": "m5d.xlarge",
-        "price": "0.216500"
-    },
-    {
-        "type": "r5.12xlarge",
-        "price": "0.731000"
-    },
-    {
-        "type": "i3en.metal",
-        "price": "4.552500"
-    },
-    {
-        "type": "m5d.4xlarge",
-        "price": "0.466900"
-    },
-    {
-        "type": "m5d.2xlarge",
-        "price": "0.146900"
-    },
-    {
-        "type": "c5d.metal",
-        "price": "1.310400"
-    },
-    {
-        "type": "c5d.metal",
-        "price": "1.310400"
-    },
-    {
-        "type": "c5d.metal",
-        "price": "1.310400"
-    },
-    {
-        "type": "c5.9xlarge",
-        "price": "0.491400"
-    },
-    {
-        "type": "c5.9xlarge",
-        "price": "0.491400"
-    },
-    {
-        "type": "c5.9xlarge",
-        "price": "0.491400"
-    },
-    {
-        "type": "c5n.2xlarge",
-        "price": "0.109200"
-    },
-    {
-        "type": "c5n.2xlarge",
-        "price": "0.109200"
-    },
-    {
-        "type": "c5n.2xlarge",
-        "price": "0.109200"
-    },
-    {
-        "type": "c5a.xlarge",
-        "price": "0.054600"
-    },
-    {
-        "type": "c5a.xlarge",
-        "price": "0.054600"
-    },
-    {
-        "type": "c5a.xlarge",
-        "price": "0.164000"
-    },
-    {
-        "type": "m5.2xlarge",
-        "price": "0.114700"
-    },
-    {
-        "type": "m5.2xlarge",
-        "price": "0.114700"
-    },
-    {
-        "type": "m5d.large",
-        "price": "0.028700"
-    },
-    {
-        "type": "m5d.large",
-        "price": "0.028700"
-    },
-    {
-        "type": "m5d.large",
-        "price": "0.028700"
-    },
-    {
-        "type": "m5d.4xlarge",
-        "price": "0.229300"
-    },
-    {
-        "type": "m5d.4xlarge",
-        "price": "0.445300"
-    },
-    {
-        "type": "m5d.4xlarge",
-        "price": "0.229300"
-    },
-    {
-        "type": "m5.12xlarge",
-        "price": "0.688000"
-    },
-    {
-        "type": "m5.12xlarge",
-        "price": "0.688000"
-    },
-    {
-        "type": "m5.12xlarge",
-        "price": "0.688000"
-    },
-    {
-        "type": "r5.xlarge",
-        "price": "0.085200"
-    },
-    {
-        "type": "r5.xlarge",
-        "price": "0.086800"
-    },
-    {
-        "type": "r5.xlarge",
-        "price": "0.074200"
-    },
-    {
-        "type": "c5.2xlarge",
-        "price": "0.133500"
-    },
-    {
-        "type": "m5.xlarge",
-        "price": "0.057600"
-    },
-    {
-        "type": "c5.2xlarge",
-        "price": "0.109900"
-    },
-    {
-        "type": "c5n.large",
-        "price": "0.027300"
-    },
-    {
-        "type": "c5n.large",
-        "price": "0.027300"
-    },
-    {
-        "type": "r5d.8xlarge",
-        "price": "0.480500"
-    },
-    {
-        "type": "r5d.8xlarge",
-        "price": "0.480500"
-    },
-    {
-        "type": "r5d.8xlarge",
-        "price": "0.480500"
+        "price": "0.073000"
     },
     {
         "type": "c5.18xlarge",
-        "price": "0.982800"
-    },
-    {
-        "type": "c5.18xlarge",
-        "price": "0.982800"
-    },
-    {
-        "type": "c5.18xlarge",
-        "price": "0.982800"
-    },
-    {
-        "type": "m5d.large",
-        "price": "0.028700"
-    },
-    {
-        "type": "m5d.large",
-        "price": "0.028700"
-    },
-    {
-        "type": "m5d.large",
-        "price": "0.028700"
-    },
-    {
-        "type": "r5.16xlarge",
-        "price": "4.288000"
-    },
-    {
-        "type": "r5.16xlarge",
-        "price": "0.961000"
-    },
-    {
-        "type": "r5.16xlarge",
-        "price": "0.961000"
-    },
-    {
-        "type": "m5d.4xlarge",
-        "price": "0.229300"
-    },
-    {
-        "type": "m5d.4xlarge",
-        "price": "0.229300"
-    },
-    {
-        "type": "c5d.24xlarge",
-        "price": "1.310400"
-    },
-    {
-        "type": "c5d.24xlarge",
-        "price": "1.310400"
-    },
-    {
-        "type": "c5d.24xlarge",
-        "price": "1.310400"
-    },
-    {
-        "type": "r5d.xlarge",
-        "price": "0.060100"
-    },
-    {
-        "type": "r5d.xlarge",
-        "price": "0.060100"
-    },
-    {
-        "type": "r5d.xlarge",
-        "price": "0.060100"
-    },
-    {
-        "type": "r5.metal",
-        "price": "1.441400"
-    },
-    {
-        "type": "r5.metal",
-        "price": "1.441400"
-    },
-    {
-        "type": "r5.metal",
-        "price": "1.441400"
-    },
-    {
-        "type": "t3.medium",
-        "price": "0.013000"
-    },
-    {
-        "type": "t3.medium",
-        "price": "0.013000"
-    },
-    {
-        "type": "t3.medium",
-        "price": "0.013000"
-    },
-    {
-        "type": "i3en.2xlarge",
-        "price": "0.542800"
-    },
-    {
-        "type": "m5.2xlarge",
-        "price": "0.160300"
-    },
-    {
-        "type": "c5n.9xlarge",
-        "price": "0.530700"
-    },
-    {
-        "type": "i3.4xlarge",
-        "price": "0.391200"
-    },
-    {
-        "type": "i3.4xlarge",
-        "price": "0.391200"
-    },
-    {
-        "type": "i3.4xlarge",
-        "price": "0.391200"
-    },
-    {
-        "type": "m5.12xlarge",
-        "price": "0.688000"
-    },
-    {
-        "type": "m5.12xlarge",
-        "price": "0.688000"
-    },
-    {
-        "type": "m5.12xlarge",
-        "price": "0.688000"
-    },
-    {
-        "type": "m5d.8xlarge",
-        "price": "0.458600"
-    },
-    {
-        "type": "m5d.8xlarge",
-        "price": "0.458600"
-    },
-    {
-        "type": "m5d.8xlarge",
-        "price": "0.458600"
-    },
-    {
-        "type": "c5.2xlarge",
-        "price": "0.109200"
-    },
-    {
-        "type": "g4dn.metal",
-        "price": "8.300000"
-    },
-    {
-        "type": "g4dn.metal",
-        "price": "8.300000"
-    },
-    {
-        "type": "g4dn.metal",
-        "price": "8.300000"
-    },
-    {
-        "type": "t3.medium",
-        "price": "0.013000"
-    },
-    {
-        "type": "t3.medium",
-        "price": "0.013000"
-    },
-    {
-        "type": "t3.medium",
-        "price": "0.013000"
-    },
-    {
-        "type": "c5a.2xlarge",
-        "price": "0.109200"
-    },
-    {
-        "type": "c5a.2xlarge",
-        "price": "0.109200"
-    },
-    {
-        "type": "c5a.2xlarge",
-        "price": "0.109200"
-    },
-    {
-        "type": "r5d.2xlarge",
-        "price": "0.156500"
-    },
-    {
-        "type": "r5d.2xlarge",
-        "price": "0.120100"
-    },
-    {
-        "type": "r5d.2xlarge",
-        "price": "0.120100"
-    },
-    {
-        "type": "r5.xlarge",
-        "price": "0.085200"
-    },
-    {
-        "type": "c5.xlarge",
-        "price": "0.057100"
-    },
-    {
-        "type": "r5.xlarge",
-        "price": "0.074200"
-    },
-    {
-        "type": "m5d.2xlarge",
-        "price": "0.137000"
-    },
-    {
-        "type": "i3en.12xlarge",
-        "price": "2.366300"
-    },
-    {
-        "type": "r5.xlarge",
-        "price": "0.086800"
-    },
-    {
-        "type": "c5a.2xlarge",
-        "price": "0.109200"
-    },
-    {
-        "type": "c5a.2xlarge",
-        "price": "0.109200"
-    },
-    {
-        "type": "c5a.2xlarge",
-        "price": "0.109200"
-    },
-    {
-        "type": "d2.4xlarge",
-        "price": "0.837600"
-    },
-    {
-        "type": "d2.4xlarge",
-        "price": "2.792000"
-    },
-    {
-        "type": "d2.4xlarge",
-        "price": "0.837600"
-    },
-    {
-        "type": "r5d.xlarge",
-        "price": "0.060100"
-    },
-    {
-        "type": "r5d.xlarge",
-        "price": "0.060100"
-    },
-    {
-        "type": "r5d.xlarge",
-        "price": "0.060100"
-    },
-    {
-        "type": "t3.2xlarge",
-        "price": "0.103700"
-    },
-    {
-        "type": "t3.2xlarge",
-        "price": "0.103700"
-    },
-    {
-        "type": "t3.2xlarge",
-        "price": "0.103700"
-    },
-    {
-        "type": "r5d.2xlarge",
-        "price": "0.120100"
-    },
-    {
-        "type": "r5d.2xlarge",
-        "price": "0.120100"
-    },
-    {
-        "type": "t3.xlarge",
-        "price": "0.051800"
-    },
-    {
-        "type": "t3.xlarge",
-        "price": "0.051800"
-    },
-    {
-        "type": "t3.xlarge",
-        "price": "0.051800"
-    },
-    {
-        "type": "m5.8xlarge",
-        "price": "0.902400"
-    },
-    {
-        "type": "c5n.large",
-        "price": "0.029100"
-    },
-    {
-        "type": "c5.xlarge",
-        "price": "0.056100"
-    },
-    {
-        "type": "t3.small",
-        "price": "0.007000"
-    },
-    {
-        "type": "i3en.2xlarge",
-        "price": "0.284400"
-    },
-    {
-        "type": "i3en.2xlarge",
-        "price": "0.948000"
-    },
-    {
-        "type": "r5.16xlarge",
-        "price": "4.288000"
-    },
-    {
-        "type": "r5.16xlarge",
-        "price": "0.961000"
-    },
-    {
-        "type": "r5.16xlarge",
-        "price": "0.961000"
-    },
-    {
-        "type": "m5d.2xlarge",
-        "price": "0.137600"
-    },
-    {
-        "type": "r5.2xlarge",
-        "price": "0.120100"
-    },
-    {
-        "type": "r5.2xlarge",
-        "price": "0.120100"
-    },
-    {
-        "type": "r5.2xlarge",
-        "price": "0.120100"
-    },
-    {
-        "type": "t3.xlarge",
-        "price": "0.051800"
-    },
-    {
-        "type": "t3.xlarge",
-        "price": "0.051800"
-    },
-    {
-        "type": "t3.xlarge",
-        "price": "0.051800"
-    },
-    {
-        "type": "g4dn.metal",
-        "price": "8.300000"
-    },
-    {
-        "type": "g4dn.metal",
-        "price": "8.300000"
-    },
-    {
-        "type": "g4dn.metal",
-        "price": "8.300000"
-    },
-    {
-        "type": "r5.12xlarge",
-        "price": "0.720700"
-    },
-    {
-        "type": "r5.12xlarge",
-        "price": "0.720700"
-    },
-    {
-        "type": "r5d.metal",
-        "price": "1.441400"
-    },
-    {
-        "type": "r5d.metal",
-        "price": "1.441400"
-    },
-    {
-        "type": "r5d.metal",
-        "price": "1.441400"
-    },
-    {
-        "type": "c5.metal",
-        "price": "1.310400"
-    },
-    {
-        "type": "c5.metal",
-        "price": "1.310400"
-    },
-    {
-        "type": "c5.metal",
-        "price": "1.310400"
-    },
-    {
-        "type": "m5.8xlarge",
-        "price": "1.632000"
-    },
-    {
-        "type": "m5.8xlarge",
-        "price": "0.458600"
-    },
-    {
-        "type": "i3en.metal",
-        "price": "4.728800"
-    },
-    {
-        "type": "m5d.xlarge",
-        "price": "0.210700"
-    },
-    {
-        "type": "i3en.6xlarge",
-        "price": "2.035200"
-    },
-    {
-        "type": "r5d.2xlarge",
-        "price": "0.156500"
-    },
-    {
-        "type": "c5n.xlarge",
-        "price": "0.054600"
-    },
-    {
-        "type": "c5n.xlarge",
-        "price": "0.054600"
-    },
-    {
-        "type": "c5n.xlarge",
-        "price": "0.054600"
-    },
-    {
-        "type": "i3.large",
-        "price": "0.048900"
-    },
-    {
-        "type": "i3.large",
-        "price": "0.048900"
-    },
-    {
-        "type": "i3.large",
-        "price": "0.048900"
-    },
-    {
-        "type": "c5.4xlarge",
-        "price": "0.218400"
-    },
-    {
-        "type": "c5.4xlarge",
-        "price": "0.218400"
-    },
-    {
-        "type": "c5.4xlarge",
-        "price": "0.218400"
-    },
-    {
-        "type": "i3.large",
-        "price": "0.048900"
-    },
-    {
-        "type": "i3.large",
-        "price": "0.048900"
-    },
-    {
-        "type": "i3.large",
-        "price": "0.048900"
-    },
-    {
-        "type": "t3.2xlarge",
-        "price": "0.103700"
-    },
-    {
-        "type": "t3.2xlarge",
-        "price": "0.103700"
-    },
-    {
-        "type": "t3.2xlarge",
-        "price": "0.103700"
-    },
-    {
-        "type": "m5d.metal",
-        "price": "1.375900"
-    },
-    {
-        "type": "m5d.metal",
-        "price": "1.375900"
-    },
-    {
-        "type": "m5d.metal",
-        "price": "1.375900"
-    },
-    {
-        "type": "m5d.2xlarge",
-        "price": "0.147100"
-    },
-    {
-        "type": "r5.12xlarge",
-        "price": "0.730000"
-    },
-    {
-        "type": "m5d.4xlarge",
-        "price": "0.445300"
-    },
-    {
-        "type": "r5.large",
-        "price": "0.030600"
-    },
-    {
-        "type": "r5d.24xlarge",
-        "price": "1.441400"
-    },
-    {
-        "type": "r5d.24xlarge",
-        "price": "1.441400"
-    },
-    {
-        "type": "r5d.24xlarge",
-        "price": "1.441400"
-    },
-    {
-        "type": "c5.large",
-        "price": "0.027300"
-    },
-    {
-        "type": "c5.large",
-        "price": "0.027300"
-    },
-    {
-        "type": "c5.large",
-        "price": "0.027300"
-    },
-    {
-        "type": "m5d.12xlarge",
-        "price": "0.688000"
-    },
-    {
-        "type": "m5d.12xlarge",
-        "price": "0.688000"
-    },
-    {
-        "type": "m5d.12xlarge",
-        "price": "0.688000"
-    },
-    {
-        "type": "m5.4xlarge",
-        "price": "0.229300"
-    },
-    {
-        "type": "m5.4xlarge",
-        "price": "0.229300"
-    },
-    {
-        "type": "m5.4xlarge",
-        "price": "0.229300"
-    },
-    {
-        "type": "r5.large",
-        "price": "0.034200"
-    },
-    {
-        "type": "r5.large",
-        "price": "0.030700"
-    },
-    {
-        "type": "r5.large",
-        "price": "0.033600"
-    },
-    {
-        "type": "c5.metal",
-        "price": "1.310400"
-    },
-    {
-        "type": "c5.metal",
-        "price": "1.310400"
-    },
-    {
-        "type": "c5.metal",
-        "price": "1.310400"
-    },
-    {
-        "type": "i3en.2xlarge",
-        "price": "0.565200"
+        "price": "0.983100"
     },
     {
         "type": "g4dn.xlarge",
@@ -1988,116 +876,184 @@
         "price": "0.167400"
     },
     {
-        "type": "m5d.metal",
-        "price": "1.375900"
+        "type": "i3en.12xlarge",
+        "price": "5.180100"
     },
     {
-        "type": "m5d.metal",
-        "price": "1.375900"
+        "type": "m5d.large",
+        "price": "0.028700"
     },
     {
-        "type": "m5d.metal",
-        "price": "1.375900"
+        "type": "m5d.large",
+        "price": "0.028700"
     },
     {
-        "type": "c5.4xlarge",
-        "price": "0.218400"
+        "type": "m5d.large",
+        "price": "0.028700"
     },
     {
-        "type": "c5.4xlarge",
-        "price": "0.218400"
+        "type": "r5.metal",
+        "price": "1.441400"
     },
     {
-        "type": "c5.4xlarge",
-        "price": "0.218400"
+        "type": "r5.metal",
+        "price": "1.441400"
     },
     {
-        "type": "m5d.12xlarge",
-        "price": "0.688000"
+        "type": "r5.metal",
+        "price": "1.441400"
     },
     {
-        "type": "m5d.12xlarge",
-        "price": "0.688000"
+        "type": "c5n.xlarge",
+        "price": "0.054600"
     },
     {
-        "type": "m5d.12xlarge",
-        "price": "0.688000"
+        "type": "c5n.xlarge",
+        "price": "0.054600"
+    },
+    {
+        "type": "c5n.xlarge",
+        "price": "0.054600"
+    },
+    {
+        "type": "c5a.2xlarge",
+        "price": "0.109200"
+    },
+    {
+        "type": "c5a.2xlarge",
+        "price": "0.109200"
+    },
+    {
+        "type": "c5a.2xlarge",
+        "price": "0.109200"
+    },
+    {
+        "type": "i3.large",
+        "price": "0.048900"
+    },
+    {
+        "type": "i3.large",
+        "price": "0.048900"
+    },
+    {
+        "type": "i3.large",
+        "price": "0.048900"
+    },
+    {
+        "type": "m5.4xlarge",
+        "price": "0.229300"
+    },
+    {
+        "type": "m5.4xlarge",
+        "price": "0.229300"
+    },
+    {
+        "type": "m5.4xlarge",
+        "price": "0.229300"
+    },
+    {
+        "type": "d2.4xlarge",
+        "price": "1.782800"
+    },
+    {
+        "type": "i3en.2xlarge",
+        "price": "0.378100"
+    },
+    {
+        "type": "c5n.9xlarge",
+        "price": "0.975800"
+    },
+    {
+        "type": "r5.large",
+        "price": "0.032900"
+    },
+    {
+        "type": "m5d.2xlarge",
+        "price": "0.143000"
+    },
+    {
+        "type": "c5.2xlarge",
+        "price": "0.127200"
     },
     {
         "type": "c5.2xlarge",
         "price": "0.109800"
     },
     {
-        "type": "r5.xlarge",
-        "price": "0.087400"
+        "type": "m5.2xlarge",
+        "price": "0.114700"
     },
     {
-        "type": "r5.large",
-        "price": "0.034200"
+        "type": "m5.4xlarge",
+        "price": "0.229300"
     },
     {
-        "type": "r5.large",
-        "price": "0.030700"
+        "type": "m5.4xlarge",
+        "price": "0.229300"
     },
     {
-        "type": "r5.large",
-        "price": "0.033600"
+        "type": "m5.4xlarge",
+        "price": "0.229300"
     },
     {
-        "type": "c5d.2xlarge",
+        "type": "d2.4xlarge",
+        "price": "0.837600"
+    },
+    {
+        "type": "d2.4xlarge",
+        "price": "0.837600"
+    },
+    {
+        "type": "m5d.8xlarge",
+        "price": "0.458600"
+    },
+    {
+        "type": "m5d.8xlarge",
+        "price": "0.458600"
+    },
+    {
+        "type": "m5d.8xlarge",
+        "price": "0.458600"
+    },
+    {
+        "type": "c5a.2xlarge",
         "price": "0.109200"
     },
     {
-        "type": "c5d.2xlarge",
+        "type": "c5a.2xlarge",
         "price": "0.109200"
     },
     {
-        "type": "c5d.2xlarge",
+        "type": "c5a.2xlarge",
         "price": "0.109200"
     },
     {
-        "type": "i3.16xlarge",
-        "price": "1.564800"
+        "type": "m5.16xlarge",
+        "price": "2.667200"
     },
     {
-        "type": "i3.16xlarge",
-        "price": "1.564800"
+        "type": "g4dn.xlarge",
+        "price": "0.167400"
     },
     {
-        "type": "i3.16xlarge",
-        "price": "1.564800"
+        "type": "g4dn.xlarge",
+        "price": "0.558000"
     },
     {
-        "type": "c5.12xlarge",
-        "price": "0.655200"
+        "type": "g4dn.xlarge",
+        "price": "0.167400"
     },
     {
-        "type": "c5.12xlarge",
-        "price": "0.655200"
+        "type": "t3.xlarge",
+        "price": "0.051800"
     },
     {
-        "type": "c5.12xlarge",
-        "price": "0.655200"
+        "type": "t3.xlarge",
+        "price": "0.051800"
     },
     {
-        "type": "c5n.9xlarge",
-        "price": "0.508800"
-    },
-    {
-        "type": "m5d.2xlarge",
-        "price": "0.136800"
-    },
-    {
-        "type": "i3en.xlarge",
-        "price": "0.474000"
-    },
-    {
-        "type": "i3en.xlarge",
-        "price": "0.142200"
-    },
-    {
-        "type": "i3en.xlarge",
-        "price": "0.142200"
+        "type": "t3.xlarge",
+        "price": "0.051800"
     },
     {
         "type": "m5d.24xlarge",
@@ -2112,104 +1068,132 @@
         "price": "1.375900"
     },
     {
-        "type": "i3.8xlarge",
-        "price": "0.782400"
+        "type": "t3.medium",
+        "price": "0.013000"
     },
     {
-        "type": "i3.8xlarge",
-        "price": "0.782400"
+        "type": "t3.medium",
+        "price": "0.013000"
     },
     {
-        "type": "i3.8xlarge",
-        "price": "0.782400"
+        "type": "t3.medium",
+        "price": "0.013000"
     },
     {
-        "type": "i3en.24xlarge",
-        "price": "3.412800"
+        "type": "r5d.24xlarge",
+        "price": "1.441400"
     },
     {
-        "type": "i3en.24xlarge",
-        "price": "3.412800"
+        "type": "r5d.24xlarge",
+        "price": "1.441400"
     },
     {
-        "type": "i3en.24xlarge",
-        "price": "3.412800"
+        "type": "r5d.24xlarge",
+        "price": "1.441400"
     },
     {
-        "type": "c5a.12xlarge",
-        "price": "0.655200"
+        "type": "m5d.metal",
+        "price": "1.375900"
     },
     {
-        "type": "c5a.12xlarge",
-        "price": "0.655200"
+        "type": "m5d.metal",
+        "price": "1.375900"
     },
     {
-        "type": "c5a.12xlarge",
-        "price": "0.655200"
+        "type": "m5d.metal",
+        "price": "1.375900"
     },
     {
-        "type": "c5d.xlarge",
-        "price": "0.054600"
+        "type": "c5.metal",
+        "price": "1.310400"
     },
     {
-        "type": "c5d.xlarge",
-        "price": "0.054600"
+        "type": "c5.metal",
+        "price": "1.310400"
     },
     {
-        "type": "c5d.xlarge",
-        "price": "0.054600"
+        "type": "c5.metal",
+        "price": "1.310400"
     },
     {
-        "type": "m5d.16xlarge",
-        "price": "0.917300"
+        "type": "m5d.metal",
+        "price": "1.375900"
     },
     {
-        "type": "m5d.16xlarge",
-        "price": "0.917300"
+        "type": "m5d.metal",
+        "price": "1.375900"
     },
     {
-        "type": "m5d.16xlarge",
-        "price": "0.917300"
-    },
-    {
-        "type": "m5.large",
-        "price": "0.028700"
-    },
-    {
-        "type": "m5.large",
-        "price": "0.028700"
-    },
-    {
-        "type": "m5.large",
-        "price": "0.028700"
-    },
-    {
-        "type": "i3en.3xlarge",
-        "price": "0.426600"
-    },
-    {
-        "type": "i3en.3xlarge",
-        "price": "1.422000"
-    },
-    {
-        "type": "i3en.3xlarge",
-        "price": "0.426600"
-    },
-    {
-        "type": "c5.xlarge",
-        "price": "0.057000"
-    },
-    {
-        "type": "c5n.large",
-        "price": "0.029900"
-    },
-    {
-        "type": "m5d.2xlarge",
-        "price": "0.136500"
+        "type": "m5d.metal",
+        "price": "1.375900"
     },
     {
         "type": "m5.8xlarge",
-        "price": "0.879900"
+        "price": "1.632000"
+    },
+    {
+        "type": "m5.2xlarge",
+        "price": "0.156600"
+    },
+    {
+        "type": "m5d.2xlarge",
+        "price": "0.140900"
+    },
+    {
+        "type": "c5a.4xlarge",
+        "price": "0.219000"
+    },
+    {
+        "type": "m5.2xlarge",
+        "price": "0.125700"
+    },
+    {
+        "type": "t3.nano",
+        "price": "0.001700"
+    },
+    {
+        "type": "c5n.xlarge",
+        "price": "0.054600"
+    },
+    {
+        "type": "c5n.xlarge",
+        "price": "0.054600"
+    },
+    {
+        "type": "c5n.xlarge",
+        "price": "0.054600"
+    },
+    {
+        "type": "r5d.metal",
+        "price": "1.441400"
+    },
+    {
+        "type": "r5d.metal",
+        "price": "1.441400"
+    },
+    {
+        "type": "m5d.8xlarge",
+        "price": "0.458600"
+    },
+    {
+        "type": "m5d.8xlarge",
+        "price": "0.458600"
+    },
+    {
+        "type": "m5d.8xlarge",
+        "price": "0.458600"
+    },
+    {
+        "type": "i3en.24xlarge",
+        "price": "3.412800"
+    },
+    {
+        "type": "i3en.24xlarge",
+        "price": "3.412800"
+    },
+    {
+        "type": "i3en.24xlarge",
+        "price": "3.412800"
     },
     {
         "type": "c5n.18xlarge",
@@ -2224,64 +1208,252 @@
         "price": "0.982800"
     },
     {
-        "type": "d2.xlarge",
-        "price": "0.209400"
+        "type": "c5.4xlarge",
+        "price": "0.218400"
     },
     {
-        "type": "d2.xlarge",
-        "price": "0.209400"
+        "type": "c5.4xlarge",
+        "price": "0.218400"
     },
     {
-        "type": "d2.xlarge",
-        "price": "0.209400"
+        "type": "c5.4xlarge",
+        "price": "0.218400"
     },
     {
-        "type": "r5.xlarge",
-        "price": "0.090200"
+        "type": "r5d.24xlarge",
+        "price": "1.441400"
     },
     {
-        "type": "g4dn.12xlarge",
-        "price": "1.245000"
+        "type": "r5d.24xlarge",
+        "price": "1.441400"
     },
     {
-        "type": "g4dn.12xlarge",
-        "price": "4.150000"
-    },
-    {
-        "type": "g4dn.12xlarge",
-        "price": "1.245000"
+        "type": "r5d.24xlarge",
+        "price": "1.441400"
     },
     {
         "type": "i3en.6xlarge",
-        "price": "2.021900"
+        "price": "0.907100"
+    },
+    {
+        "type": "i3en.2xlarge",
+        "price": "0.366200"
+    },
+    {
+        "type": "i3en.2xlarge",
+        "price": "0.948000"
+    },
+    {
+        "type": "i3en.2xlarge",
+        "price": "0.284400"
     },
     {
         "type": "r5.12xlarge",
-        "price": "0.730600"
+        "price": "0.732500"
     },
     {
-        "type": "m5d.xlarge",
-        "price": "0.203300"
+        "type": "r5.xlarge",
+        "price": "0.075700"
     },
     {
-        "type": "m5d.xlarge",
-        "price": "0.057300"
+        "type": "m5d.4xlarge",
+        "price": "0.674100"
     },
     {
-        "type": "m5d.xlarge",
-        "price": "0.057300"
+        "type": "m5d.12xlarge",
+        "price": "0.688000"
     },
     {
-        "type": "c5d.9xlarge",
-        "price": "0.491400"
+        "type": "m5d.12xlarge",
+        "price": "0.688000"
     },
     {
-        "type": "c5d.9xlarge",
-        "price": "0.491400"
+        "type": "m5d.12xlarge",
+        "price": "0.688000"
     },
     {
-        "type": "c5d.9xlarge",
-        "price": "0.491400"
+        "type": "c5.metal",
+        "price": "1.310400"
+    },
+    {
+        "type": "c5.metal",
+        "price": "1.310400"
+    },
+    {
+        "type": "c5.metal",
+        "price": "1.310400"
+    },
+    {
+        "type": "c5.12xlarge",
+        "price": "0.655200"
+    },
+    {
+        "type": "c5.12xlarge",
+        "price": "0.655200"
+    },
+    {
+        "type": "c5.12xlarge",
+        "price": "0.655200"
+    },
+    {
+        "type": "r5d.2xlarge",
+        "price": "0.120100"
+    },
+    {
+        "type": "r5d.2xlarge",
+        "price": "0.120100"
+    },
+    {
+        "type": "r5d.2xlarge",
+        "price": "0.120100"
+    },
+    {
+        "type": "i3.8xlarge",
+        "price": "0.782400"
+    },
+    {
+        "type": "i3.8xlarge",
+        "price": "0.782400"
+    },
+    {
+        "type": "i3.8xlarge",
+        "price": "0.782400"
+    },
+    {
+        "type": "c5n.9xlarge",
+        "price": "1.124300"
+    },
+    {
+        "type": "i3en.xlarge",
+        "price": "0.156400"
+    },
+    {
+        "type": "m5.large",
+        "price": "0.028800"
+    },
+    {
+        "type": "r5.xlarge",
+        "price": "0.072900"
+    },
+    {
+        "type": "i3en.2xlarge",
+        "price": "0.948000"
+    },
+    {
+        "type": "i3en.2xlarge",
+        "price": "0.284400"
+    },
+    {
+        "type": "r5.large",
+        "price": "0.033000"
+    },
+    {
+        "type": "r5.large",
+        "price": "0.030200"
+    },
+    {
+        "type": "r5.large",
+        "price": "0.032200"
+    },
+    {
+        "type": "r5.12xlarge",
+        "price": "0.723000"
+    },
+    {
+        "type": "t3.small",
+        "price": "0.007200"
+    },
+    {
+        "type": "m5d.2xlarge",
+        "price": "0.141300"
+    },
+    {
+        "type": "m5d.2xlarge",
+        "price": "0.139600"
+    },
+    {
+        "type": "i3.16xlarge",
+        "price": "1.564800"
+    },
+    {
+        "type": "i3.16xlarge",
+        "price": "1.564800"
+    },
+    {
+        "type": "i3.16xlarge",
+        "price": "1.564800"
+    },
+    {
+        "type": "c5d.2xlarge",
+        "price": "0.109200"
+    },
+    {
+        "type": "c5d.2xlarge",
+        "price": "0.109200"
+    },
+    {
+        "type": "c5d.2xlarge",
+        "price": "0.109200"
+    },
+    {
+        "type": "c5.xlarge",
+        "price": "0.054600"
+    },
+    {
+        "type": "c5.xlarge",
+        "price": "0.055500"
+    },
+    {
+        "type": "c5.xlarge",
+        "price": "0.055000"
+    },
+    {
+        "type": "c5d.xlarge",
+        "price": "0.054600"
+    },
+    {
+        "type": "c5d.xlarge",
+        "price": "0.054600"
+    },
+    {
+        "type": "c5d.xlarge",
+        "price": "0.054600"
+    },
+    {
+        "type": "r5d.metal",
+        "price": "2.971800"
+    },
+    {
+        "type": "r5.xlarge",
+        "price": "0.076000"
+    },
+    {
+        "type": "m5.16xlarge",
+        "price": "2.773200"
+    },
+    {
+        "type": "c5.2xlarge",
+        "price": "0.127000"
+    },
+    {
+        "type": "d2.4xlarge",
+        "price": "1.831800"
+    },
+    {
+        "type": "i3en.2xlarge",
+        "price": "0.366200"
+    },
+    {
+        "type": "c5.2xlarge",
+        "price": "0.109600"
+    },
+    {
+        "type": "r5.large",
+        "price": "0.030200"
+    },
+    {
+        "type": "r5.large",
+        "price": "0.032200"
     },
     {
         "type": "t3.nano",
@@ -2289,31 +1461,239 @@
     },
     {
         "type": "t3.nano",
-        "price": "0.002100"
+        "price": "0.002200"
+    },
+    {
+        "type": "t3.nano",
+        "price": "0.001800"
+    },
+    {
+        "type": "i3.8xlarge",
+        "price": "0.782400"
+    },
+    {
+        "type": "i3.8xlarge",
+        "price": "0.782400"
+    },
+    {
+        "type": "i3.8xlarge",
+        "price": "0.782400"
+    },
+    {
+        "type": "c5.large",
+        "price": "0.027300"
+    },
+    {
+        "type": "c5.large",
+        "price": "0.027300"
+    },
+    {
+        "type": "c5.large",
+        "price": "0.027300"
+    },
+    {
+        "type": "d2.xlarge",
+        "price": "0.209400"
+    },
+    {
+        "type": "d2.xlarge",
+        "price": "0.209400"
+    },
+    {
+        "type": "d2.xlarge",
+        "price": "0.209400"
+    },
+    {
+        "type": "c5.xlarge",
+        "price": "0.054600"
+    },
+    {
+        "type": "c5d.9xlarge",
+        "price": "0.491400"
+    },
+    {
+        "type": "c5d.9xlarge",
+        "price": "0.491400"
+    },
+    {
+        "type": "c5d.9xlarge",
+        "price": "0.491400"
+    },
+    {
+        "type": "i3en.12xlarge",
+        "price": "5.009700"
+    },
+    {
+        "type": "t3.nano",
+        "price": "0.001800"
+    },
+    {
+        "type": "m5.2xlarge",
+        "price": "0.156500"
+    },
+    {
+        "type": "c5n.9xlarge",
+        "price": "0.951400"
+    },
+    {
+        "type": "c5a.4xlarge",
+        "price": "0.219400"
+    },
+    {
+        "type": "m5.8xlarge",
+        "price": "1.632000"
+    },
+    {
+        "type": "m5.8xlarge",
+        "price": "0.458600"
+    },
+    {
+        "type": "c5n.18xlarge",
+        "price": "0.982800"
+    },
+    {
+        "type": "c5n.18xlarge",
+        "price": "0.982800"
+    },
+    {
+        "type": "c5n.18xlarge",
+        "price": "0.982800"
+    },
+    {
+        "type": "c5.12xlarge",
+        "price": "0.655200"
+    },
+    {
+        "type": "c5.12xlarge",
+        "price": "0.655200"
+    },
+    {
+        "type": "c5.12xlarge",
+        "price": "0.655200"
+    },
+    {
+        "type": "i3.16xlarge",
+        "price": "1.564800"
+    },
+    {
+        "type": "i3.16xlarge",
+        "price": "1.564800"
+    },
+    {
+        "type": "i3.16xlarge",
+        "price": "1.564800"
+    },
+    {
+        "type": "c5d.12xlarge",
+        "price": "0.655200"
+    },
+    {
+        "type": "c5d.12xlarge",
+        "price": "0.655200"
+    },
+    {
+        "type": "c5d.12xlarge",
+        "price": "0.655200"
+    },
+    {
+        "type": "m5d.16xlarge",
+        "price": "0.917300"
+    },
+    {
+        "type": "m5d.16xlarge",
+        "price": "0.917300"
+    },
+    {
+        "type": "m5d.16xlarge",
+        "price": "0.917300"
+    },
+    {
+        "type": "r5d.16xlarge",
+        "price": "0.961000"
+    },
+    {
+        "type": "r5d.16xlarge",
+        "price": "0.961000"
+    },
+    {
+        "type": "r5d.16xlarge",
+        "price": "0.961000"
+    },
+    {
+        "type": "t3.nano",
+        "price": "0.001600"
+    },
+    {
+        "type": "t3.nano",
+        "price": "0.002200"
     },
     {
         "type": "t3.nano",
         "price": "0.001900"
     },
     {
-        "type": "d2.8xlarge",
-        "price": "1.675200"
+        "type": "c5d.2xlarge",
+        "price": "0.109200"
     },
     {
-        "type": "d2.8xlarge",
-        "price": "1.675200"
+        "type": "c5d.2xlarge",
+        "price": "0.109200"
     },
     {
-        "type": "d2.8xlarge",
-        "price": "1.675200"
+        "type": "c5d.2xlarge",
+        "price": "0.109200"
     },
     {
-        "type": "c5.2xlarge",
-        "price": "0.134200"
+        "type": "c5d.9xlarge",
+        "price": "0.491400"
     },
     {
-        "type": "i3en.metal",
-        "price": "4.841900"
+        "type": "c5d.9xlarge",
+        "price": "0.491400"
+    },
+    {
+        "type": "c5d.9xlarge",
+        "price": "0.491400"
+    },
+    {
+        "type": "r5.4xlarge",
+        "price": "0.240200"
+    },
+    {
+        "type": "r5.4xlarge",
+        "price": "0.240200"
+    },
+    {
+        "type": "r5.4xlarge",
+        "price": "0.240200"
+    },
+    {
+        "type": "m5d.2xlarge",
+        "price": "0.139000"
+    },
+    {
+        "type": "m5.16xlarge",
+        "price": "0.917300"
+    },
+    {
+        "type": "m5.16xlarge",
+        "price": "0.917300"
+    },
+    {
+        "type": "c5.xlarge",
+        "price": "0.055000"
+    },
+    {
+        "type": "i3en.6xlarge",
+        "price": "0.880300"
+    },
+    {
+        "type": "c5n.9xlarge",
+        "price": "1.087100"
+    },
+    {
+        "type": "r5.12xlarge",
+        "price": "0.730000"
     },
     {
         "type": "g4dn.4xlarge",
@@ -2328,80 +1708,52 @@
         "price": "0.383100"
     },
     {
-        "type": "r5.xlarge",
-        "price": "0.074300"
+        "type": "i3en.3xlarge",
+        "price": "0.426600"
     },
     {
-        "type": "m5d.2xlarge",
-        "price": "0.146300"
+        "type": "i3en.3xlarge",
+        "price": "1.422000"
     },
     {
-        "type": "m5d.4xlarge",
-        "price": "0.433100"
+        "type": "i3en.3xlarge",
+        "price": "0.426600"
     },
     {
-        "type": "m5.16xlarge",
-        "price": "3.264000"
+        "type": "r5.12xlarge",
+        "price": "0.722200"
     },
     {
-        "type": "m5.16xlarge",
-        "price": "0.917300"
+        "type": "m5d.xlarge",
+        "price": "0.240000"
     },
     {
-        "type": "m5.16xlarge",
-        "price": "0.917300"
+        "type": "m5d.xlarge",
+        "price": "0.057300"
     },
     {
-        "type": "r5d.16xlarge",
-        "price": "0.961000"
+        "type": "m5d.xlarge",
+        "price": "0.057300"
     },
     {
-        "type": "r5d.16xlarge",
-        "price": "0.961000"
+        "type": "m5.2xlarge",
+        "price": "0.125200"
     },
     {
-        "type": "r5d.16xlarge",
-        "price": "0.961000"
+        "type": "g4dn.12xlarge",
+        "price": "1.245000"
     },
     {
-        "type": "i3en.12xlarge",
-        "price": "1.706400"
+        "type": "g4dn.12xlarge",
+        "price": "4.150000"
     },
     {
-        "type": "i3en.12xlarge",
-        "price": "1.706400"
+        "type": "g4dn.12xlarge",
+        "price": "1.245000"
     },
     {
-        "type": "c5.xlarge",
-        "price": "0.054600"
-    },
-    {
-        "type": "c5d.12xlarge",
-        "price": "0.655200"
-    },
-    {
-        "type": "c5d.12xlarge",
-        "price": "0.655200"
-    },
-    {
-        "type": "c5d.12xlarge",
-        "price": "0.655200"
-    },
-    {
-        "type": "c5n.4xlarge",
-        "price": "0.218400"
-    },
-    {
-        "type": "c5n.4xlarge",
-        "price": "0.218400"
-    },
-    {
-        "type": "c5n.4xlarge",
-        "price": "0.218400"
-    },
-    {
-        "type": "i3en.2xlarge",
-        "price": "0.581500"
+        "type": "t3.small",
+        "price": "0.007400"
     },
     {
         "type": "t3.small",
@@ -2412,40 +1764,276 @@
         "price": "0.007300"
     },
     {
-        "type": "g4dn.16xlarge",
-        "price": "4.617000"
+        "type": "c5n.4xlarge",
+        "price": "0.218400"
     },
     {
-        "type": "g4dn.16xlarge",
-        "price": "4.617000"
+        "type": "c5n.4xlarge",
+        "price": "0.218400"
     },
     {
-        "type": "g4dn.16xlarge",
-        "price": "4.617000"
+        "type": "c5n.4xlarge",
+        "price": "0.218400"
     },
     {
-        "type": "i3.2xlarge",
-        "price": "0.195600"
-    },
-    {
-        "type": "i3.2xlarge",
-        "price": "0.195600"
-    },
-    {
-        "type": "i3.2xlarge",
-        "price": "0.195600"
+        "type": "c5.xlarge",
+        "price": "0.055500"
     },
     {
         "type": "r5.xlarge",
-        "price": "0.089900"
+        "price": "0.075900"
+    },
+    {
+        "type": "m5d.2xlarge",
+        "price": "0.139900"
+    },
+    {
+        "type": "t3.small",
+        "price": "0.007300"
+    },
+    {
+        "type": "m5d.4xlarge",
+        "price": "0.680500"
+    },
+    {
+        "type": "m5d.2xlarge",
+        "price": "0.137900"
+    },
+    {
+        "type": "c5a.12xlarge",
+        "price": "0.655200"
+    },
+    {
+        "type": "c5a.12xlarge",
+        "price": "0.655200"
+    },
+    {
+        "type": "c5a.12xlarge",
+        "price": "0.655200"
+    },
+    {
+        "type": "g4dn.16xlarge",
+        "price": "4.617000"
+    },
+    {
+        "type": "g4dn.16xlarge",
+        "price": "4.617000"
+    },
+    {
+        "type": "g4dn.16xlarge",
+        "price": "4.617000"
+    },
+    {
+        "type": "r5.4xlarge",
+        "price": "0.240200"
+    },
+    {
+        "type": "r5.4xlarge",
+        "price": "0.240200"
+    },
+    {
+        "type": "r5.4xlarge",
+        "price": "0.240200"
+    },
+    {
+        "type": "m5.large",
+        "price": "0.028700"
+    },
+    {
+        "type": "m5.large",
+        "price": "0.028700"
+    },
+    {
+        "type": "r5d.12xlarge",
+        "price": "0.720700"
+    },
+    {
+        "type": "r5d.12xlarge",
+        "price": "0.720700"
+    },
+    {
+        "type": "r5d.12xlarge",
+        "price": "0.720700"
+    },
+    {
+        "type": "i3en.12xlarge",
+        "price": "1.706400"
+    },
+    {
+        "type": "i3en.12xlarge",
+        "price": "4.881700"
+    },
+    {
+        "type": "i3en.12xlarge",
+        "price": "1.706400"
+    },
+    {
+        "type": "c5a.4xlarge",
+        "price": "0.218400"
+    },
+    {
+        "type": "c5a.4xlarge",
+        "price": "0.218400"
+    },
+    {
+        "type": "d2.8xlarge",
+        "price": "1.675200"
+    },
+    {
+        "type": "d2.8xlarge",
+        "price": "1.675200"
+    },
+    {
+        "type": "d2.8xlarge",
+        "price": "1.675200"
+    },
+    {
+        "type": "t3.small",
+        "price": "0.007400"
+    },
+    {
+        "type": "m5.16xlarge",
+        "price": "2.846200"
+    },
+    {
+        "type": "i3en.xlarge",
+        "price": "0.154600"
+    },
+    {
+        "type": "r5.xlarge",
+        "price": "0.072800"
+    },
+    {
+        "type": "r5.xlarge",
+        "price": "0.076200"
+    },
+    {
+        "type": "d2.4xlarge",
+        "price": "1.860300"
+    },
+    {
+        "type": "r5d.16xlarge",
+        "price": "0.961000"
+    },
+    {
+        "type": "r5d.16xlarge",
+        "price": "0.961000"
+    },
+    {
+        "type": "r5d.16xlarge",
+        "price": "0.961000"
+    },
+    {
+        "type": "d2.8xlarge",
+        "price": "1.675200"
+    },
+    {
+        "type": "d2.8xlarge",
+        "price": "1.675200"
+    },
+    {
+        "type": "d2.8xlarge",
+        "price": "1.675200"
+    },
+    {
+        "type": "t3.small",
+        "price": "0.006500"
+    },
+    {
+        "type": "r5d.12xlarge",
+        "price": "0.720700"
+    },
+    {
+        "type": "r5d.12xlarge",
+        "price": "0.720700"
+    },
+    {
+        "type": "r5d.12xlarge",
+        "price": "0.720700"
+    },
+    {
+        "type": "c5a.24xlarge",
+        "price": "1.310400"
+    },
+    {
+        "type": "c5a.24xlarge",
+        "price": "1.310400"
+    },
+    {
+        "type": "c5a.24xlarge",
+        "price": "1.310400"
+    },
+    {
+        "type": "c5n.metal",
+        "price": "4.176000"
+    },
+    {
+        "type": "c5n.metal",
+        "price": "4.176000"
+    },
+    {
+        "type": "c5n.metal",
+        "price": "4.176000"
     },
     {
         "type": "c5.2xlarge",
-        "price": "0.109700"
+        "price": "0.126600"
+    },
+    {
+        "type": "r5d.metal",
+        "price": "2.883200"
+    },
+    {
+        "type": "c5.2xlarge",
+        "price": "0.109400"
+    },
+    {
+        "type": "c5a.4xlarge",
+        "price": "0.219600"
+    },
+    {
+        "type": "t3.micro",
+        "price": "0.003200"
+    },
+    {
+        "type": "c5d.4xlarge",
+        "price": "0.218400"
+    },
+    {
+        "type": "c5d.4xlarge",
+        "price": "0.218400"
+    },
+    {
+        "type": "c5d.4xlarge",
+        "price": "0.218400"
+    },
+    {
+        "type": "c5a.8xlarge",
+        "price": "0.436800"
+    },
+    {
+        "type": "c5a.8xlarge",
+        "price": "0.436800"
+    },
+    {
+        "type": "c5a.8xlarge",
+        "price": "0.436800"
+    },
+    {
+        "type": "c5.9xlarge",
+        "price": "0.491400"
+    },
+    {
+        "type": "c5.9xlarge",
+        "price": "0.491400"
+    },
+    {
+        "type": "c5.9xlarge",
+        "price": "0.491400"
     },
     {
         "type": "m5.xlarge",
-        "price": "0.057500"
+        "price": "0.057900"
     },
     {
         "type": "m5.xlarge",
@@ -2454,6 +2042,50 @@
     {
         "type": "m5.xlarge",
         "price": "0.057300"
+    },
+    {
+        "type": "i3en.6xlarge",
+        "price": "0.853200"
+    },
+    {
+        "type": "i3en.6xlarge",
+        "price": "2.844000"
+    },
+    {
+        "type": "i3en.6xlarge",
+        "price": "0.853200"
+    },
+    {
+        "type": "c5n.9xlarge",
+        "price": "0.927600"
+    },
+    {
+        "type": "i3en.2xlarge",
+        "price": "0.353100"
+    },
+    {
+        "type": "c5a.24xlarge",
+        "price": "1.310400"
+    },
+    {
+        "type": "c5a.24xlarge",
+        "price": "1.310400"
+    },
+    {
+        "type": "c5a.24xlarge",
+        "price": "1.310400"
+    },
+    {
+        "type": "c5n.4xlarge",
+        "price": "0.218400"
+    },
+    {
+        "type": "c5n.4xlarge",
+        "price": "0.218400"
+    },
+    {
+        "type": "c5n.4xlarge",
+        "price": "0.218400"
     },
     {
         "type": "t3.large",
@@ -2469,35 +2101,31 @@
     },
     {
         "type": "i3en.12xlarge",
-        "price": "2.271200"
+        "price": "1.706400"
     },
     {
-        "type": "c5.xlarge",
-        "price": "0.056000"
+        "type": "i3en.12xlarge",
+        "price": "1.706400"
     },
     {
-        "type": "c5a.24xlarge",
+        "type": "c5d.metal",
         "price": "1.310400"
     },
     {
-        "type": "c5a.24xlarge",
+        "type": "c5d.metal",
         "price": "1.310400"
     },
     {
-        "type": "c5a.24xlarge",
+        "type": "c5d.metal",
         "price": "1.310400"
     },
     {
-        "type": "c5n.metal",
-        "price": "4.176000"
+        "type": "c5n.9xlarge",
+        "price": "1.071100"
     },
     {
-        "type": "c5n.metal",
-        "price": "4.176000"
-    },
-    {
-        "type": "c5n.metal",
-        "price": "4.176000"
+        "type": "r5.large",
+        "price": "0.033000"
     },
     {
         "type": "c5a.8xlarge",
@@ -2512,68 +2140,64 @@
         "price": "0.436800"
     },
     {
-        "type": "i3en.6xlarge",
-        "price": "0.853200"
+        "type": "c5n.9xlarge",
+        "price": "0.491400"
     },
     {
-        "type": "i3en.6xlarge",
-        "price": "0.853200"
+        "type": "c5.9xlarge",
+        "price": "0.491400"
     },
     {
-        "type": "r5d.large",
-        "price": "0.030000"
+        "type": "c5.9xlarge",
+        "price": "0.491400"
     },
     {
-        "type": "r5d.large",
-        "price": "0.030000"
+        "type": "c5.9xlarge",
+        "price": "0.491400"
     },
     {
-        "type": "r5d.large",
-        "price": "0.030000"
+        "type": "m5.xlarge",
+        "price": "0.057300"
     },
     {
-        "type": "c5d.4xlarge",
-        "price": "0.218400"
+        "type": "m5.xlarge",
+        "price": "0.057300"
     },
     {
-        "type": "c5d.4xlarge",
-        "price": "0.218400"
+        "type": "c5a.large",
+        "price": "0.027300"
     },
     {
-        "type": "c5d.4xlarge",
-        "price": "0.218400"
+        "type": "c5a.large",
+        "price": "0.027300"
     },
     {
-        "type": "r5d.2xlarge",
-        "price": "0.163000"
+        "type": "c5a.large",
+        "price": "0.027300"
     },
     {
-        "type": "t3.small",
-        "price": "0.006900"
+        "type": "m5.24xlarge",
+        "price": "1.375900"
     },
     {
-        "type": "c5a.4xlarge",
-        "price": "0.218400"
+        "type": "m5.24xlarge",
+        "price": "1.375900"
     },
     {
-        "type": "c5a.4xlarge",
-        "price": "0.218400"
+        "type": "m5.24xlarge",
+        "price": "1.375900"
     },
     {
-        "type": "c5a.4xlarge",
-        "price": "0.218400"
+        "type": "r5.24xlarge",
+        "price": "1.441400"
     },
     {
-        "type": "r5d.12xlarge",
-        "price": "0.720700"
+        "type": "r5.24xlarge",
+        "price": "1.441400"
     },
     {
-        "type": "r5d.12xlarge",
-        "price": "0.720700"
-    },
-    {
-        "type": "r5d.12xlarge",
-        "price": "0.720700"
+        "type": "r5.24xlarge",
+        "price": "1.441400"
     },
     {
         "type": "t3.micro",
@@ -2588,60 +2212,28 @@
         "price": "0.003300"
     },
     {
-        "type": "c5.24xlarge",
-        "price": "1.310400"
+        "type": "m5d.4xlarge",
+        "price": "0.712700"
     },
     {
-        "type": "c5.24xlarge",
-        "price": "1.310400"
+        "type": "r5.12xlarge",
+        "price": "0.721200"
     },
     {
-        "type": "c5.24xlarge",
-        "price": "1.310400"
+        "type": "r5d.large",
+        "price": "0.030000"
     },
     {
-        "type": "m5.24xlarge",
-        "price": "1.375900"
+        "type": "r5d.large",
+        "price": "0.030000"
     },
     {
-        "type": "m5.24xlarge",
-        "price": "1.375900"
+        "type": "r5d.large",
+        "price": "0.030000"
     },
     {
-        "type": "m5.24xlarge",
-        "price": "1.375900"
-    },
-    {
-        "type": "c5n.9xlarge",
-        "price": "0.491400"
-    },
-    {
-        "type": "c5n.9xlarge",
-        "price": "0.491400"
-    },
-    {
-        "type": "c5a.large",
-        "price": "0.027300"
-    },
-    {
-        "type": "c5a.large",
-        "price": "0.027300"
-    },
-    {
-        "type": "c5a.large",
-        "price": "0.027300"
-    },
-    {
-        "type": "r5d.4xlarge",
-        "price": "0.240200"
-    },
-    {
-        "type": "r5d.4xlarge",
-        "price": "0.240200"
-    },
-    {
-        "type": "r5d.4xlarge",
-        "price": "0.240200"
+        "type": "c5.xlarge",
+        "price": "0.055100"
     },
     {
         "type": "c5a.16xlarge",
@@ -2654,106 +2246,6 @@
     {
         "type": "c5a.16xlarge",
         "price": "0.873600"
-    },
-    {
-        "type": "r5.4xlarge",
-        "price": "0.240200"
-    },
-    {
-        "type": "r5.4xlarge",
-        "price": "0.240200"
-    },
-    {
-        "type": "r5.4xlarge",
-        "price": "0.240200"
-    },
-    {
-        "type": "g4dn.8xlarge",
-        "price": "0.692400"
-    },
-    {
-        "type": "g4dn.8xlarge",
-        "price": "2.308000"
-    },
-    {
-        "type": "g4dn.8xlarge",
-        "price": "2.308000"
-    },
-    {
-        "type": "i3.xlarge",
-        "price": "0.097800"
-    },
-    {
-        "type": "i3.xlarge",
-        "price": "0.097800"
-    },
-    {
-        "type": "i3.xlarge",
-        "price": "0.097800"
-    },
-    {
-        "type": "r5.24xlarge",
-        "price": "1.441400"
-    },
-    {
-        "type": "r5.24xlarge",
-        "price": "1.441400"
-    },
-    {
-        "type": "r5.24xlarge",
-        "price": "1.441400"
-    },
-    {
-        "type": "r5.8xlarge",
-        "price": "0.480500"
-    },
-    {
-        "type": "r5.8xlarge",
-        "price": "0.480500"
-    },
-    {
-        "type": "r5.8xlarge",
-        "price": "0.480500"
-    },
-    {
-        "type": "m5.2xlarge",
-        "price": "0.160600"
-    },
-    {
-        "type": "d2.2xlarge",
-        "price": "0.418800"
-    },
-    {
-        "type": "d2.2xlarge",
-        "price": "0.418800"
-    },
-    {
-        "type": "d2.2xlarge",
-        "price": "0.418800"
-    },
-    {
-        "type": "c5d.large",
-        "price": "0.027300"
-    },
-    {
-        "type": "c5d.large",
-        "price": "0.027300"
-    },
-    {
-        "type": "c5d.large",
-        "price": "0.027300"
-    },
-    {
-        "type": "i3en.large",
-        "price": "0.071100"
-    },
-    {
-        "type": "i3en.large",
-        "price": "0.237000"
-    },
-    {
-        "type": "i3en.large",
-        "price": "0.237000"
     },
     {
         "type": "g4dn.2xlarge",
@@ -2768,80 +2260,268 @@
         "price": "0.239400"
     },
     {
-        "type": "m5.metal",
-        "price": "1.375900"
+        "type": "r5.8xlarge",
+        "price": "0.480500"
     },
     {
-        "type": "m5.metal",
-        "price": "1.375900"
+        "type": "r5.8xlarge",
+        "price": "0.480500"
     },
     {
-        "type": "m5.metal",
-        "price": "1.375900"
+        "type": "r5.8xlarge",
+        "price": "0.480500"
     },
     {
-        "type": "c5d.18xlarge",
-        "price": "0.982800"
+        "type": "r5d.4xlarge",
+        "price": "0.240200"
     },
     {
-        "type": "c5d.18xlarge",
-        "price": "0.982800"
+        "type": "r5d.4xlarge",
+        "price": "0.240200"
     },
     {
-        "type": "c5d.18xlarge",
-        "price": "0.982800"
+        "type": "r5d.4xlarge",
+        "price": "0.240200"
     },
     {
-        "type": "i3en.metal",
-        "price": "11.376000"
+        "type": "m5d.2xlarge",
+        "price": "0.137800"
     },
     {
-        "type": "i3en.metal",
-        "price": "11.376000"
+        "type": "m5d.2xlarge",
+        "price": "0.138900"
     },
     {
-        "type": "c5d.metal",
-        "price": "1.310400"
+        "type": "g4dn.8xlarge",
+        "price": "0.692400"
     },
     {
-        "type": "c5d.metal",
-        "price": "1.310400"
+        "type": "g4dn.8xlarge",
+        "price": "2.308000"
     },
     {
-        "type": "c5d.metal",
-        "price": "1.310400"
-    },
-    {
-        "type": "c5.9xlarge",
-        "price": "0.491400"
-    },
-    {
-        "type": "c5.9xlarge",
-        "price": "0.491400"
-    },
-    {
-        "type": "c5.9xlarge",
-        "price": "0.491400"
-    },
-    {
-        "type": "c5n.2xlarge",
-        "price": "0.109200"
-    },
-    {
-        "type": "c5n.2xlarge",
-        "price": "0.109200"
-    },
-    {
-        "type": "c5n.2xlarge",
-        "price": "0.109200"
+        "type": "g4dn.8xlarge",
+        "price": "2.308000"
     },
     {
         "type": "m5.2xlarge",
-        "price": "0.114700"
+        "price": "0.124500"
+    },
+    {
+        "type": "i3en.xlarge",
+        "price": "0.148300"
+    },
+    {
+        "type": "r5.xlarge",
+        "price": "0.075800"
+    },
+    {
+        "type": "m5d.2xlarge",
+        "price": "0.136900"
+    },
+    {
+        "type": "i3.xlarge",
+        "price": "0.097800"
+    },
+    {
+        "type": "i3.xlarge",
+        "price": "0.097800"
+    },
+    {
+        "type": "i3.xlarge",
+        "price": "0.097800"
+    },
+    {
+        "type": "c5n.2xlarge",
+        "price": "0.109200"
+    },
+    {
+        "type": "c5n.2xlarge",
+        "price": "0.109200"
+    },
+    {
+        "type": "c5n.2xlarge",
+        "price": "0.109200"
+    },
+    {
+        "type": "c5.18xlarge",
+        "price": "0.982800"
+    },
+    {
+        "type": "c5.18xlarge",
+        "price": "0.982800"
+    },
+    {
+        "type": "c5.18xlarge",
+        "price": "0.982800"
+    },
+    {
+        "type": "r5.12xlarge",
+        "price": "0.730800"
+    },
+    {
+        "type": "d2.4xlarge",
+        "price": "1.876000"
+    },
+    {
+        "type": "c5a.4xlarge",
+        "price": "0.219700"
+    },
+    {
+        "type": "i3en.12xlarge",
+        "price": "4.881700"
+    },
+    {
+        "type": "i3.2xlarge",
+        "price": "0.195600"
+    },
+    {
+        "type": "i3.2xlarge",
+        "price": "0.195600"
+    },
+    {
+        "type": "i3.2xlarge",
+        "price": "0.195600"
+    },
+    {
+        "type": "c5.24xlarge",
+        "price": "1.310400"
+    },
+    {
+        "type": "c5.24xlarge",
+        "price": "1.310400"
+    },
+    {
+        "type": "c5.24xlarge",
+        "price": "1.310400"
+    },
+    {
+        "type": "c5d.24xlarge",
+        "price": "1.310400"
+    },
+    {
+        "type": "c5d.24xlarge",
+        "price": "1.310400"
+    },
+    {
+        "type": "c5d.24xlarge",
+        "price": "1.310400"
+    },
+    {
+        "type": "c5d.large",
+        "price": "0.027300"
+    },
+    {
+        "type": "c5d.large",
+        "price": "0.027300"
+    },
+    {
+        "type": "c5d.large",
+        "price": "0.027300"
+    },
+    {
+        "type": "r5d.metal",
+        "price": "2.799100"
+    },
+    {
+        "type": "r5.xlarge",
+        "price": "0.072600"
+    },
+    {
+        "type": "d2.2xlarge",
+        "price": "0.418800"
+    },
+    {
+        "type": "d2.2xlarge",
+        "price": "0.418800"
+    },
+    {
+        "type": "d2.2xlarge",
+        "price": "0.418800"
+    },
+    {
+        "type": "r5d.8xlarge",
+        "price": "0.480500"
+    },
+    {
+        "type": "r5d.8xlarge",
+        "price": "0.480500"
+    },
+    {
+        "type": "r5d.8xlarge",
+        "price": "0.480500"
+    },
+    {
+        "type": "r5.2xlarge",
+        "price": "0.120100"
+    },
+    {
+        "type": "r5.2xlarge",
+        "price": "0.120100"
+    },
+    {
+        "type": "r5.2xlarge",
+        "price": "0.120100"
+    },
+    {
+        "type": "c5d.18xlarge",
+        "price": "0.982800"
+    },
+    {
+        "type": "c5d.18xlarge",
+        "price": "0.982800"
+    },
+    {
+        "type": "c5d.18xlarge",
+        "price": "0.982800"
+    },
+    {
+        "type": "r5.xlarge",
+        "price": "0.076600"
+    },
+    {
+        "type": "c5n.9xlarge",
+        "price": "0.918900"
+    },
+    {
+        "type": "m5.metal",
+        "price": "1.375900"
+    },
+    {
+        "type": "m5.metal",
+        "price": "1.375900"
+    },
+    {
+        "type": "m5.metal",
+        "price": "1.375900"
+    },
+    {
+        "type": "i3en.large",
+        "price": "0.071100"
+    },
+    {
+        "type": "i3en.large",
+        "price": "0.237000"
+    },
+    {
+        "type": "i3en.large",
+        "price": "0.237000"
     },
     {
         "type": "m5.2xlarge",
-        "price": "0.114700"
+        "price": "0.156300"
+    },
+    {
+        "type": "c5.2xlarge",
+        "price": "0.126200"
+    },
+    {
+        "type": "c5.2xlarge",
+        "price": "0.109200"
+    },
+    {
+        "type": "c5.2xlarge",
+        "price": "0.109200"
     },
     {
         "type": "c5a.xlarge",
@@ -2856,186 +2536,6 @@
         "price": "0.164000"
     },
     {
-        "type": "c5n.large",
-        "price": "0.027300"
-    },
-    {
-        "type": "c5n.large",
-        "price": "0.027300"
-    },
-    {
-        "type": "r5d.8xlarge",
-        "price": "0.480500"
-    },
-    {
-        "type": "r5d.8xlarge",
-        "price": "0.480500"
-    },
-    {
-        "type": "r5d.8xlarge",
-        "price": "0.480500"
-    },
-    {
-        "type": "c5.18xlarge",
-        "price": "0.982800"
-    },
-    {
-        "type": "c5.18xlarge",
-        "price": "0.982800"
-    },
-    {
-        "type": "c5.18xlarge",
-        "price": "0.982800"
-    },
-    {
-        "type": "m5d.large",
-        "price": "0.028700"
-    },
-    {
-        "type": "m5d.large",
-        "price": "0.028700"
-    },
-    {
-        "type": "m5d.large",
-        "price": "0.028700"
-    },
-    {
-        "type": "m5d.4xlarge",
-        "price": "0.229300"
-    },
-    {
-        "type": "m5d.4xlarge",
-        "price": "0.229300"
-    },
-    {
-        "type": "c5d.24xlarge",
-        "price": "1.310400"
-    },
-    {
-        "type": "c5d.24xlarge",
-        "price": "1.310400"
-    },
-    {
-        "type": "c5d.24xlarge",
-        "price": "1.310400"
-    },
-    {
-        "type": "r5.metal",
-        "price": "1.441400"
-    },
-    {
-        "type": "r5.metal",
-        "price": "1.441400"
-    },
-    {
-        "type": "r5.metal",
-        "price": "1.441400"
-    },
-    {
-        "type": "i3.4xlarge",
-        "price": "0.391200"
-    },
-    {
-        "type": "i3.4xlarge",
-        "price": "0.391200"
-    },
-    {
-        "type": "i3.4xlarge",
-        "price": "0.391200"
-    },
-    {
-        "type": "c5.2xlarge",
-        "price": "0.109200"
-    },
-    {
-        "type": "m5.12xlarge",
-        "price": "0.688000"
-    },
-    {
-        "type": "m5.12xlarge",
-        "price": "0.688000"
-    },
-    {
-        "type": "m5.12xlarge",
-        "price": "0.688000"
-    },
-    {
-        "type": "m5d.8xlarge",
-        "price": "0.458600"
-    },
-    {
-        "type": "m5d.8xlarge",
-        "price": "0.458600"
-    },
-    {
-        "type": "m5d.8xlarge",
-        "price": "0.458600"
-    },
-    {
-        "type": "t3.medium",
-        "price": "0.013000"
-    },
-    {
-        "type": "t3.medium",
-        "price": "0.013000"
-    },
-    {
-        "type": "t3.medium",
-        "price": "0.013000"
-    },
-    {
-        "type": "d2.4xlarge",
-        "price": "0.837600"
-    },
-    {
-        "type": "d2.4xlarge",
-        "price": "2.792000"
-    },
-    {
-        "type": "d2.4xlarge",
-        "price": "0.837600"
-    },
-    {
-        "type": "r5d.xlarge",
-        "price": "0.060100"
-    },
-    {
-        "type": "r5d.xlarge",
-        "price": "0.060100"
-    },
-    {
-        "type": "r5d.xlarge",
-        "price": "0.060100"
-    },
-    {
-        "type": "c5a.2xlarge",
-        "price": "0.109200"
-    },
-    {
-        "type": "c5a.2xlarge",
-        "price": "0.109200"
-    },
-    {
-        "type": "c5a.2xlarge",
-        "price": "0.109200"
-    },
-    {
-        "type": "r5d.2xlarge",
-        "price": "0.120100"
-    },
-    {
-        "type": "r5d.2xlarge",
-        "price": "0.120100"
-    },
-    {
-        "type": "i3en.2xlarge",
-        "price": "0.284400"
-    },
-    {
-        "type": "i3en.2xlarge",
-        "price": "0.948000"
-    },
-    {
         "type": "r5.16xlarge",
         "price": "4.288000"
     },
@@ -3048,92 +2548,152 @@
         "price": "0.961000"
     },
     {
-        "type": "r5.2xlarge",
-        "price": "0.120100"
+        "type": "m5.16xlarge",
+        "price": "2.937600"
     },
     {
-        "type": "r5.2xlarge",
-        "price": "0.120100"
+        "type": "m5d.4xlarge",
+        "price": "0.229300"
     },
     {
-        "type": "r5.2xlarge",
-        "price": "0.120100"
+        "type": "m5d.4xlarge",
+        "price": "0.229300"
     },
     {
-        "type": "g4dn.metal",
-        "price": "8.300000"
+        "type": "m5.12xlarge",
+        "price": "0.688000"
     },
     {
-        "type": "g4dn.metal",
-        "price": "8.300000"
+        "type": "m5.12xlarge",
+        "price": "0.688000"
     },
     {
-        "type": "g4dn.metal",
-        "price": "8.300000"
+        "type": "m5.12xlarge",
+        "price": "0.688000"
     },
     {
-        "type": "t3.xlarge",
-        "price": "0.051800"
+        "type": "c5.xlarge",
+        "price": "0.055600"
     },
     {
-        "type": "t3.xlarge",
-        "price": "0.051800"
+        "type": "t3.small",
+        "price": "0.007400"
     },
     {
-        "type": "t3.xlarge",
-        "price": "0.051800"
+        "type": "i3en.6xlarge",
+        "price": "0.853200"
+    },
+    {
+        "type": "i3en.6xlarge",
+        "price": "0.853200"
+    },
+    {
+        "type": "i3en.metal",
+        "price": "11.376000"
+    },
+    {
+        "type": "i3en.metal",
+        "price": "11.376000"
+    },
+    {
+        "type": "i3en.metal",
+        "price": "3.412800"
+    },
+    {
+        "type": "r5d.xlarge",
+        "price": "0.060100"
+    },
+    {
+        "type": "r5d.xlarge",
+        "price": "0.060100"
+    },
+    {
+        "type": "r5d.xlarge",
+        "price": "0.060100"
+    },
+    {
+        "type": "i3en.xlarge",
+        "price": "0.474000"
+    },
+    {
+        "type": "i3en.xlarge",
+        "price": "0.142200"
+    },
+    {
+        "type": "c5n.large",
+        "price": "0.027300"
+    },
+    {
+        "type": "c5n.large",
+        "price": "0.027300"
+    },
+    {
+        "type": "c5n.large",
+        "price": "0.027300"
+    },
+    {
+        "type": "t3.2xlarge",
+        "price": "0.103700"
+    },
+    {
+        "type": "t3.2xlarge",
+        "price": "0.103700"
+    },
+    {
+        "type": "t3.2xlarge",
+        "price": "0.103700"
     },
     {
         "type": "r5.12xlarge",
         "price": "0.720700"
     },
     {
-        "type": "r5.12xlarge",
-        "price": "0.720700"
+        "type": "i3.4xlarge",
+        "price": "0.391200"
     },
     {
-        "type": "r5d.metal",
+        "type": "i3.4xlarge",
+        "price": "0.391200"
+    },
+    {
+        "type": "i3.4xlarge",
+        "price": "0.391200"
+    },
+    {
+        "type": "m5d.large",
+        "price": "0.028700"
+    },
+    {
+        "type": "m5d.large",
+        "price": "0.028700"
+    },
+    {
+        "type": "m5d.large",
+        "price": "0.028700"
+    },
+    {
+        "type": "r5.metal",
         "price": "1.441400"
     },
     {
-        "type": "r5d.metal",
+        "type": "r5.metal",
         "price": "1.441400"
     },
     {
-        "type": "r5d.metal",
+        "type": "r5.metal",
         "price": "1.441400"
     },
     {
-        "type": "m5.8xlarge",
-        "price": "1.632000"
+        "type": "g4dn.metal",
+        "price": "8.300000"
     },
     {
-        "type": "m5.8xlarge",
-        "price": "0.458600"
+        "type": "g4dn.metal",
+        "price": "8.300000"
     },
     {
-        "type": "c5n.xlarge",
-        "price": "0.054600"
-    },
-    {
-        "type": "c5n.xlarge",
-        "price": "0.054600"
-    },
-    {
-        "type": "c5n.xlarge",
-        "price": "0.054600"
-    },
-    {
-        "type": "t3.2xlarge",
-        "price": "0.103700"
-    },
-    {
-        "type": "t3.2xlarge",
-        "price": "0.103700"
-    },
-    {
-        "type": "t3.2xlarge",
-        "price": "0.103700"
+        "type": "g4dn.metal",
+        "price": "8.300000"
     },
     {
         "type": "i3.large",
@@ -3148,28 +2708,16 @@
         "price": "0.048900"
     },
     {
-        "type": "r5d.24xlarge",
-        "price": "1.441400"
+        "type": "m5.2xlarge",
+        "price": "0.114700"
     },
     {
-        "type": "r5d.24xlarge",
-        "price": "1.441400"
+        "type": "d2.4xlarge",
+        "price": "0.837600"
     },
     {
-        "type": "r5d.24xlarge",
-        "price": "1.441400"
-    },
-    {
-        "type": "c5.large",
-        "price": "0.027300"
-    },
-    {
-        "type": "c5.large",
-        "price": "0.027300"
-    },
-    {
-        "type": "c5.large",
-        "price": "0.027300"
+        "type": "d2.4xlarge",
+        "price": "0.837600"
     },
     {
         "type": "m5.4xlarge",
@@ -3184,16 +2732,40 @@
         "price": "0.229300"
     },
     {
-        "type": "c5.metal",
-        "price": "1.310400"
+        "type": "c5a.2xlarge",
+        "price": "0.109200"
     },
     {
-        "type": "c5.metal",
-        "price": "1.310400"
+        "type": "c5a.2xlarge",
+        "price": "0.109200"
     },
     {
-        "type": "c5.metal",
-        "price": "1.310400"
+        "type": "c5a.2xlarge",
+        "price": "0.109200"
+    },
+    {
+        "type": "t3.medium",
+        "price": "0.013000"
+    },
+    {
+        "type": "t3.medium",
+        "price": "0.013000"
+    },
+    {
+        "type": "t3.medium",
+        "price": "0.013000"
+    },
+    {
+        "type": "t3.xlarge",
+        "price": "0.051800"
+    },
+    {
+        "type": "t3.xlarge",
+        "price": "0.051800"
+    },
+    {
+        "type": "t3.xlarge",
+        "price": "0.051800"
     },
     {
         "type": "g4dn.xlarge",
@@ -3208,6 +2780,66 @@
         "price": "0.167400"
     },
     {
+        "type": "m5d.24xlarge",
+        "price": "1.375900"
+    },
+    {
+        "type": "m5d.24xlarge",
+        "price": "1.375900"
+    },
+    {
+        "type": "m5d.24xlarge",
+        "price": "1.375900"
+    },
+    {
+        "type": "m5d.metal",
+        "price": "1.375900"
+    },
+    {
+        "type": "m5d.metal",
+        "price": "1.375900"
+    },
+    {
+        "type": "m5d.metal",
+        "price": "1.375900"
+    },
+    {
+        "type": "m5.8xlarge",
+        "price": "1.632000"
+    },
+    {
+        "type": "r5d.metal",
+        "price": "1.441400"
+    },
+    {
+        "type": "r5d.metal",
+        "price": "1.441400"
+    },
+    {
+        "type": "c5n.xlarge",
+        "price": "0.054600"
+    },
+    {
+        "type": "c5n.xlarge",
+        "price": "0.054600"
+    },
+    {
+        "type": "c5n.xlarge",
+        "price": "0.054600"
+    },
+    {
+        "type": "m5d.8xlarge",
+        "price": "0.458600"
+    },
+    {
+        "type": "m5d.8xlarge",
+        "price": "0.458600"
+    },
+    {
+        "type": "m5d.8xlarge",
+        "price": "0.458600"
+    },
+    {
         "type": "c5.4xlarge",
         "price": "0.218400"
     },
@@ -3220,16 +2852,28 @@
         "price": "0.218400"
     },
     {
-        "type": "m5d.metal",
-        "price": "1.375900"
+        "type": "i3en.24xlarge",
+        "price": "3.412800"
     },
     {
-        "type": "m5d.metal",
-        "price": "1.375900"
+        "type": "i3en.24xlarge",
+        "price": "3.412800"
     },
     {
-        "type": "m5d.metal",
-        "price": "1.375900"
+        "type": "i3en.24xlarge",
+        "price": "3.412800"
+    },
+    {
+        "type": "r5d.24xlarge",
+        "price": "1.441400"
+    },
+    {
+        "type": "r5d.24xlarge",
+        "price": "1.441400"
+    },
+    {
+        "type": "r5d.24xlarge",
+        "price": "1.441400"
     },
     {
         "type": "m5d.12xlarge",
@@ -3242,5 +2886,389 @@
     {
         "type": "m5d.12xlarge",
         "price": "0.688000"
+    },
+    {
+        "type": "c5.metal",
+        "price": "1.310400"
+    },
+    {
+        "type": "c5.metal",
+        "price": "1.310400"
+    },
+    {
+        "type": "c5.metal",
+        "price": "1.310400"
+    },
+    {
+        "type": "r5d.2xlarge",
+        "price": "0.120100"
+    },
+    {
+        "type": "r5d.2xlarge",
+        "price": "0.120100"
+    },
+    {
+        "type": "r5d.2xlarge",
+        "price": "0.120100"
+    },
+    {
+        "type": "m5.large",
+        "price": "0.028800"
+    },
+    {
+        "type": "i3en.2xlarge",
+        "price": "0.948000"
+    },
+    {
+        "type": "i3en.2xlarge",
+        "price": "0.284400"
+    },
+    {
+        "type": "c5d.xlarge",
+        "price": "0.054600"
+    },
+    {
+        "type": "c5d.xlarge",
+        "price": "0.054600"
+    },
+    {
+        "type": "c5d.xlarge",
+        "price": "0.054600"
+    },
+    {
+        "type": "m5.xlarge",
+        "price": "0.057900"
+    },
+    {
+        "type": "r5.large",
+        "price": "0.030200"
+    },
+    {
+        "type": "r5.large",
+        "price": "0.032200"
+    },
+    {
+        "type": "i3.8xlarge",
+        "price": "0.782400"
+    },
+    {
+        "type": "i3.8xlarge",
+        "price": "0.782400"
+    },
+    {
+        "type": "i3.8xlarge",
+        "price": "0.782400"
+    },
+    {
+        "type": "c5.large",
+        "price": "0.027300"
+    },
+    {
+        "type": "c5.large",
+        "price": "0.027300"
+    },
+    {
+        "type": "c5.large",
+        "price": "0.027300"
+    },
+    {
+        "type": "d2.xlarge",
+        "price": "0.209400"
+    },
+    {
+        "type": "d2.xlarge",
+        "price": "0.209400"
+    },
+    {
+        "type": "d2.xlarge",
+        "price": "0.209400"
+    },
+    {
+        "type": "c5.xlarge",
+        "price": "0.054600"
+    },
+    {
+        "type": "m5.8xlarge",
+        "price": "1.632000"
+    },
+    {
+        "type": "m5.8xlarge",
+        "price": "0.458600"
+    },
+    {
+        "type": "c5n.18xlarge",
+        "price": "0.982800"
+    },
+    {
+        "type": "c5n.18xlarge",
+        "price": "0.982800"
+    },
+    {
+        "type": "c5n.18xlarge",
+        "price": "0.982800"
+    },
+    {
+        "type": "i3.16xlarge",
+        "price": "1.564800"
+    },
+    {
+        "type": "i3.16xlarge",
+        "price": "1.564800"
+    },
+    {
+        "type": "i3.16xlarge",
+        "price": "1.564800"
+    },
+    {
+        "type": "c5.12xlarge",
+        "price": "0.655200"
+    },
+    {
+        "type": "c5.12xlarge",
+        "price": "0.655200"
+    },
+    {
+        "type": "c5.12xlarge",
+        "price": "0.655200"
+    },
+    {
+        "type": "m5d.16xlarge",
+        "price": "0.917300"
+    },
+    {
+        "type": "m5d.16xlarge",
+        "price": "0.917300"
+    },
+    {
+        "type": "m5d.16xlarge",
+        "price": "0.917300"
+    },
+    {
+        "type": "c5d.12xlarge",
+        "price": "0.655200"
+    },
+    {
+        "type": "c5d.12xlarge",
+        "price": "0.655200"
+    },
+    {
+        "type": "c5d.12xlarge",
+        "price": "0.655200"
+    },
+    {
+        "type": "t3.nano",
+        "price": "0.001600"
+    },
+    {
+        "type": "t3.nano",
+        "price": "0.002200"
+    },
+    {
+        "type": "t3.nano",
+        "price": "0.001900"
+    },
+    {
+        "type": "i3en.6xlarge",
+        "price": "2.844000"
+    },
+    {
+        "type": "g4dn.12xlarge",
+        "price": "1.245000"
+    },
+    {
+        "type": "g4dn.12xlarge",
+        "price": "4.150000"
+    },
+    {
+        "type": "g4dn.12xlarge",
+        "price": "1.245000"
+    },
+    {
+        "type": "c5d.2xlarge",
+        "price": "0.109200"
+    },
+    {
+        "type": "c5d.2xlarge",
+        "price": "0.109200"
+    },
+    {
+        "type": "c5d.2xlarge",
+        "price": "0.109200"
+    },
+    {
+        "type": "c5d.9xlarge",
+        "price": "0.491400"
+    },
+    {
+        "type": "c5d.9xlarge",
+        "price": "0.491400"
+    },
+    {
+        "type": "c5d.9xlarge",
+        "price": "0.491400"
+    },
+    {
+        "type": "m5.16xlarge",
+        "price": "0.917300"
+    },
+    {
+        "type": "m5.16xlarge",
+        "price": "0.917300"
+    },
+    {
+        "type": "g4dn.4xlarge",
+        "price": "0.383100"
+    },
+    {
+        "type": "g4dn.4xlarge",
+        "price": "1.277000"
+    },
+    {
+        "type": "g4dn.4xlarge",
+        "price": "0.383100"
+    },
+    {
+        "type": "i3en.3xlarge",
+        "price": "0.426600"
+    },
+    {
+        "type": "i3en.3xlarge",
+        "price": "1.422000"
+    },
+    {
+        "type": "i3en.3xlarge",
+        "price": "0.426600"
+    },
+    {
+        "type": "m5d.xlarge",
+        "price": "0.240000"
+    },
+    {
+        "type": "m5d.xlarge",
+        "price": "0.057300"
+    },
+    {
+        "type": "m5d.xlarge",
+        "price": "0.057300"
+    },
+    {
+        "type": "c5a.12xlarge",
+        "price": "0.655200"
+    },
+    {
+        "type": "c5a.12xlarge",
+        "price": "0.655200"
+    },
+    {
+        "type": "c5a.12xlarge",
+        "price": "0.655200"
+    },
+    {
+        "type": "m5.large",
+        "price": "0.028700"
+    },
+    {
+        "type": "m5.large",
+        "price": "0.028700"
+    },
+    {
+        "type": "g4dn.16xlarge",
+        "price": "4.617000"
+    },
+    {
+        "type": "g4dn.16xlarge",
+        "price": "4.617000"
+    },
+    {
+        "type": "g4dn.16xlarge",
+        "price": "4.617000"
+    },
+    {
+        "type": "r5.4xlarge",
+        "price": "0.240200"
+    },
+    {
+        "type": "r5.4xlarge",
+        "price": "0.240200"
+    },
+    {
+        "type": "r5.4xlarge",
+        "price": "0.240200"
+    },
+    {
+        "type": "c5a.4xlarge",
+        "price": "0.218400"
+    },
+    {
+        "type": "c5a.4xlarge",
+        "price": "0.218400"
+    },
+    {
+        "type": "t3.small",
+        "price": "0.007400"
+    },
+    {
+        "type": "r5d.16xlarge",
+        "price": "0.961000"
+    },
+    {
+        "type": "r5d.16xlarge",
+        "price": "0.961000"
+    },
+    {
+        "type": "r5d.16xlarge",
+        "price": "0.961000"
+    },
+    {
+        "type": "d2.8xlarge",
+        "price": "1.675200"
+    },
+    {
+        "type": "d2.8xlarge",
+        "price": "1.675200"
+    },
+    {
+        "type": "d2.8xlarge",
+        "price": "1.675200"
+    },
+    {
+        "type": "r5d.12xlarge",
+        "price": "0.720700"
+    },
+    {
+        "type": "r5d.12xlarge",
+        "price": "0.720700"
+    },
+    {
+        "type": "r5d.12xlarge",
+        "price": "0.720700"
+    },
+    {
+        "type": "t3.small",
+        "price": "0.006500"
+    },
+    {
+        "type": "c5n.metal",
+        "price": "4.176000"
+    },
+    {
+        "type": "c5n.metal",
+        "price": "4.176000"
+    },
+    {
+        "type": "c5n.metal",
+        "price": "4.176000"
+    },
+    {
+        "type": "c5d.4xlarge",
+        "price": "0.218400"
+    },
+    {
+        "type": "c5d.4xlarge",
+        "price": "0.218400"
+    },
+    {
+        "type": "c5d.4xlarge",
+        "price": "0.218400"
     }
 ]
