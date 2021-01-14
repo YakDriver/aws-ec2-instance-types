@@ -17,7 +17,7 @@ Jump to type: [:small_blue_diamond:nano](#nano)&nbsp; [:small_blue_diamond:micro
 | Instance Type | usw1-az1 | usw1-az3 | Spot price |
 | ------------- | :-------------: | :-------------: | -------------: |
 | c1.medium | :green_circle: | :green_circle: | 0.0148 |
-| c1.xlarge | :green_circle: | :green_circle: | 0.0906 |
+| c1.xlarge | :green_circle: | :green_circle: | 0.1934 |
 
 
 ## c3
@@ -26,9 +26,9 @@ Jump to type: [:small_blue_diamond:nano](#nano)&nbsp; [:small_blue_diamond:micro
 | ------------- | :-------------: | :-------------: | -------------: |
 | c3.large | :green_circle: | :green_circle: | 0.0279 |
 | c3.xlarge | :green_circle: | :green_circle: | 0.0558 |
-| c3.2xlarge | :green_circle: | :green_circle: | 0.1145 |
-| c3.4xlarge | :green_circle: | :green_circle: | 0.2266 |
-| c3.8xlarge | :green_circle: | :green_circle: | 0.4529 |
+| c3.2xlarge | :green_circle: | :green_circle: | 0.1143 |
+| c3.4xlarge | :green_circle: | :green_circle: | 0.2275 |
+| c3.8xlarge | :green_circle: | :green_circle: | 0.4581 |
 
 
 ## c4
@@ -37,9 +37,9 @@ Jump to type: [:small_blue_diamond:nano](#nano)&nbsp; [:small_blue_diamond:micro
 | ------------- | :-------------: | :-------------: | -------------: |
 | c4.large | :green_circle: | :green_circle: | 0.0293 |
 | c4.xlarge | :green_circle: | :green_circle: | 0.0586 |
-| c4.2xlarge | :green_circle: | :green_circle: | 0.1426 |
-| c4.4xlarge | :green_circle: | :green_circle: | 0.2862 |
-| c4.8xlarge | :green_circle: | :green_circle: | 0.7458 |
+| c4.2xlarge | :green_circle: | :green_circle: | 0.1493 |
+| c4.4xlarge | :green_circle: | :green_circle: | 0.2827 |
+| c4.8xlarge | :green_circle: | :green_circle: | 1.1267 |
 
 
 ## c5
@@ -47,9 +47,9 @@ Jump to type: [:small_blue_diamond:nano](#nano)&nbsp; [:small_blue_diamond:micro
 | Instance Type | usw1-az1 | usw1-az3 | Spot price |
 | ------------- | :-------------: | :-------------: | -------------: |
 | c5.large | :green_circle: | :green_circle: | 0.0308 |
-| c5.xlarge | :green_circle: | :green_circle: | 0.0631 |
-| c5.2xlarge | :green_circle: | :green_circle: | 0.1758 |
-| c5.4xlarge | :green_circle: | :green_circle: | 0.2853 |
+| c5.xlarge | :green_circle: | :green_circle: | 0.0630 |
+| c5.2xlarge | :green_circle: | :green_circle: | 0.1851 |
+| c5.4xlarge | :green_circle: | :green_circle: | 0.2961 |
 | c5.9xlarge | :green_circle: | :green_circle: | 0.5539 |
 | c5.12xlarge | :green_circle: | :green_circle: | 0.7385 |
 | c5.18xlarge | :green_circle: | :green_circle: | 1.1078 |
@@ -63,9 +63,9 @@ Jump to type: [:small_blue_diamond:nano](#nano)&nbsp; [:small_blue_diamond:micro
 | ------------- | :-------------: | :-------------: | -------------: |
 | c5a.large | :green_circle: | :green_circle: | 0.0950 |
 | c5a.xlarge | :green_circle: | :green_circle: | 0.0615 |
-| c5a.2xlarge | :green_circle: | :green_circle: | 0.1401 |
+| c5a.2xlarge | :green_circle: | :green_circle: | 0.1387 |
 | c5a.4xlarge | :green_circle: | :green_circle: | 0.2462 |
-| c5a.8xlarge | :green_circle: | :green_circle: | 0.4924 |
+| c5a.8xlarge | :green_circle: | :green_circle: | 0.5115 |
 | c5a.12xlarge | :green_circle: | :green_circle: | 0.7385 |
 | c5a.16xlarge | :green_circle: | :green_circle: | 0.9847 |
 | c5a.24xlarge | :green_circle: | :green_circle: | 1.4771 |
@@ -75,12 +75,12 @@ Jump to type: [:small_blue_diamond:nano](#nano)&nbsp; [:small_blue_diamond:micro
 
 | Instance Type | usw1-az1 | usw1-az3 | Spot price |
 | ------------- | :-------------: | :-------------: | -------------: |
-| c5d.large | :green_circle: | :green_circle: | 0.0312 |
+| c5d.large | :green_circle: | :green_circle: | 0.0308 |
 | c5d.xlarge | :green_circle: | :green_circle: | 0.0615 |
-| c5d.2xlarge | :green_circle: | :green_circle: | 0.1265 |
-| c5d.4xlarge | :green_circle: | :green_circle: | 0.2656 |
-| c5d.9xlarge | :green_circle: | :green_circle: | 0.5652 |
-| c5d.12xlarge | :green_circle: | :green_circle: | 0.7508 |
+| c5d.2xlarge | :green_circle: | :green_circle: | 0.1262 |
+| c5d.4xlarge | :green_circle: | :green_circle: | 0.2781 |
+| c5d.9xlarge | :green_circle: | :green_circle: | 0.5613 |
+| c5d.12xlarge | :green_circle: | :green_circle: | 0.8999 |
 | c5d.18xlarge | :green_circle: | :green_circle: | 1.1078 |
 | c5d.24xlarge | :green_circle: | :green_circle: | 1.4771 |
 | c5d.metal | :green_circle: | :green_circle: | 1.4771 |
@@ -90,11 +90,11 @@ Jump to type: [:small_blue_diamond:nano](#nano)&nbsp; [:small_blue_diamond:micro
 
 | Instance Type | usw1-az1 | usw1-az3 | Spot price |
 | ------------- | :-------------: | :-------------: | -------------: |
-| c5n.large | :green_circle: | :green_circle: | 0.0314 |
-| c5n.xlarge | :green_circle: | :green_circle: | 0.0648 |
-| c5n.2xlarge | :green_circle: | :green_circle: | 0.3129 |
-| c5n.4xlarge | :green_circle: | :green_circle: | 0.2693 |
-| c5n.9xlarge | :green_circle: | :green_circle: | 0.6249 |
+| c5n.large | :green_circle: | :green_circle: | 0.0309 |
+| c5n.xlarge | :green_circle: | :green_circle: | 0.0733 |
+| c5n.2xlarge | :green_circle: | :green_circle: | 0.3204 |
+| c5n.4xlarge | :green_circle: | :green_circle: | 0.2849 |
+| c5n.9xlarge | :green_circle: | :green_circle: | 0.6090 |
 | c5n.18xlarge | :green_circle: | :green_circle: | 1.1078 |
 | c5n.metal | :green_circle: | :green_circle: | 1.1078 |
 
@@ -107,9 +107,9 @@ Jump to type: [:small_blue_diamond:nano](#nano)&nbsp; [:small_blue_diamond:micro
 | c6g.large | :green_circle: | :green_circle: | 0.0323 |
 | c6g.xlarge | :green_circle: | :green_circle: | 0.0646 |
 | c6g.2xlarge | :green_circle: | :green_circle: | 0.1292 |
-| c6g.4xlarge | :green_circle: | :green_circle: | 0.3002 |
-| c6g.8xlarge | :green_circle: | :green_circle: | 0.5311 |
-| c6g.12xlarge | :green_circle: | :green_circle: | 1.3090 |
+| c6g.4xlarge | :green_circle: | :green_circle: | 0.2947 |
+| c6g.8xlarge | :green_circle: | :green_circle: | 0.5794 |
+| c6g.12xlarge | :green_circle: | :green_circle: | 1.3886 |
 | c6g.16xlarge | :green_circle: | :green_circle: | 1.0340 |
 | c6g.metal | :green_circle: | :green_circle: | 2.7136 |
 
@@ -118,9 +118,9 @@ Jump to type: [:small_blue_diamond:nano](#nano)&nbsp; [:small_blue_diamond:micro
 
 | Instance Type | usw1-az1 | usw1-az3 | Spot price |
 | ------------- | :-------------: | :-------------: | -------------: |
-| d2.xlarge | :green_circle: | :green_circle: | 0.2343 |
+| d2.xlarge | :green_circle: | :green_circle: | 0.2390 |
 | d2.2xlarge | :green_circle: | :green_circle: | 0.4689 |
-| d2.4xlarge | :green_circle: | :green_circle: | 2.3030 |
+| d2.4xlarge | :green_circle: | :green_circle: | 3.1250 |
 | d2.8xlarge | :green_circle: | :green_circle: | 1.8750 |
 
 
@@ -145,7 +145,7 @@ Jump to type: [:small_blue_diamond:nano](#nano)&nbsp; [:small_blue_diamond:micro
 
 | Instance Type | usw1-az1 | usw1-az3 | Spot price |
 | ------------- | :-------------: | :-------------: | -------------: |
-| g4dn.xlarge | :green_circle: | :green_circle: | 0.1926 |
+| g4dn.xlarge | :green_circle: | :green_circle: | 0.1893 |
 | g4dn.2xlarge | :green_circle: | :green_circle: | 0.2706 |
 | g4dn.4xlarge | :green_circle: | :green_circle: | 0.4335 |
 | g4dn.8xlarge | :green_circle: | :green_circle: | 0.7833 |
@@ -161,7 +161,7 @@ Jump to type: [:small_blue_diamond:nano](#nano)&nbsp; [:small_blue_diamond:micro
 | i2.xlarge | :green_circle: | :green_circle: | 0.2814 |
 | i2.2xlarge | :green_circle: | :green_circle: | 0.5628 |
 | i2.4xlarge | :green_circle: | :green_circle: | 1.1253 |
-| i2.8xlarge | :green_circle: | :green_circle: | 2.9338 |
+| i2.8xlarge | :green_circle: | :green_circle: | 2.3629 |
 
 
 ## i3
@@ -169,10 +169,10 @@ Jump to type: [:small_blue_diamond:nano](#nano)&nbsp; [:small_blue_diamond:micro
 | Instance Type | usw1-az1 | usw1-az3 | Spot price |
 | ------------- | :-------------: | :-------------: | -------------: |
 | i3.large | :green_circle: | :green_circle: | 0.0516 |
-| i3.xlarge | :green_circle: | :green_circle: | 0.1541 |
-| i3.2xlarge | :green_circle: | :green_circle: | 0.2634 |
-| i3.4xlarge | :green_circle: | :green_circle: | 0.5746 |
-| i3.8xlarge | :green_circle: | :green_circle: | 0.8399 |
+| i3.xlarge | :green_circle: | :green_circle: | 0.1545 |
+| i3.2xlarge | :green_circle: | :green_circle: | 0.2949 |
+| i3.4xlarge | :green_circle: | :green_circle: | 0.5658 |
+| i3.8xlarge | :green_circle: | :green_circle: | 0.8872 |
 | i3.16xlarge | :green_circle: | :green_circle: | 1.6512 |
 | i3.metal | :green_circle: | :green_circle: | 1.6512 |
 
@@ -227,7 +227,7 @@ Jump to type: [:small_blue_diamond:nano](#nano)&nbsp; [:small_blue_diamond:micro
 | m3.medium | :green_circle: | :green_circle: | 0.0077 |
 | m3.large | :green_circle: | :green_circle: | 0.0293 |
 | m3.xlarge | :green_circle: | :green_circle: | 0.0586 |
-| m3.2xlarge | :green_circle: | :green_circle: | 0.1242 |
+| m3.2xlarge | :green_circle: | :green_circle: | 0.1213 |
 
 
 ## m4
@@ -236,8 +236,8 @@ Jump to type: [:small_blue_diamond:nano](#nano)&nbsp; [:small_blue_diamond:micro
 | ------------- | :-------------: | :-------------: | -------------: |
 | m4.large | :green_circle: | :green_circle: | 0.0308 |
 | m4.xlarge | :green_circle: | :green_circle: | 0.0615 |
-| m4.2xlarge | :green_circle: | :green_circle: | 0.1477 |
-| m4.4xlarge | :green_circle: | :green_circle: | 0.2946 |
+| m4.2xlarge | :green_circle: | :green_circle: | 0.1474 |
+| m4.4xlarge | :green_circle: | :green_circle: | 0.3055 |
 | m4.10xlarge | :green_circle: | :green_circle: | 0.6155 |
 | m4.16xlarge | :green_circle: | :green_circle: | 0.9847 |
 
@@ -247,10 +247,10 @@ Jump to type: [:small_blue_diamond:nano](#nano)&nbsp; [:small_blue_diamond:micro
 | Instance Type | usw1-az1 | usw1-az3 | Spot price |
 | ------------- | :-------------: | :-------------: | -------------: |
 | m5.large | :green_circle: | :green_circle: | 0.0323 |
-| m5.xlarge | :green_circle: | :green_circle: | 0.0654 |
-| m5.2xlarge | :green_circle: | :green_circle: | 0.1370 |
-| m5.4xlarge | :green_circle: | :green_circle: | 0.3136 |
-| m5.8xlarge | :green_circle: | :green_circle: | 0.6779 |
+| m5.xlarge | :green_circle: | :green_circle: | 0.0646 |
+| m5.2xlarge | :green_circle: | :green_circle: | 0.1434 |
+| m5.4xlarge | :green_circle: | :green_circle: | 0.3319 |
+| m5.8xlarge | :green_circle: | :green_circle: | 0.6638 |
 | m5.12xlarge | :green_circle: | :green_circle: | 0.7755 |
 | m5.16xlarge | :green_circle: | :green_circle: | 1.0340 |
 | m5.24xlarge | :green_circle: | :green_circle: | 1.5509 |
@@ -261,25 +261,25 @@ Jump to type: [:small_blue_diamond:nano](#nano)&nbsp; [:small_blue_diamond:micro
 
 | Instance Type | usw1-az1 | usw1-az3 | Spot price |
 | ------------- | :-------------: | :-------------: | -------------: |
-| m5a.large | :green_circle: | :green_circle: | 0.0424 |
-| m5a.xlarge | :green_circle: | :green_circle: | 0.0672 |
-| m5a.2xlarge | :green_circle: | :green_circle: | 0.1855 |
-| m5a.4xlarge | :green_circle: | :green_circle: | 0.2915 |
-| m5a.8xlarge | :green_circle: | :green_circle: | 0.6834 |
+| m5a.large | :green_circle: | :green_circle: | 0.0431 |
+| m5a.xlarge | :green_circle: | :green_circle: | 0.0681 |
+| m5a.2xlarge | :green_circle: | :green_circle: | 0.1611 |
+| m5a.4xlarge | :green_circle: | :green_circle: | 0.3282 |
+| m5a.8xlarge | :green_circle: | :green_circle: | 0.6783 |
 | m5a.12xlarge | :green_circle: | :green_circle: | 2.4240 |
 | m5a.16xlarge | :green_circle: | :green_circle: | 1.0340 |
-| m5a.24xlarge | :green_circle: | :green_circle: | 4.8480 |
+| m5a.24xlarge | :green_circle: | :green_circle: | 2.1765 |
 
 
 ## m5ad
 
 | Instance Type | usw1-az1 | usw1-az3 | Spot price |
 | ------------- | :-------------: | :-------------: | -------------: |
-| m5ad.large | :green_circle: | :green_circle: | 0.0334 |
-| m5ad.xlarge | :green_circle: | :green_circle: | 0.0647 |
-| m5ad.2xlarge | :green_circle: | :green_circle: | 0.1411 |
-| m5ad.4xlarge | :green_circle: | :green_circle: | 0.2585 |
-| m5ad.8xlarge | :green_circle: | :green_circle: | 0.8090 |
+| m5ad.large | :green_circle: | :green_circle: | 0.0328 |
+| m5ad.xlarge | :green_circle: | :green_circle: | 0.0646 |
+| m5ad.2xlarge | :green_circle: | :green_circle: | 0.1482 |
+| m5ad.4xlarge | :green_circle: | :green_circle: | 0.2625 |
+| m5ad.8xlarge | :green_circle: | :green_circle: | 0.6867 |
 | m5ad.12xlarge | :green_circle: | :green_circle: | 0.7755 |
 | m5ad.16xlarge | :green_circle: | :green_circle: | 1.0340 |
 | m5ad.24xlarge | :green_circle: | :green_circle: | 1.5509 |
@@ -289,12 +289,12 @@ Jump to type: [:small_blue_diamond:nano](#nano)&nbsp; [:small_blue_diamond:micro
 
 | Instance Type | usw1-az1 | usw1-az3 | Spot price |
 | ------------- | :-------------: | :-------------: | -------------: |
-| m5d.large | :green_circle: | :green_circle: | 0.0360 |
-| m5d.xlarge | :green_circle: | :green_circle: | 0.0648 |
-| m5d.2xlarge | :green_circle: | :green_circle: | 0.1492 |
-| m5d.4xlarge | :green_circle: | :green_circle: | 0.4027 |
-| m5d.8xlarge | :green_circle: | :green_circle: | 1.4357 |
-| m5d.12xlarge | :green_circle: | :green_circle: | 0.9037 |
+| m5d.large | :green_circle: | :green_circle: | 0.0337 |
+| m5d.xlarge | :green_circle: | :green_circle: | 0.0646 |
+| m5d.2xlarge | :green_circle: | :green_circle: | 0.1481 |
+| m5d.4xlarge | :green_circle: | :green_circle: | 0.4390 |
+| m5d.8xlarge | :green_circle: | :green_circle: | 1.1043 |
+| m5d.12xlarge | :green_circle: | :green_circle: | 0.9174 |
 | m5d.16xlarge | :green_circle: | :green_circle: | 1.0340 |
 | m5d.24xlarge | :green_circle: | :green_circle: | 1.5509 |
 | m5d.metal | :green_circle: | :green_circle: | 1.5509 |
@@ -321,8 +321,8 @@ Jump to type: [:small_blue_diamond:nano](#nano)&nbsp; [:small_blue_diamond:micro
 | m6g.large | :green_circle: | :green_circle: | 0.0339 |
 | m6g.xlarge | :green_circle: | :green_circle: | 0.0679 |
 | m6g.2xlarge | :green_circle: | :green_circle: | 0.1357 |
-| m6g.4xlarge | :green_circle: | :green_circle: | 0.3029 |
-| m6g.8xlarge | :green_circle: | :green_circle: | 0.5428 |
+| m6g.4xlarge | :green_circle: | :green_circle: | 0.2959 |
+| m6g.8xlarge | :green_circle: | :green_circle: | 0.5930 |
 | m6g.12xlarge | :green_circle: | :green_circle: | 0.8142 |
 | m6g.16xlarge | :green_circle: | :green_circle: | 1.0857 |
 | m6g.metal | :green_circle: | :green_circle: | 2.8672 |
@@ -333,9 +333,9 @@ Jump to type: [:small_blue_diamond:nano](#nano)&nbsp; [:small_blue_diamond:micro
 | Instance Type | usw1-az1 | usw1-az3 | Spot price |
 | ------------- | :-------------: | :-------------: | -------------: |
 | r3.large | :green_circle: | :green_circle: | 0.0307 |
-| r3.xlarge | :green_circle: | :green_circle: | 0.0806 |
-| r3.2xlarge | :green_circle: | :green_circle: | 0.1641 |
-| r3.4xlarge | :green_circle: | :green_circle: | 0.6467 |
+| r3.xlarge | :green_circle: | :green_circle: | 0.0823 |
+| r3.2xlarge | :green_circle: | :green_circle: | 0.1926 |
+| r3.4xlarge | :green_circle: | :green_circle: | 0.6732 |
 | r3.8xlarge | :green_circle: | :green_circle: | 0.4912 |
 
 
@@ -344,23 +344,23 @@ Jump to type: [:small_blue_diamond:nano](#nano)&nbsp; [:small_blue_diamond:micro
 | Instance Type | usw1-az1 | usw1-az3 | Spot price |
 | ------------- | :-------------: | :-------------: | -------------: |
 | r4.large | :green_circle: | :green_circle: | 0.0322 |
-| r4.xlarge | :green_circle: | :green_circle: | 0.0649 |
-| r4.2xlarge | :green_circle: | :green_circle: | 0.1530 |
-| r4.4xlarge | :green_circle: | :green_circle: | 0.5720 |
+| r4.xlarge | :green_circle: | :green_circle: | 0.0648 |
+| r4.2xlarge | :green_circle: | :green_circle: | 0.1483 |
+| r4.4xlarge | :green_circle: | :green_circle: | 0.5904 |
 | r4.8xlarge | :green_circle: | :green_circle: | 0.5158 |
-| r4.16xlarge | :green_circle: | :green_circle: | 1.1054 |
+| r4.16xlarge | :green_circle: | :green_circle: | 1.1141 |
 
 
 ## r5
 
 | Instance Type | usw1-az1 | usw1-az3 | Spot price |
 | ------------- | :-------------: | :-------------: | -------------: |
-| r5.large | :green_circle: | :green_circle: | 0.0348 |
-| r5.xlarge | :green_circle: | :green_circle: | 0.0923 |
-| r5.2xlarge | :green_circle: | :green_circle: | 0.1485 |
-| r5.4xlarge | :green_circle: | :green_circle: | 0.4555 |
-| r5.8xlarge | :green_circle: | :green_circle: | 0.5449 |
-| r5.12xlarge | :green_circle: | :green_circle: | 0.8230 |
+| r5.large | :green_circle: | :green_circle: | 0.0349 |
+| r5.xlarge | :green_circle: | :green_circle: | 0.1155 |
+| r5.2xlarge | :green_circle: | :green_circle: | 0.1518 |
+| r5.4xlarge | :green_circle: | :green_circle: | 0.4575 |
+| r5.8xlarge | :green_circle: | :green_circle: | 0.5496 |
+| r5.12xlarge | :green_circle: | :green_circle: | 0.8309 |
 | r5.16xlarge | :green_circle: | :green_circle: | 1.0832 |
 | r5.24xlarge | :green_circle: | :green_circle: | 1.6248 |
 | r5.metal | :green_circle: | :green_circle: | 1.6248 |
@@ -372,10 +372,10 @@ Jump to type: [:small_blue_diamond:nano](#nano)&nbsp; [:small_blue_diamond:micro
 | ------------- | :-------------: | :-------------: | -------------: |
 | r5a.large | :green_circle: | :green_circle: | 0.0338 |
 | r5a.xlarge | :green_circle: | :green_circle: | 0.0677 |
-| r5a.2xlarge | :green_circle: | :green_circle: | 0.1354 |
-| r5a.4xlarge | :green_circle: | :green_circle: | 0.2783 |
+| r5a.2xlarge | :green_circle: | :green_circle: | 0.1381 |
+| r5a.4xlarge | :green_circle: | :green_circle: | 0.2764 |
 | r5a.8xlarge | :green_circle: | :green_circle: | 0.5416 |
-| r5a.12xlarge | :green_circle: | :green_circle: | 2.1187 |
+| r5a.12xlarge | :green_circle: | :green_circle: | 3.0240 |
 | r5a.16xlarge | :green_circle: | :green_circle: | 1.0832 |
 | r5a.24xlarge | :green_circle: | :green_circle: | 6.0480 |
 
@@ -387,7 +387,7 @@ Jump to type: [:small_blue_diamond:nano](#nano)&nbsp; [:small_blue_diamond:micro
 | r5ad.large | :green_circle: | :green_circle: | 0.0338 |
 | r5ad.xlarge | :green_circle: | :green_circle: | 0.2960 |
 | r5ad.2xlarge | :green_circle: | :green_circle: | 0.1354 |
-| r5ad.4xlarge | :green_circle: | :green_circle: | 0.3689 |
+| r5ad.4xlarge | :green_circle: | :green_circle: | 0.5210 |
 | r5ad.8xlarge | :green_circle: | :green_circle: | 0.5416 |
 | r5ad.12xlarge | :green_circle: | :green_circle: | 0.8124 |
 | r5ad.16xlarge | :green_circle: | :green_circle: | 1.0832 |
@@ -399,13 +399,13 @@ Jump to type: [:small_blue_diamond:nano](#nano)&nbsp; [:small_blue_diamond:micro
 | Instance Type | usw1-az1 | usw1-az3 | Spot price |
 | ------------- | :-------------: | :-------------: | -------------: |
 | r5d.large | :green_circle: | :green_circle: | 0.0338 |
-| r5d.xlarge | :green_circle: | :green_circle: | 0.0695 |
-| r5d.2xlarge | :green_circle: | :green_circle: | 0.1812 |
-| r5d.4xlarge | :green_circle: | :green_circle: | 0.9950 |
+| r5d.xlarge | :green_circle: | :green_circle: | 0.0685 |
+| r5d.2xlarge | :green_circle: | :green_circle: | 0.1895 |
+| r5d.4xlarge | :green_circle: | :green_circle: | 0.9618 |
 | r5d.8xlarge | :green_circle: | :green_circle: | 0.5416 |
-| r5d.12xlarge | :green_circle: | :green_circle: | 2.5516 |
+| r5d.12xlarge | :green_circle: | :green_circle: | 2.2198 |
 | r5d.16xlarge | :green_circle: | :green_circle: | 1.0832 |
-| r5d.24xlarge | :green_circle: | :green_circle: | 1.7143 |
+| r5d.24xlarge | :green_circle: | :green_circle: | 1.6248 |
 | r5d.metal | :green_circle: | :green_circle: | 1.6248 |
 
 
@@ -417,8 +417,8 @@ Jump to type: [:small_blue_diamond:nano](#nano)&nbsp; [:small_blue_diamond:micro
 | r6g.large | :green_circle: | :green_circle: | 0.0355 |
 | r6g.xlarge | :green_circle: | :green_circle: | 0.0711 |
 | r6g.2xlarge | :green_circle: | :green_circle: | 0.1422 |
-| r6g.4xlarge | :green_circle: | :green_circle: | 0.3020 |
-| r6g.8xlarge | :green_circle: | :green_circle: | 0.5776 |
+| r6g.4xlarge | :green_circle: | :green_circle: | 0.2975 |
+| r6g.8xlarge | :green_circle: | :green_circle: | 0.5775 |
 | r6g.12xlarge | :green_circle: | :green_circle: | 0.8530 |
 | r6g.16xlarge | :green_circle: | :green_circle: | 1.1374 |
 | r6g.metal | :green_circle: | :green_circle: | 3.5840 |
@@ -448,7 +448,7 @@ Jump to type: [:small_blue_diamond:nano](#nano)&nbsp; [:small_blue_diamond:micro
 
 | Instance Type | usw1-az1 | usw1-az3 | Spot price |
 | ------------- | :-------------: | :-------------: | -------------: |
-| t3.nano | :green_circle: | :green_circle: | 0.0032 |
+| t3.nano | :green_circle: | :green_circle: | 0.0031 |
 | t3.micro | :green_circle: | :green_circle: | 0.0037 |
 | t3.small | :green_circle: | :green_circle: | 0.0074 |
 | t3.medium | :green_circle: | :green_circle: | 0.0149 |
@@ -488,7 +488,7 @@ Jump to type: [:small_blue_diamond:nano](#nano)&nbsp; [:small_blue_diamond:micro
 | Instance Class | usw1-az1 | usw1-az3 | Spot price |
 | ------------- | :-------------: | :-------------: | -------------: |
 | t2.nano | :green_circle: | :green_circle: | None found |
-| t3.nano | :green_circle: | :green_circle: | 0.0032 |
+| t3.nano | :green_circle: | :green_circle: | 0.0031 |
 | t3a.nano | :green_circle: | :green_circle: | 0.0032 |
 
 
@@ -535,8 +535,8 @@ Jump to type: [:small_blue_diamond:nano](#nano)&nbsp; [:small_blue_diamond:micro
 | c4.large | :green_circle: | :green_circle: | 0.0293 |
 | c5.large | :green_circle: | :green_circle: | 0.0308 |
 | c5a.large | :green_circle: | :green_circle: | 0.0950 |
-| c5d.large | :green_circle: | :green_circle: | 0.0312 |
-| c5n.large | :green_circle: | :green_circle: | 0.0314 |
+| c5d.large | :green_circle: | :green_circle: | 0.0308 |
+| c5n.large | :green_circle: | :green_circle: | 0.0309 |
 | c6g.large | :green_circle: | :green_circle: | 0.0323 |
 | i3.large | :green_circle: | :green_circle: | 0.0516 |
 | i3en.large | :green_circle: | :green_circle: | 0.0750 |
@@ -544,14 +544,14 @@ Jump to type: [:small_blue_diamond:nano](#nano)&nbsp; [:small_blue_diamond:micro
 | m3.large | :green_circle: | :green_circle: | 0.0293 |
 | m4.large | :green_circle: | :green_circle: | 0.0308 |
 | m5.large | :green_circle: | :green_circle: | 0.0323 |
-| m5a.large | :green_circle: | :green_circle: | 0.0424 |
-| m5ad.large | :green_circle: | :green_circle: | 0.0334 |
-| m5d.large | :green_circle: | :green_circle: | 0.0360 |
+| m5a.large | :green_circle: | :green_circle: | 0.0431 |
+| m5ad.large | :green_circle: | :green_circle: | 0.0328 |
+| m5d.large | :green_circle: | :green_circle: | 0.0337 |
 | m5zn.large | :green_circle: | :green_circle: | 0.0323 |
 | m6g.large | :green_circle: | :green_circle: | 0.0339 |
 | r3.large | :green_circle: | :green_circle: | 0.0307 |
 | r4.large | :green_circle: | :green_circle: | 0.0322 |
-| r5.large | :green_circle: | :green_circle: | 0.0348 |
+| r5.large | :green_circle: | :green_circle: | 0.0349 |
 | r5a.large | :green_circle: | :green_circle: | 0.0338 |
 | r5ad.large | :green_circle: | :green_circle: | 0.0338 |
 | r5d.large | :green_circle: | :green_circle: | 0.0338 |
@@ -566,36 +566,36 @@ Jump to type: [:small_blue_diamond:nano](#nano)&nbsp; [:small_blue_diamond:micro
 
 | Instance Class | usw1-az1 | usw1-az3 | Spot price |
 | ------------- | :-------------: | :-------------: | -------------: |
-| c1.xlarge | :green_circle: | :green_circle: | 0.0906 |
+| c1.xlarge | :green_circle: | :green_circle: | 0.1934 |
 | c3.xlarge | :green_circle: | :green_circle: | 0.0558 |
 | c4.xlarge | :green_circle: | :green_circle: | 0.0586 |
-| c5.xlarge | :green_circle: | :green_circle: | 0.0631 |
+| c5.xlarge | :green_circle: | :green_circle: | 0.0630 |
 | c5a.xlarge | :green_circle: | :green_circle: | 0.0615 |
 | c5d.xlarge | :green_circle: | :green_circle: | 0.0615 |
-| c5n.xlarge | :green_circle: | :green_circle: | 0.0648 |
+| c5n.xlarge | :green_circle: | :green_circle: | 0.0733 |
 | c6g.xlarge | :green_circle: | :green_circle: | 0.0646 |
-| d2.xlarge | :green_circle: | :green_circle: | 0.2343 |
-| g4dn.xlarge | :green_circle: | :green_circle: | 0.1926 |
+| d2.xlarge | :green_circle: | :green_circle: | 0.2390 |
+| g4dn.xlarge | :green_circle: | :green_circle: | 0.1893 |
 | i2.xlarge | :green_circle: | :green_circle: | 0.2814 |
-| i3.xlarge | :green_circle: | :green_circle: | 0.1541 |
+| i3.xlarge | :green_circle: | :green_circle: | 0.1545 |
 | i3en.xlarge | :green_circle: | :green_circle: | 0.1500 |
 | inf1.xlarge | :green_circle: | :green_circle: | 0.1326 |
 | m1.xlarge | :green_circle: | :green_circle: | 0.0379 |
 | m2.xlarge | :green_circle: | :green_circle: | 0.0275 |
 | m3.xlarge | :green_circle: | :green_circle: | 0.0586 |
 | m4.xlarge | :green_circle: | :green_circle: | 0.0615 |
-| m5.xlarge | :green_circle: | :green_circle: | 0.0654 |
-| m5a.xlarge | :green_circle: | :green_circle: | 0.0672 |
-| m5ad.xlarge | :green_circle: | :green_circle: | 0.0647 |
-| m5d.xlarge | :green_circle: | :green_circle: | 0.0648 |
+| m5.xlarge | :green_circle: | :green_circle: | 0.0646 |
+| m5a.xlarge | :green_circle: | :green_circle: | 0.0681 |
+| m5ad.xlarge | :green_circle: | :green_circle: | 0.0646 |
+| m5d.xlarge | :green_circle: | :green_circle: | 0.0646 |
 | m5zn.xlarge | :green_circle: | :green_circle: | 0.0646 |
 | m6g.xlarge | :green_circle: | :green_circle: | 0.0679 |
-| r3.xlarge | :green_circle: | :green_circle: | 0.0806 |
-| r4.xlarge | :green_circle: | :green_circle: | 0.0649 |
-| r5.xlarge | :green_circle: | :green_circle: | 0.0923 |
+| r3.xlarge | :green_circle: | :green_circle: | 0.0823 |
+| r4.xlarge | :green_circle: | :green_circle: | 0.0648 |
+| r5.xlarge | :green_circle: | :green_circle: | 0.1155 |
 | r5a.xlarge | :green_circle: | :green_circle: | 0.0677 |
 | r5ad.xlarge | :green_circle: | :green_circle: | 0.2960 |
-| r5d.xlarge | :green_circle: | :green_circle: | 0.0695 |
+| r5d.xlarge | :green_circle: | :green_circle: | 0.0685 |
 | r6g.xlarge | :green_circle: | :green_circle: | 0.0711 |
 | t2.xlarge | :green_circle: | :green_circle: | 0.0662 |
 | t3.xlarge | :green_circle: | :green_circle: | 0.0595 |
@@ -607,35 +607,35 @@ Jump to type: [:small_blue_diamond:nano](#nano)&nbsp; [:small_blue_diamond:micro
 
 | Instance Class | usw1-az1 | usw1-az3 | Spot price |
 | ------------- | :-------------: | :-------------: | -------------: |
-| c3.2xlarge | :green_circle: | :green_circle: | 0.1145 |
-| c4.2xlarge | :green_circle: | :green_circle: | 0.1426 |
-| c5.2xlarge | :green_circle: | :green_circle: | 0.1758 |
-| c5a.2xlarge | :green_circle: | :green_circle: | 0.1401 |
-| c5d.2xlarge | :green_circle: | :green_circle: | 0.1265 |
-| c5n.2xlarge | :green_circle: | :green_circle: | 0.3129 |
+| c3.2xlarge | :green_circle: | :green_circle: | 0.1143 |
+| c4.2xlarge | :green_circle: | :green_circle: | 0.1493 |
+| c5.2xlarge | :green_circle: | :green_circle: | 0.1851 |
+| c5a.2xlarge | :green_circle: | :green_circle: | 0.1387 |
+| c5d.2xlarge | :green_circle: | :green_circle: | 0.1262 |
+| c5n.2xlarge | :green_circle: | :green_circle: | 0.3204 |
 | c6g.2xlarge | :green_circle: | :green_circle: | 0.1292 |
 | d2.2xlarge | :green_circle: | :green_circle: | 0.4689 |
 | g2.2xlarge | :green_circle: | :green_circle: | 0.2106 |
 | g4dn.2xlarge | :green_circle: | :green_circle: | 0.2706 |
 | i2.2xlarge | :green_circle: | :green_circle: | 0.5628 |
-| i3.2xlarge | :green_circle: | :green_circle: | 0.2634 |
+| i3.2xlarge | :green_circle: | :green_circle: | 0.2949 |
 | i3en.2xlarge | :green_circle: | :green_circle: | 0.3000 |
 | inf1.2xlarge | :green_circle: | :green_circle: | 0.2103 |
 | m2.2xlarge | :green_circle: | :green_circle: | 0.0550 |
-| m3.2xlarge | :green_circle: | :green_circle: | 0.1242 |
-| m4.2xlarge | :green_circle: | :green_circle: | 0.1477 |
-| m5.2xlarge | :green_circle: | :green_circle: | 0.1370 |
-| m5a.2xlarge | :green_circle: | :green_circle: | 0.1855 |
-| m5ad.2xlarge | :green_circle: | :green_circle: | 0.1411 |
-| m5d.2xlarge | :green_circle: | :green_circle: | 0.1492 |
+| m3.2xlarge | :green_circle: | :green_circle: | 0.1213 |
+| m4.2xlarge | :green_circle: | :green_circle: | 0.1474 |
+| m5.2xlarge | :green_circle: | :green_circle: | 0.1434 |
+| m5a.2xlarge | :green_circle: | :green_circle: | 0.1611 |
+| m5ad.2xlarge | :green_circle: | :green_circle: | 0.1482 |
+| m5d.2xlarge | :green_circle: | :green_circle: | 0.1481 |
 | m5zn.2xlarge | :green_circle: | :green_circle: | 0.1292 |
 | m6g.2xlarge | :green_circle: | :green_circle: | 0.1357 |
-| r3.2xlarge | :green_circle: | :green_circle: | 0.1641 |
-| r4.2xlarge | :green_circle: | :green_circle: | 0.1530 |
-| r5.2xlarge | :green_circle: | :green_circle: | 0.1485 |
-| r5a.2xlarge | :green_circle: | :green_circle: | 0.1354 |
+| r3.2xlarge | :green_circle: | :green_circle: | 0.1926 |
+| r4.2xlarge | :green_circle: | :green_circle: | 0.1483 |
+| r5.2xlarge | :green_circle: | :green_circle: | 0.1518 |
+| r5a.2xlarge | :green_circle: | :green_circle: | 0.1381 |
 | r5ad.2xlarge | :green_circle: | :green_circle: | 0.1354 |
-| r5d.2xlarge | :green_circle: | :green_circle: | 0.1812 |
+| r5d.2xlarge | :green_circle: | :green_circle: | 0.1895 |
 | r6g.2xlarge | :green_circle: | :green_circle: | 0.1422 |
 | t2.2xlarge | :green_circle: | :green_circle: | 0.1325 |
 | t3.2xlarge | :green_circle: | :green_circle: | 0.1190 |
@@ -656,32 +656,32 @@ Jump to type: [:small_blue_diamond:nano](#nano)&nbsp; [:small_blue_diamond:micro
 
 | Instance Class | usw1-az1 | usw1-az3 | Spot price |
 | ------------- | :-------------: | :-------------: | -------------: |
-| c3.4xlarge | :green_circle: | :green_circle: | 0.2266 |
-| c4.4xlarge | :green_circle: | :green_circle: | 0.2862 |
-| c5.4xlarge | :green_circle: | :green_circle: | 0.2853 |
+| c3.4xlarge | :green_circle: | :green_circle: | 0.2275 |
+| c4.4xlarge | :green_circle: | :green_circle: | 0.2827 |
+| c5.4xlarge | :green_circle: | :green_circle: | 0.2961 |
 | c5a.4xlarge | :green_circle: | :green_circle: | 0.2462 |
-| c5d.4xlarge | :green_circle: | :green_circle: | 0.2656 |
-| c5n.4xlarge | :green_circle: | :green_circle: | 0.2693 |
-| c6g.4xlarge | :green_circle: | :green_circle: | 0.3002 |
-| d2.4xlarge | :green_circle: | :green_circle: | 2.3030 |
+| c5d.4xlarge | :green_circle: | :green_circle: | 0.2781 |
+| c5n.4xlarge | :green_circle: | :green_circle: | 0.2849 |
+| c6g.4xlarge | :green_circle: | :green_circle: | 0.2947 |
+| d2.4xlarge | :green_circle: | :green_circle: | 3.1250 |
 | g3.4xlarge | :green_circle: | :green_circle: | 0.4602 |
 | g4dn.4xlarge | :green_circle: | :green_circle: | 0.4335 |
 | i2.4xlarge | :green_circle: | :green_circle: | 1.1253 |
-| i3.4xlarge | :green_circle: | :green_circle: | 0.5746 |
+| i3.4xlarge | :green_circle: | :green_circle: | 0.5658 |
 | m2.4xlarge | :green_circle: | :green_circle: | 0.1100 |
-| m4.4xlarge | :green_circle: | :green_circle: | 0.2946 |
-| m5.4xlarge | :green_circle: | :green_circle: | 0.3136 |
-| m5a.4xlarge | :green_circle: | :green_circle: | 0.2915 |
-| m5ad.4xlarge | :green_circle: | :green_circle: | 0.2585 |
-| m5d.4xlarge | :green_circle: | :green_circle: | 0.4027 |
-| m6g.4xlarge | :green_circle: | :green_circle: | 0.3029 |
-| r3.4xlarge | :green_circle: | :green_circle: | 0.6467 |
-| r4.4xlarge | :green_circle: | :green_circle: | 0.5720 |
-| r5.4xlarge | :green_circle: | :green_circle: | 0.4555 |
-| r5a.4xlarge | :green_circle: | :green_circle: | 0.2783 |
-| r5ad.4xlarge | :green_circle: | :green_circle: | 0.3689 |
-| r5d.4xlarge | :green_circle: | :green_circle: | 0.9950 |
-| r6g.4xlarge | :green_circle: | :green_circle: | 0.3020 |
+| m4.4xlarge | :green_circle: | :green_circle: | 0.3055 |
+| m5.4xlarge | :green_circle: | :green_circle: | 0.3319 |
+| m5a.4xlarge | :green_circle: | :green_circle: | 0.3282 |
+| m5ad.4xlarge | :green_circle: | :green_circle: | 0.2625 |
+| m5d.4xlarge | :green_circle: | :green_circle: | 0.4390 |
+| m6g.4xlarge | :green_circle: | :green_circle: | 0.2959 |
+| r3.4xlarge | :green_circle: | :green_circle: | 0.6732 |
+| r4.4xlarge | :green_circle: | :green_circle: | 0.5904 |
+| r5.4xlarge | :green_circle: | :green_circle: | 0.4575 |
+| r5a.4xlarge | :green_circle: | :green_circle: | 0.2764 |
+| r5ad.4xlarge | :green_circle: | :green_circle: | 0.5210 |
+| r5d.4xlarge | :green_circle: | :green_circle: | 0.9618 |
+| r6g.4xlarge | :green_circle: | :green_circle: | 0.2975 |
 
 
 ## 6xlarge
@@ -698,28 +698,28 @@ Jump to type: [:small_blue_diamond:nano](#nano)&nbsp; [:small_blue_diamond:micro
 
 | Instance Class | usw1-az1 | usw1-az3 | Spot price |
 | ------------- | :-------------: | :-------------: | -------------: |
-| c3.8xlarge | :green_circle: | :green_circle: | 0.4529 |
-| c4.8xlarge | :green_circle: | :green_circle: | 0.7458 |
-| c5a.8xlarge | :green_circle: | :green_circle: | 0.4924 |
-| c6g.8xlarge | :green_circle: | :green_circle: | 0.5311 |
+| c3.8xlarge | :green_circle: | :green_circle: | 0.4581 |
+| c4.8xlarge | :green_circle: | :green_circle: | 1.1267 |
+| c5a.8xlarge | :green_circle: | :green_circle: | 0.5115 |
+| c6g.8xlarge | :green_circle: | :green_circle: | 0.5794 |
 | d2.8xlarge | :green_circle: | :green_circle: | 1.8750 |
 | g2.8xlarge | :green_circle: | :green_circle: | 0.8424 |
 | g3.8xlarge | :green_circle: | :green_circle: | 0.9204 |
 | g4dn.8xlarge | :green_circle: | :green_circle: | 0.7833 |
-| i2.8xlarge | :green_circle: | :green_circle: | 2.9338 |
-| i3.8xlarge | :green_circle: | :green_circle: | 0.8399 |
-| m5.8xlarge | :green_circle: | :green_circle: | 0.6779 |
-| m5a.8xlarge | :green_circle: | :green_circle: | 0.6834 |
-| m5ad.8xlarge | :green_circle: | :green_circle: | 0.8090 |
-| m5d.8xlarge | :green_circle: | :green_circle: | 1.4357 |
-| m6g.8xlarge | :green_circle: | :green_circle: | 0.5428 |
+| i2.8xlarge | :green_circle: | :green_circle: | 2.3629 |
+| i3.8xlarge | :green_circle: | :green_circle: | 0.8872 |
+| m5.8xlarge | :green_circle: | :green_circle: | 0.6638 |
+| m5a.8xlarge | :green_circle: | :green_circle: | 0.6783 |
+| m5ad.8xlarge | :green_circle: | :green_circle: | 0.6867 |
+| m5d.8xlarge | :green_circle: | :green_circle: | 1.1043 |
+| m6g.8xlarge | :green_circle: | :green_circle: | 0.5930 |
 | r3.8xlarge | :green_circle: | :green_circle: | 0.4912 |
 | r4.8xlarge | :green_circle: | :green_circle: | 0.5158 |
-| r5.8xlarge | :green_circle: | :green_circle: | 0.5449 |
+| r5.8xlarge | :green_circle: | :green_circle: | 0.5496 |
 | r5a.8xlarge | :green_circle: | :green_circle: | 0.5416 |
 | r5ad.8xlarge | :green_circle: | :green_circle: | 0.5416 |
 | r5d.8xlarge | :green_circle: | :green_circle: | 0.5416 |
-| r6g.8xlarge | :green_circle: | :green_circle: | 0.5776 |
+| r6g.8xlarge | :green_circle: | :green_circle: | 0.5775 |
 
 
 ## 9xlarge
@@ -727,8 +727,8 @@ Jump to type: [:small_blue_diamond:nano](#nano)&nbsp; [:small_blue_diamond:micro
 | Instance Class | usw1-az1 | usw1-az3 | Spot price |
 | ------------- | :-------------: | :-------------: | -------------: |
 | c5.9xlarge | :green_circle: | :green_circle: | 0.5539 |
-| c5d.9xlarge | :green_circle: | :green_circle: | 0.5652 |
-| c5n.9xlarge | :green_circle: | :green_circle: | 0.6249 |
+| c5d.9xlarge | :green_circle: | :green_circle: | 0.5613 |
+| c5n.9xlarge | :green_circle: | :green_circle: | 0.6090 |
 
 
 ## 10xlarge
@@ -744,20 +744,20 @@ Jump to type: [:small_blue_diamond:nano](#nano)&nbsp; [:small_blue_diamond:micro
 | ------------- | :-------------: | :-------------: | -------------: |
 | c5.12xlarge | :green_circle: | :green_circle: | 0.7385 |
 | c5a.12xlarge | :green_circle: | :green_circle: | 0.7385 |
-| c5d.12xlarge | :green_circle: | :green_circle: | 0.7508 |
-| c6g.12xlarge | :green_circle: | :green_circle: | 1.3090 |
+| c5d.12xlarge | :green_circle: | :green_circle: | 0.8999 |
+| c6g.12xlarge | :green_circle: | :green_circle: | 1.3886 |
 | g4dn.12xlarge | :green_circle: | :green_circle: | 1.4082 |
 | i3en.12xlarge | :green_circle: | :green_circle: | 1.8000 |
 | m5.12xlarge | :green_circle: | :green_circle: | 0.7755 |
 | m5a.12xlarge | :green_circle: | :green_circle: | 2.4240 |
 | m5ad.12xlarge | :green_circle: | :green_circle: | 0.7755 |
-| m5d.12xlarge | :green_circle: | :green_circle: | 0.9037 |
+| m5d.12xlarge | :green_circle: | :green_circle: | 0.9174 |
 | m5zn.12xlarge | :green_circle: | :green_circle: | 0.7755 |
 | m6g.12xlarge | :green_circle: | :green_circle: | 0.8142 |
-| r5.12xlarge | :green_circle: | :green_circle: | 0.8230 |
-| r5a.12xlarge | :green_circle: | :green_circle: | 2.1187 |
+| r5.12xlarge | :green_circle: | :green_circle: | 0.8309 |
+| r5a.12xlarge | :green_circle: | :green_circle: | 3.0240 |
 | r5ad.12xlarge | :green_circle: | :green_circle: | 0.8124 |
-| r5d.12xlarge | :green_circle: | :green_circle: | 2.5516 |
+| r5d.12xlarge | :green_circle: | :green_circle: | 2.2198 |
 | r6g.12xlarge | :green_circle: | :green_circle: | 0.8530 |
 | z1d.12xlarge | :green_circle: | :green_circle: | 1.5192 |
 
@@ -777,7 +777,7 @@ Jump to type: [:small_blue_diamond:nano](#nano)&nbsp; [:small_blue_diamond:micro
 | m5ad.16xlarge | :green_circle: | :green_circle: | 1.0340 |
 | m5d.16xlarge | :green_circle: | :green_circle: | 1.0340 |
 | m6g.16xlarge | :green_circle: | :green_circle: | 1.0857 |
-| r4.16xlarge | :green_circle: | :green_circle: | 1.1054 |
+| r4.16xlarge | :green_circle: | :green_circle: | 1.1141 |
 | r5.16xlarge | :green_circle: | :green_circle: | 1.0832 |
 | r5a.16xlarge | :green_circle: | :green_circle: | 1.0832 |
 | r5ad.16xlarge | :green_circle: | :green_circle: | 1.0832 |
@@ -804,13 +804,13 @@ Jump to type: [:small_blue_diamond:nano](#nano)&nbsp; [:small_blue_diamond:micro
 | i3en.24xlarge | :green_circle: | :green_circle: | 3.6000 |
 | inf1.24xlarge | :green_circle: | :green_circle: | 2.7438 |
 | m5.24xlarge | :green_circle: | :green_circle: | 1.5509 |
-| m5a.24xlarge | :green_circle: | :green_circle: | 4.8480 |
+| m5a.24xlarge | :green_circle: | :green_circle: | 2.1765 |
 | m5ad.24xlarge | :green_circle: | :green_circle: | 1.5509 |
 | m5d.24xlarge | :green_circle: | :green_circle: | 1.5509 |
 | r5.24xlarge | :green_circle: | :green_circle: | 1.6248 |
 | r5a.24xlarge | :green_circle: | :green_circle: | 6.0480 |
 | r5ad.24xlarge | :green_circle: | :green_circle: | 1.6248 |
-| r5d.24xlarge | :green_circle: | :green_circle: | 1.7143 |
+| r5d.24xlarge | :green_circle: | :green_circle: | 1.6248 |
 
 
 ## metal
